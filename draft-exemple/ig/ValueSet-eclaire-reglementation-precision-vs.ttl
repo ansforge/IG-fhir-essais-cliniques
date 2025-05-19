@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "EclaireReglementationPrecisionVS"] ; # 
   fhir:title [ fhir:v "Précision sur la réglementation concernant l'essai Value Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-19T13:15:33+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-19T13:39:30+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

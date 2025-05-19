@@ -396,7 +396,6 @@
       "ResearchStudy"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-arm-intervention": [
-      "ResearchStudy",
       "ResearchStudy.arm"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-address": [
