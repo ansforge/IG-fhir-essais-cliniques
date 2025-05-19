@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "EclaireStudyPopulationVS"] ; # 
   fhir:title [ fhir:v "Caractérisation de la population Value Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-19T14:47:37+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-19T15:05:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

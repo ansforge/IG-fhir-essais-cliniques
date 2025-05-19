@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "96defeed-0399-4754-b737-e83f6e4d0a21-29",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/96defeed-0399-4754-b737-e83f6e4d0a21-29",
+  "id" : "344dce4c-9cf4-450f-880e-fb6dd7a92c58-29",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/344dce4c-9cf4-450f-880e-fb6dd7a92c58-29",
   "name" : "UnionEclaireStudyStatusCSAndEclaireStudyStatusCS",
   "title" : "Union of Définition des statuts de l'essai utilisés dans la base de données ECLAIRE And Définition des statuts de l'essai utilisés dans la base de données ECLAIRE",
   "status" : "draft",
-  "date" : "2025-05-19T14:48:33+00:00",
+  "date" : "2025-05-19T15:06:17+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

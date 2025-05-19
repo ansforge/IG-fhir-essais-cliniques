@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "96defeed-0399-4754-b737-e83f6e4d0a21-36",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/96defeed-0399-4754-b737-e83f6e4d0a21-36",
+  "id" : "344dce4c-9cf4-450f-880e-fb6dd7a92c58-36",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/344dce4c-9cf4-450f-880e-fb6dd7a92c58-36",
   "name" : "IntersectionEclaireTypeContactCSAndEclaireTypeContactCS",
   "title" : "Intersection of Type de contact And Type de contact",
   "status" : "draft",
-  "date" : "2025-05-19T14:48:33+00:00",
+  "date" : "2025-05-19T15:06:17+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
