@@ -132,8 +132,8 @@ INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[2]
 INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[3].extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system|0.3.1
 INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[6].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system|0.3.1
 ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.identifier[0].assigner: Unable to resolve resource with reference 'Organization/ctis'
-WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[1].coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/mdr' version '3.0.0' could not be found, so the code cannot be validated. Valid versions: []
-WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[2].coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/mdr' version '3.0.0' could not be found, so the code cannot be validated. Valid versions: []
+WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[1].coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/mdr' could not be found, so the code cannot be validated
+WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[2].coding[0]: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/mdr' could not be found, so the code cannot be validated
 WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.contact[1].extension[2].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system' version '0.1.0' could not be found, so the code cannot be validated. Valid versions: []
 WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.contact[2].extension[2].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system' version '0.1.0' could not be found, so the code cannot be validated. Valid versions: [0.3.1]
 ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.enrollment[0]: Unable to resolve resource with reference 'Group/2022-500014-26-00-enrollment-group'
@@ -167,7 +167,7 @@ INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.extension[10].exten
 ERROR: ResearchStudy/fake-study-example: ResearchStudy.identifier[0].assigner: Unable to resolve resource with reference 'Organization/1'
 ERROR: ResearchStudy/fake-study-example: ResearchStudy.identifier[1].assigner: Unable to resolve resource with reference 'Organization/ctis'
 ERROR: ResearchStudy/fake-study-example: ResearchStudy.protocol[0]: Unable to resolve resource with reference 'PlanDefinition/3'
-WARNING: ResearchStudy/fake-study-example: ResearchStudy.condition[1].coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/mdr' could not be found, so the code cannot be validated
+WARNING: ResearchStudy/fake-study-example: ResearchStudy.condition[1].coding[0]: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/mdr' could not be found, so the code cannot be validated
 INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.contact[0].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system|0.3.1
 ERROR: ResearchStudy/fake-study-example: ResearchStudy.enrollment[0]: Unable to resolve resource with reference 'Group/6'
 ERROR: ResearchStudy/fake-study-example: ResearchStudy.site[0]: Unable to resolve resource with reference 'Location/8'

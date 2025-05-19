@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "EclaireStatusRecruitementVS"] ; # 
   fhir:title [ fhir:v "Statut de recrutement Value Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-19T16:42:12+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-19T16:48:48+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
