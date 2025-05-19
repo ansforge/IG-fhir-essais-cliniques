@@ -1,9 +1,9 @@
 ECLAIRE : Validation Results
 =========================================
 
-err = 64, warn = 41, info = 28
+err = 63, warn = 41, info = 28
 IG Publisher Version: 1.8.26
-Generated Mon May 19 14:30:05 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
+Generated Mon May 19 14:49:13 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
  Build Errors : 9 / 4 / 0
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CapabilityStatement-eclaire-consommateur : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-group-characteristic-kind-code-system : 0 / 1 / 1
@@ -21,7 +21,7 @@ Generated Mon May 19 14:30:05 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclai
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ConceptMap-eclaire-study-phase-concept-map : 13 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ConceptMap-eclaire-study-status-concept-map : 10 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.eclaire : 0 / 0 / 1
- /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ResearchStudy-2022-500014-26-00-example : 8 / 4 / 9
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ResearchStudy-2022-500014-26-00-example : 7 / 4 / 9
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ResearchStudy-fake-study-example : 24 / 1 / 14
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-approval-date : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-arm-intervention : 0 / 0 / 1
@@ -132,8 +132,7 @@ ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[2].exten
 INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[2].extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system|0.3.1
 ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[3].extension[0]: Constraint failed: ext-1: 'Must have either extensions or value[x], not both' (defined in http://hl7.org/fhir/StructureDefinition/Element)
 INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[3].extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system|0.3.1
-ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[6].value.ofType(CodeableConcept).coding[0].code: Unknown code '' in the CodeSystem 'https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system' version '0.3.1'
-INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[6].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system|0.3.1
+INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[6].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system|0.3.1
 ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.identifier[0].assigner: Unable to resolve resource with reference 'Organization/ctis'
 WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[1].coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/mdr' version '2.0.1' could not be found, so the code cannot be validated. Valid versions: []
 WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[2].coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/mdr' version '2.0.1' could not be found, so the code cannot be validated. Valid versions: []

@@ -10,7 +10,7 @@
   "name" : "EclaireStudyPartyOrganizationTypeCS",
   "title" : "Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type",
   "status" : "draft",
-  "date" : "2025-05-19T14:28:33+00:00",
+  "date" : "2025-05-19T14:47:37+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
