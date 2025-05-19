@@ -34,14 +34,18 @@ Usage: #example
 * extension[=].url = $associated-party-r5
 * extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-therapeutic-area"
 * extension[=].valueString = "Maladies [C] - Tumeurs [C04]"
-* extension[+].extension[0].url = "value"
-* extension[=].extension[+].url = "type"
-* extension[=].extension[=].valueCodeableConcept.coding = $eclaire-study-title-type-code-system#human-use "Human use"
-* extension[=].url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
-* extension[+].extension[0].url = "value"
-* extension[=].extension[+].url = "type"
-* extension[=].extension[=].valueCodeableConcept.coding = $eclaire-study-title-type-code-system#acronym "Acronym"
-* extension[=].url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+//* extension[+].extension[0].valueString = "A RENSEIGNER"
+//* extension[=].extension[=].url = "value"
+* extension[=].extension[+].valueCodeableConcept.coding = $title-type#human-use
+* extension[=].extension[=].valueCodeableConcept.text = "type"
+* extension[=].extension[=].url = "type"
+* extension[=].url = $label-r5
+//* extension[+].extension[0].valueString = "A RENSEIGNER"
+//* extension[=].extension[=].url = "value"
+* extension[=].extension[+].valueCodeableConcept.coding = $title-type#acronym
+* extension[=].extension[=].valueCodeableConcept.text = "type"
+* extension[=].extension[=].url = "type"
+* extension[=].url = $label-r5
 * extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-period"
 * extension[=].valuePeriod.start = "2022-06-30T00:00:00.000Z"
 * extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-review-date"
