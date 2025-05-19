@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "EclaireGroupCharacteristicKindCS"] ; # 
   fhir:title [ fhir:v "Codes pour le type de caractéristique du groupe"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-19T14:11:07+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-19T14:28:33+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
