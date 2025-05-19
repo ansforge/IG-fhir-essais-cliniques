@@ -1,0 +1,36 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "d088acbb-6789-4341-9047-97b109b8e4ee-3",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/d088acbb-6789-4341-9047-97b109b8e4ee-3",
+  "name" : "IntersectionEclaireGroupCharacteristicKindCSAndEclaireGroupCharacteristicKindCS",
+  "title" : "Intersection of Codes pour le type de caractéristique du groupe And Codes pour le type de caractéristique du groupe",
+  "status" : "draft",
+  "date" : "2025-05-19T13:16:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "concept" : [{
+    "code" : "grp-gender",
+    "display" : "Gender (Genre)"
+  },
+  {
+    "code" : "grp-studypop",
+    "display" : "Study Population (Population de l'étude)"
+  },
+  {
+    "code" : "grp-category",
+    "display" : "Research Study Group Category (Catégorie du groupe d'étude)"
+  },
+  {
+    "code" : "grp-age",
+    "display" : "Age (Age)"
+  },
+  {
+    "code" : "grp-other",
+    "display" : "Other (Autre)"
+  }]
+}
