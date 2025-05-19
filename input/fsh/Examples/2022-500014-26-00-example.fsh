@@ -18,9 +18,19 @@ Usage: #example
 * identifier[+].assigner.display = "Reference to secondary assigner"
 * identifier[=].assigner.type = "Organization"
 * identifier[=].use = #secondary
-* extension[0].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-secondary-sponsor"
-* extension[=].valueReference = Reference(Organization/2022-500014-26-00-secondary-sponsor) "Reference to secondary sponsor"
-* extension[=].valueReference.type = "Organization"
+* extension[0].extension[0].valueString = "THE sponsor"
+* extension[=].extension[=].url = "name"
+* extension[=].extension[+].valueCodeableConcept.coding = $eclaire-study-party-role#lead-sponsor
+* extension[=].extension[=].valueCodeableConcept.text = "Sponsor principal"
+* extension[=].extension[=].url = "role"
+* extension[=].extension[+].valuePeriod.start = "2022-06-30T00:00:00.000Z"
+* extension[=].extension[=].url = "period"
+* extension[=].extension[+].valueCodeableConcept.coding = $eclaire-study-party-organization-type#academic
+* extension[=].extension[=].valueCodeableConcept.text = "academic"
+* extension[=].extension[=].url = "classifier"
+* extension[=].extension[+].valueReference = Reference(Organization/2022-500014-26-00-secondary-sponsor) "Reference to secondary sponsor"
+* extension[=].extension[=].url = "party"
+* extension[=].url = $associated-party-r5
 * extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-therapeutic-area"
 * extension[=].valueString = "Maladies [C] - Tumeurs [C04]"
 * extension[+].extension[0].url = "value"
