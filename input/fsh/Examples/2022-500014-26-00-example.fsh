@@ -18,8 +18,6 @@ Usage: #example
 * identifier[+].assigner.display = "Reference to secondary assigner"
 * identifier[=].assigner.type = "Organization"
 * identifier[=].use = #secondary
-* sponsor = Reference(Organization/2022-500014-26-00-primary-sponsor) "Reference to primary sponsor"
-* sponsor.type = "Organization"
 * extension[0].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-secondary-sponsor"
 * extension[=].valueReference = Reference(Organization/2022-500014-26-00-secondary-sponsor) "Reference to secondary sponsor"
 * extension[=].valueReference.type = "Organization"
@@ -42,7 +40,6 @@ Usage: #example
 * extension[+].url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
 * extension[+].extension[0].url = "name"
 * extension[=].extension[+].url = "description"
-* extension[=].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-arm-intervention"
 * extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-status"
 * extension[=].valueCodeableConcept.coding.system = "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system"
 * extension[=].valueCodeableConcept.coding.version = "0.2.1"
