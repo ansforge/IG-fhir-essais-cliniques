@@ -47,7 +47,9 @@ Usage: #example
 * extension[=].valueInstant = "2024-05-31T00:00:00.000Z"
 * extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-status"
 * extension[=].valueCodeableConcept.coding.system = "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system"
-* extension[=].valueCodeableConcept.coding.version = "0.2.1"
+* extension[+]
+  * url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary"
+  * valueMarkdown = "Ceci est un test de ressource pour Eclaire"
 * title = "UNE ETUDE DE PHASE III, RANDOMISEE, OUVERTE, EVALUANT L'EFFICACITE ET LA SECURITE DU GIREDESTRANT EN ASSOCIATION AVEC PHESGO PAR RAPPORT A PHESGO APRES UN TRAITEMENT D'INDUCTION PAR PHESGO+TAXANE CHEZ DES PATIENTES ATTEINTES D'UN CANCER DU SEIN LOCALEMENT AVANCÉ OU METASTATIQUE, HER2-POSITIF ET POSITIF AUX RECEPTEURS DES OESTROGENES, QUI N'A PAS ETE TRAITE AU PREALABLE."
 * enrollment = Reference(Group/2022-500014-26-00-enrollment-group) "Reference to group detailing study characteristics"
 * enrollment.type = "Group"
@@ -91,7 +93,6 @@ Usage: #example
 * contact[=].extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-address"
 * contact[=].extension[=].valueAddress.type = #physical
 * contact[=].extension[=].valueAddress.use = #work
-* contact[=].extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation"
 * contact[=].extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type"
 * contact[=].extension[=].valueCodeableConcept.coding = $eclaire-type-contact-code-system#PUB "Publique / Public"
 * contact[=].extension[=].valueCodeableConcept.coding.version = "0.1.0"
