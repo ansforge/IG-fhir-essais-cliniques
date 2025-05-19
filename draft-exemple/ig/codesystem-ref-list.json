@@ -70,8 +70,8 @@
       "description" : "Code de régulation de l'essai",
       "uses" : {
       },
-      "ValueSet-eclaire-regulation-code-vs.html" : "Code de régulation Value Set",
-      "ValueSet-eclaire-category-vs.html" : "Value Set type pour spécifier la catégorie l'essai clinique"
+      "ValueSet-eclaire-category-vs.html" : "Value Set type pour spécifier la catégorie l'essai clinique",
+      "ValueSet-eclaire-regulation-code-vs.html" : "Code de régulation Value Set"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system",

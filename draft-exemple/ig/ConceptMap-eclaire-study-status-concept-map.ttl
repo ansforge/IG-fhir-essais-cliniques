@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "FHIR/Eclaire ResearchStudy status Use Mapping"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
-  fhir:date [ fhir:v "2025-05-19T15:14:17+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-19T16:30:54+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

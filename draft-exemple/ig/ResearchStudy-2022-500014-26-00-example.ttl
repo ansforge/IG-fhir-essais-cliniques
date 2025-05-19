@@ -181,7 +181,6 @@
      fhir:id [ fhir:v "meddra-condition-2022-500014-26-00-10065430" ] ;
      fhir:coding ( [
        fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/mdr"^^xsd:anyURI ] ;
-       fhir:version [ fhir:v "2.0.1" ] ;
        fhir:code [ fhir:v "10065430" ] ;
        fhir:display [ fhir:v "Cancer du sein HER2 positif" ]
      ] )
@@ -189,7 +188,6 @@
      fhir:id [ fhir:v "meddra-condition-2022-500014-26-00-10070575" ] ;
      fhir:coding ( [
        fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/mdr"^^xsd:anyURI ] ;
-       fhir:version [ fhir:v "2.0.1" ] ;
        fhir:code [ fhir:v "10070575" ] ;
        fhir:display [ fhir:v "Cancer du sein à récepteurs aux oestrogènes positifs" ]
      ] )

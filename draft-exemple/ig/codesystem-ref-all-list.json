@@ -131,8 +131,8 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1248"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-research-study-objective-type.html" : "ResearchStudyObjectiveType",
-      "ValueSet-eclaire-study-outcome-type-vs.html" : "Type de conséquence Value Set"
+      "ValueSet-eclaire-study-outcome-type-vs.html" : "Type de conséquence Value Set",
+      "http://hl7.org/fhir/R4/valueset-research-study-objective-type.html" : "ResearchStudyObjectiveType"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/research-study-phase",
@@ -239,8 +239,8 @@
       "description" : "Code de régulation de l'essai",
       "uses" : {
       },
-      "ValueSet-eclaire-regulation-code-vs.html" : "Code de régulation Value Set",
-      "ValueSet-eclaire-category-vs.html" : "Value Set type pour spécifier la catégorie l'essai clinique"
+      "ValueSet-eclaire-category-vs.html" : "Value Set type pour spécifier la catégorie l'essai clinique",
+      "ValueSet-eclaire-regulation-code-vs.html" : "Code de régulation Value Set"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system",

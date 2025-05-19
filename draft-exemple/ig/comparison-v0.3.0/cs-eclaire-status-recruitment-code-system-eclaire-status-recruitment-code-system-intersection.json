@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "f286c5fd-9686-43a9-b484-7d32f0558dd0-12",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/f286c5fd-9686-43a9-b484-7d32f0558dd0-12",
+  "id" : "32ea1948-18a3-4911-a917-f7e0dc39bfa5-12",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/32ea1948-18a3-4911-a917-f7e0dc39bfa5-12",
   "name" : "IntersectionEclaireStatusRecruitmentCSAndEclaireStatusRecruitmentCS",
   "title" : "Intersection of Statut de recrutement And Statut de recrutement",
   "status" : "draft",
-  "date" : "2025-05-19T15:15:17+00:00",
+  "date" : "2025-05-19T16:31:47+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
