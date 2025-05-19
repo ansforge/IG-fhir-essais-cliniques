@@ -35,7 +35,6 @@ Usage: #example
 * extension[=].valuePeriod.start = "2022-06-30T00:00:00.000Z"
 * extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-review-date"
 * extension[=].valueInstant = "2024-05-31T00:00:00.000Z"
-* extension[+].url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
 * extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-status"
 * extension[=].valueCodeableConcept.coding.system = "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system"
 * extension[=].valueCodeableConcept.coding.version = "0.2.1"
@@ -59,7 +58,6 @@ Usage: #example
 * contact[=].extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-address"
 * contact[=].extension[=].valueAddress.type = #physical
 * contact[=].extension[=].valueAddress.use = #work
-* contact[=].extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation"
 * contact[=].telecom[0].system = #phone
 * contact[=].telecom[=].use = #work
 * contact[=].telecom[=].value = "0041616881111"
@@ -71,7 +69,6 @@ Usage: #example
 * contact[=].extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-address"
 * contact[=].extension[=].valueAddress.type = #physical
 * contact[=].extension[=].valueAddress.use = #work
-* contact[=].extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation"
 * contact[=].extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type"
 * contact[=].extension[=].valueCodeableConcept.coding = $eclaire-type-contact-code-system#SCI "Scientifique / Scientific"
 * contact[=].extension[=].valueCodeableConcept.coding.version = "0.1.0"
