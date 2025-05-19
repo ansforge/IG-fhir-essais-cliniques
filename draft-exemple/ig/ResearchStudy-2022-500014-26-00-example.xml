@@ -140,6 +140,7 @@
   <condition id="meddra-condition-2022-500014-26-00-10065430">
     <coding>
       <system value="http://terminology.hl7.org/CodeSystem/mdr"/>
+      <version value="3.0.0"/>
       <code value="10065430"/>
       <display value="Cancer du sein HER2 positif"/>
     </coding>
@@ -147,6 +148,7 @@
   <condition id="meddra-condition-2022-500014-26-00-10070575">
     <coding>
       <system value="http://terminology.hl7.org/CodeSystem/mdr"/>
+      <version value="3.0.0"/>
       <code value="10070575"/>
       <display value="Cancer du sein à récepteurs aux oestrogènes positifs"/>
     </coding>

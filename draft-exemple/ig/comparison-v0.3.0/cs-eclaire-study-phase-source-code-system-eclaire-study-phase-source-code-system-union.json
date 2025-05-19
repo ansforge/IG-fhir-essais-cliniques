@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "32ea1948-18a3-4911-a917-f7e0dc39bfa5-23",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/32ea1948-18a3-4911-a917-f7e0dc39bfa5-23",
+  "id" : "1f12237d-9286-4371-b8aa-57f6263ad10f-23",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/1f12237d-9286-4371-b8aa-57f6263ad10f-23",
   "name" : "UnionEclaireStudyPhaseSourceCSAndEclaireStudyPhaseSourceCS",
   "title" : "Union of Définition des phase de l'essai utilisés dans la base de données ECLAIRE And Définition des phase de l'essai utilisés dans la base de données ECLAIRE",
   "status" : "draft",
-  "date" : "2025-05-19T16:31:47+00:00",
+  "date" : "2025-05-19T16:43:05+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

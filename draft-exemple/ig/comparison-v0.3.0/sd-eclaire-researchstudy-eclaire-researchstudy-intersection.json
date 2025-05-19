@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "32ea1948-18a3-4911-a917-f7e0dc39bfa5-78",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/32ea1948-18a3-4911-a917-f7e0dc39bfa5-78",
+  "id" : "1f12237d-9286-4371-b8aa-57f6263ad10f-78",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1f12237d-9286-4371-b8aa-57f6263ad10f-78",
   "name" : "IntersectionECLAIREResearchStudyAndECLAIREResearchStudy",
   "title" : "Intersection of null And null",
   "status" : "draft",
-  "date" : "2025-05-19T16:31:47+00:00",
+  "date" : "2025-05-19T16:43:05+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

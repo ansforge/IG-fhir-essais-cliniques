@@ -236,8 +236,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.819"],
       "uses" : {
       },
-      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping",
-      "StructureDefinition-eclaire-researchstudy.html" : "ECLAIREResearchStudy"
+      "StructureDefinition-eclaire-researchstudy.html" : "ECLAIREResearchStudy",
+      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0116",
