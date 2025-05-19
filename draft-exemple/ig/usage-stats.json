@@ -419,9 +419,6 @@
     "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-review-date": [
       "ResearchStudy"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-secondary-sponsor": [
-      "ResearchStudy"
-    ],
     "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-site-contact-name": [
       "Location.telecom"
     ],
