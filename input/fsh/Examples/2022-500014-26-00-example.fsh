@@ -4,6 +4,7 @@ Alias: $mdr = http://terminology.hl7.org/CodeSystem/mdr
 Alias: $eclaire-type-contact-code-system = https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system
 Alias: $eclaire-regulation-code-code-system = https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system
 Alias: $eclaire-reglementation-precision-code-system = https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system
+Alias: $eclaire-status-recruitment = eclaire-status-recruitment-code-system
 
 Instance: 2022-500014-26-00-example
 InstanceOf: ResearchStudy
@@ -45,8 +46,9 @@ Usage: #example
 * extension[=].valuePeriod.start = "2022-06-30T00:00:00.000Z"
 * extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-review-date"
 * extension[=].valueInstant = "2024-05-31T00:00:00.000Z"
-* extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-status"
-* extension[=].valueCodeableConcept.coding.system = "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system"
+* extension[+]
+  * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-status"
+  * valueCodeableConcept.coding = $eclaire-status-recruitment#recruiting
 * extension[+]
   * url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary"
   * valueMarkdown = "Ceci est un test de ressource pour Eclaire"
