@@ -78,8 +78,6 @@
        fhir:v "2024-05-31T00:00:00.000Z"^^xsd:dateTime
      ]
   ] [
-     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"^^xsd:anyURI ]
-  ] [
      fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-status"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:CodeableConcept ;
@@ -164,8 +162,6 @@
          fhir:use [ fhir:v "work" ] ;
          fhir:type [ fhir:v "physical" ]
        ]
-     ] [
-       fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation"^^xsd:anyURI ]
      ] ) ;
      fhir:telecom ( [
        fhir:system [ fhir:v "phone" ] ;
@@ -190,8 +186,6 @@
          fhir:use [ fhir:v "work" ] ;
          fhir:type [ fhir:v "physical" ]
        ]
-     ] [
-       fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type"^^xsd:anyURI ] ;
        fhir:value [

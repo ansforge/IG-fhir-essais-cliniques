@@ -51,7 +51,6 @@
   <extension url="https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-review-date">
     <valueInstant value="2024-05-31T00:00:00.000Z"/>
   </extension>
-  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"/>
   <extension url="https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-status">
     <valueCodeableConcept>
       <coding>
@@ -133,7 +132,6 @@
         <type value="physical"/>
       </valueAddress>
     </extension>
-    <extension url="https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation"/>
     <telecom>
       <system value="phone"/>
       <value value="0041616881111"/>
@@ -157,7 +155,6 @@
         <type value="physical"/>
       </valueAddress>
     </extension>
-    <extension url="https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation"/>
     <extension url="https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type">
       <valueCodeableConcept>
         <coding>

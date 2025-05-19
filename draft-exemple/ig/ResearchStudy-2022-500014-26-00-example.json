@@ -64,9 +64,6 @@
     "valueInstant" : "2024-05-31T00:00:00.000Z"
   },
   {
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
-  },
-  {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-status",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -152,9 +149,6 @@
         "use" : "work",
         "type" : "physical"
       }
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation"
     }],
     "telecom" : [{
       "system" : "phone",
@@ -180,9 +174,6 @@
         "use" : "work",
         "type" : "physical"
       }
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type",
