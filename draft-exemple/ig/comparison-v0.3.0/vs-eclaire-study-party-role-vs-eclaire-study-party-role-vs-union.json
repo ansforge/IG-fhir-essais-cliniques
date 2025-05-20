@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "14c28dfb-cf83-4ef5-b2f8-d9781464eacd-110",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/14c28dfb-cf83-4ef5-b2f8-d9781464eacd-110",
+  "id" : "df1224fc-a06f-4325-8e55-a0753fc83494-110",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/df1224fc-a06f-4325-8e55-a0753fc83494-110",
   "name" : "UnionEclaireStudyPartyRoleVSAndEclaireStudyPartyRoleVS",
   "title" : "Union of Value Set Eclaire pour les différents rôles des parties impliquées dans l'essai And Value Set Eclaire pour les différents rôles des parties impliquées dans l'essai",
   "status" : "draft",
-  "date" : "2025-05-20T09:52:13+00:00",
+  "date" : "2025-05-20T10:06:11+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
