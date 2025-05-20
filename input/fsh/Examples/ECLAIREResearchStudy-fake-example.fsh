@@ -1,5 +1,5 @@
 
-Alias: $mdr = http://terminology.hl7.org/CodeSystem/mdr
+Alias: $mdr = https://www.meddra.org
 Alias: $reasonstop = http://terminology.hl7.org/CodeSystem/research-study-reason-stopped
 Alias: $primpurp = http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type
 Alias: $phase = http://terminology.hl7.org/CodeSystem/research-study-phase

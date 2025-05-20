@@ -1,6 +1,6 @@
 Alias: $research-study-phase = http://terminology.hl7.org/CodeSystem/research-study-phase
 Alias: $eclaire-study-title-type-code-system = https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system
-Alias: $mdr = http://terminology.hl7.org/CodeSystem/mdr
+Alias: $mdr = https://www.meddra.org
 Alias: $eclaire-type-contact-code-system = https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system
 Alias: $eclaire-regulation-code-code-system = https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system
 Alias: $eclaire-reglementation-precision-code-system = https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system
