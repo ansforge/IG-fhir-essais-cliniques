@@ -157,8 +157,8 @@ Usage: #example
   * version = "4.0.1"
 * location[+].coding = urn:iso:std:iso:3166#PT "Portugal"
   * version = "4.0.1"
-* enrollment = Reference(Group/2022-500014-26-00-enrollment-group) "Reference to group detailing study characteristics"
 * description = "Exemple cosntruit à partir de https://eclaire-api.osc-fr1.scalingo.io/R4/ResearchStudy/2022-500014-26-00"
+* enrollment = Reference(Group/2022-500014-26-00-enrollment-group) "Reference to group detailing study characteristics"
   * type = "Group"
 * arm
   * extension
