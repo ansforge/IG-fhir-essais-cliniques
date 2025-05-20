@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "bf439915-c4a8-401c-8a0c-292ecff47d73-98",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/bf439915-c4a8-401c-8a0c-292ecff47d73-98",
+  "id" : "f20ed902-d8f8-4f0a-817d-565ca547e283-98",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/f20ed902-d8f8-4f0a-817d-565ca547e283-98",
   "name" : "UnionEclaireRegulationCodeVSAndEclaireRegulationCodeVS",
   "title" : "Union of Code de régulation Value Set And Code de régulation Value Set",
   "status" : "draft",
-  "date" : "2025-05-20T12:39:23+00:00",
+  "date" : "2025-05-20T16:32:11+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "bf439915-c4a8-401c-8a0c-292ecff47d73-21",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/bf439915-c4a8-401c-8a0c-292ecff47d73-21",
+  "id" : "f20ed902-d8f8-4f0a-817d-565ca547e283-21",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/f20ed902-d8f8-4f0a-817d-565ca547e283-21",
   "name" : "IntersectionEclaireStudyPhaseCSAndEclaireStudyPhaseCS",
   "title" : "Intersection of Définition des type de phase de l'essai cliniques incluant https://hl7.org/fhir/R4/valueset-research-study-phase.html And Définition des type de phase de l'essai cliniques incluant https://hl7.org/fhir/R4/valueset-research-study-phase.html",
   "status" : "draft",
-  "date" : "2025-05-20T12:39:23+00:00",
+  "date" : "2025-05-20T16:32:11+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
