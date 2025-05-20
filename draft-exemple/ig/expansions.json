@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "08a87024-29ac-4b5a-89ea-2ca72ff93acd",
+  "id" : "a8e37dd1-06ef-4e87-ab56-acefc58813c3",
   "meta" : {
-    "lastUpdated" : "2025-05-20T12:25:59.421+00:00"
+    "lastUpdated" : "2025-05-20T12:39:01.849+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -18,7 +18,7 @@
       "name" : "EclaireCategoryVS",
       "title" : "Value Set type pour spécifier la catégorie l'essai clinique",
       "status" : "draft",
-      "date" : "2025-05-20T12:25:23+00:00",
+      "date" : "2025-05-20T12:38:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -27,8 +27,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fa27c131-d219-4535-b7bd-01434b4d16b1",
-        "timestamp" : "2025-05-20T12:26:40+00:00",
+        "identifier" : "urn:uuid:2e52a5a5-a1c5-4c03-9e43-2235d2a3f050",
+        "timestamp" : "2025-05-20T12:39:45+00:00",
         "total" : 21,
         "offset" : 0,
         "parameter" : [{
@@ -155,7 +155,7 @@
       "name" : "EclaireGroupCharacteristicKindVS",
       "title" : "Type de caractéristique Value Set",
       "status" : "draft",
-      "date" : "2025-05-20T12:25:23+00:00",
+      "date" : "2025-05-20T12:38:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -164,8 +164,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:cc2b5f22-782d-4c07-acba-74667b8de186",
-        "timestamp" : "2025-05-20T12:26:40+00:00",
+        "identifier" : "urn:uuid:f1620abb-87b4-44c3-abf8-e80490a5b786",
+        "timestamp" : "2025-05-20T12:39:45+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -224,7 +224,7 @@
       "name" : "EclaireReglementationPrecisionVS",
       "title" : "Précision sur la réglementation concernant l'essai Value Set",
       "status" : "draft",
-      "date" : "2025-05-20T12:25:23+00:00",
+      "date" : "2025-05-20T12:38:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -233,8 +233,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5c3a0f59-1e79-45d1-b35e-55d864a7d70c",
-        "timestamp" : "2025-05-20T12:26:40+00:00",
+        "identifier" : "urn:uuid:a734f9a1-dbdc-492a-9857-178b5f563baf",
+        "timestamp" : "2025-05-20T12:39:45+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
@@ -341,7 +341,7 @@
       "name" : "EclaireRegulationCodeVS",
       "title" : "Code de régulation Value Set",
       "status" : "draft",
-      "date" : "2025-05-20T12:25:23+00:00",
+      "date" : "2025-05-20T12:38:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -350,8 +350,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:372502f5-0c8f-483d-a9e4-5fee9237917b",
-        "timestamp" : "2025-05-20T12:26:40+00:00",
+        "identifier" : "urn:uuid:c723851a-b8c3-438d-bd85-0d9707950884",
+        "timestamp" : "2025-05-20T12:39:45+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -406,7 +406,7 @@
       "name" : "EclaireStatusRecruitementVS",
       "title" : "Statut de recrutement Value Set",
       "status" : "draft",
-      "date" : "2025-05-20T12:25:23+00:00",
+      "date" : "2025-05-20T12:38:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -415,8 +415,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b52a5d3f-1954-401c-a798-cf3c72d070ff",
-        "timestamp" : "2025-05-20T12:26:40+00:00",
+        "identifier" : "urn:uuid:1bb38f9d-4441-482b-a1f1-0977afa20cfc",
+        "timestamp" : "2025-05-20T12:39:45+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -463,7 +463,7 @@
       "name" : "EclaireStudyOutcomeTypeVS",
       "title" : "Type de conséquence Value Set",
       "status" : "draft",
-      "date" : "2025-05-20T12:25:23+00:00",
+      "date" : "2025-05-20T12:38:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -472,8 +472,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f8742bc6-662f-4739-80eb-bf2b88f2b4d2",
-        "timestamp" : "2025-05-20T12:26:40+00:00",
+        "identifier" : "urn:uuid:6ec779a9-3c2e-40d9-8225-3c431a814f6c",
+        "timestamp" : "2025-05-20T12:39:45+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -520,7 +520,7 @@
       "name" : "EclaireStudyPartyOrganizationTypeVS",
       "title" : "Value Set Eclaire pour les types de parties",
       "status" : "draft",
-      "date" : "2025-05-20T12:25:23+00:00",
+      "date" : "2025-05-20T12:38:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -529,8 +529,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4c393a24-5ea5-40c1-9988-8231195a75a3",
-        "timestamp" : "2025-05-20T12:26:40+00:00",
+        "identifier" : "urn:uuid:e4cecfc6-8dcb-4bec-b609-5dfc759633c4",
+        "timestamp" : "2025-05-20T12:39:45+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -585,7 +585,7 @@
       "name" : "EclaireStudyPartyRoleVS",
       "title" : "Value Set Eclaire pour les différents rôles des parties impliquées dans l'essai",
       "status" : "draft",
-      "date" : "2025-05-20T12:25:23+00:00",
+      "date" : "2025-05-20T12:38:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -594,8 +594,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6fba0b0f-be02-4db4-8ca9-7162a8b85410",
-        "timestamp" : "2025-05-20T12:26:40+00:00",
+        "identifier" : "urn:uuid:f0f8b730-da94-4397-af36-e639ec87cdf9",
+        "timestamp" : "2025-05-20T12:39:45+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -682,7 +682,7 @@
       "name" : "EclaireStudyPhaseSourceVS",
       "title" : "Value Set de la phase de l'essai tel que définie dans la base ECLAIRE",
       "status" : "draft",
-      "date" : "2025-05-20T12:25:23+00:00",
+      "date" : "2025-05-20T12:38:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -691,8 +691,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f42d52f0-1118-46bc-8cc9-dc93b51b575a",
-        "timestamp" : "2025-05-20T12:26:40+00:00",
+        "identifier" : "urn:uuid:f0d4dfff-4589-47c1-9c50-a77eabf50401",
+        "timestamp" : "2025-05-20T12:39:45+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -779,7 +779,7 @@
       "name" : "EclaireStudyPhaseVS",
       "title" : "Value Set type de phase de l'essai clinique",
       "status" : "draft",
-      "date" : "2025-05-20T12:25:23+00:00",
+      "date" : "2025-05-20T12:38:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -788,8 +788,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7d7f4fc0-386a-4ee4-9a75-b0c0e433b0ac",
-        "timestamp" : "2025-05-20T12:26:40+00:00",
+        "identifier" : "urn:uuid:63eb8223-82fa-4a86-8819-a8babf504a30",
+        "timestamp" : "2025-05-20T12:39:45+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -868,7 +868,7 @@
       "name" : "EclaireStudyPopulationVS",
       "title" : "Caractérisation de la population Value Set",
       "status" : "draft",
-      "date" : "2025-05-20T12:25:23+00:00",
+      "date" : "2025-05-20T12:38:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -877,8 +877,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4cb0ec68-29c9-4768-8320-21e850b5036e",
-        "timestamp" : "2025-05-20T12:26:40+00:00",
+        "identifier" : "urn:uuid:f90a3195-bf69-468b-94c0-7f6f8a2e396f",
+        "timestamp" : "2025-05-20T12:39:45+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -953,7 +953,7 @@
       "name" : "EclaireStudyStatusVS",
       "title" : "Value Set Statut Eclaire de l'essai",
       "status" : "draft",
-      "date" : "2025-05-20T12:25:23+00:00",
+      "date" : "2025-05-20T12:38:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -962,8 +962,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2adbb276-532c-44a1-a46c-e7304f2a40e9",
-        "timestamp" : "2025-05-20T12:26:40+00:00",
+        "identifier" : "urn:uuid:8d525c4a-7aae-4fb7-9163-33276bcdfb21",
+        "timestamp" : "2025-05-20T12:39:45+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -1038,7 +1038,7 @@
       "name" : "EclaireStudyTitleTypetVS",
       "title" : "Type de titre Value Set",
       "status" : "draft",
-      "date" : "2025-05-20T12:25:23+00:00",
+      "date" : "2025-05-20T12:38:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1047,8 +1047,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:836c1967-9aee-4664-9d20-d7358628f849",
-        "timestamp" : "2025-05-20T12:26:40+00:00",
+        "identifier" : "urn:uuid:cd068edb-8a50-4207-8690-9c8441a612bc",
+        "timestamp" : "2025-05-20T12:39:45+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -1139,7 +1139,7 @@
       "name" : "EclaireTypeContactVS",
       "title" : "Type Contact Value Set",
       "status" : "draft",
-      "date" : "2025-05-20T12:25:23+00:00",
+      "date" : "2025-05-20T12:38:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1148,8 +1148,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7c77b4e8-f44b-4a47-8331-ebce16b9402c",
-        "timestamp" : "2025-05-20T12:26:40+00:00",
+        "identifier" : "urn:uuid:ca919424-23a5-401d-ac8d-d3a57236ebb7",
+        "timestamp" : "2025-05-20T12:39:45+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{

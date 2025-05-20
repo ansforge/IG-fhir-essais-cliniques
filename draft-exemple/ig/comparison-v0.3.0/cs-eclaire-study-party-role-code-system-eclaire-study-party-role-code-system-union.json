@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "8cd88745-61d4-4bb0-af79-b6a49505c1d2-17",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/8cd88745-61d4-4bb0-af79-b6a49505c1d2-17",
+  "id" : "bf439915-c4a8-401c-8a0c-292ecff47d73-17",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/bf439915-c4a8-401c-8a0c-292ecff47d73-17",
   "name" : "UnionEclaireStudyPartyRoleCSAndEclaireStudyPartyRoleCS",
   "title" : "Union of Définition des rôles des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-role And Définition des rôles des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-role",
   "status" : "draft",
-  "date" : "2025-05-20T12:26:19+00:00",
+  "date" : "2025-05-20T12:39:23+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
