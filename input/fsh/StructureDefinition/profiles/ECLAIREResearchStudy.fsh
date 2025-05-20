@@ -62,7 +62,7 @@ Description: "Profil de ResearchStudy pour le projet ECLAIRE"
     diseaseCondition 0..* MS
 * condition[medDRACondition] ^short = "code MedDRA / MedDRA condition"
 * condition[medDRACondition].id = "meddra-condition"
-* condition[medDRACondition].coding.system = "http://terminology.hl7.org/CodeSystem/mdr"
+* condition[medDRACondition].coding.system = $mdr
 * condition[diseaseCondition] ^short = "condition de la pathologie / Disease Condition"
 * condition[diseaseCondition].text 1..1
 * condition[diseaseCondition].id = "disease-condition"

@@ -1,5 +1,5 @@
 
-Alias: $mdr = http://terminology.hl7.org/CodeSystem/mdr
+Alias: $mdr = https://www.meddra.org
 Alias: $reasonstop = http://terminology.hl7.org/CodeSystem/research-study-reason-stopped
 Alias: $primpurp = http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type
 Alias: $phase = http://terminology.hl7.org/CodeSystem/research-study-phase
@@ -67,13 +67,13 @@ Usage: #example
 * extension[=].extension[+].valueReference = Reference(Organization/2) "Etablissement du sponsor"
 * extension[=].extension[=].url = "party"
 * extension[=].url = $associated-party-r5
-* extension[+].extension[0].valueString = "INDISPONIBLE"
+* extension[+].extension[0].valueString = "A RENSEIGNER"
 * extension[=].extension[=].url = "value"
 * extension[=].extension[+].valueCodeableConcept.coding = $title-type#human-use
 * extension[=].extension[=].valueCodeableConcept.text = "type"
 * extension[=].extension[=].url = "type"
 * extension[=].url = $label-r5
-* extension[+].extension[0].valueString = "INDISPONIBLE"
+* extension[+].extension[0].valueString = "A RENSEIGNER"
 * extension[=].extension[=].url = "value"
 * extension[=].extension[+].valueCodeableConcept.coding = $title-type#acronym
 * extension[=].extension[=].valueCodeableConcept.text = "type"
