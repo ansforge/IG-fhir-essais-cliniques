@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "994d73cd-e75b-4804-986c-e9d61c7efd38-113",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/994d73cd-e75b-4804-986c-e9d61c7efd38-113",
+  "id" : "8cd88745-61d4-4bb0-af79-b6a49505c1d2-113",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8cd88745-61d4-4bb0-af79-b6a49505c1d2-113",
   "name" : "UnionEclaireStudyPhaseSourceVSAndEclaireStudyPhaseSourceVS",
   "title" : "Union of Value Set de la phase de l'essai tel que définie dans la base ECLAIRE And Value Set de la phase de l'essai tel que définie dans la base ECLAIRE",
   "status" : "draft",
-  "date" : "2025-05-20T12:17:33+00:00",
+  "date" : "2025-05-20T12:26:19+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
