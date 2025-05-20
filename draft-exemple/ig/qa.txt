@@ -3,7 +3,7 @@ ECLAIRE : Validation Results
 
 err = 61, warn = 41, info = 28
 IG Publisher Version: 1.8.26
-Generated Tue May 20 10:06:46 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
+Generated Tue May 20 12:07:10 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
  Build Errors : 9 / 4 / 0
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CapabilityStatement-eclaire-consommateur : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-group-characteristic-kind-code-system : 0 / 1 / 1
@@ -128,8 +128,8 @@ INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[2]
 INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[0].extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system|0.3.1
 INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[0].extension[3].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system|0.3.1
 ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[0].extension[4].value.ofType(Reference): Unable to resolve resource with reference 'Organization/2022-500014-26-00-secondary-sponsor'
-INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[2].extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system|0.3.1
-INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[3].extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system|0.3.1
+INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[2].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system|0.3.1
+INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[3].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system|0.3.1
 INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[6].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system|0.3.1
 ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.identifier[0].assigner: Unable to resolve resource with reference 'Organization/ctis'
 WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[1].coding[0].system: A definition for CodeSystem 'https://www.meddra.org' could not be found, so the code cannot be validated
