@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "a2f83dc1-2e24-4e9b-9df1-4c9b44b21a60-86",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/a2f83dc1-2e24-4e9b-9df1-4c9b44b21a60-86",
+  "id" : "994d73cd-e75b-4804-986c-e9d61c7efd38-86",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/994d73cd-e75b-4804-986c-e9d61c7efd38-86",
   "name" : "UnionECLAIRETherapeuticAreaAndECLAIRETherapeuticArea",
   "title" : "Union of null And null",
   "status" : "draft",
-  "date" : "2025-05-20T12:06:32+00:00",
+  "date" : "2025-05-20T12:17:33+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
