@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,14 +11,14 @@
   fhir:id [ fhir:v "eclaire-type-contact-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-eclaire-type-contact-code-system.html\"><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system</code></a></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet eclaire-type-contact-vs</b></p><a name=\"eclaire-type-contact-vs\"> </a><a name=\"hceclaire-type-contact-vs\"> </a><a name=\"eclaire-type-contact-vs-fr-FR\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-eclaire-type-contact-code-system.html\"><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system</code></a></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-type-contact-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.3.1"] ; # 
   fhir:name [ fhir:v "EclaireTypeContactVS"] ; # 
   fhir:title [ fhir:v "Type Contact Value Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-03-14T13:53:10+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-20T16:40:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

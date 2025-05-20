@@ -3,14 +3,14 @@
   "id" : "eclaire-group-characteristic-kind-code-system",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">grp-gender<a name=\"eclaire-group-characteristic-kind-code-system-grp-gender\"> </a></td><td>Gender (Genre)</td></tr><tr><td style=\"white-space:nowrap\">grp-studypop<a name=\"eclaire-group-characteristic-kind-code-system-grp-studypop\"> </a></td><td>Study Population (Population de l'étude)</td></tr><tr><td style=\"white-space:nowrap\">grp-category<a name=\"eclaire-group-characteristic-kind-code-system-grp-category\"> </a></td><td>Research Study Group Category (Catégorie du groupe d'étude)</td></tr><tr><td style=\"white-space:nowrap\">grp-age<a name=\"eclaire-group-characteristic-kind-code-system-grp-age\"> </a></td><td>Age (Age)</td></tr><tr><td style=\"white-space:nowrap\">grp-other<a name=\"eclaire-group-characteristic-kind-code-system-grp-other\"> </a></td><td>Other (Autre)</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem eclaire-group-characteristic-kind-code-system</b></p><a name=\"eclaire-group-characteristic-kind-code-system\"> </a><a name=\"hceclaire-group-characteristic-kind-code-system\"> </a><a name=\"eclaire-group-characteristic-kind-code-system-fr-FR\"> </a><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">grp-gender<a name=\"eclaire-group-characteristic-kind-code-system-grp-gender\"> </a></td><td>Gender (Genre)</td></tr><tr><td style=\"white-space:nowrap\">grp-studypop<a name=\"eclaire-group-characteristic-kind-code-system-grp-studypop\"> </a></td><td>Study Population (Population de l'étude)</td></tr><tr><td style=\"white-space:nowrap\">grp-category<a name=\"eclaire-group-characteristic-kind-code-system-grp-category\"> </a></td><td>Research Study Group Category (Catégorie du groupe d'étude)</td></tr><tr><td style=\"white-space:nowrap\">grp-age<a name=\"eclaire-group-characteristic-kind-code-system-grp-age\"> </a></td><td>Age (Age)</td></tr><tr><td style=\"white-space:nowrap\">grp-other<a name=\"eclaire-group-characteristic-kind-code-system-grp-other\"> </a></td><td>Other (Autre)</td></tr></table></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system",
   "version" : "0.3.1",
   "name" : "EclaireGroupCharacteristicKindCS",
   "title" : "Codes pour le type de caractéristique du groupe",
   "status" : "draft",
-  "date" : "2024-03-14T13:53:10+00:00",
+  "date" : "2025-05-20T16:40:38+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="eclaire-status-recruitment-code-system"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">recruiting<a name="eclaire-status-recruitment-code-system-recruiting"> </a></td><td>Actif / active</td><td>Recrutement actif</td></tr><tr><td style="white-space:nowrap">completed-recruiting<a name="eclaire-status-recruitment-code-system-completed-recruiting"> </a></td><td>Terminé / completed </td><td>Recrutement terminé</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem eclaire-status-recruitment-code-system</b></p><a name="eclaire-status-recruitment-code-system"> </a><a name="hceclaire-status-recruitment-code-system"> </a><a name="eclaire-status-recruitment-code-system-fr-FR"> </a><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td></tr><tr><td style="white-space:nowrap">recruiting<a name="eclaire-status-recruitment-code-system-recruiting"> </a></td><td>Actif / active</td><td>Recrutement actif</td></tr><tr><td style="white-space:nowrap">completed-recruiting<a name="eclaire-status-recruitment-code-system-completed-recruiting"> </a></td><td>Terminé / completed </td><td>Recrutement terminé</td></tr></table></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system"/>
   <version value="0.3.1"/>
   <name value="EclaireStatusRecruitmentCS"/>
   <title value="Statut de recrutement"/>
   <status value="draft"/>
-  <date value="2024-03-14T13:53:10+00:00"/>
+  <date value="2025-05-20T16:40:38+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>

@@ -42,18 +42,24 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"8.47"}
     h3,h4,h5,h6{--heading-prefix:"8.47"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
 <div id="family-nav">
-  <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
-</div>
-<div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
-  <a id="hl7-logo" no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
-</div>
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+  </div>
+  <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
+    <a id="hl7-logo" no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
+    <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+
+  <div id="ig-search">
+ </div>
+
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l&#39;Ecosystème</span>
@@ -159,6 +165,8 @@
 
             <a href="#bottom">bottom</a>
 
+          | <a href="ResearchStudy-2022-500014-26-00-example.html">next&gt;</a>
+
           </span>
 
         </ul>
@@ -231,6 +239,7 @@
   <pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
@@ -246,17 +255,23 @@
   ] ; # 
   <a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;extensions&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: ResearchStudy&lt;/b&gt;&lt;a name=\&quot;fake-study-example\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcfake-study-example\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource ResearchStudy &amp;quot;fake-study-example&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-eclaire-researchstudy.html\&quot;&gt;ECLAIREResearchStudy&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;ECLAIREReviewDate&lt;/b&gt;: Jan 6, 2023, 12:00:00 AM&lt;/p&gt;&lt;p&gt;&lt;b&gt;ECLAIREApprovalDate&lt;/b&gt;: Mar 6, 2023, 12:00:00 AM&lt;/p&gt;&lt;p&gt;&lt;b&gt;ECLAIRETherapeuticArea&lt;/b&gt;: domaine thérapeutique z&lt;/p&gt;&lt;p&gt;&lt;b&gt;ECLAIRERecruitmentPeriod&lt;/b&gt;: 2022-06-30 00:00:00+0000 --&amp;gt; (ongoing)&lt;/p&gt;&lt;p&gt;&lt;b&gt;ECLAIRERecruitmentStatus&lt;/b&gt;: Actif / active &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-eclaire-status-recruitment-code-system.html\&quot;&gt;Statut de recrutement&lt;/a&gt;#recruiting)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Extension Definition for ResearchStudy.descriptionSummary for Version 5.0&lt;/b&gt;: Ceci est un test de ressource pour Eclaire&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ECLAIREoutcomeMeasureR5&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;value&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: Nom de la conséquence primaire&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;type&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: primaire &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.3.0/CodeSystem-research-study-objective-type.html\&quot;&gt;ResearchStudyObjectiveType&lt;/a&gt;#primary)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;description&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: Description de la conséquence primaire&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;description&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: &lt;a href=\&quot;EvidenceVariable/1\&quot;&gt;EvidenceVariable/1: Aïe!&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ECLAIREoutcomeMeasureR5&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;value&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: Nom de la conséquence secondaire&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;type&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: secondaire &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.3.0/CodeSystem-research-study-objective-type.html\&quot;&gt;ResearchStudyObjectiveType&lt;/a&gt;#secondary)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;description&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: Description de la conséquence secondaire&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;description&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: &lt;a href=\&quot;EvidenceVariable/1\&quot;&gt;EvidenceVariable/1: Ouille!&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ECLAIREassociatedPartyR5&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;name&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: THE sponsor&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;role&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: Sponsor principal &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-eclaire-study-party-role-code-system.html\&quot;&gt;Définition des rôles des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-role&lt;/a&gt;#lead-sponsor)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;period&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 2022-06-30 00:00:00+0000 --&amp;gt; (ongoing)&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;classifier&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: academic &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-eclaire-study-party-organization-type-code-system.html\&quot;&gt;Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type&lt;/a&gt;#academic)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;party&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: &lt;a href=\&quot;Organization/2\&quot;&gt;Organization/2: Etablissement du sponsor&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ECLAIRELabelR5&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;value&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: INDISPONIBLE&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;type&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: type &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-eclaire-study-title-type-code-system.html\&quot;&gt;Définition des types de titre pour l'essai&lt;/a&gt;#human-use)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ECLAIRELabelR5&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;value&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: INDISPONIBLE&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;&lt;/p&gt;&lt;code&gt;type&lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: type &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-eclaire-study-title-type-code-system.html\&quot;&gt;Définition des types de titre pour l'essai&lt;/a&gt;#acronym)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: Hilarious Cat/123456 (use: OFFICIAL), 2022-500014-26-00 (use: SECONDARY)&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Energetic Zebra&lt;/p&gt;&lt;p&gt;&lt;b&gt;protocol&lt;/b&gt;: &lt;a href=\&quot;PlanDefinition/3\&quot;&gt;PlanDefinition/3: Energetic plan&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: in-review&lt;/p&gt;&lt;p&gt;&lt;b&gt;primaryPurposeType&lt;/b&gt;: Zebra treatment &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (ResearchStudyPrimaryPurposeType[4.0.1]#treatment)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;phase&lt;/b&gt;: Research Study Phase &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.3.0/CodeSystem-research-study-phase.html\&quot;&gt;ResearchStudyPhase&lt;/a&gt;#phase-3)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: IC-Cas 1 (DM) &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-eclaire-reglementation-precision-code-system.html\&quot;&gt;Précision sur la réglementation concernant l'essai&lt;/a&gt;#IC-Cas-1)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;focus&lt;/b&gt;: Hilarious medicament &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; ()&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;condition&lt;/b&gt;: Locally-Advanced or Metastatic breast cancer (MBC) &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; ()&lt;/span&gt;, MedDRA condition  code 10070575 &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (mdr#10070575 &amp;quot;10070575&amp;quot;)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;contact&lt;/b&gt;: Slow Zebra: ph: Energetic Zebra(WORK),ph: Energetic Badger(HOME)&lt;/p&gt;&lt;p&gt;&lt;b&gt;keyword&lt;/b&gt;: Fast Elephant &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; ()&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;location&lt;/b&gt;: Countries of recruitment &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code[4.0.1]#FR)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;description&lt;/b&gt;: This is a fake research study&lt;/p&gt;&lt;p&gt;&lt;b&gt;enrollment&lt;/b&gt;: &lt;a href=\&quot;Group/6\&quot;&gt;Group/6: Fast Zebra&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;site&lt;/b&gt;: &lt;a href=\&quot;Location/8\&quot;&gt;Location/8: Rainbow&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;reasonStopped&lt;/b&gt;: ouch &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (ResearchStudyReasonStopped[4.0.1]#closed-due-to-toxicity)&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Arms&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Extension&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Slow Elephant&lt;/td&gt;&lt;td&gt;Hilarious Badger&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Objectives&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Inventive Mouse&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ResearchStudy fake-study-example&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;fake-study-example\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcfake-study-example\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;fake-study-example-fr-FR\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-eclaire-researchstudy.html\&quot;&gt;ECLAIREResearchStudy&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;ECLAIREReviewDate&lt;/b&gt;: 2023-01-06 00:00:00+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;ECLAIREApprovalDate&lt;/b&gt;: 2023-03-06 00:00:00+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;ECLAIRETherapeuticArea&lt;/b&gt;: domaine thérapeutique z&lt;/p&gt;&lt;p&gt;&lt;b&gt;ECLAIRERecruitmentPeriod&lt;/b&gt;: 2022-06-30 00:00:00+0000 --&amp;gt; (ongoing)&lt;/p&gt;&lt;p&gt;&lt;b&gt;ECLAIRERecruitmentStatus&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system recruiting}\&quot;&gt;Actif / active&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Extension Definition for ResearchStudy.descriptionSummary for Version 5.0&lt;/b&gt;: &lt;/p&gt;&lt;div&gt;&lt;p&gt;Ceci est un test de ressource pour Eclaire&lt;/p&gt;\n&lt;/div&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ECLAIREoutcomeMeasureR5&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;value: Nom de la conséquence primaire&lt;/li&gt;&lt;li&gt;type: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/research-study-objective-type primary}\&quot;&gt;primaire&lt;/span&gt;&lt;/li&gt;&lt;li&gt;description: &lt;/li&gt;&lt;li&gt;description: &lt;a href=\&quot;EvidenceVariable/1\&quot;&gt;Aïe!&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;p&gt;Description de la conséquence primaire&lt;/p&gt;\n&lt;/div&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ECLAIREoutcomeMeasureR5&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;value: Nom de la conséquence secondaire&lt;/li&gt;&lt;li&gt;type: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/research-study-objective-type secondary}\&quot;&gt;secondaire&lt;/span&gt;&lt;/li&gt;&lt;li&gt;description: &lt;/li&gt;&lt;li&gt;description: &lt;a href=\&quot;EvidenceVariable/1\&quot;&gt;Ouille!&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;p&gt;Description de la conséquence secondaire&lt;/p&gt;\n&lt;/div&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ECLAIREassociatedPartyR5&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;name: THE sponsor&lt;/li&gt;&lt;li&gt;role: &lt;span title=\&quot;Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system lead-sponsor}\&quot;&gt;Sponsor principal&lt;/span&gt;&lt;/li&gt;&lt;li&gt;period: 2022-06-30 00:00:00+0000 --&amp;gt; (ongoing)&lt;/li&gt;&lt;li&gt;classifier: &lt;span title=\&quot;Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system academic}\&quot;&gt;academic&lt;/span&gt;&lt;/li&gt;&lt;li&gt;party: &lt;a href=\&quot;Organization/2\&quot;&gt;Etablissement du sponsor&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ECLAIRELabelR5&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;value: A RENSEIGNER&lt;/li&gt;&lt;li&gt;type: &lt;span title=\&quot;Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system human-use}\&quot;&gt;type&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ECLAIRELabelR5&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;value: A RENSEIGNER&lt;/li&gt;&lt;li&gt;type: &lt;span title=\&quot;Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system acronym}\&quot;&gt;type&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: Hilarious Cat/123456 (use: official, ), 2022-500014-26-00 (use: secondary, )&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Energetic Zebra&lt;/p&gt;&lt;p&gt;&lt;b&gt;protocol&lt;/b&gt;: &lt;a href=\&quot;PlanDefinition/3\&quot;&gt;Energetic plan&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: In Review&lt;/p&gt;&lt;p&gt;&lt;b&gt;primaryPurposeType&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type treatment}\&quot;&gt;Zebra treatment&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;phase&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/research-study-phase phase-3}\&quot;&gt;Research Study Phase&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system IC-Cas-1}\&quot;&gt;IC-Cas 1 (DM)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;focus&lt;/b&gt;: &lt;span title=\&quot;Codes:\&quot;&gt;Hilarious medicament&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;condition&lt;/b&gt;: &lt;span title=\&quot;Codes:\&quot;&gt;Locally-Advanced or Metastatic breast cancer (MBC)&lt;/span&gt;, &lt;span title=\&quot;Codes:{https://www.meddra.org 10070575}\&quot;&gt;MedDRA condition  code 10070575&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;contact&lt;/b&gt;: Slow Zebra: ph: Energetic Zebra(Work),ph: Energetic Badger(Home)&lt;/p&gt;&lt;p&gt;&lt;b&gt;keyword&lt;/b&gt;: &lt;span title=\&quot;Codes:\&quot;&gt;Fast Elephant&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;location&lt;/b&gt;: &lt;span title=\&quot;Codes:{urn:iso:std:iso:3166 FR}\&quot;&gt;Countries of recruitment&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;description&lt;/b&gt;: &lt;/p&gt;&lt;div&gt;&lt;p&gt;This is a fake research study&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;&lt;b&gt;enrollment&lt;/b&gt;: &lt;a href=\&quot;Group/6\&quot;&gt;Fast Zebra&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;site&lt;/b&gt;: &lt;a href=\&quot;Location/8\&quot;&gt;Rainbow&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;reasonStopped&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/research-study-reason-stopped closed-due-to-toxicity}\&quot;&gt;ouch&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Arms&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Extension&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Slow Elephant&lt;/td&gt;&lt;td&gt;Hilarious Badger&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Objectives&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Inventive Mouse&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
   ] ; # 
   <a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.extension">fhir:extension</a> ( [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-review-date&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2023-01-06T00:00:00Z&quot;^^xsd:dateTime ]
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#instant">a</a> fhir:instant ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2023-01-06T00:00:00Z&quot;^^xsd:dateTime     ]
   ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-approval-date&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2023-03-06T00:00:00Z&quot;^^xsd:dateTime ]
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#instant">a</a> fhir:instant ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2023-03-06T00:00:00Z&quot;^^xsd:dateTime     ]
   ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-therapeutic-area&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;domaine thérapeutique z&quot; ]
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;domaine thérapeutique z&quot;     ]
   ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-period&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
@@ -271,11 +286,15 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;recruiting&quot; ]       ] )     ]
   ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Ceci est un test de ressource pour Eclaire&quot; ]
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#markdown">a</a> fhir:markdown ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Ceci est un test de ressource pour Eclaire&quot;     ]
   ] [
     ( <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">fhir:extension</a> [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;value&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Nom de la conséquence primaire&quot; ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Nom de la conséquence primaire&quot;       ]     ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;type&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">a</a> fhir:CodeableConcept ;
@@ -284,7 +303,9 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;primary&quot; ]         ] ) ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;primaire&quot; ]       ]     ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;description&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Description de la conséquence primaire&quot; ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#markdown">a</a> fhir:markdown ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Description de la conséquence primaire&quot;       ]     ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;description&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/references.html#Reference">a</a> fhir:Reference ;
@@ -294,7 +315,9 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   ] [
     ( <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">fhir:extension</a> [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;value&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Nom de la conséquence secondaire&quot; ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Nom de la conséquence secondaire&quot;       ]     ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;type&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">a</a> fhir:CodeableConcept ;
@@ -303,7 +326,9 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;secondary&quot; ]         ] ) ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;secondaire&quot; ]       ]     ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;description&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Description de la conséquence secondaire&quot; ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#markdown">a</a> fhir:markdown ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Description de la conséquence secondaire&quot;       ]     ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;description&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/references.html#Reference">a</a> fhir:Reference ;
@@ -313,7 +338,9 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   ] [
     ( <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">fhir:extension</a> [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;name&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;THE sponsor&quot; ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;THE sponsor&quot;       ]     ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;role&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">a</a> fhir:CodeableConcept ;
@@ -341,7 +368,9 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   ] [
     ( <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">fhir:extension</a> [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;value&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;INDISPONIBLE&quot; ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;A RENSEIGNER&quot;       ]     ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;type&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">a</a> fhir:CodeableConcept ;
@@ -353,7 +382,9 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   ] [
     ( <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">fhir:extension</a> [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;value&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;INDISPONIBLE&quot; ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;A RENSEIGNER&quot;       ]     ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;type&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">a</a> fhir:CodeableConcept ;
@@ -410,7 +441,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Locally-Advanced or Metastatic breast cancer (MBC)&quot; ]
   ] [
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/mdr&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://www.meddra.org&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10070575&quot; ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;10070575&quot; ]     ] ) ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MedDRA condition  code 10070575&quot; ]
@@ -437,7 +468,9 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">fhir:postalCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;9132&quot; ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">fhir:country</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Crazy Elephant&quot; ]       ]     ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Hilarious Badger&quot; ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Hilarious Badger&quot;       ]     ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-name&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName">a</a> fhir:HumanName ;
@@ -486,9 +519,13 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
     ( <a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.arm.extension">fhir:extension</a> [
       ( <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">fhir:extension</a> [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;name&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Nom de l'intervention&quot; ]       ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Nom de l'intervention&quot;         ]       ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;description&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Description de l'intervention&quot; ]       ] ) ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Description de l'intervention&quot;         ]       ] ) ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-arm-intervention&quot;^^xsd:anyURI ]     ] ) ;
 <a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.arm.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Slow Elephant&quot; ] ;
 <a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.arm.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Hilarious Badger&quot; ]
@@ -515,13 +552,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+<script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
@@ -540,7 +571,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
               </td>
               <td style="text-align:right">&#xA0;
 
-                <span style="visibility:hidden">next&gt;</span>
+                <a href="ResearchStudy-2022-500014-26-00-example.html">next&gt;</a>
 
               </td>
             </tr>
@@ -550,14 +581,14 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.eclaire#0.3.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 14, 2024 13:53+0000">2024-03-14</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.eclaire#0.3.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, May 20, 2025 16:41+0000">2025-05-20</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
-                      Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
-                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA </a> |
-                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/fhir/eclaire/history.html">Historique des versions </a>
-                  | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/IG-fhir-essais-cliniques/issues/new/choose">New Issue</a>
-                
+            Liens : <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières</a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA</a> |
+<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/fhir/eclaire/history.html">Historique des versions</a>
+<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/documentation">Documentation</a>
+ | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/IG-fhir-essais-cliniques/issues/new/choose">New Issue</a>
 
           </span>
         </p>
@@ -585,20 +616,8 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   <script src="assets/js/vendor.js" type="text/javascript"> </script>
   <!-- Fin ajout ANS -->
 
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-  
-    
-  
-
-
-
-<!-- / feedback form  -->
 
   <!-- Analytics Below
   ================================================== -->

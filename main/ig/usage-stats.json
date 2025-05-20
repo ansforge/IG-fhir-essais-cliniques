@@ -333,9 +333,6 @@
     ]
   },
   "usage": {
-    "http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence": [
-      "ConceptMap.group.element.target"
-    ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty": [
       "ResearchStudy"
     ],
@@ -391,6 +388,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-approval-date": [
       "ResearchStudy"

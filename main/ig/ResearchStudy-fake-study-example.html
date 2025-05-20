@@ -40,18 +40,24 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script src="assets/js/mermaid.js" type="text/javascript"></script>
+    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
     <style type="text/css">h2{--heading-prefix:"8.47"}
     h3,h4,h5,h6{--heading-prefix:"8.47"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
 <div id="family-nav">
-  <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
-</div>
-<div style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; " id="ans-nav">
-  <a no-external="true" id="hl7-logo" href="https://esante.gouv.fr/"><img src="assets/images/logo-ANS.svg" alt="ANS Logo" height="50"/></a>
-</div>
+    <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+  </div>
+  <div style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; " id="ans-nav">
+    <a no-external="true" id="hl7-logo" href="https://esante.gouv.fr/"><img src="assets/images/logo-ANS.svg" alt="ANS Logo" height="50"/></a>
+    <a no-external="true" id="hl7-search-lnk" href="searchform.html"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+  </div>
+
+  <div id="ig-search">
+ </div>
+
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème</span>
@@ -229,7 +235,11 @@
 
 
 
-  <div><p><b>Generated Narrative: ResearchStudy</b><a name="fake-study-example"> </a><a name="hcfake-study-example"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ResearchStudy "fake-study-example" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-eclaire-researchstudy.html">ECLAIREResearchStudy</a></p></div><p><b>ECLAIREReviewDate</b>: Jan 6, 2023, 12:00:00 AM</p><p><b>ECLAIREApprovalDate</b>: Mar 6, 2023, 12:00:00 AM</p><p><b>ECLAIRETherapeuticArea</b>: domaine thérapeutique z</p><p><b>ECLAIRERecruitmentPeriod</b>: 2022-06-30 00:00:00+0000 --&gt; (ongoing)</p><p><b>ECLAIRERecruitmentStatus</b>: Actif / active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-eclaire-status-recruitment-code-system.html">Statut de recrutement</a>#recruiting)</span></p><p><b>Extension Definition for ResearchStudy.descriptionSummary for Version 5.0</b>: Ceci est un test de ressource pour Eclaire</p><blockquote><p><b>ECLAIREoutcomeMeasureR5</b></p><blockquote><p><b>url</b></p><code>value</code></blockquote><p><b>value</b>: Nom de la conséquence primaire</p><blockquote><p><b>url</b></p><code>type</code></blockquote><p><b>value</b>: primaire <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-research-study-objective-type.html">ResearchStudyObjectiveType</a>#primary)</span></p><blockquote><p><b>url</b></p><code>description</code></blockquote><p><b>value</b>: Description de la conséquence primaire</p><blockquote><p><b>url</b></p><code>description</code></blockquote><p><a name="l453">​</a><b>value</b>: <a href="EvidenceVariable/1">EvidenceVariable/1: Aïe!</a></p></blockquote><blockquote><p><b>ECLAIREoutcomeMeasureR5</b></p><blockquote><p><b>url</b></p><code>value</code></blockquote><p><b>value</b>: Nom de la conséquence secondaire</p><blockquote><p><b>url</b></p><code>type</code></blockquote><p><b>value</b>: secondaire <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-research-study-objective-type.html">ResearchStudyObjectiveType</a>#secondary)</span></p><blockquote><p><b>url</b></p><code>description</code></blockquote><p><b>value</b>: Description de la conséquence secondaire</p><blockquote><p><b>url</b></p><code>description</code></blockquote><p><a name="l504">​</a><b>value</b>: <a href="EvidenceVariable/1">EvidenceVariable/1: Ouille!</a></p></blockquote><blockquote><p><b>ECLAIREassociatedPartyR5</b></p><blockquote><p><b>url</b></p><code>name</code></blockquote><p><b>value</b>: THE sponsor</p><blockquote><p><b>url</b></p><code>role</code></blockquote><p><b>value</b>: Sponsor principal <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-eclaire-study-party-role-code-system.html">Définition des rôles des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-role</a>#lead-sponsor)</span></p><blockquote><p><b>url</b></p><code>period</code></blockquote><p><b>value</b>: 2022-06-30 00:00:00+0000 --&gt; (ongoing)</p><blockquote><p><b>url</b></p><code>classifier</code></blockquote><p><b>value</b>: academic <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-eclaire-study-party-organization-type-code-system.html">Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type</a>#academic)</span></p><blockquote><p><b>url</b></p><code>party</code></blockquote><p><a name="l570">​</a><b>value</b>: <a href="Organization/2">Organization/2: Etablissement du sponsor</a></p></blockquote><blockquote><p><b>ECLAIRELabelR5</b></p><blockquote><p><b>url</b></p><code>value</code></blockquote><p><b>value</b>: INDISPONIBLE</p><blockquote><p><b>url</b></p><code>type</code></blockquote><p><b>value</b>: type <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-eclaire-study-title-type-code-system.html">Définition des types de titre pour l'essai</a>#human-use)</span></p></blockquote><blockquote><p><b>ECLAIRELabelR5</b></p><blockquote><p><b>url</b></p><code>value</code></blockquote><p><b>value</b>: INDISPONIBLE</p><blockquote><p><b>url</b></p><code>type</code></blockquote><p><b>value</b>: type <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-eclaire-study-title-type-code-system.html">Définition des types de titre pour l'essai</a>#acronym)</span></p></blockquote><p><b>identifier</b>: Hilarious Cat/123456&nbsp;(use:&nbsp;OFFICIAL), 2022-500014-26-00&nbsp;(use:&nbsp;SECONDARY)</p><p><b>title</b>: Energetic Zebra</p><p><a name="l642">​</a><b>protocol</b>: <a href="PlanDefinition/3">PlanDefinition/3: Energetic plan</a></p><p><b>status</b>: in-review</p><p><b>primaryPurposeType</b>: Zebra treatment <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (ResearchStudyPrimaryPurposeType[4.0.1]#treatment)</span></p><p><b>phase</b>: Research Study Phase <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-research-study-phase.html">ResearchStudyPhase</a>#phase-3)</span></p><p><b>category</b>: IC-Cas 1 (DM) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-eclaire-reglementation-precision-code-system.html">Précision sur la réglementation concernant l'essai</a>#IC-Cas-1)</span></p><p><b>focus</b>: Hilarious medicament <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></p><p><b>condition</b>: Locally-Advanced or Metastatic breast cancer (MBC) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span>, MedDRA condition  code 10070575 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (mdr#10070575 "10070575")</span></p><p><b>contact</b>: Slow Zebra: ph: Energetic Zebra(WORK),ph: Energetic Badger(HOME)</p><p><b>keyword</b>: Fast Elephant <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></p><p><b>location</b>: Countries of recruitment <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code[4.0.1]#FR)</span></p><p><b>description</b>: This is a fake research study</p><p><a name="l711">​</a><b>enrollment</b>: <a href="Group/6">Group/6: Fast Zebra</a></p><p><a name="l717">​</a><b>site</b>: <a href="Location/8">Location/8: Rainbow</a></p><p><b>reasonStopped</b>: ouch <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (ResearchStudyReasonStopped[4.0.1]#closed-due-to-toxicity)</span></p><h3>Arms</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Extension</b></td><td><b>Name</b></td><td><b>Description</b></td></tr><tr><td style="display: none">*</td><td></td><td>Slow Elephant</td><td>Hilarious Badger</td></tr></table><h3>Objectives</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Name</b></td></tr><tr><td style="display: none">*</td><td>Inventive Mouse</td></tr></table></div>
+  <div><p class="res-header-id"><b>Generated Narrative: ResearchStudy fake-study-example</b></p><a name="fake-study-example"> </a><a name="hcfake-study-example"> </a><a name="fake-study-example-fr-FR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"></p><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-eclaire-researchstudy.html">ECLAIREResearchStudy</a></p></div><p><b>ECLAIREReviewDate</b>: 2023-01-06 00:00:00+0000</p><p><b>ECLAIREApprovalDate</b>: 2023-03-06 00:00:00+0000</p><p><b>ECLAIRETherapeuticArea</b>: domaine thérapeutique z</p><p><b>ECLAIRERecruitmentPeriod</b>: 2022-06-30 00:00:00+0000 --&gt; (ongoing)</p><p><b>ECLAIRERecruitmentStatus</b>: <span title="Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system recruiting}">Actif / active</span></p><p><b>Extension Definition for ResearchStudy.descriptionSummary for Version 5.0</b>: </p><div><p>Ceci est un test de ressource pour Eclaire</p>
+</div><blockquote><p><b>ECLAIREoutcomeMeasureR5</b></p><ul><li>value: Nom de la conséquence primaire</li><li>type: <span title="Codes:{http://terminology.hl7.org/CodeSystem/research-study-objective-type primary}">primaire</span></li><li>description: </li><li><a name="l433">​</a>description: <a href="EvidenceVariable/1">Aïe!</a></li></ul></blockquote><div><p>Description de la conséquence primaire</p>
+</div><blockquote><p><b>ECLAIREoutcomeMeasureR5</b></p><ul><li>value: Nom de la conséquence secondaire</li><li>type: <span title="Codes:{http://terminology.hl7.org/CodeSystem/research-study-objective-type secondary}">secondaire</span></li><li>description: </li><li><a name="l454">​</a>description: <a href="EvidenceVariable/1">Ouille!</a></li></ul></blockquote><div><p>Description de la conséquence secondaire</p>
+</div><blockquote><p><b>ECLAIREassociatedPartyR5</b></p><ul><li>name: THE sponsor</li><li>role: <span title="Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system lead-sponsor}">Sponsor principal</span></li><li>period: 2022-06-30 00:00:00+0000 --&gt; (ongoing)</li><li>classifier: <span title="Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system academic}">academic</span></li><li><a name="l479">​</a>party: <a href="Organization/2">Etablissement du sponsor</a></li></ul></blockquote><blockquote><p><b>ECLAIRELabelR5</b></p><ul><li>value: A RENSEIGNER</li><li>type: <span title="Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system human-use}">type</span></li></ul></blockquote><blockquote><p><b>ECLAIRELabelR5</b></p><ul><li>value: A RENSEIGNER</li><li>type: <span title="Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system acronym}">type</span></li></ul></blockquote><p><b>identifier</b>: Hilarious Cat/123456&nbsp;(use:&nbsp;official,&nbsp;), 2022-500014-26-00&nbsp;(use:&nbsp;secondary,&nbsp;)</p><p><b>title</b>: Energetic Zebra</p><p><a name="l513">​</a><b>protocol</b>: <a href="PlanDefinition/3">Energetic plan</a></p><p><b>status</b>: In Review</p><p><b>primaryPurposeType</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type treatment}">Zebra treatment</span></p><p><b>phase</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/research-study-phase phase-3}">Research Study Phase</span></p><p><b>category</b>: <span title="Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system IC-Cas-1}">IC-Cas 1 (DM)</span></p><p><b>focus</b>: <span title="Codes:">Hilarious medicament</span></p><p><b>condition</b>: <span title="Codes:">Locally-Advanced or Metastatic breast cancer (MBC)</span>, <span title="Codes:{https://www.meddra.org 10070575}">MedDRA condition  code 10070575</span></p><p><b>contact</b>: Slow Zebra: ph: Energetic Zebra(Work),ph: Energetic Badger(Home)</p><p><b>keyword</b>: <span title="Codes:">Fast Elephant</span></p><p><b>location</b>: <span title="Codes:{urn:iso:std:iso:3166 FR}">Countries of recruitment</span></p><p><b>description</b>: </p><div><p>This is a fake research study</p>
+</div><p><a name="l580">​</a><b>enrollment</b>: <a href="Group/6">Fast Zebra</a></p><p><a name="l586">​</a><b>site</b>: <a href="Location/8">Rainbow</a></p><p><b>reasonStopped</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/research-study-reason-stopped closed-due-to-toxicity}">ouch</span></p><h3>Arms</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Extension</b></td><td><b>Name</b></td><td><b>Description</b></td></tr><tr><td style="display: none">*</td><td></td><td>Slow Elephant</td><td>Hilarious Badger</td></tr></table><h3>Objectives</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Name</b></td></tr><tr><td style="display: none">*</td><td>Inventive Mouse</td></tr></table></div>
 
   
 
@@ -247,13 +257,7 @@
   <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+<script src="assets/js/window-hash.js" type="text/javascript"> </script>
   <a name="bottom"> </a>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
@@ -282,14 +286,14 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.eclaire#0.3.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 14, 2024 13:53+0000">2024-03-14</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.eclaire#0.3.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, May 20, 2025 16:41+0000">2025-05-20</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
-                      Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
-                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA </a> |
-                 <a style="color: var(--footer-hyperlink-text-color)" href="https://interop.esante.gouv.fr/ig/fhir/eclaire/history.html" target="_blank">Historique des versions </a>
-                  | <a style="color: var(--footer-hyperlink-text-color)" href="https://github.com/ansforge/IG-fhir-essais-cliniques/issues/new/choose" target="_blank">New Issue</a>
-                
+            Liens : <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières</a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA</a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="https://interop.esante.gouv.fr/ig/fhir/eclaire/history.html" target="_blank">Historique des versions</a>
+<a style="color: var(--footer-hyperlink-text-color)" href="https://interop.esante.gouv.fr/ig/documentation" target="_blank">Documentation</a>
+ | <a style="color: var(--footer-hyperlink-text-color)" href="https://github.com/ansforge/IG-fhir-essais-cliniques/issues/new/choose" target="_blank">New Issue</a>
 
           
         </p>
@@ -317,20 +321,8 @@
   <script src="assets/js/vendor.js" type="text/javascript"> </script>
     <!-- Fin ajout ANS -->
 
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
   
-  <!-- feedback form - Google forms -->
-  <!-- v0.1, 2021-01-09 -->
-
-
-  
-    
-  
-
-
-
-  <!-- / feedback form -->
 
     <!-- Analytics Below
   ================================================== -->

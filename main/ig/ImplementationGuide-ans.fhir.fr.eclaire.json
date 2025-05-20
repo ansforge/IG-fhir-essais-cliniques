@@ -2,15 +2,15 @@
   "resourceType" : "ImplementationGuide",
   "id" : "ans.fhir.fr.eclaire",
   "text" : {
-    "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ECLAIRE</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/eclaire/ImplementationGuide/ans.fhir.fr.eclaire</pre><div><p>Implementation Guide pour définir l'API FHIR pour ECLAIRE (Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème)</p>\n</div></div>"
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fhir.fr.eclaire</b></p><a name=\"ans.fhir.fr.eclaire\"> </a><a name=\"hcans.fhir.fr.eclaire\"> </a><a name=\"ans.fhir.fr.eclaire-fr-FR\"> </a><h2>ECLAIRE</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/eclaire/ImplementationGuide/ans.fhir.fr.eclaire</pre><div><p>Implementation Guide pour définir l'API FHIR pour ECLAIRE (Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème)</p>\n</div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/ImplementationGuide/ans.fhir.fr.eclaire",
   "version" : "0.3.1",
   "name" : "ECLAIRE",
   "title" : "Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème",
   "status" : "draft",
-  "date" : "2024-03-14T13:53:10+00:00",
+  "date" : "2025-05-20T16:40:38+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -38,7 +38,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "5.3.0"
+    "version" : "6.3.0"
   },
   {
     "id" : "hl7ext",
@@ -48,7 +48,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "1.0.0"
+    "version" : "5.2.0"
   }],
   "definition" : {
     "extension" : [{
@@ -339,7 +339,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#0.1.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.5.0"
     },
     {
       "extension" : [{
@@ -1118,6 +1118,18 @@
       "name" : "Type de titre Value Set",
       "description" : "Type de titre pour les essais cliniques Value Set (inspiré du Value Set de R5 : https://hl7.org/fhir/valueset-title-type.html)",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ResearchStudy"
+      }],
+      "reference" : {
+        "reference" : "ResearchStudy/2022-500014-26-00-example"
+      },
+      "name" : "UNE ETUDE DE PHASE III, RANDOMISEE, OUVERTE, EVALUANT L'EFFICACITE ET LA SECURITE DU GIREDESTRANT EN ASSOCIATION AVEC PHESGO PAR RAPPORT A PHESGO APRES UN TRAITEMENT D'INDUCTION PAR PHESGO+TAXANE CHEZ DES PATIENTES ATTEINTES D'UN CANCER DU SEIN LOCALEMENT AVANCÉ OU METASTATIQUE, HER2-POSITIF ET POSITIF AUX RECEPTEURS DES OESTROGENES, QUI N'A PAS ETE TRAITE AU PREALABLE.",
+      "description" : "Exemple construit à partir de https://eclaire-api.osc-fr1.scalingo.io/R4/ResearchStudy/2022-500014-26-00",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy"
     },
     {
       "extension" : [{

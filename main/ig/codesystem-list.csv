@@ -1,4 +1,4 @@
-URL,Version,Status,OIDs,Name,Title,Descriptino,Used
+URL,Version,Status,OIDs,Name,Title,Description,Used
 https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system,0.3.1,draft,,EclaireGroupCharacteristicKindCS,Codes pour le type de caractéristique du groupe,"Codes pour le type de caractéristique du groupe de l'étude",
 https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system,0.3.1,draft,,EclaireReglementationPrecisionCS,Précision sur la réglementation concernant l'essai,"Précision sur la réglementation concernant l'essai",
 https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system,0.3.1,draft,,EclaireRegulationCodeCS,Code de régulation de l'essai,"Code de régulation de l'essai",

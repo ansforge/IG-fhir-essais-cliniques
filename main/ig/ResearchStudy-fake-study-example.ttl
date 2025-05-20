@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -16,17 +17,26 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ResearchStudy</b><a name=\"fake-study-example\"> </a><a name=\"hcfake-study-example\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ResearchStudy &quot;fake-study-example&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-eclaire-researchstudy.html\">ECLAIREResearchStudy</a></p></div><p><b>ECLAIREReviewDate</b>: Jan 6, 2023, 12:00:00 AM</p><p><b>ECLAIREApprovalDate</b>: Mar 6, 2023, 12:00:00 AM</p><p><b>ECLAIRETherapeuticArea</b>: domaine thérapeutique z</p><p><b>ECLAIRERecruitmentPeriod</b>: 2022-06-30 00:00:00+0000 --&gt; (ongoing)</p><p><b>ECLAIRERecruitmentStatus</b>: Actif / active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-eclaire-status-recruitment-code-system.html\">Statut de recrutement</a>#recruiting)</span></p><p><b>Extension Definition for ResearchStudy.descriptionSummary for Version 5.0</b>: Ceci est un test de ressource pour Eclaire</p><blockquote><p><b>ECLAIREoutcomeMeasureR5</b></p><blockquote><p><b>url</b></p><code>value</code></blockquote><p><b>value</b>: Nom de la conséquence primaire</p><blockquote><p><b>url</b></p><code>type</code></blockquote><p><b>value</b>: primaire <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-research-study-objective-type.html\">ResearchStudyObjectiveType</a>#primary)</span></p><blockquote><p><b>url</b></p><code>description</code></blockquote><p><b>value</b>: Description de la conséquence primaire</p><blockquote><p><b>url</b></p><code>description</code></blockquote><p><b>value</b>: <a href=\"EvidenceVariable/1\">EvidenceVariable/1: Aïe!</a></p></blockquote><blockquote><p><b>ECLAIREoutcomeMeasureR5</b></p><blockquote><p><b>url</b></p><code>value</code></blockquote><p><b>value</b>: Nom de la conséquence secondaire</p><blockquote><p><b>url</b></p><code>type</code></blockquote><p><b>value</b>: secondaire <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-research-study-objective-type.html\">ResearchStudyObjectiveType</a>#secondary)</span></p><blockquote><p><b>url</b></p><code>description</code></blockquote><p><b>value</b>: Description de la conséquence secondaire</p><blockquote><p><b>url</b></p><code>description</code></blockquote><p><b>value</b>: <a href=\"EvidenceVariable/1\">EvidenceVariable/1: Ouille!</a></p></blockquote><blockquote><p><b>ECLAIREassociatedPartyR5</b></p><blockquote><p><b>url</b></p><code>name</code></blockquote><p><b>value</b>: THE sponsor</p><blockquote><p><b>url</b></p><code>role</code></blockquote><p><b>value</b>: Sponsor principal <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-eclaire-study-party-role-code-system.html\">Définition des rôles des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-role</a>#lead-sponsor)</span></p><blockquote><p><b>url</b></p><code>period</code></blockquote><p><b>value</b>: 2022-06-30 00:00:00+0000 --&gt; (ongoing)</p><blockquote><p><b>url</b></p><code>classifier</code></blockquote><p><b>value</b>: academic <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-eclaire-study-party-organization-type-code-system.html\">Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type</a>#academic)</span></p><blockquote><p><b>url</b></p><code>party</code></blockquote><p><b>value</b>: <a href=\"Organization/2\">Organization/2: Etablissement du sponsor</a></p></blockquote><blockquote><p><b>ECLAIRELabelR5</b></p><blockquote><p><b>url</b></p><code>value</code></blockquote><p><b>value</b>: INDISPONIBLE</p><blockquote><p><b>url</b></p><code>type</code></blockquote><p><b>value</b>: type <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-eclaire-study-title-type-code-system.html\">Définition des types de titre pour l'essai</a>#human-use)</span></p></blockquote><blockquote><p><b>ECLAIRELabelR5</b></p><blockquote><p><b>url</b></p><code>value</code></blockquote><p><b>value</b>: INDISPONIBLE</p><blockquote><p><b>url</b></p><code>type</code></blockquote><p><b>value</b>: type <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-eclaire-study-title-type-code-system.html\">Définition des types de titre pour l'essai</a>#acronym)</span></p></blockquote><p><b>identifier</b>: Hilarious Cat/123456 (use: OFFICIAL), 2022-500014-26-00 (use: SECONDARY)</p><p><b>title</b>: Energetic Zebra</p><p><b>protocol</b>: <a href=\"PlanDefinition/3\">PlanDefinition/3: Energetic plan</a></p><p><b>status</b>: in-review</p><p><b>primaryPurposeType</b>: Zebra treatment <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ResearchStudyPrimaryPurposeType[4.0.1]#treatment)</span></p><p><b>phase</b>: Research Study Phase <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-research-study-phase.html\">ResearchStudyPhase</a>#phase-3)</span></p><p><b>category</b>: IC-Cas 1 (DM) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-eclaire-reglementation-precision-code-system.html\">Précision sur la réglementation concernant l'essai</a>#IC-Cas-1)</span></p><p><b>focus</b>: Hilarious medicament <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>condition</b>: Locally-Advanced or Metastatic breast cancer (MBC) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span>, MedDRA condition  code 10070575 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (mdr#10070575 &quot;10070575&quot;)</span></p><p><b>contact</b>: Slow Zebra: ph: Energetic Zebra(WORK),ph: Energetic Badger(HOME)</p><p><b>keyword</b>: Fast Elephant <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>location</b>: Countries of recruitment <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code[4.0.1]#FR)</span></p><p><b>description</b>: This is a fake research study</p><p><b>enrollment</b>: <a href=\"Group/6\">Group/6: Fast Zebra</a></p><p><b>site</b>: <a href=\"Location/8\">Location/8: Rainbow</a></p><p><b>reasonStopped</b>: ouch <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ResearchStudyReasonStopped[4.0.1]#closed-due-to-toxicity)</span></p><h3>Arms</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>Name</b></td><td><b>Description</b></td></tr><tr><td style=\"display: none\">*</td><td/><td>Slow Elephant</td><td>Hilarious Badger</td></tr></table><h3>Objectives</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td></tr><tr><td style=\"display: none\">*</td><td>Inventive Mouse</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ResearchStudy fake-study-example</b></p><a name=\"fake-study-example\"> </a><a name=\"hcfake-study-example\"> </a><a name=\"fake-study-example-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-eclaire-researchstudy.html\">ECLAIREResearchStudy</a></p></div><p><b>ECLAIREReviewDate</b>: 2023-01-06 00:00:00+0000</p><p><b>ECLAIREApprovalDate</b>: 2023-03-06 00:00:00+0000</p><p><b>ECLAIRETherapeuticArea</b>: domaine thérapeutique z</p><p><b>ECLAIRERecruitmentPeriod</b>: 2022-06-30 00:00:00+0000 --&gt; (ongoing)</p><p><b>ECLAIRERecruitmentStatus</b>: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system recruiting}\">Actif / active</span></p><p><b>Extension Definition for ResearchStudy.descriptionSummary for Version 5.0</b>: </p><div><p>Ceci est un test de ressource pour Eclaire</p>\n</div><blockquote><p><b>ECLAIREoutcomeMeasureR5</b></p><ul><li>value: Nom de la conséquence primaire</li><li>type: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/research-study-objective-type primary}\">primaire</span></li><li>description: </li><li>description: <a href=\"EvidenceVariable/1\">Aïe!</a></li></ul></blockquote><div><p>Description de la conséquence primaire</p>\n</div><blockquote><p><b>ECLAIREoutcomeMeasureR5</b></p><ul><li>value: Nom de la conséquence secondaire</li><li>type: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/research-study-objective-type secondary}\">secondaire</span></li><li>description: </li><li>description: <a href=\"EvidenceVariable/1\">Ouille!</a></li></ul></blockquote><div><p>Description de la conséquence secondaire</p>\n</div><blockquote><p><b>ECLAIREassociatedPartyR5</b></p><ul><li>name: THE sponsor</li><li>role: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system lead-sponsor}\">Sponsor principal</span></li><li>period: 2022-06-30 00:00:00+0000 --&gt; (ongoing)</li><li>classifier: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system academic}\">academic</span></li><li>party: <a href=\"Organization/2\">Etablissement du sponsor</a></li></ul></blockquote><blockquote><p><b>ECLAIRELabelR5</b></p><ul><li>value: A RENSEIGNER</li><li>type: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system human-use}\">type</span></li></ul></blockquote><blockquote><p><b>ECLAIRELabelR5</b></p><ul><li>value: A RENSEIGNER</li><li>type: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system acronym}\">type</span></li></ul></blockquote><p><b>identifier</b>: Hilarious Cat/123456 (use: official, ), 2022-500014-26-00 (use: secondary, )</p><p><b>title</b>: Energetic Zebra</p><p><b>protocol</b>: <a href=\"PlanDefinition/3\">Energetic plan</a></p><p><b>status</b>: In Review</p><p><b>primaryPurposeType</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type treatment}\">Zebra treatment</span></p><p><b>phase</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/research-study-phase phase-3}\">Research Study Phase</span></p><p><b>category</b>: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system IC-Cas-1}\">IC-Cas 1 (DM)</span></p><p><b>focus</b>: <span title=\"Codes:\">Hilarious medicament</span></p><p><b>condition</b>: <span title=\"Codes:\">Locally-Advanced or Metastatic breast cancer (MBC)</span>, <span title=\"Codes:{https://www.meddra.org 10070575}\">MedDRA condition  code 10070575</span></p><p><b>contact</b>: Slow Zebra: ph: Energetic Zebra(Work),ph: Energetic Badger(Home)</p><p><b>keyword</b>: <span title=\"Codes:\">Fast Elephant</span></p><p><b>location</b>: <span title=\"Codes:{urn:iso:std:iso:3166 FR}\">Countries of recruitment</span></p><p><b>description</b>: </p><div><p>This is a fake research study</p>\n</div><p><b>enrollment</b>: <a href=\"Group/6\">Fast Zebra</a></p><p><b>site</b>: <a href=\"Location/8\">Rainbow</a></p><p><b>reasonStopped</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/research-study-reason-stopped closed-due-to-toxicity}\">ouch</span></p><h3>Arms</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>Name</b></td><td><b>Description</b></td></tr><tr><td style=\"display: none\">*</td><td/><td>Slow Elephant</td><td>Hilarious Badger</td></tr></table><h3>Objectives</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td></tr><tr><td style=\"display: none\">*</td><td>Inventive Mouse</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-review-date"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "2023-01-06T00:00:00Z"^^xsd:dateTime ]
+     fhir:value [
+       a fhir:instant ;
+       fhir:v "2023-01-06T00:00:00Z"^^xsd:dateTime
+     ]
   ] [
      fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-approval-date"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "2023-03-06T00:00:00Z"^^xsd:dateTime ]
+     fhir:value [
+       a fhir:instant ;
+       fhir:v "2023-03-06T00:00:00Z"^^xsd:dateTime
+     ]
   ] [
      fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-therapeutic-area"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "domaine thérapeutique z" ]
+     fhir:value [
+       a fhir:string ;
+       fhir:v "domaine thérapeutique z"
+     ]
   ] [
      fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-period"^^xsd:anyURI ] ;
      fhir:value [
@@ -44,11 +54,17 @@
      ]
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "Ceci est un test de ressource pour Eclaire" ]
+     fhir:value [
+       a fhir:markdown ;
+       fhir:v "Ceci est un test de ressource pour Eclaire"
+     ]
   ] [
      fhir:extension ( [
        fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "Nom de la conséquence primaire" ]
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Nom de la conséquence primaire"
+       ]
      ] [
        fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
        fhir:value [
@@ -61,7 +77,10 @@
        ]
      ] [
        fhir:url [ fhir:v "description"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "Description de la conséquence primaire" ]
+       fhir:value [
+         a fhir:markdown ;
+         fhir:v "Description de la conséquence primaire"
+       ]
      ] [
        fhir:url [ fhir:v "description"^^xsd:anyURI ] ;
        fhir:value [
@@ -75,7 +94,10 @@
   ] [
      fhir:extension ( [
        fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "Nom de la conséquence secondaire" ]
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Nom de la conséquence secondaire"
+       ]
      ] [
        fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
        fhir:value [
@@ -88,7 +110,10 @@
        ]
      ] [
        fhir:url [ fhir:v "description"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "Description de la conséquence secondaire" ]
+       fhir:value [
+         a fhir:markdown ;
+         fhir:v "Description de la conséquence secondaire"
+       ]
      ] [
        fhir:url [ fhir:v "description"^^xsd:anyURI ] ;
        fhir:value [
@@ -102,7 +127,10 @@
   ] [
      fhir:extension ( [
        fhir:url [ fhir:v "name"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "THE sponsor" ]
+       fhir:value [
+         a fhir:string ;
+         fhir:v "THE sponsor"
+       ]
      ] [
        fhir:url [ fhir:v "role"^^xsd:anyURI ] ;
        fhir:value [
@@ -142,7 +170,10 @@
   ] [
      fhir:extension ( [
        fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "INDISPONIBLE" ]
+       fhir:value [
+         a fhir:string ;
+         fhir:v "A RENSEIGNER"
+       ]
      ] [
        fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
        fhir:value [
@@ -158,7 +189,10 @@
   ] [
      fhir:extension ( [
        fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "INDISPONIBLE" ]
+       fhir:value [
+         a fhir:string ;
+         fhir:v "A RENSEIGNER"
+       ]
      ] [
        fhir:url [ fhir:v "type"^^xsd:anyURI ] ;
        fhir:value [
@@ -228,7 +262,7 @@
      fhir:text [ fhir:v "Locally-Advanced or Metastatic breast cancer (MBC)" ]
   ] [
      fhir:coding ( [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/mdr"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "https://www.meddra.org"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "10070575" ] ;
        fhir:display [ fhir:v "10070575" ]
      ] ) ;
@@ -261,7 +295,10 @@
        ]
      ] [
        fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "Hilarious Badger" ]
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Hilarious Badger"
+       ]
      ] [
        fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-name"^^xsd:anyURI ] ;
        fhir:value [
@@ -319,10 +356,16 @@
      fhir:extension ( [
        fhir:extension ( [
          fhir:url [ fhir:v "name"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Nom de l'intervention" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Nom de l'intervention"
+         ]
        ] [
          fhir:url [ fhir:v "description"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Description de l'intervention" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Description de l'intervention"
+         ]
        ] ) ;
        fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-arm-intervention"^^xsd:anyURI ]
      ] ) ;

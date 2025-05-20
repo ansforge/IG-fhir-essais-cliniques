@@ -3,14 +3,14 @@
   "id" : "eclaire-category-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-eclaire-reglementation-precision-code-system.html\"><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-eclaire-regulation-code-code-system.html\"><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet eclaire-category-vs</b></p><a name=\"eclaire-category-vs\"> </a><a name=\"hceclaire-category-vs\"> </a><a name=\"eclaire-category-vs-fr-FR\"> </a><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut tous les codes définis dans <a href=\"CodeSystem-eclaire-reglementation-precision-code-system.html\"><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</code></a></li><li>Inclut tous les codes définis dans <a href=\"CodeSystem-eclaire-regulation-code-code-system.html\"><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</code></a></li></ul></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-category-vs",
   "version" : "0.3.1",
   "name" : "EclaireCategoryVS",
   "title" : "Value Set type pour spécifier la catégorie l'essai clinique",
   "status" : "draft",
-  "date" : "2024-03-14T13:53:10+00:00",
+  "date" : "2025-05-20T16:40:38+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

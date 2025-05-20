@@ -6,14 +6,14 @@
   "status" : "draft",
   "package-id" : "ans.fhir.fr.eclaire",
   "ig-ver" : "0.3.1",
-  "date" : "Thu, 14 Mar, 2024 13:53:10 +0000",
-  "dateISO8601" : "2024-03-14T13:53:10+00:00",
-  "errs" : 57,
-  "warnings" : 58,
-  "hints" : 21,
+  "date" : "Tue, 20 May, 2025 16:41:14 +0000",
+  "dateISO8601" : "2025-05-20T16:41:14+00:00",
+  "errs" : 61,
+  "warnings" : 40,
+  "hints" : 28,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1512572168
+  "maxMemory" : 1862167400
 }

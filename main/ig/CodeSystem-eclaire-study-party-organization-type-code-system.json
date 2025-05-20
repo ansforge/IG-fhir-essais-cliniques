@@ -3,14 +3,14 @@
   "id" : "eclaire-study-party-organization-type-code-system",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">government<a name=\"eclaire-study-party-organization-type-code-system-government\"> </a></td><td>Gouvernemental / Government</td></tr><tr><td style=\"white-space:nowrap\">nonprofit<a name=\"eclaire-study-party-organization-type-code-system-nonprofit\"> </a></td><td>Sans but lucratif / Nonprofit</td></tr><tr><td style=\"white-space:nowrap\">academic<a name=\"eclaire-study-party-organization-type-code-system-academic\"> </a></td><td>Académique / Academic</td></tr><tr><td style=\"white-space:nowrap\">industry<a name=\"eclaire-study-party-organization-type-code-system-industry\"> </a></td><td>Industriel / Industry</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem eclaire-study-party-organization-type-code-system</b></p><a name=\"eclaire-study-party-organization-type-code-system\"> </a><a name=\"hceclaire-study-party-organization-type-code-system\"> </a><a name=\"eclaire-study-party-organization-type-code-system-fr-FR\"> </a><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">government<a name=\"eclaire-study-party-organization-type-code-system-government\"> </a></td><td>Gouvernemental / Government</td></tr><tr><td style=\"white-space:nowrap\">nonprofit<a name=\"eclaire-study-party-organization-type-code-system-nonprofit\"> </a></td><td>Sans but lucratif / Nonprofit</td></tr><tr><td style=\"white-space:nowrap\">academic<a name=\"eclaire-study-party-organization-type-code-system-academic\"> </a></td><td>Académique / Academic</td></tr><tr><td style=\"white-space:nowrap\">industry<a name=\"eclaire-study-party-organization-type-code-system-industry\"> </a></td><td>Industriel / Industry</td></tr></table></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system",
   "version" : "0.3.1",
   "name" : "EclaireStudyPartyOrganizationTypeCS",
   "title" : "Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type",
   "status" : "draft",
-  "date" : "2024-03-14T13:53:10+00:00",
+  "date" : "2025-05-20T16:40:38+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
