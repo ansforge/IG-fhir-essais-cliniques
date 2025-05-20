@@ -34,15 +34,11 @@ Usage: #example
 * extension[=].url = $associated-party-r5
 * extension[+].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-therapeutic-area"
 * extension[=].valueString = "Maladies [C] - Tumeurs [C04]"
-* extension[+].extension[0].valueString = "A RENSEIGNER"
-* extension[=].extension[=].url = "value"
-* extension[=].extension[+].valueCodeableConcept.coding = $title-type#human-use
+* extension[+].extension[0].valueCodeableConcept.coding = $title-type#human-use
 * extension[=].extension[=].valueCodeableConcept.text = "type"
 * extension[=].extension[=].url = "type"
 * extension[=].url = $label-r5
-* extension[+].extension[0].valueString = "A RENSEIGNER"
-* extension[=].extension[=].url = "value"
-* extension[=].extension[+].valueCodeableConcept.coding = $title-type#acronym
+* extension[+].extension[0].valueCodeableConcept.coding = $title-type#acronym
 * extension[=].extension[=].valueCodeableConcept.text = "type"
 * extension[=].extension[=].url = "type"
 * extension[=].url = $label-r5
