@@ -1,0 +1,21 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "420a93a4-0852-4e6e-af49-1d2f37cf2c57-21",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/420a93a4-0852-4e6e-af49-1d2f37cf2c57-21",
+  "name" : "IntersectionEclaireStudyPhaseCSAndEclaireStudyPhaseCS",
+  "title" : "Intersection of Définition des type de phase de l'essai cliniques incluant https://hl7.org/fhir/R4/valueset-research-study-phase.html And Définition des type de phase de l'essai cliniques incluant https://hl7.org/fhir/R4/valueset-research-study-phase.html",
+  "status" : "draft",
+  "date" : "2025-05-21T12:38:59+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "concept" : [{
+    "code" : "phase-3-phase-4",
+    "display" : "Phase 3 and phase 4",
+    "definition" : "Trials that are a combination of phases 3 and 4."
+  }]
+}
