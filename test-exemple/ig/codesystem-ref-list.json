@@ -10,8 +10,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.820"],
       "uses" : {
       },
-      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping",
-      "http://hl7.org/fhir/R4/valueset-research-study-status.html" : "ResearchStudyStatus"
+      "http://hl7.org/fhir/R4/valueset-research-study-status.html" : "ResearchStudyStatus",
+      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
@@ -58,8 +58,8 @@
       "description" : "Précision sur la réglementation concernant l'essai",
       "uses" : {
       },
-      "ValueSet-eclaire-reglementation-precision-vs.html" : "Précision sur la réglementation concernant l'essai Value Set",
-      "ValueSet-eclaire-category-vs.html" : "Value Set type pour spécifier la catégorie l'essai clinique"
+      "ValueSet-eclaire-category-vs.html" : "Value Set type pour spécifier la catégorie l'essai clinique",
+      "ValueSet-eclaire-reglementation-precision-vs.html" : "Précision sur la réglementation concernant l'essai Value Set"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system",

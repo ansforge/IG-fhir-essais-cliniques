@@ -3,7 +3,7 @@ ECLAIRE : Validation Results
 
 err = 68, warn = 43, info = 33
 IG Publisher Version: 1.8.26
-Generated Wed May 21 13:55:02 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
+Generated Wed May 21 14:16:04 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
  Build Errors : 12 / 4 / 0
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CapabilityStatement-eclaire-consommateur : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-group-characteristic-kind-code-system : 0 / 1 / 1
@@ -226,11 +226,11 @@ ERROR: /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSou
 == fsh-generated/resources/StructureDefinition-eclaire-recruitment-period.json ==
 == fsh-generated/resources/StructureDefinition-eclaire-recruitment-status.json ==
 == fsh-generated/resources/StructureDefinition-eclaire-researchstudy.json ==
-WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[19].short: value should not start or finish with whitespace 'Sponsor, collaborateurs et autres parties / Sponsors, collaborators, and other parties '
-INFORMATION: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[43].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[85].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.differential.element[9].short: value should not start or finish with whitespace 'Sponsor, collaborateurs et autres parties / Sponsors, collaborators, and other parties '
+WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[15].short: value should not start or finish with whitespace 'Sponsor, collaborateurs et autres parties / Sponsors, collaborators, and other parties '
+INFORMATION: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[26].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[39].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[81].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.differential.element[8].short: value should not start or finish with whitespace 'Sponsor, collaborateurs et autres parties / Sponsors, collaborators, and other parties '
 == fsh-generated/resources/StructureDefinition-eclaire-review-date.json ==
 == fsh-generated/resources/StructureDefinition-eclaire-site-contact-name.json ==
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-site-contact-name'): The Implementation Guide contains no examples for this extension

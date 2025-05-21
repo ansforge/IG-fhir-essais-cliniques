@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "c280ed42-ac0d-4b5a-9dcc-6ac97cc0049b-15",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c280ed42-ac0d-4b5a-9dcc-6ac97cc0049b-15",
+  "id" : "fc009823-deff-4548-b3f2-711daa864f81-15",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/fc009823-deff-4548-b3f2-711daa864f81-15",
   "name" : "IntersectionEclaireStudyPartyOrganizationTypeCSAndEclaireStudyPartyOrganizationTypeCS",
   "title" : "Intersection of Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type And Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type",
   "status" : "draft",
-  "date" : "2025-05-21T13:54:18+00:00",
+  "date" : "2025-05-21T14:15:18+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

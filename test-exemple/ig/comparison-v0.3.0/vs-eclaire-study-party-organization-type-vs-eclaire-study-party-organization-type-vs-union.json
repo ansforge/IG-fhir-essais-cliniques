@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "c280ed42-ac0d-4b5a-9dcc-6ac97cc0049b-107",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/c280ed42-ac0d-4b5a-9dcc-6ac97cc0049b-107",
+  "id" : "fc009823-deff-4548-b3f2-711daa864f81-107",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/fc009823-deff-4548-b3f2-711daa864f81-107",
   "name" : "UnionEclaireStudyPartyOrganizationTypeVSAndEclaireStudyPartyOrganizationTypeVS",
   "title" : "Union of Value Set Eclaire pour les types de parties And Value Set Eclaire pour les types de parties",
   "status" : "draft",
-  "date" : "2025-05-21T13:54:18+00:00",
+  "date" : "2025-05-21T14:15:18+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
