@@ -8,7 +8,7 @@ Alias: $eclaire-reglementation-precision-code-system = https://interop.esante.go
 Instance: 2022-500014-26-00-example-v2
 InstanceOf: ResearchStudy
 Usage: #example
-* phase.coding = $eclaire-study-phase-code-system#phase-3 "Therapeutic confirmatory  (Phase III)"
+* phase.coding = $eclaire-study-phase-code-system#phase-3 "Phase 3"
 * identifier
   * assigner = Reference(Organization/ctis) "Reference to primary assigner"
     * type = "Organization"
@@ -23,6 +23,8 @@ Usage: #example
 * extension[+]
   * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-period"
   * valuePeriod.start = "2022-06-30T00:00:00.000Z"
+* extension[+]
+  * url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary"  
 * extension[+]
   * extension[0]
     * url = "name"
