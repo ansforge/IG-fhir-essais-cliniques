@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "420a93a4-0852-4e6e-af49-1d2f37cf2c57-120",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/420a93a4-0852-4e6e-af49-1d2f37cf2c57-120",
+  "id" : "9c7f82f1-dbdc-4c99-9503-02c64dc68359-120",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/9c7f82f1-dbdc-4c99-9503-02c64dc68359-120",
   "name" : "IntersectionEclaireStudyPopulationVSAndEclaireStudyPopulationVS",
   "title" : "Intersection of Caractérisation de la population Value Set And Caractérisation de la population Value Set",
   "status" : "draft",
-  "date" : "2025-05-21T12:38:59+00:00",
+  "date" : "2025-05-21T13:02:56+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

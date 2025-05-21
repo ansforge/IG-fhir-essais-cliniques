@@ -1,10 +1,10 @@
 ECLAIRE : Validation Results
 =========================================
 
-err = 61, warn = 40, info = 28
+err = 69, warn = 43, info = 33
 IG Publisher Version: 1.8.26
-Generated Wed May 21 12:39:43 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
- Build Errors : 9 / 3 / 0
+Generated Wed May 21 13:03:34 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
+ Build Errors : 12 / 4 / 0
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CapabilityStatement-eclaire-consommateur : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-group-characteristic-kind-code-system : 0 / 1 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-reglementation-precision-code-system : 0 / 1 / 1
@@ -22,6 +22,7 @@ Generated Wed May 21 12:39:43 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclai
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ConceptMap-eclaire-study-status-concept-map : 10 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.eclaire : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ResearchStudy-2022-500014-26-00-example : 5 / 4 / 9
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ResearchStudy-2022-500014-26-00-example-v2 : 8 / 2 / 6
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ResearchStudy-fake-study-example : 24 / 1 / 14
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-approval-date : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-arm-intervention : 0 / 0 / 1
@@ -56,6 +57,10 @@ Generated Wed May 21 12:39:43 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclai
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-type-contact-vs : 0 / 1 / 1
 </table>
 == n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ResearchStudy/2022-500014-26-00-example-v2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/output/ResearchStudy-2022-500014-26-00-example-v2.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 238, column 1133: The link 'Organization/2022-500014-26-00-primary-sponsor' for "Reference to primary sponsor" cannot be resolved
+ERROR: /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/output/ResearchStudy-2022-500014-26-00-example-v2.html#/html/body/div/div/div/div/div/div/p/a at Line 238, column 3217: The link 'Group/2022-500014-26-00-enrollment-group' for "Reference to group detailing study characteristics" cannot be resolved
+ERROR: /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/output/ResearchStudy-2022-500014-26-00-example-v2.html#/html/body/div/div/div/div/div/div/p/a at Line 238, column 3342: The link 'Location/2022-500014-26-00-0-site' for "Reference to site" cannot be resolved
 ERROR: /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/output/ResearchStudy-2022-500014-26-00-example.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 238, column 1121: The link 'Organization/2022-500014-26-00-secondary-sponsor' for "Reference to secondary sponsor" cannot be resolved
 ERROR: /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/output/ResearchStudy-2022-500014-26-00-example.html#/html/body/div/div/div/div/div/div/p/a at Line 240, column 30: The link 'Group/2022-500014-26-00-enrollment-group' for "Reference to group detailing study characteristics" cannot be resolved
 ERROR: /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/output/ResearchStudy-fake-study-example.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 239, column 274: The link 'EvidenceVariable/1' for "Aïe!" cannot be resolved
@@ -138,6 +143,22 @@ WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.contact[2].exten
 ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.enrollment[0]: Unable to resolve resource with reference 'Group/2022-500014-26-00-enrollment-group'
 ERROR: ResearchStudy.text.div: Hyperlink 'Organization/2022-500014-26-00-secondary-sponsor' at 'div/blockquote/ul/li/a' for 'Reference to secondary sponsor' does not resolve
 ERROR: ResearchStudy.text.div: Hyperlink 'Group/2022-500014-26-00-enrollment-group' at 'div/p/a' for 'Reference to group detailing study characteristics' does not resolve
+== fsh-generated/resources/ResearchStudy-2022-500014-26-00-example-v2.json ==
+INFORMATION: ResearchStudy/2022-500014-26-00-example-v2: ResearchStudy.condition[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy|0.3.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ResearchStudy/2022-500014-26-00-example-v2: ResearchStudy.condition[1]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy|0.3.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ResearchStudy/2022-500014-26-00-example-v2: ResearchStudy.condition[2]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy|0.3.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ResearchStudy/2022-500014-26-00-example-v2: ResearchStudy.extension[3].extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system|0.3.1
+ERROR: ResearchStudy/2022-500014-26-00-example-v2: ResearchStudy.extension[3].extension[2].value.ofType(Reference): Unable to resolve resource with reference 'Organization/2022-500014-26-00-primary-sponsor'
+ERROR: ResearchStudy/2022-500014-26-00-example-v2: ResearchStudy.identifier[0].assigner: Unable to resolve resource with reference 'Organization/ctis'
+ERROR: ResearchStudy/2022-500014-26-00-example-v2: ResearchStudy.phase.coding[0].display: Wrong Display Name 'Therapeutic confirmatory  (Phase III)' for http://terminology.hl7.org/CodeSystem/research-study-phase#phase-3. Valid display is 'Phase 3' (for the language(s) 'fr-FR')
+WARNING: ResearchStudy/2022-500014-26-00-example-v2: ResearchStudy.condition[1].coding[0].system: A definition for CodeSystem 'https://www.meddra.org' version '3.0.0' could not be found, so the code cannot be validated. Valid versions: []
+WARNING: ResearchStudy/2022-500014-26-00-example-v2: ResearchStudy.condition[2].coding[0].system: A definition for CodeSystem 'https://www.meddra.org' version '3.0.0' could not be found, so the code cannot be validated. Valid versions: []
+INFORMATION: ResearchStudy/2022-500014-26-00-example-v2: ResearchStudy.contact[1].extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system|0.3.1
+ERROR: ResearchStudy/2022-500014-26-00-example-v2: ResearchStudy.enrollment[0]: Unable to resolve resource with reference 'Group/2022-500014-26-00-enrollment-group'
+ERROR: ResearchStudy/2022-500014-26-00-example-v2: ResearchStudy.site[0]: Unable to resolve resource with reference 'Location/2022-500014-26-00-0-site'
+ERROR: ResearchStudy.text.div: Hyperlink 'Organization/2022-500014-26-00-primary-sponsor' at 'div/blockquote/ul/li/a' for 'Reference to primary sponsor' does not resolve
+ERROR: ResearchStudy.text.div: Hyperlink 'Group/2022-500014-26-00-enrollment-group' at 'div/p/a' for 'Reference to group detailing study characteristics' does not resolve
+ERROR: ResearchStudy.text.div: Hyperlink 'Location/2022-500014-26-00-0-site' at 'div/p/a' for 'Reference to site' does not resolve
 == fsh-generated/resources/ResearchStudy-fake-study-example.json ==
 INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.condition[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy|0.3.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.condition[1]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy|0.3.1 (this may not be a problem, but you should check that it's not intended to match a slice)
