@@ -22,9 +22,7 @@ Usage: #example
   * valueString = "[Traduction locale] Diseases [C] - Neoplasms [C04]"
 * extension[+]
   * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-period"
-  * valuePeriod.start = "2022-06-30T00:00:00.000Z"
-* extension[+]
-  * url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary"  
+  * valuePeriod.start = "2022-06-30T00:00:00.000Z"  
 * extension[+]
   * extension[0]
     * url = "name"
@@ -32,7 +30,6 @@ Usage: #example
   * extension[+]
     * url = "role"
     * valueCodeableConcept.coding = $eclaire-study-party-role-code-system#lead-sponsor "lead-sponsor"
-      * version = "0.3.0"
   * extension[+]
     * url = "party"
     * valueReference = Reference(Organization/2022-500014-26-00-primary-sponsor) "Reference to primary sponsor"
@@ -47,11 +44,9 @@ Usage: #example
 * condition[+]
   * id = "meddra-condition-2022-500014-26-00-10070575"
   * coding = $meddra#10070575 "Cancer du sein à récepteurs aux oestrogènes positifs"
-    * version = "3.0.0"
 * condition[+]
   * id = "meddra-condition-2022-500014-26-00-10065430"
   * coding = $meddra#10065430 "Cancer du sein HER2 positif"
-    * version = "3.0.0"
 * site = Reference(Location/2022-500014-26-00-0-site) "Reference to site"
   * type = "Location"
 * meta
