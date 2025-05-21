@@ -24,9 +24,6 @@
     }
   },
   {
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary"
-  },
-  {
     "extension" : [{
       "url" : "name",
       "valueString" : "F. Hoffmann-La Roche AG"
@@ -36,7 +33,6 @@
       "valueCodeableConcept" : {
         "coding" : [{
           "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system",
-          "version" : "0.3.0",
           "code" : "lead-sponsor",
           "display" : "lead-sponsor"
         }]
@@ -94,7 +90,6 @@
     "id" : "meddra-condition-2022-500014-26-00-10070575",
     "coding" : [{
       "system" : "https://www.meddra.org",
-      "version" : "3.0.0",
       "code" : "10070575",
       "display" : "Cancer du sein à récepteurs aux oestrogènes positifs"
     }]
@@ -103,7 +98,6 @@
     "id" : "meddra-condition-2022-500014-26-00-10065430",
     "coding" : [{
       "system" : "https://www.meddra.org",
-      "version" : "3.0.0",
       "code" : "10065430",
       "display" : "Cancer du sein HER2 positif"
     }]
