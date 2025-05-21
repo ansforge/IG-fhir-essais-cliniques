@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "9c7f82f1-dbdc-4c99-9503-02c64dc68359-125",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/9c7f82f1-dbdc-4c99-9503-02c64dc68359-125",
+  "id" : "8be59f80-94a1-491c-9d2f-510313925b0a-125",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8be59f80-94a1-491c-9d2f-510313925b0a-125",
   "name" : "UnionEclaireStudyTitleTypetVSAndEclaireStudyTitleTypetVS",
   "title" : "Union of Type de titre Value Set And Type de titre Value Set",
   "status" : "draft",
-  "date" : "2025-05-21T13:02:56+00:00",
+  "date" : "2025-05-21T13:17:34+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
