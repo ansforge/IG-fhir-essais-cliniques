@@ -82,7 +82,7 @@ Description: "Profil de ResearchStudy pour le projet ECLAIRE"
 * extension[eclaire-approval-date] ^short = "Date d'approbation du comité éthique"
 * extension[eclaire-description-summary-r5] ^short = "Texte bref décrivant l'essai / Brief text explaining the study."
 * extension[eclaire-description-summary-r5] ^definition = "Cette extension implemente l'élément descriptionSummary de R5. elle permet l'ajout d'un texte bref décrivant l'essai"
-* extension[eclaire-description-summary-r5].valueMarkdown 1..1
+* extension[eclaire-description-summary-r5].valueMarkdown 0..1
 * extension[eclaire-description-summary-r5].value[x] only markdown
 * extension[eclaire-outcome-measure-r5] ^short = "Conséquences principales (primary outcomes) + Conséquences secondaires (secondary outcomes)"
 * extension[eclaire-outcome-measure-r5] ^definition = "Cette extension implemente l'élément outcomeMeasure de R5. elle permet l'ajout des conséquences principales et secondaires de l'essai"
