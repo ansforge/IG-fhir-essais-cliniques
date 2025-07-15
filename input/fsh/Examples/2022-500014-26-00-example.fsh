@@ -63,13 +63,18 @@ Usage: #example
 * identifier[0]
   * use = #official
   * value = "2022-500014-26-00"
-  * assigner = Reference(Organization/ctis) "Reference to primary assigner"
-    * type = "Organization"
 * identifier[+]
   * use = #secondary
-  * assigner
-    * type = "Organization"
-    * display = "Reference to secondary assigner"
+  * value = "NCT12345678"
+* identifier[+]
+  * use = #secondary
+  * value = "ISRCTN12345678"
+* identifier[+]
+  * use = #secondary
+  * value = "U1234-3452-7658"
+* identifier[+]
+  * use = #secondary
+  * value = "temp-123"
 * title = "UNE ETUDE DE PHASE III, RANDOMISEE, OUVERTE, EVALUANT L'EFFICACITE ET LA SECURITE DU GIREDESTRANT EN ASSOCIATION AVEC PHESGO PAR RAPPORT A PHESGO APRES UN TRAITEMENT D'INDUCTION PAR PHESGO+TAXANE CHEZ DES PATIENTES ATTEINTES D'UN CANCER DU SEIN LOCALEMENT AVANCÉ OU METASTATIQUE, HER2-POSITIF ET POSITIF AUX RECEPTEURS DES OESTROGENES, QUI N'A PAS ETE TRAITE AU PREALABLE."
 * status = #active
 * phase.coding = $research-study-phase#phase-3 "Phase 3"
