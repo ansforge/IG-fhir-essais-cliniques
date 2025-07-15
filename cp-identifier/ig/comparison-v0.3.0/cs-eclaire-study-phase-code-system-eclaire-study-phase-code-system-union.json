@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "e0edf32b-c37f-40af-b28d-b865d417c0a9-20",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/e0edf32b-c37f-40af-b28d-b865d417c0a9-20",
+  "id" : "67270873-899c-4f25-988b-111de614d687-20",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/67270873-899c-4f25-988b-111de614d687-20",
   "name" : "UnionEclaireStudyPhaseCSAndEclaireStudyPhaseCS",
   "title" : "Union of Définition des type de phase de l'essai cliniques incluant https://hl7.org/fhir/R4/valueset-research-study-phase.html And Définition des type de phase de l'essai cliniques incluant https://hl7.org/fhir/R4/valueset-research-study-phase.html",
   "status" : "draft",
-  "date" : "2025-07-15T14:13:40+00:00",
+  "date" : "2025-07-15T14:54:51+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

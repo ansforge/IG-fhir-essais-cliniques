@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "e0edf32b-c37f-40af-b28d-b865d417c0a9-8",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/e0edf32b-c37f-40af-b28d-b865d417c0a9-8",
+  "id" : "67270873-899c-4f25-988b-111de614d687-8",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/67270873-899c-4f25-988b-111de614d687-8",
   "name" : "UnionEclaireRegulationCodeCSAndEclaireRegulationCodeCS",
   "title" : "Union of Code de régulation de l'essai And Code de régulation de l'essai",
   "status" : "draft",
-  "date" : "2025-07-15T14:13:40+00:00",
+  "date" : "2025-07-15T14:54:51+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
