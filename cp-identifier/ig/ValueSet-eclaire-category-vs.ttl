@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "EclaireCategoryVS"] ; # 
   fhir:title [ fhir:v "Value Set type pour spécifier la catégorie l'essai clinique"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-07-15T14:53:59+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-16T07:55:12+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

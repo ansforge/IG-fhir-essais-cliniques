@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.3.1"] ; # 
   fhir:name [ fhir:v "ECLAIREReviewDate"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-07-15T14:53:59+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-16T07:55:12+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
