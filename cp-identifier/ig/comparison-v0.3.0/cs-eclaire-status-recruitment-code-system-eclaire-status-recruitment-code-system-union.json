@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "5d14945d-9bf0-41d1-98dd-f1c9cb242e07-11",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/5d14945d-9bf0-41d1-98dd-f1c9cb242e07-11",
+  "id" : "1c148913-3f94-4fbd-8955-86b2b339f3ec-11",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/1c148913-3f94-4fbd-8955-86b2b339f3ec-11",
   "name" : "UnionEclaireStatusRecruitmentCSAndEclaireStatusRecruitmentCS",
   "title" : "Union of Statut de recrutement And Statut de recrutement",
   "status" : "draft",
-  "date" : "2025-07-16T07:56:05+00:00",
+  "date" : "2025-07-16T09:39:24+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
