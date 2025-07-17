@@ -50,3 +50,7 @@ Le Swagger de l'API FHIR ECLAIRE est accesible ici:
 ### Dépendances
 
 {% include dependency-table.xhtml %}
+
+### Propriété intellectuelle
+
+{% include ip-statements.xhtml %}
