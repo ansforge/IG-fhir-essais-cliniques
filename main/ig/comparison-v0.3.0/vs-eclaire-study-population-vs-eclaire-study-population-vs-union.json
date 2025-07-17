@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "b1ab6d48-34a5-4a3b-a66e-ed4e3c78891e-119",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/b1ab6d48-34a5-4a3b-a66e-ed4e3c78891e-119",
+  "id" : "b003a1eb-accc-46db-ab41-6d835bb4499d-119",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b003a1eb-accc-46db-ab41-6d835bb4499d-119",
   "name" : "UnionEclaireStudyPopulationVSAndEclaireStudyPopulationVS",
   "title" : "Union of Caractérisation de la population Value Set And Caractérisation de la population Value Set",
   "status" : "draft",
-  "date" : "2025-05-20T16:41:33+00:00",
+  "date" : "2025-07-17T13:21:12+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

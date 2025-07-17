@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "b1ab6d48-34a5-4a3b-a66e-ed4e3c78891e-5",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b1ab6d48-34a5-4a3b-a66e-ed4e3c78891e-5",
+  "id" : "b003a1eb-accc-46db-ab41-6d835bb4499d-5",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b003a1eb-accc-46db-ab41-6d835bb4499d-5",
   "name" : "UnionEclaireReglementationPrecisionCSAndEclaireReglementationPrecisionCS",
   "title" : "Union of Précision sur la réglementation concernant l'essai And Précision sur la réglementation concernant l'essai",
   "status" : "draft",
-  "date" : "2025-05-20T16:41:33+00:00",
+  "date" : "2025-07-17T13:21:12+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

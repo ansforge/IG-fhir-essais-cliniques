@@ -3,14 +3,14 @@
   "id" : "eclaire-regulation-code-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet eclaire-regulation-code-vs</b></p><a name=\"eclaire-regulation-code-vs\"> </a><a name=\"hceclaire-regulation-code-vs\"> </a><a name=\"eclaire-regulation-code-vs-fr-FR\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-eclaire-regulation-code-code-system.html\"><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs eclaire-regulation-code-vs</b></p><a name=\"eclaire-regulation-code-vs\"> </a><a name=\"hceclaire-regulation-code-vs\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-eclaire-regulation-code-code-system.html\"><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</code></a></li></ul></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-regulation-code-vs",
   "version" : "0.3.1",
   "name" : "EclaireRegulationCodeVS",
   "title" : "Code de régulation Value Set",
   "status" : "draft",
-  "date" : "2025-05-20T16:40:38+00:00",
+  "date" : "2025-07-17T13:20:13+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

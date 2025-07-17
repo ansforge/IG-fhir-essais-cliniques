@@ -11,14 +11,14 @@
   fhir:id [ fhir:v "eclaire-status-recruitment-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet eclaire-status-recruitment-vs</b></p><a name=\"eclaire-status-recruitment-vs\"> </a><a name=\"hceclaire-status-recruitment-vs\"> </a><a name=\"eclaire-status-recruitment-vs-fr-FR\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-eclaire-status-recruitment-code-system.html\"><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</code></a></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs eclaire-status-recruitment-vs</b></p><a name=\"eclaire-status-recruitment-vs\"> </a><a name=\"hceclaire-status-recruitment-vs\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-eclaire-status-recruitment-code-system.html\"><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</code></a></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-status-recruitment-vs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.3.1"] ; # 
   fhir:name [ fhir:v "EclaireStatusRecruitementVS"] ; # 
   fhir:title [ fhir:v "Statut de recrutement Value Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-20T16:40:38+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-17T13:20:13+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
