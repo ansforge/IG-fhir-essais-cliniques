@@ -1,0 +1,76 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "60aee8a4-184c-48dd-8d00-947f1f0ddd68-17",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/60aee8a4-184c-48dd-8d00-947f1f0ddd68-17",
+  "name" : "UnionEclaireStudyPartyRoleCSAndEclaireStudyPartyRoleCS",
+  "title" : "Union of Définition des rôles des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-role And Définition des rôles des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-role",
+  "status" : "draft",
+  "date" : "2025-07-17T12:30:58+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "concept" : [{
+    "code" : "sponsor",
+    "display" : "sponsor",
+    "definition" : "sponsor"
+  },
+  {
+    "code" : "lead-sponsor",
+    "display" : "lead-sponsor",
+    "definition" : "lead-sponsor"
+  },
+  {
+    "code" : "sponsor-investigator",
+    "display" : "sponsor-investigator",
+    "definition" : "sponsor-investigator"
+  },
+  {
+    "code" : "primary-investigator",
+    "display" : "primary-investigator",
+    "definition" : "primary-investigator"
+  },
+  {
+    "code" : "collaborator",
+    "display" : "collaborator",
+    "definition" : "collaborator"
+  },
+  {
+    "code" : "funding-source",
+    "display" : "funding-source",
+    "definition" : "funding-source"
+  },
+  {
+    "code" : "general-contact",
+    "display" : "general-contact",
+    "definition" : "general-contact"
+  },
+  {
+    "code" : "recruitment-contact",
+    "display" : "recruitment-contact",
+    "definition" : "recruitment-contact"
+  },
+  {
+    "code" : "sub-investigator",
+    "display" : "sub-investigator",
+    "definition" : "sub-investigator"
+  },
+  {
+    "code" : "study-director",
+    "display" : "study-director",
+    "definition" : "study-director"
+  },
+  {
+    "code" : "study-chair",
+    "display" : "study-chair",
+    "definition" : "study-chair"
+  },
+  {
+    "code" : "ethics",
+    "display" : "Ethics Review Board",
+    "definition" : "Ethics Review Board"
+  }]
+}

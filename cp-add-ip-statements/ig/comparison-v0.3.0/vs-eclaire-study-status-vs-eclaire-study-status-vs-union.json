@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "60aee8a4-184c-48dd-8d00-947f1f0ddd68-122",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/60aee8a4-184c-48dd-8d00-947f1f0ddd68-122",
+  "name" : "UnionEclaireStudyStatusVSAndEclaireStudyStatusVS",
+  "title" : "Union of Value Set Statut Eclaire de l'essai And Value Set Statut Eclaire de l'essai",
+  "status" : "draft",
+  "date" : "2025-07-17T12:30:58+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }]
+}
