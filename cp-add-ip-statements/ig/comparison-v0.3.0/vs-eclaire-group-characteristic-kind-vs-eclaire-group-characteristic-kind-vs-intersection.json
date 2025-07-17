@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "60aee8a4-184c-48dd-8d00-947f1f0ddd68-93",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/60aee8a4-184c-48dd-8d00-947f1f0ddd68-93",
+  "id" : "ce44ab3c-53c6-450c-9aba-7e683fae31c7-93",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/ce44ab3c-53c6-450c-9aba-7e683fae31c7-93",
   "name" : "IntersectionEclaireGroupCharacteristicKindVSAndEclaireGroupCharacteristicKindVS",
   "title" : "Intersection of Type de caractéristique Value Set And Type de caractéristique Value Set",
   "status" : "draft",
-  "date" : "2025-07-17T12:30:58+00:00",
+  "date" : "2025-07-17T12:33:14+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

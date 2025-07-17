@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "60aee8a4-184c-48dd-8d00-947f1f0ddd68-33",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/60aee8a4-184c-48dd-8d00-947f1f0ddd68-33",
+  "id" : "ce44ab3c-53c6-450c-9aba-7e683fae31c7-33",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/ce44ab3c-53c6-450c-9aba-7e683fae31c7-33",
   "name" : "IntersectionEclaireStudyTitleTypeCSAndEclaireStudyTitleTypeCS",
   "title" : "Intersection of Définition des types de titre pour l'essai And Définition des types de titre pour l'essai",
   "status" : "draft",
-  "date" : "2025-07-17T12:30:58+00:00",
+  "date" : "2025-07-17T12:33:14+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

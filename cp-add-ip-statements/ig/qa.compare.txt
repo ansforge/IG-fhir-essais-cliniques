@@ -1,10 +1,10 @@
 ECLAIRE : Validation Results
 =========================================
 
-err = 61, warn = 40, info = 28
+err = 61, warn = 39, info = 28
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.eclaire#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
- Build Errors : 9 / 3 / 0
+ Build Errors : 9 / 2 / 0
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CapabilityStatement-eclaire-consommateur : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-group-characteristic-kind-code-system : 0 / 1 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-reglementation-precision-code-system : 0 / 1 / 1
@@ -64,8 +64,7 @@ ERROR: ResearchStudy-fake-study-example.html#/html/body/div/div/div/div/div/div/
 ERROR: ResearchStudy-fake-study-example.html#/html/body/div/div/div/div/div/div/p/a at Line 241, column 1219: The link 'PlanDefinition/3' for "Energetic plan" cannot be resolved
 ERROR: ResearchStudy-fake-study-example.html#/html/body/div/div/div/div/div/div/p/a at Line 242, column 30: The link 'Group/6' for "Fast Zebra" cannot be resolved
 ERROR: ResearchStudy-fake-study-example.html#/html/body/div/div/div/div/div/div/p/a at Line 242, column 82: The link 'Location/8' for "Rainbow" cannot be resolved
-ERROR: index.html#/html/body/div/div/div/div/div/p/a at Line 281, column 195: The link 'construction_des_flux.html' for "construction des flux" cannot be resolved
-WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+ERROR: index.html#/html/body/div/div/div/div/div/p/a at Line 282, column 195: The link 'construction_des_flux.html' for "construction des flux" cannot be resolved
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CapabilityStatement-eclaire-consommateur.json ==
