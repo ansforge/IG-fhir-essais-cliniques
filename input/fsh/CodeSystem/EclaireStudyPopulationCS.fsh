@@ -2,7 +2,11 @@ CodeSystem: EclaireStudyPopulationCS
 Id: eclaire-study-population-code-system
 Title: "Codes pour caractériser la population de l'étude"
 Description: "Codes pour caractériser la population ciblée par l'étude"
-* ^caseSensitive = true
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^experimental = true
+* ^caseSensitive = true 
+* ^compositional = false
+* ^content = #complete
 * #incap-pop "Incapacitated population (Population en situation de handicap)"
 * #minors "Minors (Mineurs)"
 * #nursing "Nursing women (Femmes allaitant)"

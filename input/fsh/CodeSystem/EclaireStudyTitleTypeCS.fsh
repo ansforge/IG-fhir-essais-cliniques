@@ -2,7 +2,11 @@ CodeSystem: EclaireStudyTitleTypeCS
 Id: eclaire-study-title-type-code-system
 Title: "Définition des types de titre pour l'essai"
 Description: "Définition des types de titre pour l'essai (Code System inspiré de R5 : https://hl7.org/fhir/codesystem-title-type.html)"
-* ^caseSensitive = true
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^experimental = true
+* ^caseSensitive = true 
+* ^compositional = false
+* ^content = #complete
 * #primary "Primary title" "Main title for common use. The primary title used for representation if multiple titles exist."
 * #official "Official title" "The official or authoritative title."
 * #scientific "Scientific title" "Title using scientific terminology."
