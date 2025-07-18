@@ -9,16 +9,23 @@
 <https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "eclaire-study-party-organization-type-code-system"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ] )
+  ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem eclaire-study-party-organization-type-code-system</b></p><a name=\"eclaire-study-party-organization-type-code-system\"> </a><a name=\"hceclaire-study-party-organization-type-code-system\"> </a><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">government<a name=\"eclaire-study-party-organization-type-code-system-government\"> </a></td><td>Gouvernemental / Government</td></tr><tr><td style=\"white-space:nowrap\">nonprofit<a name=\"eclaire-study-party-organization-type-code-system-nonprofit\"> </a></td><td>Sans but lucratif / Nonprofit</td></tr><tr><td style=\"white-space:nowrap\">academic<a name=\"eclaire-study-party-organization-type-code-system-academic\"> </a></td><td>Académique / Academic</td></tr><tr><td style=\"white-space:nowrap\">industry<a name=\"eclaire-study-party-organization-type-code-system-industry\"> </a></td><td>Industriel / Industry</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem eclaire-study-party-organization-type-code-system</b></p><a name=\"eclaire-study-party-organization-type-code-system\"> </a><a name=\"hceclaire-study-party-organization-type-code-system\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">government<a name=\"eclaire-study-party-organization-type-code-system-government\"> </a></td><td>Gouvernemental / Government</td></tr><tr><td style=\"white-space:nowrap\">nonprofit<a name=\"eclaire-study-party-organization-type-code-system-nonprofit\"> </a></td><td>Sans but lucratif / Nonprofit</td></tr><tr><td style=\"white-space:nowrap\">academic<a name=\"eclaire-study-party-organization-type-code-system-academic\"> </a></td><td>Académique / Academic</td></tr><tr><td style=\"white-space:nowrap\">industry<a name=\"eclaire-study-party-organization-type-code-system-industry\"> </a></td><td>Industriel / Industry</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.3.1"] ; # 
   fhir:name [ fhir:v "EclaireStudyPartyOrganizationTypeCS"] ; # 
   fhir:title [ fhir:v "Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-07-18T16:21:07+00:00"^^xsd:dateTime] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2025-07-18T16:34:27+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -36,6 +43,7 @@
      ] )
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:compositional [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [

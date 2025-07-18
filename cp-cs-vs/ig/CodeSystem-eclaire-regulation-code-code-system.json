@@ -1,16 +1,20 @@
 {
   "resourceType" : "CodeSystem",
   "id" : "eclaire-regulation-code-code-system",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+  },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem eclaire-regulation-code-code-system</b></p><a name=\"eclaire-regulation-code-code-system\"> </a><a name=\"hceclaire-regulation-code-code-system\"> </a><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">REG536<a name=\"eclaire-regulation-code-code-system-REG536\"> </a></td><td>REG536 (CTIS)</td></tr><tr><td style=\"white-space:nowrap\">REG745<a name=\"eclaire-regulation-code-code-system-REG745\"> </a></td><td>REG745 (DM)</td></tr><tr><td style=\"white-space:nowrap\">REG746<a name=\"eclaire-regulation-code-code-system-REG746\"> </a></td><td>REG746 (DM-DIV)</td></tr><tr><td style=\"white-space:nowrap\">JARDE<a name=\"eclaire-regulation-code-code-system-JARDE\"> </a></td><td>JARDE (Jarde)</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem eclaire-regulation-code-code-system</b></p><a name=\"eclaire-regulation-code-code-system\"> </a><a name=\"hceclaire-regulation-code-code-system\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">REG536<a name=\"eclaire-regulation-code-code-system-REG536\"> </a></td><td>REG536 (CTIS)</td></tr><tr><td style=\"white-space:nowrap\">REG745<a name=\"eclaire-regulation-code-code-system-REG745\"> </a></td><td>REG745 (DM)</td></tr><tr><td style=\"white-space:nowrap\">REG746<a name=\"eclaire-regulation-code-code-system-REG746\"> </a></td><td>REG746 (DM-DIV)</td></tr><tr><td style=\"white-space:nowrap\">JARDE<a name=\"eclaire-regulation-code-code-system-JARDE\"> </a></td><td>JARDE (Jarde)</td></tr></table></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system",
   "version" : "0.3.1",
   "name" : "EclaireRegulationCodeCS",
   "title" : "Code de régulation de l'essai",
   "status" : "draft",
-  "date" : "2025-07-18T16:21:07+00:00",
+  "experimental" : true,
+  "date" : "2025-07-18T16:34:27+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -28,6 +32,7 @@
     }]
   }],
   "caseSensitive" : true,
+  "compositional" : false,
   "content" : "complete",
   "count" : 4,
   "concept" : [{

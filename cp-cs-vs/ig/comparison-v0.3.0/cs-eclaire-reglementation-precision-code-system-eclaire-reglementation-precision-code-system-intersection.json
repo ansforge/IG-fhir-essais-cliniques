@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "e7f2bb3e-2447-4436-acc4-55f6e306524e-6",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/e7f2bb3e-2447-4436-acc4-55f6e306524e-6",
+  "id" : "504b800e-3a9f-4ff9-8845-5972df901ecc-6",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/504b800e-3a9f-4ff9-8845-5972df901ecc-6",
   "name" : "IntersectionEclaireReglementationPrecisionCSAndEclaireReglementationPrecisionCS",
   "title" : "Intersection of Précision sur la réglementation concernant l'essai And Précision sur la réglementation concernant l'essai",
   "status" : "draft",
-  "date" : "2025-07-18T16:21:56+00:00",
+  "date" : "2025-07-18T16:35:20+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
