@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cd3c79f5-f1f9-4ca5-a4b5-68b4229a17c1-101",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd3c79f5-f1f9-4ca5-a4b5-68b4229a17c1-101",
+  "name" : "UnionEclaireStatusRecruitementVSAndEclaireStatusRecruitementVS",
+  "title" : "Union of Statut de recrutement Value Set And Statut de recrutement Value Set",
+  "status" : "draft",
+  "date" : "2025-07-21T14:28:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }]
+}

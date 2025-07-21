@@ -1,0 +1,26 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "cd3c79f5-f1f9-4ca5-a4b5-68b4229a17c1-11",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/cd3c79f5-f1f9-4ca5-a4b5-68b4229a17c1-11",
+  "name" : "UnionEclaireStatusRecruitmentCSAndEclaireStatusRecruitmentCS",
+  "title" : "Union of Statut de recrutement And Statut de recrutement",
+  "status" : "draft",
+  "date" : "2025-07-21T14:28:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "concept" : [{
+    "code" : "recruiting",
+    "display" : "Actif / active",
+    "definition" : "Recrutement actif"
+  },
+  {
+    "code" : "completed-recruiting",
+    "display" : "Terminé / completed ",
+    "definition" : "Recrutement terminé"
+  }]
+}

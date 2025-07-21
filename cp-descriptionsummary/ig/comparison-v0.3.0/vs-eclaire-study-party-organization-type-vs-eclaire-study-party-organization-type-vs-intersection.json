@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cd3c79f5-f1f9-4ca5-a4b5-68b4229a17c1-108",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd3c79f5-f1f9-4ca5-a4b5-68b4229a17c1-108",
+  "name" : "IntersectionEclaireStudyPartyOrganizationTypeVSAndEclaireStudyPartyOrganizationTypeVS",
+  "title" : "Intersection of Value Set Eclaire pour les types de parties And Value Set Eclaire pour les types de parties",
+  "status" : "draft",
+  "date" : "2025-07-21T14:28:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }]
+}
