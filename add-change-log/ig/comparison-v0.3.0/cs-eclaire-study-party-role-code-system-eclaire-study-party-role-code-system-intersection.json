@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "a1df7f5c-329e-44b1-bfe1-c7d51d675d34-18",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/a1df7f5c-329e-44b1-bfe1-c7d51d675d34-18",
+  "id" : "349628a1-0e63-4002-903b-80e0b0c27c86-18",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/349628a1-0e63-4002-903b-80e0b0c27c86-18",
   "name" : "IntersectionEclaireStudyPartyRoleCSAndEclaireStudyPartyRoleCS",
   "title" : "Intersection of Définition des rôles des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-role And Définition des rôles des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-role",
   "status" : "draft",
-  "date" : "2025-07-21T13:08:06+00:00",
+  "date" : "2025-07-21T14:16:11+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

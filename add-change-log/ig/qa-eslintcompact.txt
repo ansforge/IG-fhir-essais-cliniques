@@ -9,6 +9,10 @@ Generic: line 0, col 0, Error - The link 'Organization/2' for "Etablissement du 
 Generic: line 0, col 0, Error - The link 'PlanDefinition/3' for "Energetic plan" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'Group/6' for "Fast Zebra" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'Location/8' for "Rainbow" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'https://interop.esante.gouv.fr/ig/fhir/eclaire/0.4.0' for "https://interop.esante.gouv.fr/ig/fhir/eclaire/0.4.0" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'https://interop.esante.gouv.fr/ig/fhir/eclaire/0.3.0' for "https://interop.esante.gouv.fr/ig/fhir/eclaire/0.3.0" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'https://interop.esante.gouv.fr/ig/fhir/eclaire/0.2.0' for "https://interop.esante.gouv.fr/ig/fhir/eclaire/0.2.0" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'https://interop.esante.gouv.fr/ig/fhir/eclaire/0.1.0' for "https://interop.esante.gouv.fr/ig/fhir/eclaire/0.1.0" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'construction_des_flux.html' for "construction des flux" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
@@ -134,4 +138,4 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-site-contact-name.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
 
 err = 61, warn = 33, info = 28
-IG Publisher Version: 2.0.9
+IG Publisher Version: 2.0.10

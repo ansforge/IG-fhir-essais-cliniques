@@ -128,8 +128,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-eclaire-group.html" : "ECLAIREGroup",
       "StructureDefinition-eclaire-researchstudy.html" : "ECLAIREResearchStudy",
+      "StructureDefinition-eclaire-group.html" : "ECLAIREGroup",
       "StructureDefinition-eclaire-location.html" : "ECLAIRELocation"
     },
     {
@@ -236,8 +236,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.819"],
       "uses" : {
       },
-      "StructureDefinition-eclaire-researchstudy.html" : "ECLAIREResearchStudy",
-      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping"
+      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping",
+      "StructureDefinition-eclaire-researchstudy.html" : "ECLAIREResearchStudy"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0116",

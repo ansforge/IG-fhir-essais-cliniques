@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "a1df7f5c-329e-44b1-bfe1-c7d51d675d34-3",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/a1df7f5c-329e-44b1-bfe1-c7d51d675d34-3",
+  "id" : "349628a1-0e63-4002-903b-80e0b0c27c86-3",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/349628a1-0e63-4002-903b-80e0b0c27c86-3",
   "name" : "IntersectionEclaireGroupCharacteristicKindCSAndEclaireGroupCharacteristicKindCS",
   "title" : "Intersection of Codes pour le type de caractéristique du groupe And Codes pour le type de caractéristique du groupe",
   "status" : "draft",
-  "date" : "2025-07-21T13:08:06+00:00",
+  "date" : "2025-07-21T14:16:11+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
