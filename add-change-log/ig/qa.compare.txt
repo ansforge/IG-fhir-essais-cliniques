@@ -1,0 +1,238 @@
+ECLAIRE : Validation Results
+=========================================
+
+err = 61, warn = 33, info = 28
+$--
+Generated $--. FHIR version $-- for ans.fhir.fr.eclaire#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
+ Build Errors : 9 / 2 / 0
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CapabilityStatement-eclaire-consommateur : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-group-characteristic-kind-code-system : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-reglementation-precision-code-system : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-regulation-code-code-system : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-status-recruitment-code-system : 0 / 1 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-study-party-organization-type-code-system : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-study-party-role-code-system : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-study-phase-code-system : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-study-phase-source-code-system : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-study-population-code-system : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-study-status-code-system : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-study-title-type-code-system : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-type-contact-code-system : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ConceptMap-eclaire-study-phase-concept-map : 13 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ConceptMap-eclaire-study-status-concept-map : 10 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.eclaire : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ResearchStudy-2022-500014-26-00-example : 5 / 4 / 9
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ResearchStudy-fake-study-example : 24 / 1 / 14
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-approval-date : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-arm-intervention : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-associated-party-r5 : 3 / 4 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-contact-address : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-contact-affiliation : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-contact-name : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-contact-type : 0 / 2 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-group : 0 / 5 / 4
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-label-r5 : 3 / 2 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-location : 0 / 1 / 2
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-outcome-measure-r5 : 3 / 2 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-recruitment-period : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-recruitment-status : 0 / 2 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-researchstudy : 0 / 6 / 4
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-review-date : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-site-contact-name : 0 / 1 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-therapeutic-area : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-category-vs : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-group-characteristic-kind-vs : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-reglementation-precision-vs : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-regulation-code-vs : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-status-recruitment-vs : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-study-outcome-type-vs : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-study-party-organization-type-vs : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-study-party-role-vs : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-study-phase-source-vs : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-study-phase-vs : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-study-population-vs : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-study-status-vs : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-study-title-type-vs : 0 / 0 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ValueSet-eclaire-type-contact-vs : 0 / 0 / 1
+</table>
+== n/a ==
+ERROR: ResearchStudy-2022-500014-26-00-example.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 238, column 987: The link 'Organization/2022-500014-26-00-secondary-sponsor' for "Reference to secondary sponsor" cannot be resolved
+ERROR: ResearchStudy-2022-500014-26-00-example.html#/html/body/div/div/div/div/div/div/p/a at Line 240, column 30: The link 'Group/2022-500014-26-00-enrollment-group' for "Reference to group detailing study characteristics" cannot be resolved
+ERROR: ResearchStudy-fake-study-example.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 239, column 274: The link 'EvidenceVariable/1' for "Aïe!" cannot be resolved
+ERROR: ResearchStudy-fake-study-example.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 240, column 280: The link 'EvidenceVariable/1' for "Ouille!" cannot be resolved
+ERROR: ResearchStudy-fake-study-example.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 241, column 501: The link 'Organization/2' for "Etablissement du sponsor" cannot be resolved
+ERROR: ResearchStudy-fake-study-example.html#/html/body/div/div/div/div/div/div/p/a at Line 241, column 1219: The link 'PlanDefinition/3' for "Energetic plan" cannot be resolved
+ERROR: ResearchStudy-fake-study-example.html#/html/body/div/div/div/div/div/div/p/a at Line 242, column 30: The link 'Group/6' for "Fast Zebra" cannot be resolved
+ERROR: ResearchStudy-fake-study-example.html#/html/body/div/div/div/div/div/div/p/a at Line 242, column 82: The link 'Location/8' for "Rainbow" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/p/a at Line 282, column 195: The link 'construction_des_flux.html' for "construction des flux" cannot be resolved
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CapabilityStatement-eclaire-consommateur.json ==
+== fsh-generated/resources/CodeSystem-eclaire-group-characteristic-kind-code-system.json ==
+== fsh-generated/resources/CodeSystem-eclaire-reglementation-precision-code-system.json ==
+== fsh-generated/resources/CodeSystem-eclaire-regulation-code-code-system.json ==
+== fsh-generated/resources/CodeSystem-eclaire-status-recruitment-code-system.json ==
+WARNING: CodeSystem/eclaire-status-recruitment-code-system: CodeSystem.concept[1].display: value should not start or finish with whitespace 'Terminé / completed '
+== fsh-generated/resources/CodeSystem-eclaire-study-party-organization-type-code-system.json ==
+== fsh-generated/resources/CodeSystem-eclaire-study-party-role-code-system.json ==
+== fsh-generated/resources/CodeSystem-eclaire-study-phase-code-system.json ==
+== fsh-generated/resources/CodeSystem-eclaire-study-phase-source-code-system.json ==
+== fsh-generated/resources/CodeSystem-eclaire-study-population-code-system.json ==
+== fsh-generated/resources/CodeSystem-eclaire-study-status-code-system.json ==
+== fsh-generated/resources/CodeSystem-eclaire-study-title-type-code-system.json ==
+== fsh-generated/resources/CodeSystem-eclaire-type-contact-code-system.json ==
+== fsh-generated/resources/ConceptMap-eclaire-study-phase-concept-map.json ==
+ERROR: ConceptMap/eclaire-study-phase-concept-map: ConceptMap.group[0].element[0].code: The source code 'jarde-early' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-phase-concept-map: ConceptMap.group[0].element[1].code: The source code 'jarde-early' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-phase-concept-map: ConceptMap.group[0].element[2].code: The source code 'phase-I-first-admin' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-phase-concept-map: ConceptMap.group[0].element[3].code: The source code 'phase-I-bioequivalence' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-phase-concept-map: ConceptMap.group[0].element[4].code: The source code 'phase-I-other' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-phase-concept-map: ConceptMap.group[0].element[5].code: The source code 'phase-I-II-first-admin' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-phase-concept-map: ConceptMap.group[0].element[6].code: The source code 'phase-I-II-first-bioequivalence' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-phase-concept-map: ConceptMap.group[0].element[7].code: The source code 'phase-I-II-other' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-phase-concept-map: ConceptMap.group[0].element[8].code: The source code 'phase-II' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-phase-concept-map: ConceptMap.group[0].element[9].code: The source code 'phase-II-III' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-phase-concept-map: ConceptMap.group[0].element[10].code: The source code 'phase-III' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-phase-concept-map: ConceptMap.group[1].element[0].code: The source code 'phase-III-IV' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-phase-concept-map: ConceptMap.group[1].element[0].target[0].code: The target code 'phase-3-phase-4' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-vs|0.3.1
+== fsh-generated/resources/ConceptMap-eclaire-study-status-concept-map.json ==
+ERROR: ConceptMap/eclaire-study-status-concept-map: ConceptMap.group[0].element[0].code: The source code 'a-demarrer' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-status-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-status-concept-map: ConceptMap.group[0].element[1].code: The source code 'en-cours' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-status-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-status-concept-map: ConceptMap.group[0].element[2].code: The source code 'suspendue' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-status-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-status-concept-map: ConceptMap.group[0].element[3].code: The source code 'suspendue' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-status-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-status-concept-map: ConceptMap.group[0].element[4].code: The source code 'prorogee' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-status-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-status-concept-map: ConceptMap.group[0].element[5].code: The source code 'expiree' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-status-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-status-concept-map: ConceptMap.group[0].element[6].code: The source code 'terminee' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-status-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-status-concept-map: ConceptMap.group[0].element[7].code: The source code 'terminee-fin-anticipee' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-status-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-status-concept-map: ConceptMap.group[0].element[8].code: The source code 'archivee' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-status-vs|0.3.1
+ERROR: ConceptMap/eclaire-study-status-concept-map: ConceptMap.group[0].element[9].code: The source code 'abandonnee' is not valid in the value set https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-status-vs|0.3.1
+== fsh-generated/resources/ImplementationGuide-ans.fhir.fr.eclaire.json ==
+== fsh-generated/resources/ResearchStudy-2022-500014-26-00-example.json ==
+INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy|0.3.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[1]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy|0.3.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[2]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy|0.3.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[0].extension[1].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system|0.3.1
+INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[0].extension[3].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system|0.3.1
+ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[0].extension[4].value.ofType(Reference): Unable to resolve resource with reference 'Organization/2022-500014-26-00-secondary-sponsor'
+INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[2].extension[0].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system|0.3.1
+INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[3].extension[0].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system|0.3.1
+INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[6].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system|0.3.1
+ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.identifier[0].assigner: Unable to resolve resource with reference 'Organization/ctis'
+WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[1].coding[0].system: A definition for CodeSystem 'https://www.meddra.org' could not be found, so the code cannot be validated
+WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[2].coding[0].system: A definition for CodeSystem 'https://www.meddra.org' could not be found, so the code cannot be validated
+WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.contact[1].extension[2].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system' version '0.1.0' could not be found, so the code cannot be validated. Valid versions: []
+WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.contact[2].extension[2].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system' version '0.1.0' could not be found, so the code cannot be validated. Valid versions: [0.3.1]
+ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.enrollment[0]: Unable to resolve resource with reference 'Group/2022-500014-26-00-enrollment-group'
+ERROR: ResearchStudy.text.div: Hyperlink 'Organization/2022-500014-26-00-secondary-sponsor' at 'div/blockquote/ul/li/a' for 'Reference to secondary sponsor' does not resolve
+ERROR: ResearchStudy.text.div: Hyperlink 'Group/2022-500014-26-00-enrollment-group' at 'div/p/a' for 'Reference to group detailing study characteristics' does not resolve
+== fsh-generated/resources/ResearchStudy-fake-study-example.json ==
+INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.condition[0]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy|0.3.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.condition[1]: This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy|0.3.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.extension[4].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system|0.3.1
+INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.extension[6].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure|0.3.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.extension[6]: Extension.extension:description: max allowed = 1, but found 2 (from http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure|0.3.1)
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.extension[6].extension[0][url='value']: Sub-extension url 'value' is not defined by the Extension http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure|0.3.1
+INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.extension[6].extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/research-study-objective-type|1.0.0
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.extension[6].extension[3].value.ofType(Reference): Unable to resolve resource with reference 'EvidenceVariable/1'
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.extension[6].extension[3].value.ofType(Reference): The Profile 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure|0.3.1' definition allows for the type markdown but found type Reference
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.extension[6].extension[3].value.ofType(Reference).reference: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/markdown|4.0.1
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.extension[6].extension[3].value.ofType(Reference).display: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/markdown|4.0.1
+INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.extension[7].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure|0.3.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.extension[7]: Extension.extension:description: max allowed = 1, but found 2 (from http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure|0.3.1)
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.extension[7].extension[0][url='value']: Sub-extension url 'value' is not defined by the Extension http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure|0.3.1
+INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.extension[7].extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/research-study-objective-type|1.0.0
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.extension[7].extension[3].value.ofType(Reference): Unable to resolve resource with reference 'EvidenceVariable/1'
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.extension[7].extension[3].value.ofType(Reference): The Profile 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure|0.3.1' definition allows for the type markdown but found type Reference
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.extension[7].extension[3].value.ofType(Reference).reference: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/markdown|4.0.1
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.extension[7].extension[3].value.ofType(Reference).display: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/markdown|4.0.1
+INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.extension[8].extension[1].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system|0.3.1
+INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.extension[8].extension[3].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system|0.3.1
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.extension[8].extension[4].value.ofType(Reference): Unable to resolve resource with reference 'Organization/2'
+INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.extension[9].extension[1].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system|0.3.1
+INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.extension[10].extension[1].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system|0.3.1
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.identifier[0].assigner: Unable to resolve resource with reference 'Organization/1'
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.identifier[1].assigner: Unable to resolve resource with reference 'Organization/ctis'
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.protocol[0]: Unable to resolve resource with reference 'PlanDefinition/3'
+WARNING: ResearchStudy/fake-study-example: ResearchStudy.condition[1].coding[0].system: A definition for CodeSystem 'https://www.meddra.org' could not be found, so the code cannot be validated
+INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.contact[0].extension[0].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system|0.3.1
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.enrollment[0]: Unable to resolve resource with reference 'Group/6'
+ERROR: ResearchStudy/fake-study-example: ResearchStudy.site[0]: Unable to resolve resource with reference 'Location/8'
+INFORMATION: ResearchStudy/fake-study-example: ResearchStudy.reasonStopped: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/research-study-reason-stopped|4.0.1
+ERROR: ResearchStudy.text.div: Hyperlink 'EvidenceVariable/1' at 'div/blockquote/ul/li/a' for 'Aïe!' does not resolve
+ERROR: ResearchStudy.text.div: Hyperlink 'EvidenceVariable/1' at 'div/blockquote/ul/li/a' for 'Ouille!' does not resolve
+ERROR: ResearchStudy.text.div: Hyperlink 'Organization/2' at 'div/blockquote/ul/li/a' for 'Etablissement du sponsor' does not resolve
+ERROR: ResearchStudy.text.div: Hyperlink 'PlanDefinition/3' at 'div/p/a' for 'Energetic plan' does not resolve
+ERROR: ResearchStudy.text.div: Hyperlink 'Group/6' at 'div/p/a' for 'Fast Zebra' does not resolve
+ERROR: ResearchStudy.text.div: Hyperlink 'Location/8' at 'div/p/a' for 'Rainbow' does not resolve
+== fsh-generated/resources/StructureDefinition-eclaire-approval-date.json ==
+== fsh-generated/resources/StructureDefinition-eclaire-arm-intervention.json ==
+== fsh-generated/resources/StructureDefinition-eclaire-associated-party-r5.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty'): Conformance resource /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-associated-party-r5.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-associated-party-r5) does not match the URL (http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty)
+ERROR: StructureDefinition/eclaire-associated-party-r5: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: StructureDefinition/eclaire-associated-party-r5: StructureDefinition.differential.element[9].binding: The definition for the element 'Extension.extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-party-role-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/eclaire-associated-party-r5: StructureDefinition.differential.element[17].binding: The definition for the element 'Extension.extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-party-organization-type-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/eclaire-associated-party-r5: StructureDefinition.snapshot.element[12].binding: The definition for the element 'Extension.extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-party-role-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/eclaire-associated-party-r5: StructureDefinition.snapshot.element[22].binding: The definition for the element 'Extension.extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-party-organization-type-vs' which is experimental, but this structure is not labeled as experimental
+ERROR: /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-associated-party-r5: URL Mismatch https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-associated-party-r5 vs http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty
+== fsh-generated/resources/StructureDefinition-eclaire-contact-address.json ==
+== fsh-generated/resources/StructureDefinition-eclaire-contact-affiliation.json ==
+== fsh-generated/resources/StructureDefinition-eclaire-contact-name.json ==
+== fsh-generated/resources/StructureDefinition-eclaire-contact-type.json ==
+WARNING: StructureDefinition/eclaire-contact-type: StructureDefinition.differential.element[3].binding: The definition for the element 'Extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-type-contact-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/eclaire-contact-type: StructureDefinition.snapshot.element[4].binding: The definition for the element 'Extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-type-contact-vs' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-eclaire-group.json ==
+INFORMATION: StructureDefinition/eclaire-group: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+INFORMATION: StructureDefinition/eclaire-group: StructureDefinition.snapshot.element[25].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/eclaire-group: StructureDefinition.snapshot.element[31].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition/eclaire-group: StructureDefinition.differential.element[1].binding: The definition for the element 'Group.characteristic.code' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-group-characteristic-kind-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/eclaire-group: StructureDefinition.differential.element[3].binding: The definition for the element 'Group.characteristic.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-population-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/eclaire-group: StructureDefinition.snapshot.element[21].binding: The definition for the element 'Group.characteristic.code' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-group-characteristic-kind-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/eclaire-group: StructureDefinition.snapshot.element[23].binding: The definition for the element 'Group.characteristic.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-population-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-group'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-eclaire-label-r5.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label'): Conformance resource /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-label-r5.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-label-r5) does not match the URL (http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label)
+ERROR: StructureDefinition/eclaire-label-r5: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: StructureDefinition/eclaire-label-r5: StructureDefinition.differential.element[4].binding: The definition for the element 'Extension.extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-title-type-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/eclaire-label-r5: StructureDefinition.snapshot.element[7].binding: The definition for the element 'Extension.extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-title-type-vs' which is experimental, but this structure is not labeled as experimental
+ERROR: /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-label-r5: URL Mismatch https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-label-r5 vs http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label
+== fsh-generated/resources/StructureDefinition-eclaire-location.json ==
+INFORMATION: StructureDefinition/eclaire-location: StructureDefinition.snapshot.element[25].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-location'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-eclaire-outcome-measure-r5.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure'): Conformance resource /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-outcome-measure-r5.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-outcome-measure-r5) does not match the URL (http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure)
+ERROR: StructureDefinition/eclaire-outcome-measure-r5: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: StructureDefinition/eclaire-outcome-measure-r5: StructureDefinition.differential.element[8].binding: The definition for the element 'Extension.extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-outcome-type-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/eclaire-outcome-measure-r5: StructureDefinition.snapshot.element[12].binding: The definition for the element 'Extension.extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-outcome-type-vs' which is experimental, but this structure is not labeled as experimental
+ERROR: /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-outcome-measure-r5: URL Mismatch https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-outcome-measure-r5 vs http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure
+== fsh-generated/resources/StructureDefinition-eclaire-recruitment-period.json ==
+== fsh-generated/resources/StructureDefinition-eclaire-recruitment-status.json ==
+WARNING: StructureDefinition/eclaire-recruitment-status: StructureDefinition.differential.element[3].binding: The definition for the element 'Extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-status-recruitment-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/eclaire-recruitment-status: StructureDefinition.snapshot.element[4].binding: The definition for the element 'Extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-status-recruitment-vs' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-eclaire-researchstudy.json ==
+WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[19].short: value should not start or finish with whitespace 'Sponsor, collaborateurs et autres parties / Sponsors, collaborators, and other parties '
+INFORMATION: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[43].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[85].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.differential.element[9].short: value should not start or finish with whitespace 'Sponsor, collaborateurs et autres parties / Sponsors, collaborators, and other parties '
+WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.differential.element[20].binding: The definition for the element 'ResearchStudy.phase' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.differential.element[21].binding: The definition for the element 'ResearchStudy.category' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-category-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[50].binding: The definition for the element 'ResearchStudy.phase' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-vs' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[51].binding: The definition for the element 'ResearchStudy.category' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-category-vs' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-eclaire-review-date.json ==
+== fsh-generated/resources/StructureDefinition-eclaire-site-contact-name.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-site-contact-name'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-eclaire-therapeutic-area.json ==
+== fsh-generated/resources/ValueSet-eclaire-category-vs.json ==
+== fsh-generated/resources/ValueSet-eclaire-group-characteristic-kind-vs.json ==
+== fsh-generated/resources/ValueSet-eclaire-reglementation-precision-vs.json ==
+== fsh-generated/resources/ValueSet-eclaire-regulation-code-vs.json ==
+== fsh-generated/resources/ValueSet-eclaire-status-recruitment-vs.json ==
+== fsh-generated/resources/ValueSet-eclaire-study-outcome-type-vs.json ==
+== fsh-generated/resources/ValueSet-eclaire-study-party-organization-type-vs.json ==
+== fsh-generated/resources/ValueSet-eclaire-study-party-role-vs.json ==
+== fsh-generated/resources/ValueSet-eclaire-study-phase-source-vs.json ==
+== fsh-generated/resources/ValueSet-eclaire-study-phase-vs.json ==
+== fsh-generated/resources/ValueSet-eclaire-study-population-vs.json ==
+== fsh-generated/resources/ValueSet-eclaire-study-status-vs.json ==
+== fsh-generated/resources/ValueSet-eclaire-study-title-type-vs.json ==
+== fsh-generated/resources/ValueSet-eclaire-type-contact-vs.json ==
