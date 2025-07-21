@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "cd3c79f5-f1f9-4ca5-a4b5-68b4229a17c1-128",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/cd3c79f5-f1f9-4ca5-a4b5-68b4229a17c1-128",
+  "id" : "59537570-0798-4b25-b635-b53ffaa23f87-128",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/59537570-0798-4b25-b635-b53ffaa23f87-128",
   "name" : "UnionEclaireTypeContactVSAndEclaireTypeContactVS",
   "title" : "Union of Type Contact Value Set And Type Contact Value Set",
   "status" : "draft",
-  "date" : "2025-07-21T14:28:30+00:00",
+  "date" : "2025-07-21T14:44:06+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
