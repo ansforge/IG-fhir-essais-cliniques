@@ -86,14 +86,14 @@ Description: "Profil de ResearchStudy pour le projet ECLAIRE"
 * extension[eclaire-description-summary-r5].value[x] only markdown
 * extension[eclaire-outcome-measure-r5] ^short = "Conséquences principales (primary outcomes) + Conséquences secondaires (secondary outcomes)"
 * extension[eclaire-outcome-measure-r5] ^definition = "Cette extension implemente l'élément outcomeMeasure de R5. elle permet l'ajout des conséquences principales et secondaires de l'essai"
-* extension[eclaire-associated-party-r5] ^short = "Sponsor, collaborateurs et autres parties / Sponsors, collaborators, and other parties "
+* extension[eclaire-associated-party-r5] ^short = "Sponsor, collaborateurs et autres parties / Sponsors, collaborators, and other parties"
 * extension[eclaire-associated-party-r5] ^definition = "Cette extension implemente l'élément associatedParty de R5 http://hl7.org/fhir/R5/researchstudy-definitions.html#ResearchStudy.associatedParty. elle permet l'ajout des sponsors, collaborateurs et autres parties"
 
 * extension[eclaire-label-r5] ^short = "Autres titres et acronyme / Additional names for the study. Implémentation de l'élément label de R5"
 * extension[eclaire-label-r5] ^definition = "Cette extension implemente l'élément label de R5. elle permet l'ajout de plusieurs titres pour l'essai"
 * extension[eclaire-therapeutic-area] ^short = "Domaine thérapeutique concerné"
 * extension[eclaire-recruitment-period] ^short = "Période prévisionnelle de recrutement"
-* extension[eclaire-recruitment-status] ^short = "Statut du recrutement / Recruitment status"    
+* extension[eclaire-recruitment-status] ^short = "Statut du recrutement / Recruitment status"  
 
 * contact.extension contains
     ECLAIREContactType named eclaire-contact-type 0..1 MS and
