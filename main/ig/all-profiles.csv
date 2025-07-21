@@ -833,7 +833,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "eclaire-researchstudy","ResearchStudy.extension:eclaire-associated-party-r5","ResearchStudy.extension","eclaire-associated-party-r5","","",0,*,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty]]} {[]}
-","Sponsor, collaborateurs et autres parties / Sponsors, collaborators, and other parties ","Cette extension implemente l'élément associatedParty de R5 http://hl7.org/fhir/R5/researchstudy-definitions.html#ResearchStudy.associatedParty. elle permet l'ajout des sponsors, collaborateurs et autres parties","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Sponsor, collaborateurs et autres parties / Sponsors, collaborators, and other parties","Cette extension implemente l'élément associatedParty de R5 http://hl7.org/fhir/R5/researchstudy-definitions.html#ResearchStudy.associatedParty. elle permet l'ajout des sponsors, collaborateurs et autres parties","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "eclaire-researchstudy","ResearchStudy.extension:eclaire-label-r5","ResearchStudy.extension","eclaire-label-r5","","",0,*,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label]]} {[]}

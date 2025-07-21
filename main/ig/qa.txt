@@ -1,9 +1,9 @@
 ECLAIRE : Validation Results
 =========================================
 
-err = 61, warn = 33, info = 28
+err = 61, warn = 31, info = 28
 IG Publisher Version: 2.0.10
-Generated Mon Jul 21 16:35:12 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
+Generated Mon Jul 21 16:42:14 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
  Build Errors : 13 / 2 / 0
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CapabilityStatement-eclaire-consommateur : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-group-characteristic-kind-code-system : 0 / 0 / 1
@@ -36,7 +36,7 @@ Generated Mon Jul 21 16:35:12 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclai
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-outcome-measure-r5 : 3 / 2 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-recruitment-period : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-recruitment-status : 0 / 2 / 1
- /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-researchstudy : 0 / 6 / 4
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-researchstudy : 0 / 4 / 4
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-review-date : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-site-contact-name : 0 / 1 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-therapeutic-area : 0 / 0 / 1
@@ -213,11 +213,9 @@ ERROR: /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSou
 WARNING: StructureDefinition/eclaire-recruitment-status: StructureDefinition.differential.element[3].binding: The definition for the element 'Extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-status-recruitment-vs' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/eclaire-recruitment-status: StructureDefinition.snapshot.element[4].binding: The definition for the element 'Extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-status-recruitment-vs' which is experimental, but this structure is not labeled as experimental
 == fsh-generated/resources/StructureDefinition-eclaire-researchstudy.json ==
-WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[19].short: value should not start or finish with whitespace 'Sponsor, collaborateurs et autres parties / Sponsors, collaborators, and other parties '
 INFORMATION: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[43].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[85].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.differential.element[9].short: value should not start or finish with whitespace 'Sponsor, collaborateurs et autres parties / Sponsors, collaborators, and other parties '
 WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.differential.element[20].binding: The definition for the element 'ResearchStudy.phase' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-vs' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.differential.element[21].binding: The definition for the element 'ResearchStudy.category' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-category-vs' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/eclaire-researchstudy: StructureDefinition.snapshot.element[50].binding: The definition for the element 'ResearchStudy.phase' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-vs' which is experimental, but this structure is not labeled as experimental

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="5806bf02-212f-4cbb-b425-a183464e5880"/>
+  <id value="ae09085e-9adc-47c6-b9dc-a34885279557"/>
   <meta>
-    <lastUpdated value="2025-07-21T16:34:13.377+00:00"/>
+    <lastUpdated value="2025-07-21T16:41:22.066+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -218,7 +218,7 @@
         <title value="Value Set type pour spécifier la catégorie l'essai clinique"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-07-21T16:33:38+00:00"/>
+        <date value="2025-07-21T16:40:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -227,8 +227,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f9a32aef-402e-47a5-89b4-63aa24dcb11b"/>
-          <timestamp value="2025-07-21T16:34:51+00:00"/>
+          <identifier value="urn:uuid:0c2e2fc4-575d-47c3-bc1b-70d50fcb5c0f"/>
+          <timestamp value="2025-07-21T16:41:55+00:00"/>
           <total value="21"/>
           <offset value="0"/>
           <parameter>
@@ -419,7 +419,7 @@
         <title value="Type de caractéristique Value Set"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-07-21T16:33:38+00:00"/>
+        <date value="2025-07-21T16:40:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -428,8 +428,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ba4582d4-c78c-4f7d-9c73-27c09b684de3"/>
-          <timestamp value="2025-07-21T16:34:51+00:00"/>
+          <identifier value="urn:uuid:370e206e-350e-4adc-8218-8fdfd70d6e62"/>
+          <timestamp value="2025-07-21T16:41:55+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -648,7 +648,7 @@
         <title value="Précision sur la réglementation concernant l'essai Value Set"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-07-21T16:33:38+00:00"/>
+        <date value="2025-07-21T16:40:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -657,8 +657,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4a442224-e518-48d9-9d9f-6fcabe2b22bc"/>
-          <timestamp value="2025-07-21T16:34:51+00:00"/>
+          <identifier value="urn:uuid:fa7dfe4d-0b89-4946-b0ff-89bd796ecb62"/>
+          <timestamp value="2025-07-21T16:41:55+00:00"/>
           <total value="17"/>
           <offset value="0"/>
           <parameter>
@@ -821,7 +821,7 @@
         <title value="Code de régulation Value Set"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-07-21T16:33:38+00:00"/>
+        <date value="2025-07-21T16:40:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -830,8 +830,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:677b103e-a512-4fd9-88cf-7d0435a11aa6"/>
-          <timestamp value="2025-07-21T16:34:51+00:00"/>
+          <identifier value="urn:uuid:f9369f80-084e-48fd-8213-23e2e93c1672"/>
+          <timestamp value="2025-07-21T16:41:55+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -931,7 +931,7 @@
         <title value="Statut de recrutement Value Set"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-07-21T16:33:38+00:00"/>
+        <date value="2025-07-21T16:40:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -940,8 +940,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f2ffea4c-857d-450a-ab53-eee379329dbf"/>
-          <timestamp value="2025-07-21T16:34:51+00:00"/>
+          <identifier value="urn:uuid:1131f460-b700-456b-8898-419ca43ccf1a"/>
+          <timestamp value="2025-07-21T16:41:55+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1033,7 +1033,7 @@
         <title value="Type de conséquence Value Set"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-07-21T16:33:38+00:00"/>
+        <date value="2025-07-21T16:40:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1042,8 +1042,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4099db62-6a6e-4a2d-ae79-555ca04dd29c"/>
-          <timestamp value="2025-07-21T16:34:51+00:00"/>
+          <identifier value="urn:uuid:cd2be73c-a175-4dda-bce8-63bfef99ce2f"/>
+          <timestamp value="2025-07-21T16:41:55+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1146,7 +1146,7 @@
         <title value="Value Set Eclaire pour les types de parties"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-07-21T16:33:38+00:00"/>
+        <date value="2025-07-21T16:40:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1155,8 +1155,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b946f737-7711-4963-830d-db560110e339"/>
-          <timestamp value="2025-07-21T16:34:51+00:00"/>
+          <identifier value="urn:uuid:2a0039d2-b763-4f65-b652-bf971ec1f4ca"/>
+          <timestamp value="2025-07-21T16:41:55+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1346,7 +1346,7 @@
         <title value="Value Set Eclaire pour les différents rôles des parties impliquées dans l'essai"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-07-21T16:33:38+00:00"/>
+        <date value="2025-07-21T16:40:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1355,8 +1355,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:953baa8e-4fd7-49c9-8241-e00dbe45be3b"/>
-          <timestamp value="2025-07-21T16:34:51+00:00"/>
+          <identifier value="urn:uuid:09da6dd2-dc41-403b-a0d5-65d9ccd68889"/>
+          <timestamp value="2025-07-21T16:41:55+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -1563,7 +1563,7 @@
         <title value="Value Set de la phase de l'essai tel que définie dans la base ECLAIRE"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-07-21T16:33:38+00:00"/>
+        <date value="2025-07-21T16:40:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1572,8 +1572,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a0ae34c4-e0a6-4fbd-85ab-218dc98e168c"/>
-          <timestamp value="2025-07-21T16:34:51+00:00"/>
+          <identifier value="urn:uuid:07d28e51-7111-4e40-98a7-052110504a7f"/>
+          <timestamp value="2025-07-21T16:41:55+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -1776,7 +1776,7 @@
         <title value="Value Set type de phase de l'essai clinique"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-07-21T16:33:38+00:00"/>
+        <date value="2025-07-21T16:40:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1785,8 +1785,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fc65a993-abd8-4c14-b9be-3b6e205b4fe5"/>
-          <timestamp value="2025-07-21T16:34:51+00:00"/>
+          <identifier value="urn:uuid:a6ad2deb-51f2-4d5e-b85f-25eda8113aea"/>
+          <timestamp value="2025-07-21T16:41:55+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -1961,7 +1961,7 @@
         <title value="Caractérisation de la population Value Set"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-07-21T16:33:38+00:00"/>
+        <date value="2025-07-21T16:40:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1970,8 +1970,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:51a2f55f-18af-45f6-9fba-d8b3e0c4bb62"/>
-          <timestamp value="2025-07-21T16:34:51+00:00"/>
+          <identifier value="urn:uuid:5a476924-a2f4-423e-aa16-32ef5ac7d382"/>
+          <timestamp value="2025-07-21T16:41:55+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -2142,7 +2142,7 @@
         <title value="Value Set Statut Eclaire de l'essai"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-07-21T16:33:38+00:00"/>
+        <date value="2025-07-21T16:40:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2151,8 +2151,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:44d519cb-1371-45d4-ae5f-7677d7cef844"/>
-          <timestamp value="2025-07-21T16:34:51+00:00"/>
+          <identifier value="urn:uuid:4f02195b-8589-4690-b68c-1955921a1d22"/>
+          <timestamp value="2025-07-21T16:41:55+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -2371,7 +2371,7 @@
         <title value="Type de titre Value Set"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-07-21T16:33:38+00:00"/>
+        <date value="2025-07-21T16:40:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2380,8 +2380,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1d9931e1-e829-46ef-9a08-57b8e1ee8239"/>
-          <timestamp value="2025-07-21T16:34:51+00:00"/>
+          <identifier value="urn:uuid:38d4d617-0bbf-43e8-9df4-3644cdcf053e"/>
+          <timestamp value="2025-07-21T16:41:55+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -2512,7 +2512,7 @@
         <title value="Type Contact Value Set"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-07-21T16:33:38+00:00"/>
+        <date value="2025-07-21T16:40:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2521,8 +2521,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1dadd680-3e1f-45a4-8cea-3834036ff95f"/>
-          <timestamp value="2025-07-21T16:34:51+00:00"/>
+          <identifier value="urn:uuid:28b3257a-13f7-41a1-a4ea-8ed729764551"/>
+          <timestamp value="2025-07-21T16:41:55+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
