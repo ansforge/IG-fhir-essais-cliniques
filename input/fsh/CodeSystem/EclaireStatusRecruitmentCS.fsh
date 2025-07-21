@@ -8,4 +8,4 @@ Description: "Les différents statuts de recrutement pour les essais cliniques"
 * ^compositional = false
 * ^content = #complete
 * #recruiting "Actif / active" "Recrutement actif"
-* #completed-recruiting "Terminé / completed " "Recrutement terminé"
+* #completed-recruiting "Terminé / completed" "Recrutement terminé"
