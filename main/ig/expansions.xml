@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="77317494-0588-418d-b916-8409d29658f8"/>
+  <id value="9a387063-deea-43ae-9236-fcbb11b47556"/>
   <meta>
-    <lastUpdated value="2025-07-17T13:20:50.617+00:00"/>
+    <lastUpdated value="2025-07-21T12:46:59.721+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-category-vs"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -214,7 +217,8 @@
         <name value="EclaireCategoryVS"/>
         <title value="Value Set type pour spécifier la catégorie l'essai clinique"/>
         <status value="draft"/>
-        <date value="2025-07-17T13:20:13+00:00"/>
+        <experimental value="true"/>
+        <date value="2025-07-21T12:46:15+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -223,8 +227,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cecba394-42d4-47a2-8ba4-8f48cbe32673"/>
-          <timestamp value="2025-07-17T13:21:32+00:00"/>
+          <identifier value="urn:uuid:913b1bfd-8ad1-4999-b044-4933f5117b92"/>
+          <timestamp value="2025-07-21T12:49:06+00:00"/>
           <total value="21"/>
           <offset value="0"/>
           <parameter>
@@ -343,6 +347,9 @@
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-group-characteristic-kind-vs"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -411,7 +418,8 @@
         <name value="EclaireGroupCharacteristicKindVS"/>
         <title value="Type de caractéristique Value Set"/>
         <status value="draft"/>
-        <date value="2025-07-17T13:20:13+00:00"/>
+        <experimental value="true"/>
+        <date value="2025-07-21T12:46:15+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -420,8 +428,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:477ef2e8-b861-4a19-8189-a1f6ce10f3fd"/>
-          <timestamp value="2025-07-17T13:21:32+00:00"/>
+          <identifier value="urn:uuid:f791bf75-901a-42c9-b9f8-767777c10ba8"/>
+          <timestamp value="2025-07-21T12:49:06+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -472,6 +480,9 @@
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-reglementation-precision-vs"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -636,7 +647,8 @@
         <name value="EclaireReglementationPrecisionVS"/>
         <title value="Précision sur la réglementation concernant l'essai Value Set"/>
         <status value="draft"/>
-        <date value="2025-07-17T13:20:13+00:00"/>
+        <experimental value="true"/>
+        <date value="2025-07-21T12:46:15+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -645,8 +657,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e20bfff0-7a70-435f-be03-15ce9a15707e"/>
-          <timestamp value="2025-07-17T13:21:32+00:00"/>
+          <identifier value="urn:uuid:40be7094-90d4-48e3-9bef-e7cab3d2c1a8"/>
+          <timestamp value="2025-07-21T12:49:06+00:00"/>
           <total value="17"/>
           <offset value="0"/>
           <parameter>
@@ -745,6 +757,9 @@
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-regulation-code-vs"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -805,7 +820,8 @@
         <name value="EclaireRegulationCodeVS"/>
         <title value="Code de régulation Value Set"/>
         <status value="draft"/>
-        <date value="2025-07-17T13:20:13+00:00"/>
+        <experimental value="true"/>
+        <date value="2025-07-21T12:46:15+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -814,8 +830,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:820ab114-36cf-4f99-aad3-9c649b80799e"/>
-          <timestamp value="2025-07-17T13:21:32+00:00"/>
+          <identifier value="urn:uuid:816d1622-95cb-453f-9973-a37c390e4416"/>
+          <timestamp value="2025-07-21T12:49:06+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -862,6 +878,9 @@
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-status-recruitment-vs"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -911,7 +930,8 @@
         <name value="EclaireStatusRecruitementVS"/>
         <title value="Statut de recrutement Value Set"/>
         <status value="draft"/>
-        <date value="2025-07-17T13:20:13+00:00"/>
+        <experimental value="true"/>
+        <date value="2025-07-21T12:46:15+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -920,8 +940,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:93fcbb01-11cc-4c3a-92b8-ca8d0711dc38"/>
-          <timestamp value="2025-07-17T13:21:32+00:00"/>
+          <identifier value="urn:uuid:128670de-c5d3-4618-b9ea-d1cb8895404d"/>
+          <timestamp value="2025-07-21T12:49:06+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -960,6 +980,9 @@
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-outcome-type-vs"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1009,7 +1032,8 @@
         <name value="EclaireStudyOutcomeTypeVS"/>
         <title value="Type de conséquence Value Set"/>
         <status value="draft"/>
-        <date value="2025-07-17T13:20:13+00:00"/>
+        <experimental value="true"/>
+        <date value="2025-07-21T12:46:15+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1018,8 +1042,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4cea8971-f38a-4d3c-bcd2-1d9dba25d89b"/>
-          <timestamp value="2025-07-17T13:21:32+00:00"/>
+          <identifier value="urn:uuid:3f0244f2-806e-4120-9167-ed5dfdb598f3"/>
+          <timestamp value="2025-07-21T12:49:06+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1058,6 +1082,9 @@
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-party-organization-type-vs"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1118,7 +1145,8 @@
         <name value="EclaireStudyPartyOrganizationTypeVS"/>
         <title value="Value Set Eclaire pour les types de parties"/>
         <status value="draft"/>
-        <date value="2025-07-17T13:20:13+00:00"/>
+        <experimental value="true"/>
+        <date value="2025-07-21T12:46:15+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1127,8 +1155,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f2d83cfa-7b95-4075-958d-907109a534b8"/>
-          <timestamp value="2025-07-17T13:21:33+00:00"/>
+          <identifier value="urn:uuid:256613f5-33fa-445c-8c36-3f7014c5c977"/>
+          <timestamp value="2025-07-21T12:49:06+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1175,6 +1203,9 @@
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-party-role-vs"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1314,7 +1345,8 @@
         <name value="EclaireStudyPartyRoleVS"/>
         <title value="Value Set Eclaire pour les différents rôles des parties impliquées dans l'essai"/>
         <status value="draft"/>
-        <date value="2025-07-17T13:20:13+00:00"/>
+        <experimental value="true"/>
+        <date value="2025-07-21T12:46:15+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1323,8 +1355,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7f4c621e-2254-415a-bb81-61894f4049e2"/>
-          <timestamp value="2025-07-17T13:21:33+00:00"/>
+          <identifier value="urn:uuid:25d67322-ed8b-4527-a8e1-208585675d14"/>
+          <timestamp value="2025-07-21T12:49:06+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -1403,6 +1435,9 @@
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1527,7 +1562,8 @@
         <name value="EclaireStudyPhaseSourceVS"/>
         <title value="Value Set de la phase de l'essai tel que définie dans la base ECLAIRE"/>
         <status value="draft"/>
-        <date value="2025-07-17T13:20:13+00:00"/>
+        <experimental value="true"/>
+        <date value="2025-07-21T12:46:15+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1536,8 +1572,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7a65eb12-b4da-4249-abce-e5b5e2c32444"/>
-          <timestamp value="2025-07-17T13:21:33+00:00"/>
+          <identifier value="urn:uuid:bcac6b31-35fc-40da-ab51-5597b9e2a805"/>
+          <timestamp value="2025-07-21T12:49:06+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -1616,6 +1652,9 @@
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-vs"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1736,7 +1775,8 @@
         <name value="EclaireStudyPhaseVS"/>
         <title value="Value Set type de phase de l'essai clinique"/>
         <status value="draft"/>
-        <date value="2025-07-17T13:20:13+00:00"/>
+        <experimental value="true"/>
+        <date value="2025-07-21T12:46:15+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1745,8 +1785,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3401007b-0943-47b7-b72e-173d9b3ddb54"/>
-          <timestamp value="2025-07-17T13:21:33+00:00"/>
+          <identifier value="urn:uuid:1f250d58-13be-4b23-a254-b8fab9462ff4"/>
+          <timestamp value="2025-07-21T12:49:06+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -1817,6 +1857,9 @@
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-population-vs"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1917,7 +1960,8 @@
         <name value="EclaireStudyPopulationVS"/>
         <title value="Caractérisation de la population Value Set"/>
         <status value="draft"/>
-        <date value="2025-07-17T13:20:13+00:00"/>
+        <experimental value="true"/>
+        <date value="2025-07-21T12:46:15+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1926,8 +1970,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9526dc87-3511-4989-bdb4-e31ccb4990ff"/>
-          <timestamp value="2025-07-17T13:21:33+00:00"/>
+          <identifier value="urn:uuid:e0cb4f39-f54f-4dc0-9a37-a23cead644fa"/>
+          <timestamp value="2025-07-21T12:49:07+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -1994,6 +2038,9 @@
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-status-vs"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -2094,7 +2141,8 @@
         <name value="EclaireStudyStatusVS"/>
         <title value="Value Set Statut Eclaire de l'essai"/>
         <status value="draft"/>
-        <date value="2025-07-17T13:20:13+00:00"/>
+        <experimental value="true"/>
+        <date value="2025-07-21T12:46:15+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2103,8 +2151,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:09d49546-d6f0-4d32-b3b4-9e7d5a42462d"/>
-          <timestamp value="2025-07-17T13:21:33+00:00"/>
+          <identifier value="urn:uuid:b0a9cd07-1c65-4f1c-9971-329a3f09c823"/>
+          <timestamp value="2025-07-21T12:49:07+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -2171,6 +2219,9 @@
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-title-type-vs"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -2319,7 +2370,8 @@
         <name value="EclaireStudyTitleTypetVS"/>
         <title value="Type de titre Value Set"/>
         <status value="draft"/>
-        <date value="2025-07-17T13:20:13+00:00"/>
+        <experimental value="true"/>
+        <date value="2025-07-21T12:46:15+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2328,8 +2380,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8158374a-5deb-4e7e-89c3-b6ba9b1f0e85"/>
-          <timestamp value="2025-07-17T13:21:33+00:00"/>
+          <identifier value="urn:uuid:26c3bb5c-0853-445f-afff-c851ac6ac387"/>
+          <timestamp value="2025-07-21T12:49:07+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -2412,6 +2464,9 @@
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-type-contact-vs"/>
     <resource>
       <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -2456,7 +2511,8 @@
         <name value="EclaireTypeContactVS"/>
         <title value="Type Contact Value Set"/>
         <status value="draft"/>
-        <date value="2025-07-17T13:20:13+00:00"/>
+        <experimental value="true"/>
+        <date value="2025-07-21T12:46:15+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2465,8 +2521,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6d5eacf5-4532-476f-a653-6aadf18cb9f4"/>
-          <timestamp value="2025-07-17T13:21:33+00:00"/>
+          <identifier value="urn:uuid:8c6c91f8-5cd9-4beb-9cb6-6749d56afe00"/>
+          <timestamp value="2025-07-21T12:49:07+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>

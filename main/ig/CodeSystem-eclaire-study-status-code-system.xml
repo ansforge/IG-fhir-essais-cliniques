@@ -2,15 +2,19 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="eclaire-study-status-code-system"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : CodeSystem eclaire-study-status-code-system</b></p><a name="eclaire-study-status-code-system"> </a><a name="hceclaire-study-status-code-system"> </a><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">a-demarrer<a name="eclaire-study-status-code-system-a-demarrer"> </a></td><td>A démarrer</td></tr><tr><td style="white-space:nowrap">en-cours<a name="eclaire-study-status-code-system-en-cours"> </a></td><td>En cours</td></tr><tr><td style="white-space:nowrap">suspendue<a name="eclaire-study-status-code-system-suspendue"> </a></td><td>Suspendue</td></tr><tr><td style="white-space:nowrap">prorogee<a name="eclaire-study-status-code-system-prorogee"> </a></td><td>Prorogée</td></tr><tr><td style="white-space:nowrap">expiree<a name="eclaire-study-status-code-system-expiree"> </a></td><td>Expirée</td></tr><tr><td style="white-space:nowrap">terminee<a name="eclaire-study-status-code-system-terminee"> </a></td><td>Terminée</td></tr><tr><td style="white-space:nowrap">terminee-fin-anticipee<a name="eclaire-study-status-code-system-terminee-fin-anticipee"> </a></td><td>Terminée (fin anticipée)</td></tr><tr><td style="white-space:nowrap">archivee<a name="eclaire-study-status-code-system-archivee"> </a></td><td>Archivée</td></tr><tr><td style="white-space:nowrap">abandonnee<a name="eclaire-study-status-code-system-abandonnee"> </a></td><td>Abandonnée</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : CodeSystem eclaire-study-status-code-system</b></p><a name="eclaire-study-status-code-system"> </a><a name="hceclaire-study-status-code-system"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">a-demarrer<a name="eclaire-study-status-code-system-a-demarrer"> </a></td><td>A démarrer</td></tr><tr><td style="white-space:nowrap">en-cours<a name="eclaire-study-status-code-system-en-cours"> </a></td><td>En cours</td></tr><tr><td style="white-space:nowrap">suspendue<a name="eclaire-study-status-code-system-suspendue"> </a></td><td>Suspendue</td></tr><tr><td style="white-space:nowrap">prorogee<a name="eclaire-study-status-code-system-prorogee"> </a></td><td>Prorogée</td></tr><tr><td style="white-space:nowrap">expiree<a name="eclaire-study-status-code-system-expiree"> </a></td><td>Expirée</td></tr><tr><td style="white-space:nowrap">terminee<a name="eclaire-study-status-code-system-terminee"> </a></td><td>Terminée</td></tr><tr><td style="white-space:nowrap">terminee-fin-anticipee<a name="eclaire-study-status-code-system-terminee-fin-anticipee"> </a></td><td>Terminée (fin anticipée)</td></tr><tr><td style="white-space:nowrap">archivee<a name="eclaire-study-status-code-system-archivee"> </a></td><td>Archivée</td></tr><tr><td style="white-space:nowrap">abandonnee<a name="eclaire-study-status-code-system-abandonnee"> </a></td><td>Abandonnée</td></tr></table></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system"/>
   <version value="0.3.1"/>
   <name value="EclaireStudyStatusCS"/>
   <title value="Définition des statuts de l'essai utilisés dans la base de données ECLAIRE"/>
   <status value="draft"/>
-  <date value="2025-07-17T13:20:13+00:00"/>
+  <experimental value="true"/>
+  <date value="2025-07-21T12:46:15+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -28,6 +32,7 @@
     </coding>
   </jurisdiction>
   <caseSensitive value="true"/>
+  <compositional value="false"/>
   <content value="complete"/>
   <count value="9"/>
   <concept>

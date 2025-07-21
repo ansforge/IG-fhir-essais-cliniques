@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "b003a1eb-accc-46db-ab41-6d835bb4499d-116",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/b003a1eb-accc-46db-ab41-6d835bb4499d-116",
+  "id" : "8dde0e93-afd0-4401-9a6c-3f9bd479547b-116",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8dde0e93-afd0-4401-9a6c-3f9bd479547b-116",
   "name" : "UnionEclaireStudyPhaseVSAndEclaireStudyPhaseVS",
   "title" : "Union of Value Set type de phase de l'essai clinique And Value Set type de phase de l'essai clinique",
   "status" : "draft",
-  "date" : "2025-07-17T13:21:12+00:00",
+  "date" : "2025-07-21T12:47:40+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
