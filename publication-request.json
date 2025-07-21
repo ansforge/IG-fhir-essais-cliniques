@@ -10,7 +10,7 @@
     "status" : "release",
     "sequence" : "trial-use",
     "desc" : "Implementation Guide de l'API FHIR pour le projet ECLAIRE. L'objectif de cet Implementation Guide est de définir les spécifications de l'API REST (FHIR) pour interroger la base de données ECLAIRE qui recensera les essais cliniques.",
-    "descmd" : "Release en trial use de l'Implementation Guide FHIR pour le MVP ECLAIRE.\n-\n"
+    "changes" : "change-log.html#version-040"
   }
   
   
