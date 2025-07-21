@@ -401,8 +401,8 @@
       ],
       "uses" : {
       },
-      "ConceptMap-eclaire-study-phase-concept-map.html" : "FHIR/Eclaire ResearchStudy phase Use Mapping",
-      "StructureDefinition-eclaire-researchstudy.html" : "ECLAIREResearchStudy"
+      "StructureDefinition-eclaire-researchstudy.html" : "ECLAIREResearchStudy",
+      "ConceptMap-eclaire-study-phase-concept-map.html" : "FHIR/Eclaire ResearchStudy phase Use Mapping"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-population-vs",

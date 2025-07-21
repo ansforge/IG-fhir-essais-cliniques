@@ -127,8 +127,8 @@
       "description" : "Définition des phases de l'essai utilisées dans la base de données ECLAIRE",
       "uses" : {
       },
-      "ConceptMap-eclaire-study-phase-concept-map.html" : "FHIR/Eclaire ResearchStudy phase Use Mapping",
-      "ValueSet-eclaire-study-phase-source-vs.html" : "Value Set de la phase de l'essai tel que définie dans la base ECLAIRE"
+      "ValueSet-eclaire-study-phase-source-vs.html" : "Value Set de la phase de l'essai tel que définie dans la base ECLAIRE",
+      "ConceptMap-eclaire-study-phase-concept-map.html" : "FHIR/Eclaire ResearchStudy phase Use Mapping"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system",
@@ -150,8 +150,8 @@
       "description" : "Statut de l'essai clinique utilisé dans la base de données ECLAIRE",
       "uses" : {
       },
-      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping",
-      "ValueSet-eclaire-study-status-vs.html" : "Value Set Statut Eclaire de l'essai"
+      "ValueSet-eclaire-study-status-vs.html" : "Value Set Statut Eclaire de l'essai",
+      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system",

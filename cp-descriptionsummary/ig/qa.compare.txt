@@ -57,7 +57,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.eclaire#$-- (canonical = https:/
 </table>
 == n/a ==
 ERROR: ResearchStudy-2022-500014-26-00-example.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 238, column 987: The link 'Organization/2022-500014-26-00-secondary-sponsor' for "Reference to secondary sponsor" cannot be resolved
-ERROR: ResearchStudy-2022-500014-26-00-example.html#/html/body/div/div/div/div/div/div/p/a at Line 239, column 30: The link 'Group/2022-500014-26-00-enrollment-group' for "Reference to group detailing study characteristics" cannot be resolved
+ERROR: ResearchStudy-2022-500014-26-00-example.html#/html/body/div/div/div/div/div/div/p/a at Line 240, column 30: The link 'Group/2022-500014-26-00-enrollment-group' for "Reference to group detailing study characteristics" cannot be resolved
 ERROR: ResearchStudy-fake-study-example.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 239, column 274: The link 'EvidenceVariable/1' for "Aïe!" cannot be resolved
 ERROR: ResearchStudy-fake-study-example.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 240, column 280: The link 'EvidenceVariable/1' for "Ouille!" cannot be resolved
 ERROR: ResearchStudy-fake-study-example.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 241, column 501: The link 'Organization/2' for "Etablissement du sponsor" cannot be resolved

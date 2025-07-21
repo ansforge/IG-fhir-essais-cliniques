@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "59537570-0798-4b25-b635-b53ffaa23f87-95",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/59537570-0798-4b25-b635-b53ffaa23f87-95",
+  "id" : "f8d5b968-f2ac-4ac7-ae2f-7be1db4db758-95",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/f8d5b968-f2ac-4ac7-ae2f-7be1db4db758-95",
   "name" : "UnionEclaireReglementationPrecisionVSAndEclaireReglementationPrecisionVS",
   "title" : "Union of Précision sur la réglementation concernant l'essai Value Set And Précision sur la réglementation concernant l'essai Value Set",
   "status" : "draft",
-  "date" : "2025-07-21T14:44:06+00:00",
+  "date" : "2025-07-21T14:52:40+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
