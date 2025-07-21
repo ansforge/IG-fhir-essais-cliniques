@@ -57,9 +57,9 @@ Usage: #example
 * extension[+]
   * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-status"
   * valueCodeableConcept = $eclaire-status-recruitment-code-system#recruiting
-* extension[+]
+/* * extension[+]
   * url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary"
-  * valueMarkdown = "Ceci est un test de ressource pour Eclaire"
+  * valueMarkdown = "Ceci est un test de ressource pour Eclaire"*/
 * identifier[0]
   * use = #official
   * value = "2022-500014-26-00"
