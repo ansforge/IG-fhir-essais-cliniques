@@ -128,9 +128,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-eclaire-location.html" : "ECLAIRELocation",
+      "StructureDefinition-eclaire-researchstudy.html" : "ECLAIREResearchStudy",
       "StructureDefinition-eclaire-group.html" : "ECLAIREGroup",
-      "StructureDefinition-eclaire-researchstudy.html" : "ECLAIREResearchStudy"
+      "StructureDefinition-eclaire-location.html" : "ECLAIRELocation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-mode",

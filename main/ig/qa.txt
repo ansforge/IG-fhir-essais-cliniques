@@ -1,15 +1,15 @@
 ECLAIRE : Validation Results
 =========================================
 
-err = 61, warn = 31, info = 28
-IG Publisher Version: 2.0.10
-Generated Mon Jul 21 16:42:14 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
+err = 61, warn = 30, info = 28
+IG Publisher Version: 2.0.10 Out of date - current version is ?pub-ver-1?
+Generated Mon Jul 21 16:48:19 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
  Build Errors : 13 / 2 / 0
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CapabilityStatement-eclaire-consommateur : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-group-characteristic-kind-code-system : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-reglementation-precision-code-system : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-regulation-code-code-system : 0 / 0 / 1
- /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-status-recruitment-code-system : 0 / 1 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-status-recruitment-code-system : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-study-party-organization-type-code-system : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-study-party-role-code-system : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-study-phase-code-system : 0 / 0 / 1
@@ -76,7 +76,6 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 == fsh-generated/resources/CodeSystem-eclaire-reglementation-precision-code-system.json ==
 == fsh-generated/resources/CodeSystem-eclaire-regulation-code-code-system.json ==
 == fsh-generated/resources/CodeSystem-eclaire-status-recruitment-code-system.json ==
-WARNING: CodeSystem/eclaire-status-recruitment-code-system: CodeSystem.concept[1].display: value should not start or finish with whitespace 'Terminé / completed '
 == fsh-generated/resources/CodeSystem-eclaire-study-party-organization-type-code-system.json ==
 == fsh-generated/resources/CodeSystem-eclaire-study-party-role-code-system.json ==
 == fsh-generated/resources/CodeSystem-eclaire-study-phase-code-system.json ==

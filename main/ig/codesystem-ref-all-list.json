@@ -94,8 +94,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.820"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-research-study-status.html" : "ResearchStudyStatus",
-      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping"
+      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping",
+      "http://hl7.org/fhir/R4/valueset-research-study-status.html" : "ResearchStudyStatus"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -131,8 +131,8 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1248"],
       "uses" : {
       },
-      "ValueSet-eclaire-study-outcome-type-vs.html" : "Type de conséquence Value Set",
-      "http://hl7.org/fhir/R4/valueset-research-study-objective-type.html" : "ResearchStudyObjectiveType"
+      "http://hl7.org/fhir/R4/valueset-research-study-objective-type.html" : "ResearchStudyObjectiveType",
+      "ValueSet-eclaire-study-outcome-type-vs.html" : "Type de conséquence Value Set"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/research-study-phase",
@@ -227,8 +227,8 @@
       "description" : "Précision sur la réglementation concernant l'essai",
       "uses" : {
       },
-      "ValueSet-eclaire-reglementation-precision-vs.html" : "Précision sur la réglementation concernant l'essai Value Set",
-      "ValueSet-eclaire-category-vs.html" : "Value Set type pour spécifier la catégorie l'essai clinique"
+      "ValueSet-eclaire-category-vs.html" : "Value Set type pour spécifier la catégorie l'essai clinique",
+      "ValueSet-eclaire-reglementation-precision-vs.html" : "Précision sur la réglementation concernant l'essai Value Set"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system",
@@ -319,8 +319,8 @@
       "description" : "Statut de l'essai clinique utilisé dans la base de données ECLAIRE",
       "uses" : {
       },
-      "ValueSet-eclaire-study-status-vs.html" : "Value Set Statut Eclaire de l'essai",
-      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping"
+      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping",
+      "ValueSet-eclaire-study-status-vs.html" : "Value Set Statut Eclaire de l'essai"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system",

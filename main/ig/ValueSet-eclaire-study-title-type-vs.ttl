@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Type de titre Value Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
-  fhir:date [ fhir:v "2025-07-21T16:40:50+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-21T16:46:46+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

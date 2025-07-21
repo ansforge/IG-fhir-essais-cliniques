@@ -1,7 +1,7 @@
 ECLAIRE : Validation Results
 =========================================
 
-err = 61, warn = 31, info = 28
+err = 61, warn = 30, info = 28
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.eclaire#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
  Build Errors : 13 / 2 / 0
@@ -9,7 +9,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.eclaire#$-- (canonical = https:/
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-group-characteristic-kind-code-system : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-reglementation-precision-code-system : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-regulation-code-code-system : 0 / 0 / 1
- /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-status-recruitment-code-system : 0 / 1 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-status-recruitment-code-system : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-study-party-organization-type-code-system : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-study-party-role-code-system : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-study-phase-code-system : 0 / 0 / 1
@@ -76,7 +76,6 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 == fsh-generated/resources/CodeSystem-eclaire-reglementation-precision-code-system.json ==
 == fsh-generated/resources/CodeSystem-eclaire-regulation-code-code-system.json ==
 == fsh-generated/resources/CodeSystem-eclaire-status-recruitment-code-system.json ==
-WARNING: CodeSystem/eclaire-status-recruitment-code-system: CodeSystem.concept[1].display: value should not start or finish with whitespace 'Terminé / completed '
 == fsh-generated/resources/CodeSystem-eclaire-study-party-organization-type-code-system.json ==
 == fsh-generated/resources/CodeSystem-eclaire-study-party-role-code-system.json ==
 == fsh-generated/resources/CodeSystem-eclaire-study-phase-code-system.json ==
