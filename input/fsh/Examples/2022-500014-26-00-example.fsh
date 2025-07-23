@@ -67,7 +67,7 @@ Usage: #example
 * identifier[+]
   * use = #secondary
   * value = "NCT12345678"
-  * system ="http://clinicaltrials.gov"
+  * system = "http://clinicaltrials.gov"
 * identifier[+]
   * use = #secondary
   * value = "ISRCTN12345678"
