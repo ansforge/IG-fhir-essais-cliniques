@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="18567b32-6284-46fb-8c40-7426ea71a04d"/>
+  <id value="bd6bf5e1-40da-41d6-8ad4-1ac1e62fbf76"/>
   <meta>
-    <lastUpdated value="2025-05-21T14:14:56.054+00:00"/>
+    <lastUpdated value="2025-07-23T09:41:16.859+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -13,9 +13,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion performed internally based on:</p>
               <ul>
@@ -216,7 +214,7 @@
         <name value="EclaireCategoryVS"/>
         <title value="Value Set type pour spécifier la catégorie l'essai clinique"/>
         <status value="draft"/>
-        <date value="2025-05-21T14:14:19+00:00"/>
+        <date value="2025-07-23T09:40:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -225,8 +223,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5810f24c-3c19-4f27-b22e-96eff1b0bf3c"/>
-          <timestamp value="2025-05-21T14:15:43+00:00"/>
+          <identifier value="urn:uuid:71ab370b-f088-4220-81ac-2de906ca0133"/>
+          <timestamp value="2025-07-23T09:41:52+00:00"/>
           <total value="21"/>
           <offset value="0"/>
           <parameter>
@@ -348,9 +346,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-eclaire-group-characteristic-kind-code-system.html">codesystem Codes pour le type de caractéristique du groupe v0.3.1 (CodeSystem)</a>
             </p>
@@ -415,7 +411,7 @@
         <name value="EclaireGroupCharacteristicKindVS"/>
         <title value="Type de caractéristique Value Set"/>
         <status value="draft"/>
-        <date value="2025-05-21T14:14:19+00:00"/>
+        <date value="2025-07-23T09:40:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -424,8 +420,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5af39d42-546d-4e6d-be8f-966260133a5c"/>
-          <timestamp value="2025-05-21T14:15:43+00:00"/>
+          <identifier value="urn:uuid:95944356-b652-4a6b-84e2-300764175cee"/>
+          <timestamp value="2025-07-23T09:41:52+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -479,9 +475,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-eclaire-reglementation-precision-code-system.html">codesystem Précision sur la réglementation concernant l'essai v0.3.1 (CodeSystem)</a>
             </p>
@@ -642,7 +636,7 @@
         <name value="EclaireReglementationPrecisionVS"/>
         <title value="Précision sur la réglementation concernant l'essai Value Set"/>
         <status value="draft"/>
-        <date value="2025-05-21T14:14:19+00:00"/>
+        <date value="2025-07-23T09:40:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -651,8 +645,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c54d62d6-0cd0-4547-bb45-77dedcc3368a"/>
-          <timestamp value="2025-05-21T14:15:43+00:00"/>
+          <identifier value="urn:uuid:9f1cb71b-077f-4dbd-bfbe-f4306efec3b2"/>
+          <timestamp value="2025-07-23T09:41:52+00:00"/>
           <total value="17"/>
           <offset value="0"/>
           <parameter>
@@ -754,9 +748,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-eclaire-regulation-code-code-system.html">codesystem Code de régulation de l'essai v0.3.1 (CodeSystem)</a>
             </p>
@@ -813,7 +805,7 @@
         <name value="EclaireRegulationCodeVS"/>
         <title value="Code de régulation Value Set"/>
         <status value="draft"/>
-        <date value="2025-05-21T14:14:19+00:00"/>
+        <date value="2025-07-23T09:40:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -822,8 +814,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ca0727d6-4131-4692-8e86-22928e09207c"/>
-          <timestamp value="2025-05-21T14:15:43+00:00"/>
+          <identifier value="urn:uuid:6d9faf6c-79b3-4887-9079-0fb34435f4f1"/>
+          <timestamp value="2025-07-23T09:41:52+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -873,9 +865,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-eclaire-status-recruitment-code-system.html">codesystem Statut de recrutement v0.3.1 (CodeSystem)</a>
             </p>
@@ -902,12 +892,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Recrutement actif</p>
-
-                  </div>
-                </td>
+                <td>Recrutement actif</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -916,12 +901,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Recrutement terminé</p>
-
-                  </div>
-                </td>
+                <td>Recrutement terminé</td>
               </tr>
             </table>
           </div>
@@ -931,7 +911,7 @@
         <name value="EclaireStatusRecruitementVS"/>
         <title value="Statut de recrutement Value Set"/>
         <status value="draft"/>
-        <date value="2025-05-21T14:14:19+00:00"/>
+        <date value="2025-07-23T09:40:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -940,8 +920,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:88f9da0c-d231-4053-8be6-94a0c58fd9f3"/>
-          <timestamp value="2025-05-21T14:15:43+00:00"/>
+          <identifier value="urn:uuid:231f519e-4d0b-434e-9c86-f69dccf0c8ef"/>
+          <timestamp value="2025-07-23T09:41:52+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -983,11 +963,9 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-objective-type.html">codesystem ResearchStudyObjectiveType v1.0.0 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/6.5.0/CodeSystem-research-study-objective-type.html">codesystem ResearchStudyObjectiveType v1.0.0 (CodeSystem)</a>
             </p>
             <p>Ce jeu de valeur (ValueSet) contient 2 concepts</p>
             <table class="codes">
@@ -1008,30 +986,20 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="x-http://terminology.hl7.org/CodeSystem/research-study-objective-type-primary"> </a>  
-                  <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-objective-type.html#research-study-objective-type-primary">primary</a>
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-research-study-objective-type.html#research-study-objective-type-primary">primary</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/research-study-objective-type</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>The main question to be answered, and the one that drives any statistical planning for the study—e.g., calculation of the sample size to provide the appropriate power for statistical testing.</p>
-
-                  </div>
-                </td>
+                <td>The main question to be answered, and the one that drives any statistical planning for the study—e.g., calculation of the sample size to provide the appropriate power for statistical testing.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
                   <a name="x-http://terminology.hl7.org/CodeSystem/research-study-objective-type-secondary"> </a>  
-                  <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-objective-type.html#research-study-objective-type-secondary">secondary</a>
+                  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-research-study-objective-type.html#research-study-objective-type-secondary">secondary</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/research-study-objective-type</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Question to be answered in the study that is of lesser importance than the primary objective.</p>
-
-                  </div>
-                </td>
+                <td>Question to be answered in the study that is of lesser importance than the primary objective.</td>
               </tr>
             </table>
           </div>
@@ -1041,7 +1009,7 @@
         <name value="EclaireStudyOutcomeTypeVS"/>
         <title value="Type de conséquence Value Set"/>
         <status value="draft"/>
-        <date value="2025-05-21T14:14:19+00:00"/>
+        <date value="2025-07-23T09:40:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1050,8 +1018,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:dc50858b-7fcb-43b6-b3dd-52cc247ae2e0"/>
-          <timestamp value="2025-05-21T14:15:43+00:00"/>
+          <identifier value="urn:uuid:c12c66e9-2d51-48e4-9296-2b9548eccc23"/>
+          <timestamp value="2025-07-23T09:41:52+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1093,9 +1061,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-eclaire-study-party-organization-type-code-system.html">codesystem Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type v0.3.1 (CodeSystem)</a>
             </p>
@@ -1152,7 +1118,7 @@
         <name value="EclaireStudyPartyOrganizationTypeVS"/>
         <title value="Value Set Eclaire pour les types de parties"/>
         <status value="draft"/>
-        <date value="2025-05-21T14:14:19+00:00"/>
+        <date value="2025-07-23T09:40:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1161,8 +1127,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ac7de4e4-13f2-447b-b6ac-367c4f7e5330"/>
-          <timestamp value="2025-05-21T14:15:43+00:00"/>
+          <identifier value="urn:uuid:096cf306-65df-46e2-9936-b4193a5532e7"/>
+          <timestamp value="2025-07-23T09:41:52+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1212,9 +1178,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-eclaire-study-party-role-code-system.html">codesystem Définition des rôles des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-role v0.3.1 (CodeSystem)</a>
             </p>
@@ -1241,12 +1205,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>sponsor</p>
-
-                  </div>
-                </td>
+                <td>sponsor</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1255,12 +1214,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>lead-sponsor</p>
-
-                  </div>
-                </td>
+                <td>lead-sponsor</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1269,12 +1223,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>sponsor-investigator</p>
-
-                  </div>
-                </td>
+                <td>sponsor-investigator</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1283,12 +1232,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>primary-investigator</p>
-
-                  </div>
-                </td>
+                <td>primary-investigator</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1297,12 +1241,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>collaborator</p>
-
-                  </div>
-                </td>
+                <td>collaborator</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1311,12 +1250,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>funding-source</p>
-
-                  </div>
-                </td>
+                <td>funding-source</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1325,12 +1259,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>general-contact</p>
-
-                  </div>
-                </td>
+                <td>general-contact</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1339,12 +1268,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>recruitment-contact</p>
-
-                  </div>
-                </td>
+                <td>recruitment-contact</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1353,12 +1277,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>sub-investigator</p>
-
-                  </div>
-                </td>
+                <td>sub-investigator</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1367,12 +1286,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>study-director</p>
-
-                  </div>
-                </td>
+                <td>study-director</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1381,12 +1295,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>study-chair</p>
-
-                  </div>
-                </td>
+                <td>study-chair</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1395,12 +1304,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Ethics Review Board</p>
-
-                  </div>
-                </td>
+                <td>Ethics Review Board</td>
               </tr>
             </table>
           </div>
@@ -1410,7 +1314,7 @@
         <name value="EclaireStudyPartyRoleVS"/>
         <title value="Value Set Eclaire pour les différents rôles des parties impliquées dans l'essai"/>
         <status value="draft"/>
-        <date value="2025-05-21T14:14:19+00:00"/>
+        <date value="2025-07-23T09:40:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1419,8 +1323,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:139a6171-4587-4dcb-ba3b-57799e35f8e8"/>
-          <timestamp value="2025-05-21T14:15:43+00:00"/>
+          <identifier value="urn:uuid:e5bd4352-3ae9-4d09-a203-03b76669d93a"/>
+          <timestamp value="2025-07-23T09:41:52+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -1502,9 +1406,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-eclaire-study-phase-source-code-system.html">codesystem Définition des phase de l'essai utilisés dans la base de données ECLAIRE v0.3.1 (CodeSystem)</a>
             </p>
@@ -1625,7 +1527,7 @@
         <name value="EclaireStudyPhaseSourceVS"/>
         <title value="Value Set de la phase de l'essai tel que définie dans la base ECLAIRE"/>
         <status value="draft"/>
-        <date value="2025-05-21T14:14:19+00:00"/>
+        <date value="2025-07-23T09:40:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1634,8 +1536,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:15076cb8-b337-4981-a350-14ec5b704a3e"/>
-          <timestamp value="2025-05-21T14:15:43+00:00"/>
+          <identifier value="urn:uuid:85e36cdc-0b0a-4722-950c-8a25fe55116c"/>
+          <timestamp value="2025-07-23T09:41:52+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -1717,9 +1619,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion performed internally based on:</p>
               <ul>
@@ -1754,12 +1654,7 @@
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Trials without phases (for example, studies of devices or behavioral interventions).</p>
-
-                  </div>
-                </td>
+                <td>Trials without phases (for example, studies of devices or behavioral interventions).</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1768,12 +1663,7 @@
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Designation for optional exploratory trials conducted in accordance with the United States Food and Drug Administration's (FDA) 2006 Guidance on Exploratory Investigational New Drug (IND) Studies. Formerly called Phase 0.</p>
-
-                  </div>
-                </td>
+                <td>Designation for optional exploratory trials conducted in accordance with the United States Food and Drug Administration's (FDA) 2006 Guidance on Exploratory Investigational New Drug (IND) Studies. Formerly called Phase 0.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1782,12 +1672,7 @@
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Includes initial studies to determine the metabolism and pharmacologic actions of drugs in humans, the side effects associated with increasing doses, and to gain early evidence of effectiveness; may include healthy participants and/or patients.</p>
-
-                  </div>
-                </td>
+                <td>Includes initial studies to determine the metabolism and pharmacologic actions of drugs in humans, the side effects associated with increasing doses, and to gain early evidence of effectiveness; may include healthy participants and/or patients.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1796,12 +1681,7 @@
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Trials that are a combination of phases 1 and 2.</p>
-
-                  </div>
-                </td>
+                <td>Trials that are a combination of phases 1 and 2.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1810,12 +1690,7 @@
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Includes controlled clinical studies conducted to evaluate the effectiveness of the drug for a particular indication or indications in participants with the disease or condition under study and to determine the common short-term side effects and risks.</p>
-
-                  </div>
-                </td>
+                <td>Includes controlled clinical studies conducted to evaluate the effectiveness of the drug for a particular indication or indications in participants with the disease or condition under study and to determine the common short-term side effects and risks.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1824,12 +1699,7 @@
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Trials that are a combination of phases 2 and 3.</p>
-
-                  </div>
-                </td>
+                <td>Trials that are a combination of phases 2 and 3.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1838,12 +1708,7 @@
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Includes trials conducted after preliminary evidence suggesting effectiveness of the drug has been obtained, and are intended to gather additional information to evaluate the overall benefit-risk relationship of the drug.</p>
-
-                  </div>
-                </td>
+                <td>Includes trials conducted after preliminary evidence suggesting effectiveness of the drug has been obtained, and are intended to gather additional information to evaluate the overall benefit-risk relationship of the drug.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1852,12 +1717,7 @@
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Studies of FDA-approved drugs to delineate additional information including the drug's risks, benefits, and optimal use.</p>
-
-                  </div>
-                </td>
+                <td>Studies of FDA-approved drugs to delineate additional information including the drug's risks, benefits, and optimal use.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1866,12 +1726,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Trials that are a combination of phases 3 and 4.</p>
-
-                  </div>
-                </td>
+                <td>Trials that are a combination of phases 3 and 4.</td>
               </tr>
             </table>
           </div>
@@ -1881,7 +1736,7 @@
         <name value="EclaireStudyPhaseVS"/>
         <title value="Value Set type de phase de l'essai clinique"/>
         <status value="draft"/>
-        <date value="2025-05-21T14:14:19+00:00"/>
+        <date value="2025-07-23T09:40:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1890,8 +1745,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e6cfa670-7c9f-427d-ac1b-b8ff79041df7"/>
-          <timestamp value="2025-05-21T14:15:43+00:00"/>
+          <identifier value="urn:uuid:8dcd9776-be58-4baa-bf5b-35bb1c9fce3b"/>
+          <timestamp value="2025-07-23T09:41:52+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -1965,9 +1820,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-eclaire-study-population-code-system.html">codesystem Codes pour caractériser la population de l'étude v0.3.1 (CodeSystem)</a>
             </p>
@@ -2064,7 +1917,7 @@
         <name value="EclaireStudyPopulationVS"/>
         <title value="Caractérisation de la population Value Set"/>
         <status value="draft"/>
-        <date value="2025-05-21T14:14:19+00:00"/>
+        <date value="2025-07-23T09:40:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2073,8 +1926,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:241de226-924c-4986-b55c-ef5c1f82a204"/>
-          <timestamp value="2025-05-21T14:15:43+00:00"/>
+          <identifier value="urn:uuid:91907904-d623-4dd2-9c61-148026aa7ba4"/>
+          <timestamp value="2025-07-23T09:41:52+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -2144,9 +1997,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-eclaire-study-status-code-system.html">codesystem Définition des statuts de l'essai utilisés dans la base de données ECLAIRE v0.3.1 (CodeSystem)</a>
             </p>
@@ -2243,7 +2094,7 @@
         <name value="EclaireStudyStatusVS"/>
         <title value="Value Set Statut Eclaire de l'essai"/>
         <status value="draft"/>
-        <date value="2025-05-21T14:14:19+00:00"/>
+        <date value="2025-07-23T09:40:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2252,8 +2103,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9794da05-f47e-4325-bc64-faafaed91a2e"/>
-          <timestamp value="2025-05-21T14:15:43+00:00"/>
+          <identifier value="urn:uuid:77ea1417-4c1e-4ce4-bd3b-a8bd3898d25d"/>
+          <timestamp value="2025-07-23T09:41:52+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -2323,9 +2174,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-eclaire-study-title-type-code-system.html">codesystem Définition des types de titre pour l'essai v0.3.1 (CodeSystem)</a>
             </p>
@@ -2352,12 +2201,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Main title for common use. The primary title used for representation if multiple titles exist.</p>
-
-                  </div>
-                </td>
+                <td>Main title for common use. The primary title used for representation if multiple titles exist.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2366,12 +2210,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>The official or authoritative title.</p>
-
-                  </div>
-                </td>
+                <td>The official or authoritative title.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2380,12 +2219,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Title using scientific terminology.</p>
-
-                  </div>
-                </td>
+                <td>Title using scientific terminology.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2394,12 +2228,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Title using language common to lay public discourse.</p>
-
-                  </div>
-                </td>
+                <td>Title using language common to lay public discourse.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2408,12 +2237,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Subtitle or secondary title.</p>
-
-                  </div>
-                </td>
+                <td>Subtitle or secondary title.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2422,12 +2246,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Brief title (e.g. 'running title' or title used in page headers)</p>
-
-                  </div>
-                </td>
+                <td>Brief title (e.g. 'running title' or title used in page headers)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2436,12 +2255,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Abbreviation used as title</p>
-
-                  </div>
-                </td>
+                <td>Abbreviation used as title</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2450,12 +2264,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Alternative form of title in an earlier version such as epub ahead of print.</p>
-
-                  </div>
-                </td>
+                <td>Alternative form of title in an earlier version such as epub ahead of print.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2464,12 +2273,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Additional form of title in a different language.</p>
-
-                  </div>
-                </td>
+                <td>Additional form of title in a different language.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2478,12 +2282,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Machine translated form of title in a different language, language element codes the language into which it was translated by machine.</p>
-
-                  </div>
-                </td>
+                <td>Machine translated form of title in a different language, language element codes the language into which it was translated by machine.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2492,12 +2291,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Human-friendly title</p>
-
-                  </div>
-                </td>
+                <td>Human-friendly title</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2506,12 +2300,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>Machine-friendly title</p>
-
-                  </div>
-                </td>
+                <td>Machine-friendly title</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2520,12 +2309,7 @@
                 </td>
                 <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
                 <td/>
-                <td>
-                  <div>
-                    <p>An alternative form of the title in two or more entries, e.g. in multiple medline entries</p>
-
-                  </div>
-                </td>
+                <td>An alternative form of the title in two or more entries, e.g. in multiple medline entries</td>
               </tr>
             </table>
           </div>
@@ -2535,7 +2319,7 @@
         <name value="EclaireStudyTitleTypetVS"/>
         <title value="Type de titre Value Set"/>
         <status value="draft"/>
-        <date value="2025-05-21T14:14:19+00:00"/>
+        <date value="2025-07-23T09:40:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2544,8 +2328,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e65f941f-a4ce-4cf3-8f93-76a4f913257c"/>
-          <timestamp value="2025-05-21T14:15:43+00:00"/>
+          <identifier value="urn:uuid:a5b9f147-c193-4331-acf8-b15741af8db4"/>
+          <timestamp value="2025-07-23T09:41:52+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -2631,9 +2415,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-eclaire-type-contact-code-system.html">codesystem Type de contact v0.3.1 (CodeSystem)</a>
             </p>
@@ -2674,7 +2456,7 @@
         <name value="EclaireTypeContactVS"/>
         <title value="Type Contact Value Set"/>
         <status value="draft"/>
-        <date value="2025-05-21T14:14:19+00:00"/>
+        <date value="2025-07-23T09:40:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2683,8 +2465,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9bf3004a-5027-4f48-b20a-1e237edf489c"/>
-          <timestamp value="2025-05-21T14:15:43+00:00"/>
+          <identifier value="urn:uuid:28b5b4a4-52c8-46fc-9182-9a0246d8c9a2"/>
+          <timestamp value="2025-07-23T09:41:52+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>

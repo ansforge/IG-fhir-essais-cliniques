@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="eclaire-regulation-code-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet eclaire-regulation-code-vs</b></p><a name="eclaire-regulation-code-vs"> </a><a name="hceclaire-regulation-code-vs"> </a><a name="eclaire-regulation-code-vs-fr-FR"> </a><ul><li>Include tous les codes définis dans <a href="CodeSystem-eclaire-regulation-code-code-system.html"><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : EnsembleValeurs eclaire-regulation-code-vs</b></p><a name="eclaire-regulation-code-vs"> </a><a name="hceclaire-regulation-code-vs"> </a><ul><li>Include tous les codes définis dans <a href="CodeSystem-eclaire-regulation-code-code-system.html"><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</code></a></li></ul></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-regulation-code-vs"/>
   <version value="0.3.1"/>
   <name value="EclaireRegulationCodeVS"/>
   <title value="Code de régulation Value Set"/>
   <status value="draft"/>
-  <date value="2025-05-21T14:14:19+00:00"/>
+  <date value="2025-07-23T09:40:40+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>

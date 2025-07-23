@@ -3,14 +3,14 @@
   "id" : "eclaire-status-recruitment-code-system",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem eclaire-status-recruitment-code-system</b></p><a name=\"eclaire-status-recruitment-code-system\"> </a><a name=\"hceclaire-status-recruitment-code-system\"> </a><a name=\"eclaire-status-recruitment-code-system-fr-FR\"> </a><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">recruiting<a name=\"eclaire-status-recruitment-code-system-recruiting\"> </a></td><td>Actif / active</td><td>Recrutement actif</td></tr><tr><td style=\"white-space:nowrap\">completed-recruiting<a name=\"eclaire-status-recruitment-code-system-completed-recruiting\"> </a></td><td>Terminé / completed </td><td>Recrutement terminé</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem eclaire-status-recruitment-code-system</b></p><a name=\"eclaire-status-recruitment-code-system\"> </a><a name=\"hceclaire-status-recruitment-code-system\"> </a><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td></tr><tr><td style=\"white-space:nowrap\">recruiting<a name=\"eclaire-status-recruitment-code-system-recruiting\"> </a></td><td>Actif / active</td><td>Recrutement actif</td></tr><tr><td style=\"white-space:nowrap\">completed-recruiting<a name=\"eclaire-status-recruitment-code-system-completed-recruiting\"> </a></td><td>Terminé / completed </td><td>Recrutement terminé</td></tr></table></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system",
   "version" : "0.3.1",
   "name" : "EclaireStatusRecruitmentCS",
   "title" : "Statut de recrutement",
   "status" : "draft",
-  "date" : "2025-05-21T14:14:19+00:00",
+  "date" : "2025-07-23T09:40:40+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

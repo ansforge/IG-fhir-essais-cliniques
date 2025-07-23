@@ -11,14 +11,14 @@
   fhir:id [ fhir:v "eclaire-regulation-code-code-system"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem eclaire-regulation-code-code-system</b></p><a name=\"eclaire-regulation-code-code-system\"> </a><a name=\"hceclaire-regulation-code-code-system\"> </a><a name=\"eclaire-regulation-code-code-system-fr-FR\"> </a><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">REG536<a name=\"eclaire-regulation-code-code-system-REG536\"> </a></td><td>REG536 (CTIS)</td></tr><tr><td style=\"white-space:nowrap\">REG745<a name=\"eclaire-regulation-code-code-system-REG745\"> </a></td><td>REG745 (DM)</td></tr><tr><td style=\"white-space:nowrap\">REG746<a name=\"eclaire-regulation-code-code-system-REG746\"> </a></td><td>REG746 (DM-DIV)</td></tr><tr><td style=\"white-space:nowrap\">JARDE<a name=\"eclaire-regulation-code-code-system-JARDE\"> </a></td><td>JARDE (Jarde)</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem eclaire-regulation-code-code-system</b></p><a name=\"eclaire-regulation-code-code-system\"> </a><a name=\"hceclaire-regulation-code-code-system\"> </a><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">REG536<a name=\"eclaire-regulation-code-code-system-REG536\"> </a></td><td>REG536 (CTIS)</td></tr><tr><td style=\"white-space:nowrap\">REG745<a name=\"eclaire-regulation-code-code-system-REG745\"> </a></td><td>REG745 (DM)</td></tr><tr><td style=\"white-space:nowrap\">REG746<a name=\"eclaire-regulation-code-code-system-REG746\"> </a></td><td>REG746 (DM-DIV)</td></tr><tr><td style=\"white-space:nowrap\">JARDE<a name=\"eclaire-regulation-code-code-system-JARDE\"> </a></td><td>JARDE (Jarde)</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.3.1"] ; # 
   fhir:name [ fhir:v "EclaireRegulationCodeCS"] ; # 
   fhir:title [ fhir:v "Code de régulation de l'essai"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-21T14:14:19+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-23T09:40:40+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

@@ -3,14 +3,14 @@
   "id" : "eclaire-type-contact-code-system",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem eclaire-type-contact-code-system</b></p><a name=\"eclaire-type-contact-code-system\"> </a><a name=\"hceclaire-type-contact-code-system\"> </a><a name=\"eclaire-type-contact-code-system-fr-FR\"> </a><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">PUB<a name=\"eclaire-type-contact-code-system-PUB\"> </a></td><td>Publique / Public</td></tr><tr><td style=\"white-space:nowrap\">SCI<a name=\"eclaire-type-contact-code-system-SCI\"> </a></td><td>Scientifique / Scientific</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem eclaire-type-contact-code-system</b></p><a name=\"eclaire-type-contact-code-system\"> </a><a name=\"hceclaire-type-contact-code-system\"> </a><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">PUB<a name=\"eclaire-type-contact-code-system-PUB\"> </a></td><td>Publique / Public</td></tr><tr><td style=\"white-space:nowrap\">SCI<a name=\"eclaire-type-contact-code-system-SCI\"> </a></td><td>Scientifique / Scientific</td></tr></table></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system",
   "version" : "0.3.1",
   "name" : "EclaireTypeContactCS",
   "title" : "Type de contact",
   "status" : "draft",
-  "date" : "2025-05-21T14:14:19+00:00",
+  "date" : "2025-07-23T09:40:40+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

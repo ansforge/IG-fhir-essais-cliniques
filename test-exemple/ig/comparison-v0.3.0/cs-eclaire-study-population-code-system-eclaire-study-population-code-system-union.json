@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "fc009823-deff-4548-b3f2-711daa864f81-26",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/fc009823-deff-4548-b3f2-711daa864f81-26",
+  "id" : "303ac69a-69a0-4aac-b838-96e459b530b7-26",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/303ac69a-69a0-4aac-b838-96e459b530b7-26",
   "name" : "UnionEclaireStudyPopulationCSAndEclaireStudyPopulationCS",
   "title" : "Union of Codes pour caractériser la population de l'étude And Codes pour caractériser la population de l'étude",
   "status" : "draft",
-  "date" : "2025-05-21T14:15:18+00:00",
+  "date" : "2025-07-23T09:41:36+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

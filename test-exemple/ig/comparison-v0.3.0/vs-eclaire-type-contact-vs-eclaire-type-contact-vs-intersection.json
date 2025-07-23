@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "fc009823-deff-4548-b3f2-711daa864f81-129",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/fc009823-deff-4548-b3f2-711daa864f81-129",
+  "id" : "303ac69a-69a0-4aac-b838-96e459b530b7-129",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/303ac69a-69a0-4aac-b838-96e459b530b7-129",
   "name" : "IntersectionEclaireTypeContactVSAndEclaireTypeContactVS",
   "title" : "Intersection of Type Contact Value Set And Type Contact Value Set",
   "status" : "draft",
-  "date" : "2025-05-21T14:15:18+00:00",
+  "date" : "2025-07-23T09:41:36+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
