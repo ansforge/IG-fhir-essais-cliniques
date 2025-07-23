@@ -1,0 +1,322 @@
+{
+  "resourceType" : "ResearchStudy",
+  "id" : "2022-500014-26-00-example",
+  "meta" : {
+    "lastUpdated" : "2024-05-31T00:00:00.000Z",
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ResearchStudy 2022-500014-26-00-example</b></p><a name=\"2022-500014-26-00-example\"> </a><a name=\"hc2022-500014-26-00-example\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Dernière mise à jour : 2024-05-31 00:00:00+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-eclaire-researchstudy.html\">ECLAIREResearchStudy</a></p></div><blockquote><p><b>ECLAIREassociatedPartyR5</b></p><ul><li>name: THE sponsor</li><li>role: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system lead-sponsor}\">Sponsor principal</span></li><li>period: 2022-06-30 00:00:00+0000 --&gt; (ongoing)</li><li>classifier: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system academic}\">academic</span></li><li>party: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.uv.xver-r5.r4@0.0.1-snapshot-1&amp;canonical=http://hl7.org/fhir/uv/xver/Organization/2022-500014-26-00-secondary-sponsor\">Reference to secondary sponsor</a></li></ul></blockquote><p><b>ECLAIRETherapeuticArea</b>: Maladies [C] - Tumeurs [C04]</p><blockquote><p><b>Cross-version Extension for R5.ResearchStudy.label for use in FHIR R4</b></p><ul><li>type: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system human-use}\">type</span></li></ul></blockquote><blockquote><p><b>Cross-version Extension for R5.ResearchStudy.label for use in FHIR R4</b></p><ul><li>type: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system acronym}\">type</span></li></ul></blockquote><p><b>ECLAIRERecruitmentPeriod</b>: 2022-06-30 00:00:00+0000 --&gt; (ongoing)</p><p><b>ECLAIREReviewDate</b>: 2024-05-31 00:00:00+0000</p><p><b>ECLAIRERecruitmentStatus</b>: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system recruiting}\">Actif / active</span></p><p><b>identifier</b>: 2022-500014-26-00\u00a0(use:\u00a0official,\u00a0), id-2\u00a0(use:\u00a0secondary,\u00a0)</p><p><b>title</b>: UNE ETUDE DE PHASE III, RANDOMISEE, OUVERTE, EVALUANT L'EFFICACITE ET LA SECURITE DU GIREDESTRANT EN ASSOCIATION AVEC PHESGO.</p><p><b>status</b>: Active</p><p><b>phase</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/research-study-phase phase-3}\">Phase 3</span></p><p><b>category</b>: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system REG536}\">REG536 (CTIS)</span>, <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system study-ctis}\">un essai clinique (CTIS)</span></p><p><b>condition</b>: <span title=\"Codes:\">Cancer du sein localement avancé ou métastatique (CSM)</span>, <span title=\"Codes:{https://www.meddra.org 10065430}\">Cancer du sein HER2 positif</span>, <span title=\"Codes:{https://www.meddra.org 10070575}\">Cancer du sein à récepteurs aux oestrogènes positifs</span></p><p><b>contact</b>: ph: 0041616881111(Work),<a href=\"mailto:global.rochegenentechtrials@roche.com\">global.rochegenentechtrials@roche.com</a>, ph: -unknown-(Work),<a href=\"mailto:null\"/>, ph: -unknown-(Work),<a href=\"mailto:null\"/></p><p><b>location</b>: <span title=\"Codes:{urn:iso:std:iso:3166 BE}\">Belgium</span>, <span title=\"Codes:{urn:iso:std:iso:3166 DE}\">Germany</span>, <span title=\"Codes:{urn:iso:std:iso:3166 ES}\">Spain</span>, <span title=\"Codes:{urn:iso:std:iso:3166 FR}\">France</span>, <span title=\"Codes:{urn:iso:std:iso:3166 HU}\">Hungary</span>, <span title=\"Codes:{urn:iso:std:iso:3166 IT}\">Italy</span>, <span title=\"Codes:{urn:iso:std:iso:3166 PL}\">Poland</span>, <span title=\"Codes:{urn:iso:std:iso:3166 PT}\">Portugal</span></p><p><b>description</b>: </p><div><p>Exemple construit à partir de https://eclaire-api.osc-fr1.scalingo.io/R4/ResearchStudy/2022-500014-26-00</p>\n</div><p><b>enrollment</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.uv.xver-r5.r4@0.0.1-snapshot-1&amp;canonical=http://hl7.org/fhir/uv/xver/Group/2022-500014-26-00-enrollment-group\">Reference to group detailing study characteristics</a></p><h3>Arms</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>Name</b></td><td><b>Description</b></td></tr><tr><td style=\"display: none\">*</td><td/><td>Example</td><td>Example</td></tr></table></div>"
+  },
+  "extension" : [{
+    "extension" : [{
+      "url" : "name",
+      "valueString" : "THE sponsor"
+    },
+    {
+      "url" : "role",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system",
+          "code" : "lead-sponsor"
+        }],
+        "text" : "Sponsor principal"
+      }
+    },
+    {
+      "url" : "period",
+      "valuePeriod" : {
+        "start" : "2022-06-30T00:00:00.000Z"
+      }
+    },
+    {
+      "url" : "classifier",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system",
+          "code" : "academic"
+        }],
+        "text" : "academic"
+      }
+    },
+    {
+      "url" : "party",
+      "valueReference" : {
+        "reference" : "Organization/2022-500014-26-00-secondary-sponsor",
+        "display" : "Reference to secondary sponsor"
+      }
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-therapeutic-area",
+    "valueString" : "Maladies [C] - Tumeurs [C04]"
+  },
+  {
+    "extension" : [{
+      "url" : "type",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system",
+          "code" : "human-use"
+        }],
+        "text" : "type"
+      }
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+  },
+  {
+    "extension" : [{
+      "url" : "type",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system",
+          "code" : "acronym"
+        }],
+        "text" : "type"
+      }
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-period",
+    "valuePeriod" : {
+      "start" : "2022-06-30T00:00:00.000Z"
+    }
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-review-date",
+    "valueInstant" : "2024-05-31T00:00:00.000Z"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-status",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system",
+        "code" : "recruiting"
+      }]
+    }
+  }],
+  "identifier" : [{
+    "use" : "official",
+    "value" : "2022-500014-26-00"
+  },
+  {
+    "use" : "secondary",
+    "value" : "id-2"
+  }],
+  "title" : "UNE ETUDE DE PHASE III, RANDOMISEE, OUVERTE, EVALUANT L'EFFICACITE ET LA SECURITE DU GIREDESTRANT EN ASSOCIATION AVEC PHESGO.",
+  "status" : "active",
+  "phase" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/research-study-phase",
+      "code" : "phase-3",
+      "display" : "Phase 3"
+    }]
+  },
+  "category" : [{
+    "coding" : [{
+      "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system",
+      "code" : "REG536",
+      "display" : "REG536 (CTIS)"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system",
+      "code" : "study-ctis",
+      "display" : "un essai clinique (CTIS)"
+    }]
+  }],
+  "condition" : [{
+    "id" : "disease-condition-2022-500014-26-00",
+    "text" : "Cancer du sein localement avancé ou métastatique (CSM)"
+  },
+  {
+    "id" : "meddra-condition-2022-500014-26-00-10065430",
+    "coding" : [{
+      "system" : "https://www.meddra.org",
+      "code" : "10065430",
+      "display" : "Cancer du sein HER2 positif"
+    }]
+  },
+  {
+    "id" : "meddra-condition-2022-500014-26-00-10070575",
+    "coding" : [{
+      "system" : "https://www.meddra.org",
+      "code" : "10070575",
+      "display" : "Cancer du sein à récepteurs aux oestrogènes positifs"
+    }]
+  }],
+  "contact" : [{
+    "extension" : [{
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-name",
+      "valueHumanName" : {
+        "use" : "official",
+        "family" : "Trial Information Support Line-TISL, Switzerland",
+        "given" : ["Head of EU"]
+      }
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-address",
+      "valueAddress" : {
+        "use" : "work",
+        "type" : "physical"
+      }
+    }],
+    "telecom" : [{
+      "system" : "phone",
+      "value" : "0041616881111",
+      "use" : "work"
+    },
+    {
+      "system" : "email",
+      "value" : "global.rochegenentechtrials@roche.com",
+      "use" : "work"
+    }]
+  },
+  {
+    "extension" : [{
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-name",
+      "valueHumanName" : {
+        "use" : "official"
+      }
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-address",
+      "valueAddress" : {
+        "use" : "work",
+        "type" : "physical"
+      }
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system",
+          "code" : "SCI",
+          "display" : "Scientifique / Scientific"
+        }]
+      }
+    }],
+    "telecom" : [{
+      "system" : "phone",
+      "use" : "work"
+    },
+    {
+      "system" : "email",
+      "use" : "work"
+    }]
+  },
+  {
+    "extension" : [{
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-name",
+      "valueHumanName" : {
+        "use" : "official"
+      }
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-address",
+      "valueAddress" : {
+        "use" : "work",
+        "type" : "physical"
+      }
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system",
+          "code" : "PUB",
+          "display" : "Publique / Public"
+        }]
+      }
+    }],
+    "telecom" : [{
+      "system" : "phone",
+      "use" : "work"
+    },
+    {
+      "system" : "email",
+      "use" : "work"
+    }]
+  }],
+  "location" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "HU",
+      "display" : "Hungary"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "IT",
+      "display" : "Italy"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "PL",
+      "display" : "Poland"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "PT",
+      "display" : "Portugal"
+    }]
+  }],
+  "description" : "Exemple construit à partir de https://eclaire-api.osc-fr1.scalingo.io/R4/ResearchStudy/2022-500014-26-00",
+  "enrollment" : [{
+    "reference" : "Group/2022-500014-26-00-enrollment-group",
+    "type" : "Group",
+    "display" : "Reference to group detailing study characteristics"
+  }],
+  "arm" : [{
+    "extension" : [{
+      "extension" : [{
+        "url" : "name",
+        "valueString" : "Nom de l'intervention example"
+      },
+      {
+        "url" : "description",
+        "valueString" : "Description de l'intervention example"
+      }],
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-arm-intervention"
+    }],
+    "name" : "Example",
+    "description" : "Example"
+  }]
+}

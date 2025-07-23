@@ -1,0 +1,2560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="7753efa2-ce3f-40b3-8741-bd17645d4ec7"/>
+  <meta>
+    <lastUpdated value="2025-07-23T14:31:20.084+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-category-vs"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion performed internally based on:</p>
+              <ul>
+                <li>
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html">codesystem Précision sur la réglementation concernant l'essai v0.3.1 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="CodeSystem-eclaire-regulation-code-code-system.html">codesystem Code de régulation de l'essai v0.3.1 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <p>Ce jeu de valeur (ValueSet) contient 21 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-IC-Cas-1"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-IC-Cas-1">IC-Cas-1</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-IC-Cas-2"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-IC-Cas-2">IC-Cas-2</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-IC-Cas-3"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-IC-Cas-3">IC-Cas-3</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-IC-Cas-4-1"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-IC-Cas-4-1">IC-Cas-4-1</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-IC-Cas-4-2"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-IC-Cas-4-2">IC-Cas-4-2</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-IC-Cas-4-3"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-IC-Cas-4-3">IC-Cas-4-3</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-IC-Cas-4-4"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-IC-Cas-4-4">IC-Cas-4-4</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-EP-Cas-1"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-EP-Cas-1">EP-Cas-1</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-EP-Cas-2"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-EP-Cas-2">EP-Cas-2</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-EP-Cas-3"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-EP-Cas-3">EP-Cas-3</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-cat1-jarde"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-cat1-jarde">cat1-jarde</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-cat2-jarde"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-cat2-jarde">cat2-jarde</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-cat3-jarde"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-cat3-jarde">cat3-jarde</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-cat3-questionnaire-jarde"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-cat3-questionnaire-jarde">cat3-questionnaire-jarde</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-derog-obligation-info-jarde"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-derog-obligation-info-jarde">derog-obligation-info-jarde</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-study-low-inter-ctis"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-study-low-inter-ctis">study-low-inter-ctis</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-study-ctis"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-study-ctis">study-ctis</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system-REG536"> </a>  
+                  <a href="CodeSystem-eclaire-regulation-code-code-system.html#eclaire-regulation-code-code-system-REG536">REG536</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system-REG745"> </a>  
+                  <a href="CodeSystem-eclaire-regulation-code-code-system.html#eclaire-regulation-code-code-system-REG745">REG745</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system-REG746"> </a>  
+                  <a href="CodeSystem-eclaire-regulation-code-code-system.html#eclaire-regulation-code-code-system-REG746">REG746</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system-JARDE"> </a>  
+                  <a href="CodeSystem-eclaire-regulation-code-code-system.html#eclaire-regulation-code-code-system-JARDE">JARDE</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-category-vs"/>
+        <version value="0.3.1"/>
+        <name value="EclaireCategoryVS"/>
+        <title value="Value Set type pour spécifier la catégorie l'essai clinique"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-07-23T14:30:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:1cbd9211-0aee-4d09-8050-965bd6a41169"/>
+          <timestamp value="2025-07-23T14:32:05+00:00"/>
+          <total value="21"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system|0.3.1"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system|0.3.1"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="IC-Cas-1"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="IC-Cas-2"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="IC-Cas-3"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="IC-Cas-4-1"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="IC-Cas-4-2"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="IC-Cas-4-3"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="IC-Cas-4-4"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="EP-Cas-1"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="EP-Cas-2"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="EP-Cas-3"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="cat1-jarde"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="cat2-jarde"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="cat3-jarde"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="cat3-questionnaire-jarde"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="derog-obligation-info-jarde"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="study-low-inter-ctis"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="study-ctis"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system"/>
+            <code value="REG536"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system"/>
+            <code value="REG745"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system"/>
+            <code value="REG746"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system"/>
+            <code value="JARDE"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-group-characteristic-kind-vs"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-eclaire-group-characteristic-kind-code-system.html">codesystem Codes pour le type de caractéristique du groupe v0.3.1 (CodeSystem)</a>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 5 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system-grp-gender"> </a>  
+                  <a href="CodeSystem-eclaire-group-characteristic-kind-code-system.html#eclaire-group-characteristic-kind-code-system-grp-gender">grp-gender</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system-grp-studypop"> </a>  
+                  <a href="CodeSystem-eclaire-group-characteristic-kind-code-system.html#eclaire-group-characteristic-kind-code-system-grp-studypop">grp-studypop</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system-grp-category"> </a>  
+                  <a href="CodeSystem-eclaire-group-characteristic-kind-code-system.html#eclaire-group-characteristic-kind-code-system-grp-category">grp-category</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system-grp-age"> </a>  
+                  <a href="CodeSystem-eclaire-group-characteristic-kind-code-system.html#eclaire-group-characteristic-kind-code-system-grp-age">grp-age</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system-grp-other"> </a>  
+                  <a href="CodeSystem-eclaire-group-characteristic-kind-code-system.html#eclaire-group-characteristic-kind-code-system-grp-other">grp-other</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-group-characteristic-kind-vs"/>
+        <version value="0.3.1"/>
+        <name value="EclaireGroupCharacteristicKindVS"/>
+        <title value="Type de caractéristique Value Set"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-07-23T14:30:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:5dcca9e2-41ee-436b-9ca2-954232f1c368"/>
+          <timestamp value="2025-07-23T14:32:05+00:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system|0.3.1"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system"/>
+            <code value="grp-gender"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system"/>
+            <code value="grp-studypop"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system"/>
+            <code value="grp-category"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system"/>
+            <code value="grp-age"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system"/>
+            <code value="grp-other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-reglementation-precision-vs"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-eclaire-reglementation-precision-code-system.html">codesystem Précision sur la réglementation concernant l'essai v0.3.1 (CodeSystem)</a>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 17 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-IC-Cas-1"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-IC-Cas-1">IC-Cas-1</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-IC-Cas-2"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-IC-Cas-2">IC-Cas-2</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-IC-Cas-3"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-IC-Cas-3">IC-Cas-3</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-IC-Cas-4-1"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-IC-Cas-4-1">IC-Cas-4-1</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-IC-Cas-4-2"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-IC-Cas-4-2">IC-Cas-4-2</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-IC-Cas-4-3"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-IC-Cas-4-3">IC-Cas-4-3</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-IC-Cas-4-4"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-IC-Cas-4-4">IC-Cas-4-4</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-EP-Cas-1"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-EP-Cas-1">EP-Cas-1</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-EP-Cas-2"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-EP-Cas-2">EP-Cas-2</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-EP-Cas-3"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-EP-Cas-3">EP-Cas-3</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-cat1-jarde"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-cat1-jarde">cat1-jarde</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-cat2-jarde"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-cat2-jarde">cat2-jarde</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-cat3-jarde"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-cat3-jarde">cat3-jarde</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-cat3-questionnaire-jarde"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-cat3-questionnaire-jarde">cat3-questionnaire-jarde</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-derog-obligation-info-jarde"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-derog-obligation-info-jarde">derog-obligation-info-jarde</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-study-low-inter-ctis"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-study-low-inter-ctis">study-low-inter-ctis</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system-study-ctis"> </a>  
+                  <a href="CodeSystem-eclaire-reglementation-precision-code-system.html#eclaire-reglementation-precision-code-system-study-ctis">study-ctis</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-reglementation-precision-vs"/>
+        <version value="0.3.1"/>
+        <name value="EclaireReglementationPrecisionVS"/>
+        <title value="Précision sur la réglementation concernant l'essai Value Set"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-07-23T14:30:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:7fd0f37f-2ead-4d22-b6d2-fd2b949c037b"/>
+          <timestamp value="2025-07-23T14:32:05+00:00"/>
+          <total value="17"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system|0.3.1"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="IC-Cas-1"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="IC-Cas-2"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="IC-Cas-3"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="IC-Cas-4-1"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="IC-Cas-4-2"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="IC-Cas-4-3"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="IC-Cas-4-4"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="EP-Cas-1"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="EP-Cas-2"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="EP-Cas-3"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="cat1-jarde"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="cat2-jarde"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="cat3-jarde"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="cat3-questionnaire-jarde"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="derog-obligation-info-jarde"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="study-low-inter-ctis"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system"/>
+            <code value="study-ctis"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-regulation-code-vs"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-eclaire-regulation-code-code-system.html">codesystem Code de régulation de l'essai v0.3.1 (CodeSystem)</a>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 4 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system-REG536"> </a>  
+                  <a href="CodeSystem-eclaire-regulation-code-code-system.html#eclaire-regulation-code-code-system-REG536">REG536</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system-REG745"> </a>  
+                  <a href="CodeSystem-eclaire-regulation-code-code-system.html#eclaire-regulation-code-code-system-REG745">REG745</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system-REG746"> </a>  
+                  <a href="CodeSystem-eclaire-regulation-code-code-system.html#eclaire-regulation-code-code-system-REG746">REG746</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system-JARDE"> </a>  
+                  <a href="CodeSystem-eclaire-regulation-code-code-system.html#eclaire-regulation-code-code-system-JARDE">JARDE</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-regulation-code-vs"/>
+        <version value="0.3.1"/>
+        <name value="EclaireRegulationCodeVS"/>
+        <title value="Code de régulation Value Set"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-07-23T14:30:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:54589295-1ae8-422c-95f5-dea12b4fc49f"/>
+          <timestamp value="2025-07-23T14:32:05+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system|0.3.1"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system"/>
+            <code value="REG536"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system"/>
+            <code value="REG745"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system"/>
+            <code value="REG746"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system"/>
+            <code value="JARDE"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-status-recruitment-vs"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-eclaire-status-recruitment-code-system.html">codesystem Statut de recrutement v0.3.1 (CodeSystem)</a>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+                <td>
+                  <b>Définition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system-recruiting"> </a>  
+                  <a href="CodeSystem-eclaire-status-recruitment-code-system.html#eclaire-status-recruitment-code-system-recruiting">recruiting</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</td>
+                <td/>
+                <td>Recrutement actif</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system-completed-recruiting"> </a>  
+                  <a href="CodeSystem-eclaire-status-recruitment-code-system.html#eclaire-status-recruitment-code-system-completed-recruiting">completed-recruiting</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</td>
+                <td/>
+                <td>Recrutement terminé</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-status-recruitment-vs"/>
+        <version value="0.3.1"/>
+        <name value="EclaireStatusRecruitementVS"/>
+        <title value="Statut de recrutement Value Set"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-07-23T14:30:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:74f2c971-fdfb-44f1-bd52-ba013aeea4fa"/>
+          <timestamp value="2025-07-23T14:32:05+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system|0.3.1"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system"/>
+            <code value="recruiting"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system"/>
+            <code value="completed-recruiting"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-outcome-type-vs"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-objective-type.html">codesystem ResearchStudyObjectiveType v1.0.0 (CodeSystem)</a>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+                <td>
+                  <b>Définition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/research-study-objective-type-primary"> </a>  
+                  <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-objective-type.html#research-study-objective-type-primary">primary</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/research-study-objective-type</td>
+                <td/>
+                <td>The main question to be answered, and the one that drives any statistical planning for the study—e.g., calculation of the sample size to provide the appropriate power for statistical testing.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/research-study-objective-type-secondary"> </a>  
+                  <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-objective-type.html#research-study-objective-type-secondary">secondary</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/research-study-objective-type</td>
+                <td/>
+                <td>Question to be answered in the study that is of lesser importance than the primary objective.</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-outcome-type-vs"/>
+        <version value="0.3.1"/>
+        <name value="EclaireStudyOutcomeTypeVS"/>
+        <title value="Type de conséquence Value Set"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-07-23T14:30:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:5a94219d-4ae6-4dd4-9580-6f4dcfa9b822"/>
+          <timestamp value="2025-07-23T14:32:05+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/research-study-objective-type|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/research-study-objective-type"/>
+            <code value="primary"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/research-study-objective-type"/>
+            <code value="secondary"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-party-organization-type-vs"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-eclaire-study-party-organization-type-code-system.html">codesystem Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type v0.3.1 (CodeSystem)</a>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 4 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system-government"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-organization-type-code-system.html#eclaire-study-party-organization-type-code-system-government">government</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system-nonprofit"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-organization-type-code-system.html#eclaire-study-party-organization-type-code-system-nonprofit">nonprofit</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system-academic"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-organization-type-code-system.html#eclaire-study-party-organization-type-code-system-academic">academic</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system-industry"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-organization-type-code-system.html#eclaire-study-party-organization-type-code-system-industry">industry</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-party-organization-type-vs"/>
+        <version value="0.3.1"/>
+        <name value="EclaireStudyPartyOrganizationTypeVS"/>
+        <title value="Value Set Eclaire pour les types de parties"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-07-23T14:30:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:d9eb5221-0161-44ff-a90a-89c6023d8dc1"/>
+          <timestamp value="2025-07-23T14:32:05+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system|0.3.1"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system"/>
+            <code value="government"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system"/>
+            <code value="nonprofit"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system"/>
+            <code value="academic"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system"/>
+            <code value="industry"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-party-role-vs"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-eclaire-study-party-role-code-system.html">codesystem Définition des rôles des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-role v0.3.1 (CodeSystem)</a>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 12 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+                <td>
+                  <b>Définition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system-sponsor"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-role-code-system.html#eclaire-study-party-role-code-system-sponsor">sponsor</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
+                <td/>
+                <td>sponsor</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system-lead-sponsor"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-role-code-system.html#eclaire-study-party-role-code-system-lead-sponsor">lead-sponsor</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
+                <td/>
+                <td>lead-sponsor</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system-sponsor-investigator"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-role-code-system.html#eclaire-study-party-role-code-system-sponsor-investigator">sponsor-investigator</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
+                <td/>
+                <td>sponsor-investigator</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system-primary-investigator"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-role-code-system.html#eclaire-study-party-role-code-system-primary-investigator">primary-investigator</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
+                <td/>
+                <td>primary-investigator</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system-collaborator"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-role-code-system.html#eclaire-study-party-role-code-system-collaborator">collaborator</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
+                <td/>
+                <td>collaborator</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system-funding-source"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-role-code-system.html#eclaire-study-party-role-code-system-funding-source">funding-source</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
+                <td/>
+                <td>funding-source</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system-general-contact"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-role-code-system.html#eclaire-study-party-role-code-system-general-contact">general-contact</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
+                <td/>
+                <td>general-contact</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system-recruitment-contact"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-role-code-system.html#eclaire-study-party-role-code-system-recruitment-contact">recruitment-contact</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
+                <td/>
+                <td>recruitment-contact</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system-sub-investigator"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-role-code-system.html#eclaire-study-party-role-code-system-sub-investigator">sub-investigator</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
+                <td/>
+                <td>sub-investigator</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system-study-director"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-role-code-system.html#eclaire-study-party-role-code-system-study-director">study-director</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
+                <td/>
+                <td>study-director</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system-study-chair"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-role-code-system.html#eclaire-study-party-role-code-system-study-chair">study-chair</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
+                <td/>
+                <td>study-chair</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system-ethics"> </a>  
+                  <a href="CodeSystem-eclaire-study-party-role-code-system.html#eclaire-study-party-role-code-system-ethics">ethics</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system</td>
+                <td/>
+                <td>Ethics Review Board</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-party-role-vs"/>
+        <version value="0.3.1"/>
+        <name value="EclaireStudyPartyRoleVS"/>
+        <title value="Value Set Eclaire pour les différents rôles des parties impliquées dans l'essai"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-07-23T14:30:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:aa047f74-4321-4c6a-8e59-b2a6dd2e3498"/>
+          <timestamp value="2025-07-23T14:32:05+00:00"/>
+          <total value="12"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system|0.3.1"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system"/>
+            <code value="sponsor"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system"/>
+            <code value="lead-sponsor"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system"/>
+            <code value="sponsor-investigator"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system"/>
+            <code value="primary-investigator"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system"/>
+            <code value="collaborator"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system"/>
+            <code value="funding-source"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system"/>
+            <code value="general-contact"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system"/>
+            <code value="recruitment-contact"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system"/>
+            <code value="sub-investigator"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system"/>
+            <code value="study-director"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system"/>
+            <code value="study-chair"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system"/>
+            <code value="ethics"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-eclaire-study-phase-source-code-system.html">codesystem Définition des phase de l'essai utilisés dans la base de données ECLAIRE v0.3.1 (CodeSystem)</a>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 12 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system-jarde-early"> </a>  
+                  <a href="CodeSystem-eclaire-study-phase-source-code-system.html#eclaire-study-phase-source-code-system-jarde-early">jarde-early</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system-phase-I-first-admin"> </a>  
+                  <a href="CodeSystem-eclaire-study-phase-source-code-system.html#eclaire-study-phase-source-code-system-phase-I-first-admin">phase-I-first-admin</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system-phase-I-bioequivalence"> </a>  
+                  <a href="CodeSystem-eclaire-study-phase-source-code-system.html#eclaire-study-phase-source-code-system-phase-I-bioequivalence">phase-I-bioequivalence</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system-phase-I-other"> </a>  
+                  <a href="CodeSystem-eclaire-study-phase-source-code-system.html#eclaire-study-phase-source-code-system-phase-I-other">phase-I-other</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system-phase-I-II-first-admin"> </a>  
+                  <a href="CodeSystem-eclaire-study-phase-source-code-system.html#eclaire-study-phase-source-code-system-phase-I-II-first-admin">phase-I-II-first-admin</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system-phase-I-II-first-bioequivalence"> </a>  
+                  <a href="CodeSystem-eclaire-study-phase-source-code-system.html#eclaire-study-phase-source-code-system-phase-I-II-first-bioequivalence">phase-I-II-first-bioequivalence</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system-phase-I-II-other"> </a>  
+                  <a href="CodeSystem-eclaire-study-phase-source-code-system.html#eclaire-study-phase-source-code-system-phase-I-II-other">phase-I-II-other</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system-phase-II"> </a>  
+                  <a href="CodeSystem-eclaire-study-phase-source-code-system.html#eclaire-study-phase-source-code-system-phase-II">phase-II</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system-phase-II-III"> </a>  
+                  <a href="CodeSystem-eclaire-study-phase-source-code-system.html#eclaire-study-phase-source-code-system-phase-II-III">phase-II-III</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system-phase-III"> </a>  
+                  <a href="CodeSystem-eclaire-study-phase-source-code-system.html#eclaire-study-phase-source-code-system-phase-III">phase-III</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system-phase-IV"> </a>  
+                  <a href="CodeSystem-eclaire-study-phase-source-code-system.html#eclaire-study-phase-source-code-system-phase-IV">phase-IV</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system-phase-III-IV"> </a>  
+                  <a href="CodeSystem-eclaire-study-phase-source-code-system.html#eclaire-study-phase-source-code-system-phase-III-IV">phase-III-IV</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs"/>
+        <version value="0.3.1"/>
+        <name value="EclaireStudyPhaseSourceVS"/>
+        <title value="Value Set de la phase de l'essai tel que définie dans la base ECLAIRE"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-07-23T14:30:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:20f0d6e0-0fb4-4189-8e8c-c28eb1847ab9"/>
+          <timestamp value="2025-07-23T14:32:05+00:00"/>
+          <total value="12"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system|0.3.1"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system"/>
+            <code value="jarde-early"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system"/>
+            <code value="phase-I-first-admin"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system"/>
+            <code value="phase-I-bioequivalence"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system"/>
+            <code value="phase-I-other"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system"/>
+            <code value="phase-I-II-first-admin"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system"/>
+            <code value="phase-I-II-first-bioequivalence"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system"/>
+            <code value="phase-I-II-other"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system"/>
+            <code value="phase-II"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system"/>
+            <code value="phase-II-III"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system"/>
+            <code value="phase-III"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system"/>
+            <code value="phase-IV"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system"/>
+            <code value="phase-III-IV"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-vs"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion performed internally based on:</p>
+              <ul>
+                <li>
+                  <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-phase.html">codesystem ResearchStudyPhase v1.0.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="CodeSystem-eclaire-study-phase-code-system.html">codesystem Définition des type de phase de l'essai cliniques incluant https://hl7.org/fhir/R4/valueset-research-study-phase.html v0.3.1 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <p>Ce jeu de valeur (ValueSet) contient 9 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+                <td>
+                  <b>Définition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/research-study-phase-n-a"> </a>  
+                  <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-phase.html#research-study-phase-n-a">n-a</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
+                <td/>
+                <td>Trials without phases (for example, studies of devices or behavioral interventions).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/research-study-phase-early-phase-1"> </a>  
+                  <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-phase.html#research-study-phase-early-phase-1">early-phase-1</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
+                <td/>
+                <td>Designation for optional exploratory trials conducted in accordance with the United States Food and Drug Administration's (FDA) 2006 Guidance on Exploratory Investigational New Drug (IND) Studies. Formerly called Phase 0.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-1"> </a>  
+                  <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-phase.html#research-study-phase-phase-1">phase-1</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
+                <td/>
+                <td>Includes initial studies to determine the metabolism and pharmacologic actions of drugs in humans, the side effects associated with increasing doses, and to gain early evidence of effectiveness; may include healthy participants and/or patients.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-1-phase-2"> </a>  
+                  <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-phase.html#research-study-phase-phase-1-phase-2">phase-1-phase-2</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
+                <td/>
+                <td>Trials that are a combination of phases 1 and 2.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-2"> </a>  
+                  <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-phase.html#research-study-phase-phase-2">phase-2</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
+                <td/>
+                <td>Includes controlled clinical studies conducted to evaluate the effectiveness of the drug for a particular indication or indications in participants with the disease or condition under study and to determine the common short-term side effects and risks.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-2-phase-3"> </a>  
+                  <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-phase.html#research-study-phase-phase-2-phase-3">phase-2-phase-3</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
+                <td/>
+                <td>Trials that are a combination of phases 2 and 3.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-3"> </a>  
+                  <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-phase.html#research-study-phase-phase-3">phase-3</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
+                <td/>
+                <td>Includes trials conducted after preliminary evidence suggesting effectiveness of the drug has been obtained, and are intended to gather additional information to evaluate the overall benefit-risk relationship of the drug.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-4"> </a>  
+                  <a href="http://terminology.hl7.org/6.3.0/CodeSystem-research-study-phase.html#research-study-phase-phase-4">phase-4</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/research-study-phase</td>
+                <td/>
+                <td>Studies of FDA-approved drugs to delineate additional information including the drug's risks, benefits, and optimal use.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system-phase-3-phase-4"> </a>  
+                  <a href="CodeSystem-eclaire-study-phase-code-system.html#eclaire-study-phase-code-system-phase-3-phase-4">phase-3-phase-4</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system</td>
+                <td/>
+                <td>Trials that are a combination of phases 3 and 4.</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-vs"/>
+        <version value="0.3.1"/>
+        <name value="EclaireStudyPhaseVS"/>
+        <title value="Value Set type de phase de l'essai clinique"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-07-23T14:30:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:759884fb-e223-4b17-b2f9-1bff33cfdcc9"/>
+          <timestamp value="2025-07-23T14:32:05+00:00"/>
+          <total value="9"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/research-study-phase|1.0.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system|0.3.1"/>
+          </parameter>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/research-study-phase"/>
+            <code value="n-a"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/research-study-phase"/>
+            <code value="early-phase-1"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/research-study-phase"/>
+            <code value="phase-1"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/research-study-phase"/>
+            <code value="phase-1-phase-2"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/research-study-phase"/>
+            <code value="phase-2"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/research-study-phase"/>
+            <code value="phase-2-phase-3"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/research-study-phase"/>
+            <code value="phase-3"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/research-study-phase"/>
+            <code value="phase-4"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system"/>
+            <code value="phase-3-phase-4"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-population-vs"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-eclaire-study-population-code-system.html">codesystem Codes pour caractériser la population de l'étude v0.3.1 (CodeSystem)</a>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 9 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system-incap-pop"> </a>  
+                  <a href="CodeSystem-eclaire-study-population-code-system.html#eclaire-study-population-code-system-incap-pop">incap-pop</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system-minors"> </a>  
+                  <a href="CodeSystem-eclaire-study-population-code-system.html#eclaire-study-population-code-system-minors">minors</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system-nursing"> </a>  
+                  <a href="CodeSystem-eclaire-study-population-code-system.html#eclaire-study-population-code-system-nursing">nursing</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system-other"> </a>  
+                  <a href="CodeSystem-eclaire-study-population-code-system.html#eclaire-study-population-code-system-other">other</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system-pregnant"> </a>  
+                  <a href="CodeSystem-eclaire-study-population-code-system.html#eclaire-study-population-code-system-pregnant">pregnant</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system-emergency-situation"> </a>  
+                  <a href="CodeSystem-eclaire-study-population-code-system.html#eclaire-study-population-code-system-emergency-situation">emergency-situation</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system-incap-consent"> </a>  
+                  <a href="CodeSystem-eclaire-study-population-code-system.html#eclaire-study-population-code-system-incap-consent">incap-consent</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system-no-using-contraception"> </a>  
+                  <a href="CodeSystem-eclaire-study-population-code-system.html#eclaire-study-population-code-system-no-using-contraception">no-using-contraception</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system-using-contraception"> </a>  
+                  <a href="CodeSystem-eclaire-study-population-code-system.html#eclaire-study-population-code-system-using-contraception">using-contraception</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-population-vs"/>
+        <version value="0.3.1"/>
+        <name value="EclaireStudyPopulationVS"/>
+        <title value="Caractérisation de la population Value Set"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-07-23T14:30:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:eb6a3ef2-6014-4603-97f0-f06662a0006b"/>
+          <timestamp value="2025-07-23T14:32:05+00:00"/>
+          <total value="9"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system|0.3.1"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system"/>
+            <code value="incap-pop"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system"/>
+            <code value="minors"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system"/>
+            <code value="nursing"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system"/>
+            <code value="other"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system"/>
+            <code value="pregnant"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system"/>
+            <code value="emergency-situation"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system"/>
+            <code value="incap-consent"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system"/>
+            <code value="no-using-contraception"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system"/>
+            <code value="using-contraception"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-status-vs"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-eclaire-study-status-code-system.html">codesystem Définition des statuts de l'essai utilisés dans la base de données ECLAIRE v0.3.1 (CodeSystem)</a>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 9 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system-a-demarrer"> </a>  
+                  <a href="CodeSystem-eclaire-study-status-code-system.html#eclaire-study-status-code-system-a-demarrer">a-demarrer</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system-en-cours"> </a>  
+                  <a href="CodeSystem-eclaire-study-status-code-system.html#eclaire-study-status-code-system-en-cours">en-cours</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system-suspendue"> </a>  
+                  <a href="CodeSystem-eclaire-study-status-code-system.html#eclaire-study-status-code-system-suspendue">suspendue</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system-prorogee"> </a>  
+                  <a href="CodeSystem-eclaire-study-status-code-system.html#eclaire-study-status-code-system-prorogee">prorogee</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system-expiree"> </a>  
+                  <a href="CodeSystem-eclaire-study-status-code-system.html#eclaire-study-status-code-system-expiree">expiree</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system-terminee"> </a>  
+                  <a href="CodeSystem-eclaire-study-status-code-system.html#eclaire-study-status-code-system-terminee">terminee</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system-terminee-fin-anticipee"> </a>  
+                  <a href="CodeSystem-eclaire-study-status-code-system.html#eclaire-study-status-code-system-terminee-fin-anticipee">terminee-fin-anticipee</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system-archivee"> </a>  
+                  <a href="CodeSystem-eclaire-study-status-code-system.html#eclaire-study-status-code-system-archivee">archivee</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system-abandonnee"> </a>  
+                  <a href="CodeSystem-eclaire-study-status-code-system.html#eclaire-study-status-code-system-abandonnee">abandonnee</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-status-vs"/>
+        <version value="0.3.1"/>
+        <name value="EclaireStudyStatusVS"/>
+        <title value="Value Set Statut Eclaire de l'essai"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-07-23T14:30:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:09c2986f-40cf-4972-92f0-339df7abeb78"/>
+          <timestamp value="2025-07-23T14:32:05+00:00"/>
+          <total value="9"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system|0.3.1"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system"/>
+            <code value="a-demarrer"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system"/>
+            <code value="en-cours"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system"/>
+            <code value="suspendue"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system"/>
+            <code value="prorogee"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system"/>
+            <code value="expiree"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system"/>
+            <code value="terminee"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system"/>
+            <code value="terminee-fin-anticipee"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system"/>
+            <code value="archivee"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-status-code-system"/>
+            <code value="abandonnee"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-title-type-vs"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-eclaire-study-title-type-code-system.html">codesystem Définition des types de titre pour l'essai v0.3.1 (CodeSystem)</a>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 13 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+                <td>
+                  <b>Définition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system-primary"> </a>  
+                  <a href="CodeSystem-eclaire-study-title-type-code-system.html#eclaire-study-title-type-code-system-primary">primary</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
+                <td/>
+                <td>Main title for common use. The primary title used for representation if multiple titles exist.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system-official"> </a>  
+                  <a href="CodeSystem-eclaire-study-title-type-code-system.html#eclaire-study-title-type-code-system-official">official</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
+                <td/>
+                <td>The official or authoritative title.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system-scientific"> </a>  
+                  <a href="CodeSystem-eclaire-study-title-type-code-system.html#eclaire-study-title-type-code-system-scientific">scientific</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
+                <td/>
+                <td>Title using scientific terminology.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system-plain-language"> </a>  
+                  <a href="CodeSystem-eclaire-study-title-type-code-system.html#eclaire-study-title-type-code-system-plain-language">plain-language</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
+                <td/>
+                <td>Title using language common to lay public discourse.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system-subtitle"> </a>  
+                  <a href="CodeSystem-eclaire-study-title-type-code-system.html#eclaire-study-title-type-code-system-subtitle">subtitle</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
+                <td/>
+                <td>Subtitle or secondary title.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system-short-title"> </a>  
+                  <a href="CodeSystem-eclaire-study-title-type-code-system.html#eclaire-study-title-type-code-system-short-title">short-title</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
+                <td/>
+                <td>Brief title (e.g. 'running title' or title used in page headers)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system-acronym"> </a>  
+                  <a href="CodeSystem-eclaire-study-title-type-code-system.html#eclaire-study-title-type-code-system-acronym">acronym</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
+                <td/>
+                <td>Abbreviation used as title</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system-earlier-title"> </a>  
+                  <a href="CodeSystem-eclaire-study-title-type-code-system.html#eclaire-study-title-type-code-system-earlier-title">earlier-title</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
+                <td/>
+                <td>Alternative form of title in an earlier version such as epub ahead of print.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system-language"> </a>  
+                  <a href="CodeSystem-eclaire-study-title-type-code-system.html#eclaire-study-title-type-code-system-language">language</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
+                <td/>
+                <td>Additional form of title in a different language.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system-autotranslated"> </a>  
+                  <a href="CodeSystem-eclaire-study-title-type-code-system.html#eclaire-study-title-type-code-system-autotranslated">autotranslated</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
+                <td/>
+                <td>Machine translated form of title in a different language, language element codes the language into which it was translated by machine.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system-human-use"> </a>  
+                  <a href="CodeSystem-eclaire-study-title-type-code-system.html#eclaire-study-title-type-code-system-human-use">human-use</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
+                <td/>
+                <td>Human-friendly title</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system-machine-use"> </a>  
+                  <a href="CodeSystem-eclaire-study-title-type-code-system.html#eclaire-study-title-type-code-system-machine-use">machine-use</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
+                <td/>
+                <td>Machine-friendly title</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system-duplicate-uid"> </a>  
+                  <a href="CodeSystem-eclaire-study-title-type-code-system.html#eclaire-study-title-type-code-system-duplicate-uid">duplicate-uid</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</td>
+                <td/>
+                <td>An alternative form of the title in two or more entries, e.g. in multiple medline entries</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-title-type-vs"/>
+        <version value="0.3.1"/>
+        <name value="EclaireStudyTitleTypetVS"/>
+        <title value="Type de titre Value Set"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-07-23T14:30:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:e3f74923-14b8-41f3-a0f8-03c7913eaeec"/>
+          <timestamp value="2025-07-23T14:32:05+00:00"/>
+          <total value="13"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system|0.3.1"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system"/>
+            <code value="primary"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system"/>
+            <code value="official"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system"/>
+            <code value="scientific"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system"/>
+            <code value="plain-language"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system"/>
+            <code value="subtitle"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system"/>
+            <code value="short-title"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system"/>
+            <code value="acronym"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system"/>
+            <code value="earlier-title"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system"/>
+            <code value="language"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system"/>
+            <code value="autotranslated"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system"/>
+            <code value="human-use"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system"/>
+            <code value="machine-use"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system"/>
+            <code value="duplicate-uid"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-type-contact-vs"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-eclaire-type-contact-code-system.html">codesystem Type de contact v0.3.1 (CodeSystem)</a>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (fr-FR)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system-PUB"> </a>  
+                  <a href="CodeSystem-eclaire-type-contact-code-system.html#eclaire-type-contact-code-system-PUB">PUB</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system-SCI"> </a>  
+                  <a href="CodeSystem-eclaire-type-contact-code-system.html#eclaire-type-contact-code-system-SCI">SCI</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-type-contact-vs"/>
+        <version value="0.3.1"/>
+        <name value="EclaireTypeContactVS"/>
+        <title value="Type Contact Value Set"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-07-23T14:30:41+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:9a7bdc10-146c-4ba8-aad8-a3748bbd3246"/>
+          <timestamp value="2025-07-23T14:32:05+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr-FR"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system|0.3.1"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system"/>
+            <code value="PUB"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system"/>
+            <code value="SCI"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

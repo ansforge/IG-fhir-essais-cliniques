@@ -1,0 +1,32 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "a1e87ac7-bcf3-405f-b8a9-f1d7c8290ae2-9",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/a1e87ac7-bcf3-405f-b8a9-f1d7c8290ae2-9",
+  "name" : "IntersectionEclaireRegulationCodeCSAndEclaireRegulationCodeCS",
+  "title" : "Intersection of Code de régulation de l'essai And Code de régulation de l'essai",
+  "status" : "draft",
+  "date" : "2025-07-23T14:31:43+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "concept" : [{
+    "code" : "REG536",
+    "display" : "REG536 (CTIS)"
+  },
+  {
+    "code" : "REG745",
+    "display" : "REG745 (DM)"
+  },
+  {
+    "code" : "REG746",
+    "display" : "REG746 (DM-DIV)"
+  },
+  {
+    "code" : "JARDE",
+    "display" : "JARDE (Jarde)"
+  }]
+}

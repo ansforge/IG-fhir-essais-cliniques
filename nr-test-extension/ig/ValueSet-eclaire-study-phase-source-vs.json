@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eclaire-study-phase-source-vs",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs eclaire-study-phase-source-vs</b></p><a name=\"eclaire-study-phase-source-vs\"> </a><a name=\"hceclaire-study-phase-source-vs\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-eclaire-study-phase-source-code-system.html\"><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system</code></a></li></ul></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs",
+  "version" : "0.3.1",
+  "name" : "EclaireStudyPhaseSourceVS",
+  "title" : "Value Set de la phase de l'essai tel que définie dans la base ECLAIRE",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-07-23T14:30:41+00:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "Value Set de la phase de l'essai clinique tel qu'il est défini dans la base ECLAIRE",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system"
+    }]
+  }
+}
