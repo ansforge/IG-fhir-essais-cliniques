@@ -74,7 +74,7 @@ Description: "Profil de ResearchStudy pour le projet ECLAIRE"
     ECLAIRETherapeuticArea named eclaire-therapeutic-area 0..1 MS and
     ECLAIRERecruitmentPeriod named eclaire-recruitment-period 0..1 MS and
     ECLAIRERecruitmentStatus named eclaire-recruitment-status 0..1 MS and // en R5 le ProgressStatus inclut fonctionnelement le status de R4. Nous sommes donc obligés de faire cette extension en R4 pour répondre au besoin
-    ext-R5-escription-summary named eclaire-description-summary-r5 0..1 MS and
+    ext-R5-description-summary named eclaire-description-summary-r5 0..1 MS and
     ECLAIREoutcomeMeasureR5 named eclaire-outcome-measure-r5 0..* MS and // extension outcomeMeasure inspirée de R5
     ECLAIREassociatedPartyR5 named eclaire-associated-party-r5 0..* MS and // extension associatedParty inspirée de R5
     ext-R5-ResearchStudy.label named eclaire-label-r5 0..* MS // extension label inspirée de R5
