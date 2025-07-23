@@ -63,7 +63,7 @@ Usage: #example
 * identifier[0]
   * use = #official
   * value = "2022-500014-26-00"
-  * system = ""
+  * system = "https://euclinicaltrials.eu"
 * identifier[+]
   * use = #secondary
   * value = "NCT12345678"
@@ -78,8 +78,8 @@ Usage: #example
   * system = "https://www.who.int/tools/clinical-trials-registry-platform"
 * identifier[+]
   * use = #secondary
-  * value = "my-idetifier-1234"
-  * system = "https://acme.com"
+  * value = "my-identifier-1234"
+  * system = "https://my-identifier.fr"
 * title = "UNE ETUDE DE PHASE III, RANDOMISEE, OUVERTE, EVALUANT L'EFFICACITE ET LA SECURITE DU GIREDESTRANT EN ASSOCIATION AVEC PHESGO."
 * status = #active
 * phase.coding = $research-study-phase#phase-3 "Phase 3"
