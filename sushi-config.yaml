@@ -17,6 +17,7 @@ jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
 
 dependencies:
   hl7.fhir.extensions.r5: 4.0.1
+  hl7.fhir.uv.xver-r5.r4: 0.0.1-snapshot-1
 
 parameters:
     shownav: 'true'
