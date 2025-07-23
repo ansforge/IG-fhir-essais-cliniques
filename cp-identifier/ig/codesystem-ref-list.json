@@ -27,12 +27,12 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/research-study-phase",
-      "version" : "4.0.1",
-      "status" : "draft",
+      "version" : "1.0.0",
+      "status" : "active",
       "name" : "ResearchStudyPhase",
       "title" : "ResearchStudyPhase",
       "description" : "Codes for the stage in the progression of a therapy from initial experimental use in humans in clinical trials to post-market evaluation.",
-      "oids" : ["2.16.840.1.113883.4.642.4.1247"],
+      "oids" : ["2.16.840.1.113883.4.642.1.1247"],
       "uses" : {
       },
       "ConceptMap-eclaire-study-phase-concept-map.html" : "FHIR/Eclaire ResearchStudy phase Use Mapping",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "1c148913-3f94-4fbd-8955-86b2b339f3ec-27",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/1c148913-3f94-4fbd-8955-86b2b339f3ec-27",
+  "id" : "3f0f86c9-ee53-4008-974d-ad8d7e6c77b2-27",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/3f0f86c9-ee53-4008-974d-ad8d7e6c77b2-27",
   "name" : "IntersectionEclaireStudyPopulationCSAndEclaireStudyPopulationCS",
   "title" : "Intersection of Codes pour caractériser la population de l'étude And Codes pour caractériser la population de l'étude",
   "status" : "draft",
-  "date" : "2025-07-16T09:39:24+00:00",
+  "date" : "2025-07-23T16:42:02+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
