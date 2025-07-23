@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "EclaireStudyPhaseCS"] ; # 
   fhir:title [ fhir:v "Définition des type de phase de l'essai cliniques incluant https://hl7.org/fhir/R4/valueset-research-study-phase.html"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-07-23T16:41:09+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-23T16:56:41+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
