@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "f8d5b968-f2ac-4ac7-ae2f-7be1db4db758-96",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/f8d5b968-f2ac-4ac7-ae2f-7be1db4db758-96",
+  "id" : "32fbdd42-24ab-46a2-bf9c-a15f5e8d27ed-96",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/32fbdd42-24ab-46a2-bf9c-a15f5e8d27ed-96",
   "name" : "IntersectionEclaireReglementationPrecisionVSAndEclaireReglementationPrecisionVS",
   "title" : "Intersection of Précision sur la réglementation concernant l'essai Value Set And Précision sur la réglementation concernant l'essai Value Set",
   "status" : "draft",
-  "date" : "2025-07-21T14:52:40+00:00",
+  "date" : "2025-07-23T12:41:54+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
