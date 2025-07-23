@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "58fbc524-b56f-43f7-82cf-46862f63202b-90",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/58fbc524-b56f-43f7-82cf-46862f63202b-90",
+  "id" : "12ac911d-8309-4edc-a138-7434892e2d3b-90",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12ac911d-8309-4edc-a138-7434892e2d3b-90",
   "name" : "IntersectionEclaireCategoryVSAndEclaireCategoryVS",
   "title" : "Intersection of Value Set type pour spécifier la catégorie l'essai clinique And Value Set type pour spécifier la catégorie l'essai clinique",
   "status" : "draft",
-  "date" : "2025-07-23T13:43:03+00:00",
+  "date" : "2025-07-23T15:04:39+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

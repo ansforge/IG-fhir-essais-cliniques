@@ -1,9 +1,9 @@
 ECLAIRE : Validation Results
 =========================================
 
-err = 59, warn = 38, info = 30
+err = 61, warn = 38, info = 30
 IG Publisher Version: 2.0.11
-Generated Wed Jul 23 13:43:43 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
+Generated Wed Jul 23 15:05:19 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
  Build Errors : 1 / 3 / 0
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CapabilityStatement-eclaire-consommateur : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-group-characteristic-kind-code-system : 0 / 0 / 1
@@ -21,7 +21,7 @@ Generated Wed Jul 23 13:43:43 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclai
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ConceptMap-eclaire-study-phase-concept-map : 13 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ConceptMap-eclaire-study-status-concept-map : 10 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.eclaire : 0 / 0 / 1
- /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ResearchStudy-2022-500014-26-00-example : 2 / 2 / 11
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ResearchStudy-2022-500014-26-00-example : 4 / 2 / 11
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/ResearchStudy-fake-study-example : 20 / 1 / 14
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-approval-date : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-arm-intervention : 0 / 0 / 1
@@ -110,6 +110,8 @@ ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[0].exten
 INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[2].extension[0].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system|0.3.1
 INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[3].extension[0].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system|0.3.1
 INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[6].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system|0.3.1
+ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[7].url: Profile http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary|0.0.1-snapshot-1, Element matches more than one slice - , 
+ERROR: ResearchStudy/2022-500014-26-00-example: ResearchStudy.extension[7].url: Profile https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy|0.3.1, Element matches more than one slice - , 
 WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[1].coding[0].system: A definition for CodeSystem 'https://www.meddra.org' could not be found, so the code cannot be validated
 WARNING: ResearchStudy/2022-500014-26-00-example: ResearchStudy.condition[2].coding[0].system: A definition for CodeSystem 'https://www.meddra.org' could not be found, so the code cannot be validated
 INFORMATION: ResearchStudy/2022-500014-26-00-example: ResearchStudy.contact[1].extension[2].value.ofType(CodeableConcept): Reference to experimental CodeSystem https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system|0.3.1
