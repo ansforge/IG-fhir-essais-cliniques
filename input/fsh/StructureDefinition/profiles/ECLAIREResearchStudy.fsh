@@ -42,8 +42,10 @@ Description: "Profil de ResearchStudy pour le projet ECLAIRE"
 * site only Reference(ECLAIRELocation)
 
 /*slice*/
-* identifier ^slicing.discriminator.type = #value
-* identifier ^slicing.discriminator.path = "use"
+* identifier ^slicing.discriminator[0].type = #value
+* identifier ^slicing.discriminator[=].path = "use"
+* identifier ^slicing.discriminator[+].type = #value
+* identifier ^slicing.discriminator[=].path = "system"
 * identifier ^slicing.rules = #open
 * identifier ^slicing.description = "Slicing pour les différents identifiants de l'essai clinique"
 * identifier contains
