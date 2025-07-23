@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "32fbdd42-24ab-46a2-bf9c-a15f5e8d27ed-30",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/32fbdd42-24ab-46a2-bf9c-a15f5e8d27ed-30",
+  "id" : "58fbc524-b56f-43f7-82cf-46862f63202b-30",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/58fbc524-b56f-43f7-82cf-46862f63202b-30",
   "name" : "IntersectionEclaireStudyStatusCSAndEclaireStudyStatusCS",
   "title" : "Intersection of Définition des statuts de l'essai utilisés dans la base de données ECLAIRE And Définition des statuts de l'essai utilisés dans la base de données ECLAIRE",
   "status" : "draft",
-  "date" : "2025-07-23T12:41:54+00:00",
+  "date" : "2025-07-23T13:43:03+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
