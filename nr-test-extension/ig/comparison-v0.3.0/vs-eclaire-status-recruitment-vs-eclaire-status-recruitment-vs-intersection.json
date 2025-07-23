@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "a1e87ac7-bcf3-405f-b8a9-f1d7c8290ae2-99",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/a1e87ac7-bcf3-405f-b8a9-f1d7c8290ae2-99",
+  "id" : "164bb46b-5e16-4a35-860f-30c685c3310f-99",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/164bb46b-5e16-4a35-860f-30c685c3310f-99",
   "name" : "IntersectionEclaireStatusRecruitementVSAndEclaireStatusRecruitementVS",
   "title" : "Intersection of Statut de recrutement Value Set And Statut de recrutement Value Set",
   "status" : "draft",
-  "date" : "2025-07-23T14:31:43+00:00",
+  "date" : "2025-07-23T15:20:50+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

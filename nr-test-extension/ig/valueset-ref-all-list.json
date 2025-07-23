@@ -128,9 +128,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
+      "StructureDefinition-eclaire-group.html" : "ECLAIREGroup",
       "StructureDefinition-eclaire-researchstudy.html" : "ECLAIREResearchStudy",
-      "StructureDefinition-eclaire-location.html" : "ECLAIRELocation",
-      "StructureDefinition-eclaire-group.html" : "ECLAIREGroup"
+      "StructureDefinition-eclaire-location.html" : "ECLAIRELocation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-mode",
@@ -401,8 +401,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-eclaire-researchstudy.html" : "ECLAIREResearchStudy",
-      "ConceptMap-eclaire-study-phase-concept-map.html" : "FHIR/Eclaire ResearchStudy phase Use Mapping"
+      "ConceptMap-eclaire-study-phase-concept-map.html" : "FHIR/Eclaire ResearchStudy phase Use Mapping",
+      "StructureDefinition-eclaire-researchstudy.html" : "ECLAIREResearchStudy"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-population-vs",
