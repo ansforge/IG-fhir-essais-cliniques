@@ -77,7 +77,7 @@ Description: "Profil de ResearchStudy pour le projet ECLAIRE"
     $description-summary-r5 named eclaire-description-summary-r5 0..1 MS and
     ECLAIREoutcomeMeasureR5 named eclaire-outcome-measure-r5 0..* MS and // extension outcomeMeasure inspirée de R5
     ECLAIREassociatedPartyR5 named eclaire-associated-party-r5 0..* MS and // extension associatedParty inspirée de R5
-    ECLAIRELabelR5 named eclaire-label-r5 0..* MS // extension label inspirée de R5
+    ext-R5-ResearchStudy.label named eclaire-label-r5 0..* MS // extension label inspirée de R5
 * extension[eclaire-review-date] ^short = "Date de dernière modification substancielle"
 * extension[eclaire-approval-date] ^short = "Date d'approbation du comité éthique"
 * extension[eclaire-description-summary-r5] ^short = "Texte bref décrivant l'essai / Brief text explaining the study (Brief summary)"
