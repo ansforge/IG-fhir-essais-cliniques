@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "e95ab19e-1931-410e-aab3-d8f4a6ad0126-53",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e95ab19e-1931-410e-aab3-d8f4a6ad0126-53",
+  "id" : "621b4e0d-dc46-493f-9aba-f7acdafff230-53",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/621b4e0d-dc46-493f-9aba-f7acdafff230-53",
   "name" : "UnionECLAIREContactNameAndECLAIREContactName",
   "title" : "Union of null And null",
   "status" : "draft",
-  "date" : "2025-07-24T09:18:42+00:00",
+  "date" : "2025-07-24T15:59:41+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
