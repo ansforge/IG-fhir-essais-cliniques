@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "12ac911d-8309-4edc-a138-7434892e2d3b-114",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/12ac911d-8309-4edc-a138-7434892e2d3b-114",
+  "id" : "e95ab19e-1931-410e-aab3-d8f4a6ad0126-114",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e95ab19e-1931-410e-aab3-d8f4a6ad0126-114",
   "name" : "IntersectionEclaireStudyPhaseSourceVSAndEclaireStudyPhaseSourceVS",
   "title" : "Intersection of Value Set de la phase de l'essai tel que définie dans la base ECLAIRE And Value Set de la phase de l'essai tel que définie dans la base ECLAIRE",
   "status" : "draft",
-  "date" : "2025-07-23T15:04:39+00:00",
+  "date" : "2025-07-24T09:18:42+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
