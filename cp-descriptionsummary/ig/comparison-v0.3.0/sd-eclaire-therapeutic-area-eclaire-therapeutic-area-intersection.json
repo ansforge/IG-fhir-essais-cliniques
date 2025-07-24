@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "621b4e0d-dc46-493f-9aba-f7acdafff230-87",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/621b4e0d-dc46-493f-9aba-f7acdafff230-87",
+  "id" : "2d80ed76-ba7b-4fef-ad83-58b332d16a25-87",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/2d80ed76-ba7b-4fef-ad83-58b332d16a25-87",
   "name" : "IntersectionECLAIRETherapeuticAreaAndECLAIRETherapeuticArea",
   "title" : "Intersection of null And null",
   "status" : "draft",
-  "date" : "2025-07-24T15:59:42+00:00",
+  "date" : "2025-07-24T16:14:02+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
