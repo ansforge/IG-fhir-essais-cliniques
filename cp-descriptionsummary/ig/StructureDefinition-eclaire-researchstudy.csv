@@ -55,7 +55,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "ResearchStudy.extension:eclaire-description-summary-r5","ResearchStudy.extension","eclaire-description-summary-r5","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary]]} {[]}
 ","Texte bref décrivant l'essai / Brief text explaining the study (Brief summary)","Cette extension implemente l'élément descriptionSummary de R5 https://hl7.org/fhir/R5/researchstudy-definitions.html#ResearchStudy.descriptionSummary. elle permet l'ajout d'un texte bref décrivant l'essai (Brief summary)","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ResearchStudy.extension:eclaire-outcome-measure-r5","ResearchStudy.extension","eclaire-outcome-measure-r5","","",0,*,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure]]} {[]}
 ","Conséquences principales (primary outcomes) + Conséquences secondaires (secondary outcomes)","Cette extension implemente l'élément outcomeMeasure de R5. elle permet l'ajout des conséquences principales et secondaires de l'essai","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

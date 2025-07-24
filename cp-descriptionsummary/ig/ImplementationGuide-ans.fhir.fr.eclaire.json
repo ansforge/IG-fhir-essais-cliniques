@@ -10,7 +10,7 @@
   "name" : "ECLAIRE",
   "title" : "Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème",
   "status" : "draft",
-  "date" : "2025-07-24T16:13:07+00:00",
+  "date" : "2025-07-24T16:28:48+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -853,6 +853,18 @@
       },
       "name" : "ECLAIREContactType",
       "description" : "Extension créée dans le cadre du projet ECLAIRE qui indique le type de Contact : Public ou Scientific",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/eclaire-description-summary-r5"
+      },
+      "name" : "ECLAIREDescriptionSummaryR5",
+      "description" : "Extension créée dans le cadre du projet API ECLAIRE, afin de permettre l'ajout de Brief summary.\n Cette extension implemente l'élément descriptionSummary de R5 https://hl7.org/fhir/R5/researchstudy-definitions.html#ResearchStudy.descriptionSummary. elle permet l'ajout d'un texte bref décrivant l'essai (Brief summary)",
       "exampleBoolean" : false
     },
     {

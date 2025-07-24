@@ -1,9 +1,9 @@
 ECLAIRE : Validation Results
 =========================================
 
-err = 60, warn = 31, info = 30
+err = 63, warn = 31, info = 30
 IG Publisher Version: 2.0.11
-Generated Thu Jul 24 16:14:37 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
+Generated Thu Jul 24 16:31:04 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclaire#0.3.1 (canonical = https://interop.esante.gouv.fr/ig/fhir/eclaire)
  Build Errors : 9 / 2 / 0
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CapabilityStatement-eclaire-consommateur : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/CodeSystem-eclaire-group-characteristic-kind-code-system : 0 / 0 / 1
@@ -30,6 +30,7 @@ Generated Thu Jul 24 16:14:37 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eclai
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-contact-affiliation : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-contact-name : 0 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-contact-type : 0 / 2 / 1
+ /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-description-summary-r5 : 3 / 0 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-group : 0 / 5 / 4
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-label-r5 : 3 / 2 / 1
  /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-location : 0 / 1 / 2
@@ -179,6 +180,10 @@ ERROR: /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSou
 == fsh-generated/resources/StructureDefinition-eclaire-contact-type.json ==
 WARNING: StructureDefinition/eclaire-contact-type: StructureDefinition.differential.element[3].binding: The definition for the element 'Extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-type-contact-vs' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/eclaire-contact-type: StructureDefinition.snapshot.element[4].binding: The definition for the element 'Extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-type-contact-vs' which is experimental, but this structure is not labeled as experimental
+== fsh-generated/resources/StructureDefinition-eclaire-description-summary-r5.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary'): Conformance resource /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-description-summary-r5.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-description-summary-r5) does not match the URL (http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary)
+ERROR: StructureDefinition/eclaire-description-summary-r5: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: /home/runner/work/IG-fhir-essais-cliniques/IG-fhir-essais-cliniques/igSource/fsh-generated/resources/StructureDefinition-eclaire-description-summary-r5: URL Mismatch https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-description-summary-r5 vs http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary
 == fsh-generated/resources/StructureDefinition-eclaire-group.json ==
 INFORMATION: StructureDefinition/eclaire-group: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 INFORMATION: StructureDefinition/eclaire-group: StructureDefinition.snapshot.element[25].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
