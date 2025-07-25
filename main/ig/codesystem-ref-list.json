@@ -10,8 +10,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.820"],
       "uses" : {
       },
-      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping",
-      "http://hl7.org/fhir/R4/valueset-research-study-status.html" : "ResearchStudyStatus"
+      "http://hl7.org/fhir/R4/valueset-research-study-status.html" : "ResearchStudyStatus",
+      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
@@ -27,12 +27,12 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/research-study-phase",
-      "version" : "4.0.1",
-      "status" : "draft",
+      "version" : "1.0.0",
+      "status" : "active",
       "name" : "ResearchStudyPhase",
       "title" : "ResearchStudyPhase",
       "description" : "Codes for the stage in the progression of a therapy from initial experimental use in humans in clinical trials to post-market evaluation.",
-      "oids" : ["2.16.840.1.113883.4.642.4.1247"],
+      "oids" : ["2.16.840.1.113883.4.642.1.1247"],
       "uses" : {
       },
       "ConceptMap-eclaire-study-phase-concept-map.html" : "FHIR/Eclaire ResearchStudy phase Use Mapping",
@@ -58,8 +58,8 @@
       "description" : "Précision sur la réglementation concernant l'essai",
       "uses" : {
       },
-      "ValueSet-eclaire-category-vs.html" : "Value Set type pour spécifier la catégorie l'essai clinique",
-      "ValueSet-eclaire-reglementation-precision-vs.html" : "Précision sur la réglementation concernant l'essai Value Set"
+      "ValueSet-eclaire-reglementation-precision-vs.html" : "Précision sur la réglementation concernant l'essai Value Set",
+      "ValueSet-eclaire-category-vs.html" : "Value Set type pour spécifier la catégorie l'essai clinique"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system",
@@ -70,8 +70,8 @@
       "description" : "Code de régulation de l'essai",
       "uses" : {
       },
-      "ValueSet-eclaire-regulation-code-vs.html" : "Code de régulation Value Set",
-      "ValueSet-eclaire-category-vs.html" : "Value Set type pour spécifier la catégorie l'essai clinique"
+      "ValueSet-eclaire-category-vs.html" : "Value Set type pour spécifier la catégorie l'essai clinique",
+      "ValueSet-eclaire-regulation-code-vs.html" : "Code de régulation Value Set"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system",
@@ -127,8 +127,8 @@
       "description" : "Définition des phases de l'essai utilisées dans la base de données ECLAIRE",
       "uses" : {
       },
-      "ValueSet-eclaire-study-phase-source-vs.html" : "Value Set de la phase de l'essai tel que définie dans la base ECLAIRE",
-      "ConceptMap-eclaire-study-phase-concept-map.html" : "FHIR/Eclaire ResearchStudy phase Use Mapping"
+      "ConceptMap-eclaire-study-phase-concept-map.html" : "FHIR/Eclaire ResearchStudy phase Use Mapping",
+      "ValueSet-eclaire-study-phase-source-vs.html" : "Value Set de la phase de l'essai tel que définie dans la base ECLAIRE"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system",
@@ -150,8 +150,8 @@
       "description" : "Statut de l'essai clinique utilisé dans la base de données ECLAIRE",
       "uses" : {
       },
-      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping",
-      "ValueSet-eclaire-study-status-vs.html" : "Value Set Statut Eclaire de l'essai"
+      "ValueSet-eclaire-study-status-vs.html" : "Value Set Statut Eclaire de l'essai",
+      "ConceptMap-eclaire-study-status-concept-map.html" : "FHIR/Eclaire ResearchStudy status Use Mapping"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system",

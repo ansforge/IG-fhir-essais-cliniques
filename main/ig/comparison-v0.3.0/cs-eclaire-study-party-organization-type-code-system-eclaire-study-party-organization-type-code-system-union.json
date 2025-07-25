@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "0d0788f2-00b0-4a73-a65e-bd059c234d24-14",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/0d0788f2-00b0-4a73-a65e-bd059c234d24-14",
+  "id" : "0d012dc5-73d7-46bf-bdbb-8270bd3e4f59-14",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/0d012dc5-73d7-46bf-bdbb-8270bd3e4f59-14",
   "name" : "UnionEclaireStudyPartyOrganizationTypeCSAndEclaireStudyPartyOrganizationTypeCS",
   "title" : "Union of Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type And Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type",
   "status" : "draft",
-  "date" : "2025-07-21T16:47:40+00:00",
+  "date" : "2025-07-25T15:45:44+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

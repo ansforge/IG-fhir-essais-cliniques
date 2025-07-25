@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "0d0788f2-00b0-4a73-a65e-bd059c234d24-123",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d0788f2-00b0-4a73-a65e-bd059c234d24-123",
+  "id" : "0d012dc5-73d7-46bf-bdbb-8270bd3e4f59-123",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d012dc5-73d7-46bf-bdbb-8270bd3e4f59-123",
   "name" : "IntersectionEclaireStudyStatusVSAndEclaireStudyStatusVS",
   "title" : "Intersection of Value Set Statut Eclaire de l'essai And Value Set Statut Eclaire de l'essai",
   "status" : "draft",
-  "date" : "2025-07-21T16:47:40+00:00",
+  "date" : "2025-07-25T15:45:44+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
