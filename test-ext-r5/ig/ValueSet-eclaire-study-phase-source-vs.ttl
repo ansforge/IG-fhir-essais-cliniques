@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Value Set de la phase de l'essai tel que définie dans la base ECLAIRE"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
-  fhir:date [ fhir:v "2025-07-25T15:02:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-25T15:53:06+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
