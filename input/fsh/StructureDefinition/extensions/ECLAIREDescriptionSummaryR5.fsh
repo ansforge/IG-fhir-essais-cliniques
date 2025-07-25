@@ -4,3 +4,4 @@ Description: "Extension créée dans le cadre du projet API ECLAIRE, afin de per
 * ^context.type = #element
 * ^context.expression = "ResearchStudy"
 * ^url = $description-summary-r5
+* value[x] only markdown
