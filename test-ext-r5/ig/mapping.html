@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Mapping FHIR - Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème v0.3.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style-ans.css"/>
+    <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+<div id="family-nav">
+    <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+  </div>
+  <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
+    <a id="hl7-logo" data-no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
+    <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+
+  <div id="ig-search">
+ </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l&#39;Ecosystème</span>
+            <br/>
+            <span style="display:inline-block;">0.3.1 - ci-build
+
+
+
+  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Accueil</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Description des flux
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="st_flux1.html">Extraction de données des essais cliniques</a>
+      </li>
+      <li>
+        <a href="st_flux2.html">Recherche des essais cliniques sur critères</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="mapping.html">Mapping FHIR</a>
+  </li>
+  <li>
+    <a href="search_param.html">Critères de recherche</a>
+  </li>
+  <li>
+    <a href="modifiers.html">Paramètres et modificateurs de requêtes FHIR</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Ressources de conformité</a>
+  </li>
+  <li>
+    <a href="change-log.html">Historique des versions</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Autres ressources
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="securite.html">Sécurité</a>
+      </li>
+      <li>
+        <a href="downloads.html">Téléchargements et usage</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">Spécifications FHIR </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://esante.gouv.fr/">Site de l&apos;ANS </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="about.html">A propos de ce guide</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Mapping FHIR</b></li>
+
+          <span style="float:right;">
+
+            <a href="st_flux2.html">&lt;prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="search_param.html">next&gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème - Local Development build (v0.3.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/fhir/eclaire/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Mapping FHIR</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<p>Le mapping permet de mettre en correspondance les données fonctionnelles avec les éléments FHIR. Les éléments natifs FHIR sont utilisés au maximum mais certaines spécificités nécessitent de <a href="https://hl7.org/fhir/R4/profiling.html">profiler</a> les ressources FHIR, ce qui permet notamment de :</p>
+<ul>
+  <li>Modifier la  <a href="https://hl7.org/fhir/R4/profiling.html#cardinality">cardinalité</a> des éléments</li>
+  <li><a href="https://hl7.org/fhir/R4/profiling.html#slicing">Slicer</a> des éléments</li>
+  <li>Créer des <a href="https://hl7.org/fhir/R4/profiling.html#extensions">extensions</a></li>
+</ul>
+
+<p>Points spécifiques :</p>
+<ul>
+  <li>Les critères (inclusion, exclusion, genre, âge, …) sont représentés par l’élément characteristic multivalué de la ressource Group via l’élément enrollment. Un critère correspond à un élément characteristic, qui possède un type, une valeur et un indicateur permettant de savoir s’il s’agit d’un critère d’inclusion ou d’exclusion.</li>
+  <li>L'extension complexe ECLAIRELabel, basée sur l'élément label existant en R5, permet de renseigner des noms supplémentaires  de l'essai (titre public, acronyme …) en renseignant un type, issu du jeu de valeur FHIR associé, et une valeur.</li>
+  <li>La représentation des extensions sur le schéma ci-dessous est simplifiée. Pour plus d'information et de détails vous pouvez vous référer à la <a href="http://hl7.org/fhir/R4/extensibility.html">documentation FHIR</a>.</li>
+</ul>
+
+<div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="CLASS" height="879.7465px" preserveAspectRatio="none" style="width:1200px;height:879px;background:#FFFFFF;" version="1.1" viewBox="0 0 1200 879" width="1200.1998px" zoomAndPan="magnify"><defs /><g><rect fill="#DDDDDD" height="48.9925" rx="4.5007" ry="4.5007" style="stroke:#000000;stroke-width:0.6001;" width="164.7005" x="7.2012" y="7.2012" /><path d="M10.8018,12.2802 L10.8018,15.0806 L13.6023,15.0806 L13.6023,12.2802 L10.8018,12.2802 M14.3024,13.6804 L14.3024,15.7808 L12.202,15.7808 L12.202,16.4809 L15.0025,16.4809 L15.0025,13.6804 L14.3024,13.6804 M15.7026,15.0806 L15.7026,17.181 L13.6023,17.181 L13.6023,17.8811 L16.4027,17.8811 L16.4027,15.0806 L15.7026,15.0806" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="24.3345" x="19.6734" y="18.0001">: slice</text><path d="M12.9021,22.0599 L12.9021,24.1603 L10.8018,24.1603 L10.8018,25.5605 L12.9021,25.5605 L12.9021,27.6609 L14.3024,27.6609 L14.3024,25.5605 L16.4027,25.5605 L16.4027,24.1603 L14.3024,24.1603 L14.3024,22.0599 L12.9021,22.0599" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="46.6056" x="19.6734" y="27.7798">: extension</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="158.6995" x="10.2017" y="37.5596">* : pas d'&#233;quivalence Sant&#233;.fr ni WHO</text><path d="M11.1304,51.793 C10.4856,51.793 10.2013,51.3246 10.4982,50.7523 L15.9623,40.2313 C16.2595,39.6589 16.7457,39.6589 17.0429,40.2313 L22.5069,50.7526 C22.8045,51.3246 22.5199,51.793 21.8751,51.793 L11.1304,51.793" fill="#FFCC4D" /><path d="M15.6567,49.6762 C15.6567,49.2096 16.0365,48.8298 16.5034,48.8298 C16.9701,48.8298 17.3499,49.2096 17.3499,49.6762 C17.3499,50.1432 16.9697,50.523 16.5034,50.523 C16.0365,50.523 15.6567,50.1432 15.6567,49.6762 M15.7218,43.2726 C15.7218,42.8168 16.0582,42.5347 16.5031,42.5347 C16.9375,42.5347 17.2848,42.8277 17.2848,43.2726 L17.2848,47.4516 C17.2848,47.8965 16.9375,48.1895 16.5031,48.1895 C16.0582,48.1895 15.7218,47.907 15.7218,47.4516 L15.7218,43.2726" fill="#231F20" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="62.2065" x="25.4744" y="51.2118">: en discussion</text><g class="entity" data-entity="Contact" data-source-line="4" data-uid="ent0002" id="entity_Contact"><rect fill="#F0F8FF" height="82.8607" rx="1.5002" ry="1.5002" style="stroke:#0000FF;stroke-width:0.3;" width="302.4816" x="50.7084" y="155.2102" /><path d="M52.2087,155.2102 L351.6898,155.2102 A1.5002,1.5002 0 0 1 353.1901,156.7105 L353.1901,167.3904 L50.7084,167.3904 L50.7084,156.7105 A1.5002,1.5002 0 0 1 52.2087,155.2102" fill="#87CEFA" style="stroke:#0000FF;stroke-width:0.3;" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="57.4355" x="173.2315" y="164.2088">ContactDetail</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="50.7084" x2="353.1901" y1="167.3904" y2="167.3904" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="19.6087" x="85.2921" y="176.3889">Nom</text><path d="M145.1855,170.669 L145.1855,172.7694 L143.0852,172.7694 L143.0852,174.1696 L145.1855,174.1696 L145.1855,176.27 L146.5857,176.27 L146.5857,174.1696 L148.6861,174.1696 L148.6861,172.7694 L146.5857,172.7694 L146.5857,170.669 L145.1855,170.669" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="181.2126" x="151.9567" y="176.3889">ECLAIREContactName : HumanName [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="139.4846" x2="139.4846" y1="167.3904" y2="179.5705" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="50.7084" x2="353.1901" y1="179.5705" y2="179.5705" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="82.7751" x="53.7089" y="188.5691">T&#233;l&#233;communication</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="122.7105" x="142.4851" y="188.5691">telecom :  ContactPoint [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="139.4846" x2="139.4846" y1="179.5705" y2="191.7507" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="50.7084" x2="353.1901" y1="191.7507" y2="191.7507" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="20.6056" x="84.7937" y="200.7492">Type</text><path d="M145.1855,195.0293 L145.1855,197.1297 L143.0852,197.1297 L143.0852,198.5299 L145.1855,198.5299 L145.1855,200.6303 L146.5857,200.6303 L146.5857,198.5299 L148.6861,198.5299 L148.6861,197.1297 L146.5857,197.1297 L146.5857,195.0293 L145.1855,195.0293" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="195.5622" x="151.9567" y="200.7492">ECLAIREContacType :  CodeableConcept [0..1]</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="88.1737" x="145.1556" y="210.529">("Public"/"Scientific")</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="139.4846" x2="139.4846" y1="191.7507" y2="213.7106" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="50.7084" x2="353.1901" y1="213.7106" y2="213.7106" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="33.6261" x="78.2834" y="222.7092">Adresse</text><path d="M145.1855,216.9893 L145.1855,219.0896 L143.0852,219.0896 L143.0852,220.4898 L145.1855,220.4898 L145.1855,222.5902 L146.5857,222.5902 L146.5857,220.4898 L148.6861,220.4898 L148.6861,219.0896 L146.5857,219.0896 L146.5857,216.9893 L145.1855,216.9893" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="168.9223" x="151.9567" y="222.7092">ECLAIREContactAddress : Address [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="139.4846" x2="139.4846" y1="213.7106" y2="225.8907" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="50.7084" x2="353.1901" y1="225.8907" y2="225.8907" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="39.9066" x="75.1432" y="234.8893">Affiliation</text><path d="M145.1855,229.1694 L145.1855,231.2698 L143.0852,231.2698 L143.0852,232.67 L145.1855,232.67 L145.1855,234.7703 L146.5857,234.7703 L146.5857,232.67 L148.6861,232.67 L148.6861,231.2698 L146.5857,231.2698 L146.5857,229.1694 L145.1855,229.1694" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="165.3656" x="151.9567" y="234.8893">ECLAIREContactAffiliation : string [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="139.4846" x2="139.4846" y1="225.8907" y2="238.0709" /></g><g class="entity" data-entity="slice_name" data-source-line="13" data-uid="ent0003" id="entity_slice_name"><rect fill="#F0F8FF" height="46.3202" rx="1.5002" ry="1.5002" style="stroke:#0000FF;stroke-width:0.3;" width="239.6889" x="82.2137" y="68.1957" /><path d="M83.7139,68.1957 L320.4024,68.1957 A1.5002,1.5002 0 0 1 321.9026,69.696 L321.9026,80.3759 L82.2137,80.3759 L82.2137,69.696 A1.5002,1.5002 0 0 1 83.7139,68.1957" fill="#87CEFA" style="stroke:#0000FF;stroke-width:0.3;" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="55.085" x="174.5157" y="77.1943">HumanName</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="82.2137" x2="321.9026" y1="80.3759" y2="80.3759" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="117.1355" x="98.7516" y="89.3745">Nom de famille (Last name)</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="83.4766" x="235.4255" y="89.3745">family : string [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="232.425" x2="232.425" y1="80.3759" y2="92.556" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="82.2137" x2="321.9026" y1="92.556" y2="92.556" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="86.3523" x="85.2142" y="101.5546">Pr&#233;nom (First name)</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="141.5398" x="87.8848" y="111.3344">Deuxi&#232;me pr&#233;nom (Middle name)</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="79.5343" x="235.4255" y="101.5546">given : string [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="232.425" x2="232.425" y1="92.556" y2="114.5159" /></g><g class="entity" data-entity="slice_identifier" data-source-line="18" data-uid="ent0004" id="entity_slice_identifier"><rect fill="#F0F8FF" height="36.5405" rx="1.5002" ry="1.5002" style="stroke:#0000FF;stroke-width:0.3;" width="180.0054" x="4.2007" y="443.2582" /><path d="M5.7009,443.2582 L182.7058,443.2582 A1.5002,1.5002 0 0 1 184.2061,444.7584 L184.2061,455.4383 L4.2007,455.4383 L4.2007,444.7584 A1.5002,1.5002 0 0 1 5.7009,443.2582" fill="#87CEFA" style="stroke:#0000FF;stroke-width:0.3;" /><path d="M59.9859,446.5369 L59.9859,449.3373 L62.7863,449.3373 L62.7863,446.5369 L59.9859,446.5369 M63.4864,447.9371 L63.4864,450.0374 L61.3861,450.0374 L61.3861,450.7375 L64.1866,450.7375 L64.1866,447.9371 L63.4864,447.9371 M64.8867,449.3373 L64.8867,451.4377 L62.7863,451.4377 L62.7863,452.1378 L65.5868,452.1378 L65.5868,449.3373 L64.8867,449.3373" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="60.1635" x="68.8575" y="452.2567">Slice identifier</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="4.2007" x2="184.2061" y1="455.4383" y2="455.4383" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="81.8767" x="12.128" y="464.4369">Identifiant principal</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="65.5375" x="104.9325" y="464.4369">idPrimary [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="101.932" x2="101.932" y1="455.4383" y2="467.6185" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="4.2007" x2="184.2061" y1="467.6185" y2="467.6185" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="91.7303" x="7.2012" y="476.6171">Identifiant secondaire</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="76.2731" x="104.9325" y="476.6171">idSecondary [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="101.932" x2="101.932" y1="467.6185" y2="479.7986" /></g><g class="entity" data-entity="slice_condition" data-source-line="23" data-uid="ent0005" id="entity_slice_condition"><rect fill="#F0F8FF" height="36.5405" rx="1.5002" ry="1.5002" style="stroke:#0000FF;stroke-width:0.3;" width="172.929" x="1023.4704" y="443.2582" /><path d="M1024.9707,443.2582 L1194.8992,443.2582 A1.5002,1.5002 0 0 1 1196.3994,444.7584 L1196.3994,455.4383 L1023.4704,455.4383 L1023.4704,444.7584 A1.5002,1.5002 0 0 1 1024.9707,443.2582" fill="#87CEFA" style="stroke:#0000FF;stroke-width:0.3;" /><path d="M1075.1472,446.5369 L1075.1472,449.3373 L1077.9476,449.3373 L1077.9476,446.5369 L1075.1472,446.5369 M1078.6478,447.9371 L1078.6478,450.0374 L1076.5474,450.0374 L1076.5474,450.7375 L1079.3479,450.7375 L1079.3479,447.9371 L1078.6478,447.9371 M1080.048,449.3373 L1080.048,451.4377 L1077.9476,451.4377 L1077.9476,452.1378 L1080.7481,452.1378 L1080.7481,449.3373 L1080.048,449.3373" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="61.304" x="1084.0188" y="452.2567">Slice condition</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="1023.4704" x2="1196.3994" y1="455.4383" y2="455.4383" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="59.983" x="1026.4709" y="464.4369">Code MedDRA</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="100.944" x="1092.4549" y="464.4369">medDRACondition [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="1089.4544" x2="1089.4544" y1="455.4383" y2="467.6185" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="1023.4704" x2="1196.3994" y1="467.6185" y2="467.6185" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="44.2837" x="1034.3206" y="476.6171">Pathologie</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="96.1115" x="1092.4549" y="476.6171">diseaseCondition [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="1089.4544" x2="1089.4544" y1="467.6185" y2="479.7986" /></g><g class="entity" data-entity="label" data-source-line="28" data-uid="ent0006" id="entity_label"><rect fill="#F0F8FF" height="36.5405" rx="1.5002" ry="1.5002" style="stroke:#0000FF;stroke-width:0.3;" width="187.7709" x="383.7639" y="178.6141" /><path d="M385.2641,178.6141 L570.0346,178.6141 A1.5002,1.5002 0 0 1 571.5348,180.1144 L571.5348,190.7943 L383.7639,190.7943 L383.7639,180.1144 A1.5002,1.5002 0 0 1 385.2641,178.6141" fill="#87CEFA" style="stroke:#0000FF;stroke-width:0.3;" /><path d="M446.6685,181.8928 L446.6685,183.9931 L444.5682,183.9931 L444.5682,185.3934 L446.6685,185.3934 L446.6685,187.4937 L448.0687,187.4937 L448.0687,185.3934 L450.1691,185.3934 L450.1691,183.9931 L448.0687,183.9931 L448.0687,181.8928 L446.6685,181.8928" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="57.8909" x="453.4398" y="187.6127">ECLAIRELabel</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="383.7639" x2="571.5348" y1="190.7943" y2="190.7943" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="20.6056" x="390.0503" y="199.7928">Type</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="148.5915" x="419.9428" y="199.7928">labelType : CodeableConcept [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="416.9423" x2="416.9423" y1="190.7943" y2="202.9744" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="383.7639" x2="571.5348" y1="202.9744" y2="202.9744" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="27.1774" x="386.7644" y="211.973">Valeur</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="101.588" x="419.9428" y="211.973">labelValue : string [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="416.9423" x2="416.9423" y1="202.9744" y2="215.1546" /></g><g class="entity" data-entity="Group" data-source-line="33" data-uid="ent0007" id="entity_Group"><rect fill="#C9FFC9" height="102.4202" rx="1.5002" ry="1.5002" style="stroke:#181818;stroke-width:0.3;" width="254.3175" x="219.6366" y="684.4983" /><path d="M221.1368,684.4983 L472.4539,684.4983 A1.5002,1.5002 0 0 1 473.9541,685.9986 L473.9541,696.6785 L219.6366,696.6785 L219.6366,685.9986 A1.5002,1.5002 0 0 1 221.1368,684.4983" fill="#90EE90" style="stroke:#181818;stroke-width:0.3;" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="25.7621" x="333.9143" y="693.4969">Group</text><line style="stroke:#181818;stroke-width:0.6001;" x1="219.6366" x2="473.9541" y1="696.6785" y2="696.6785" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="47.1922" x="236.0535" y="705.6771">Identifiant*</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="107.8357" x="302.6631" y="705.6771">identifier : Identifier [0..*]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="299.6626" x2="299.6626" y1="696.6785" y2="708.8587" /><line style="stroke:#181818;stroke-width:0.6001;" x1="219.6366" x2="473.9541" y1="708.8587" y2="708.8587" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="70.4027" x="224.4482" y="717.8572">Type de groupe*</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="121.0983" x="302.6631" y="717.8572">type : code [1..1] = "Person"</text><line style="stroke:#181818;stroke-width:0.6001;" x1="299.6626" x2="299.6626" y1="708.8587" y2="721.0388" /><line style="stroke:#181818;stroke-width:0.6001;" x1="219.6366" x2="473.9541" y1="721.0388" y2="721.0388" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="56.1556" x="231.5718" y="730.0374">Groupe actif*</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="132.0759" x="302.6631" y="730.0374">actual : boolean [1..1] = "True"</text><line style="stroke:#181818;stroke-width:0.6001;" x1="299.6626" x2="299.6626" y1="721.0388" y2="733.219" /><line style="stroke:#181818;stroke-width:0.6001;" x1="219.6366" x2="473.9541" y1="733.219" y2="733.219" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="74.025" x="222.6371" y="742.2175">Effectif &#224; recruter</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="118.0708" x="302.6631" y="742.2175">quantity : unsignedInt [0..1]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="299.6626" x2="299.6626" y1="733.219" y2="745.3991" /><line style="stroke:#181818;stroke-width:0.6001;" x1="219.6366" x2="473.9541" y1="745.3991" y2="745.3991" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="33.1174" x="224.6779" y="754.3977">Crit&#232;res</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="16.249" x="227.3485" y="764.1774">Age</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="25.6267" x="227.3485" y="773.9572">Genre</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="67.2727" x="227.3485" y="783.7369">Groupe de sujet</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="2.6706" x="302.6631" y="754.3977">&#160;</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="165.62" x="305.3337" y="764.1774">characteristic : BackboneElement [0..*]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="299.6626" x2="299.6626" y1="745.3991" y2="786.9185" /></g><g class="entity" data-entity="Characteristic" data-source-line="41" data-uid="ent0008" id="entity_Characteristic"><rect fill="#C9FFC9" height="48.7206" rx="1.5002" ry="1.5002" style="stroke:#181818;stroke-width:0.3;" width="179.6649" x="256.8428" y="827.3221" /><path d="M258.343,827.3221 L435.0074,827.3221 A1.5002,1.5002 0 0 1 436.5076,828.8224 L436.5076,839.5023 L256.8428,839.5023 L256.8428,828.8224 A1.5002,1.5002 0 0 1 258.343,827.3221" fill="#90EE90" style="stroke:#181818;stroke-width:0.3;" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="58.4365" x="317.457" y="836.3207">Characteristic</text><line style="stroke:#181818;stroke-width:0.6001;" x1="256.8428" x2="436.5076" y1="839.5023" y2="839.5023" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="20.6056" x="269.4077" y="848.5008">Type</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="127.9285" x="305.5786" y="848.5008">code : CodeableConcept [1..1]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="302.5781" x2="302.5781" y1="839.5023" y2="851.6824" /><line style="stroke:#181818;stroke-width:0.6001;" x1="256.8428" x2="436.5076" y1="851.6824" y2="851.6824" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="27.1774" x="266.1218" y="860.681">Valeur</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="65.2339" x="305.5786" y="860.681">value[x] : [1..1]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="302.5781" x2="302.5781" y1="851.6824" y2="863.8626" /><line style="stroke:#181818;stroke-width:0.6001;" x1="256.8428" x2="436.5076" y1="863.8626" y2="863.8626" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="39.7344" x="259.8433" y="872.8612">Exclusion</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="99.9389" x="305.5786" y="872.8612">exclude : boolean [1..1]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="302.5781" x2="302.5781" y1="863.8626" y2="876.0427" /></g><g class="entity" data-entity="Organization" data-source-line="47" data-uid="ent0009" id="entity_Organization"><rect fill="#FFFFCC" height="60.9008" rx="1.5002" ry="1.5002" style="stroke:#181818;stroke-width:0.3;" width="199.0644" x="504.0839" y="705.2018" /><path d="M505.5842,705.2018 L701.6481,705.2018 A1.5002,1.5002 0 0 1 703.1483,706.702 L703.1483,717.3819 L504.0839,717.3819 L504.0839,706.702 A1.5002,1.5002 0 0 1 505.5842,705.2018" fill="#FFD700" style="stroke:#181818;stroke-width:0.3;" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="53.8584" x="576.6869" y="714.2004">Organization</text><line style="stroke:#181818;stroke-width:0.6001;" x1="504.0839" x2="703.1483" y1="717.3819" y2="717.3819" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="47.1922" x="507.0844" y="726.3805">Identifiant*</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="107.8357" x="560.2777" y="726.3805">identifier : Identifier [0..*]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="557.2772" x2="557.2772" y1="717.3819" y2="729.5621" /><line style="stroke:#181818;stroke-width:0.6001;" x1="504.0839" x2="703.1483" y1="729.5621" y2="729.5621" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="19.6087" x="520.8762" y="738.5607">Nom</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="81.3721" x="560.2777" y="738.5607">name : string [0..1]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="557.2772" x2="557.2772" y1="729.5621" y2="741.7423" /><line style="stroke:#181818;stroke-width:0.6001;" x1="504.0839" x2="703.1483" y1="741.7423" y2="741.7423" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="33.6261" x="513.8675" y="750.7408">Adresse</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="99.2661" x="560.2777" y="750.7408">address : Address [0..*]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="557.2772" x2="557.2772" y1="741.7423" y2="753.9224" /><line style="stroke:#181818;stroke-width:0.6001;" x1="504.0839" x2="703.1483" y1="753.9224" y2="753.9224" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="32.6867" x="514.3372" y="762.921">Contact</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="139.8702" x="560.2777" y="762.921">contact : BackboneElement [0..*]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="557.2772" x2="557.2772" y1="753.9224" y2="766.1026" /></g><g class="entity" data-entity="Location" data-source-line="54" data-uid="ent0010" id="entity_Location"><rect fill="#FFE4E1" height="60.9008" rx="1.5002" ry="1.5002" style="stroke:#181818;stroke-width:0.3;" width="179.2341" x="733.6222" y="705.2018" /><path d="M735.1224,705.2018 L911.356,705.2018 A1.5002,1.5002 0 0 1 912.8563,706.702 L912.8563,717.3819 L733.6222,717.3819 L733.6222,706.702 A1.5002,1.5002 0 0 1 735.1224,705.2018" fill="#EE82EE" style="stroke:#181818;stroke-width:0.3;" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="35.6813" x="805.3986" y="714.2004">Location</text><line style="stroke:#181818;stroke-width:0.6001;" x1="733.6222" x2="912.8563" y1="717.3819" y2="717.3819" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="47.1922" x="736.6227" y="726.3805">Identifiant*</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="107.8357" x="789.8159" y="726.3805">identifier : Identifier [0..*]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="786.8154" x2="786.8154" y1="717.3819" y2="729.5621" /><line style="stroke:#181818;stroke-width:0.6001;" x1="733.6222" x2="912.8563" y1="729.5621" y2="729.5621" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="19.6087" x="750.4144" y="738.5607">Nom</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="81.3721" x="789.8159" y="738.5607">name : string [0..1]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="786.8154" x2="786.8154" y1="729.5621" y2="741.7423" /><line style="stroke:#181818;stroke-width:0.6001;" x1="733.6222" x2="912.8563" y1="741.7423" y2="741.7423" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="33.6261" x="743.4057" y="750.7408">Adresse</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="100.4107" x="789.8159" y="750.7408">address : Address [0..1]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="786.8154" x2="786.8154" y1="741.7423" y2="753.9224" /><line style="stroke:#181818;stroke-width:0.6001;" x1="733.6222" x2="912.8563" y1="753.9224" y2="753.9224" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="32.6867" x="743.8754" y="762.921">Contact</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="120.0399" x="789.8159" y="762.921">telecom : ContactPoint [0..*]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="786.8154" x2="786.8154" y1="753.9224" y2="766.1026" /></g><g class="entity" data-entity="Telecom" data-source-line="61" data-uid="ent0011" id="entity_Telecom"><rect fill="#FFE4E1" height="48.7206" rx="1.5002" ry="1.5002" style="stroke:#181818;stroke-width:0.3;" width="255.314" x="695.5158" y="827.3221" /><path d="M697.0161,827.3221 L949.3296,827.3221 A1.5002,1.5002 0 0 1 950.8298,828.8224 L950.8298,839.5023 L695.5158,839.5023 L695.5158,828.8224 A1.5002,1.5002 0 0 1 697.0161,827.3221" fill="#EE82EE" style="stroke:#181818;stroke-width:0.3;" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="35.747" x="805.2993" y="836.3207">Telecom</text><line style="stroke:#181818;stroke-width:0.6001;" x1="695.5158" x2="950.8298" y1="839.5023" y2="839.5023" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="36.4977" x="698.5163" y="848.5008">Syst&#232;me</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="84.0632" x="741.015" y="848.5008">system : code [0..1]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="738.0145" x2="738.0145" y1="839.5023" y2="851.6824" /><line style="stroke:#181818;stroke-width:0.6001;" x1="695.5158" x2="950.8298" y1="851.6824" y2="851.6824" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="27.1774" x="703.1765" y="860.681">Valeur</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="80.4943" x="741.015" y="860.681">value : string [0..1]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="738.0145" x2="738.0145" y1="851.6824" y2="863.8626" /><line style="stroke:#181818;stroke-width:0.6001;" x1="695.5158" x2="950.8298" y1="863.8626" y2="863.8626" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="19.6087" x="706.9608" y="872.8612">Nom</text><path d="M743.7154,867.1413 L743.7154,869.2416 L741.6151,869.2416 L741.6151,870.6418 L743.7154,870.6418 L743.7154,872.7422 L745.1157,872.7422 L745.1157,870.6418 L747.216,870.6418 L747.216,869.2416 L745.1157,869.2416 L745.1157,867.1413 L743.7154,867.1413" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="197.3426" x="750.4867" y="872.8612">ECLAIRESiteContactName : HumanName [0..1]</text><line style="stroke:#181818;stroke-width:0.6001;" x1="738.0145" x2="738.0145" y1="863.8626" y2="876.0427" /></g><g class="entity" data-entity="OM" data-source-line="67" data-uid="ent0012" id="entity_OM"><rect fill="#F0F8FF" height="60.9008" rx="1.5002" ry="1.5002" style="stroke:#0000FF;stroke-width:0.3;" width="256.0856" x="601.6002" y="166.3121" /><path d="M603.1004,166.3121 L856.1855,166.3121 A1.5002,1.5002 0 0 1 857.6858,167.8123 L857.6858,178.4922 L601.6002,178.4922 L601.6002,167.8123 A1.5002,1.5002 0 0 1 603.1004,166.3121" fill="#87CEFA" style="stroke:#0000FF;stroke-width:0.3;" /><path d="M668.0225,169.5907 L668.0225,171.6911 L665.9221,171.6911 L665.9221,173.0913 L668.0225,173.0913 L668.0225,175.1917 L669.4227,175.1917 L669.4227,173.0913 L671.523,173.0913 L671.523,171.6911 L669.4227,171.6911 L669.4227,169.5907 L668.0225,169.5907" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="119.1702" x="674.7937" y="175.3106">ECLAIREoutcomeMeasureR5</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="601.6002" x2="857.6858" y1="178.4922" y2="178.4922" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="19.6087" x="618.7206" y="187.4908">Nom</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="81.3721" x="658.4503" y="187.4908">name : string [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="655.4498" x2="655.4498" y1="178.4922" y2="190.6724" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="601.6002" x2="857.6858" y1="190.6724" y2="190.6724" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="20.6056" x="618.2222" y="199.6709">Type</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="126.4353" x="658.4503" y="199.6709">type : CodeableConcept [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="655.4498" x2="655.4498" y1="190.6724" y2="202.8525" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="601.6002" x2="857.6858" y1="202.8525" y2="202.8525" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="47.8486" x="604.6007" y="211.8511">Description</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="124.4621" x="658.4503" y="211.8511">description : markdown [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="655.4498" x2="655.4498" y1="202.8525" y2="215.0327" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="601.6002" x2="857.6858" y1="215.0327" y2="215.0327" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="42.8685" x="607.0907" y="224.0312">R&#233;f&#233;rence</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="196.235" x="658.4503" y="224.0312">reference : Reference(EvidenceVariable) [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="655.4498" x2="655.4498" y1="215.0327" y2="227.2128" /></g><g class="entity" data-entity="arm" data-source-line="74" data-uid="ent0013" id="entity_arm"><rect fill="#F0F8FF" height="60.9008" rx="1.5002" ry="1.5002" style="stroke:#0000FF;stroke-width:0.3;" width="200.7541" x="887.8478" y="166.3121" /><path d="M889.3481,166.3121 L1087.1017,166.3121 A1.5002,1.5002 0 0 1 1088.602,167.8123 L1088.602,178.4922 L887.8478,178.4922 L887.8478,167.8123 A1.5002,1.5002 0 0 1 889.3481,166.3121" fill="#87CEFA" style="stroke:#0000FF;stroke-width:0.3;" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="16.7864" x="979.8317" y="175.3106">arm</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="887.8478" x2="1088.602" y1="178.4922" y2="178.4922" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="19.6087" x="906.683" y="187.4908">Nom</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="84.0427" x="948.1274" y="187.4908">name :  string [1..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="945.1269" x2="945.1269" y1="178.4922" y2="190.6724" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="887.8478" x2="1088.602" y1="190.6724" y2="190.6724" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="20.6056" x="906.1846" y="199.6709">Type</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="129.1059" x="948.1274" y="199.6709">type :  CodeableConcept [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="945.1269" x2="945.1269" y1="190.6724" y2="202.8525" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="887.8478" x2="1088.602" y1="202.8525" y2="202.8525" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="47.8486" x="892.5631" y="211.8511">Description</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="106.9291" x="948.1274" y="211.8511">description :  string [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="945.1269" x2="945.1269" y1="202.8525" y2="215.0327" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="887.8478" x2="1088.602" y1="215.0327" y2="215.0327" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="51.2781" x="890.8483" y="224.0312">Intervention</text><path d="M950.8278,218.3113 L950.8278,220.4117 L948.7275,220.4117 L948.7275,221.8119 L950.8278,221.8119 L950.8278,223.9123 L952.2281,223.9123 L952.2281,221.8119 L954.3284,221.8119 L954.3284,220.4117 L952.2281,220.4117 L952.2281,218.3113 L950.8278,218.3113" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="128.0024" x="957.5991" y="224.0312">ECLAIREArmIntervention [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="945.1269" x2="945.1269" y1="215.0327" y2="227.2128" /></g><g class="entity" data-entity="RS" data-source-line="81" data-uid="ent0014" id="entity_RS"><rect fill="#F0F8FF" height="365.4046" rx="1.5002" ry="1.5002" style="stroke:#0000FF;stroke-width:0.3;" width="778.5841" x="214.2357" y="278.8308" /><path d="M215.7359,278.8308 L991.3196,278.8308 A1.5002,1.5002 0 0 1 992.8198,280.3311 L992.8198,291.011 L214.2357,291.011 L214.2357,280.3311 A1.5002,1.5002 0 0 1 215.7359,278.8308" fill="#87CEFA" style="stroke:#0000FF;stroke-width:0.3;" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="127.0917" x="539.9819" y="287.8294">EssaiClinique : ResearchStudy</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="291.011" y2="291.011" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="238.7917" x="285.3642" y="300.0095">Identifiant (Primary and Secondary Identifying Numbers)</text><path d="M598.8851,294.2896 L598.8851,297.0901 L601.6855,297.0901 L601.6855,294.2896 L598.8851,294.2896 M602.3857,295.6899 L602.3857,297.7902 L600.2853,297.7902 L600.2853,298.4903 L603.0858,298.4903 L603.0858,295.6899 L602.3857,295.6899 M603.7859,297.0901 L603.7859,299.1904 L601.6855,299.1904 L601.6855,299.8906 L604.486,299.8906 L604.486,297.0901 L603.7859,297.0901" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="107.8357" x="607.7567" y="300.0095">identifier : Identifier [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="291.011" y2="303.1911" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="303.1911" y2="303.1911" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="333.8859" x="237.8171" y="312.1897">Date d'inscription au registre principal (Date of registration in primary registry)</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="209.4032" x="598.285" y="312.1897">identifier[idPrimary].period.start : dateTime [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="303.1911" y2="315.3713" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="315.3713" y2="315.3713" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="113.5912" x="347.9645" y="324.3698">Date de r&#233;vision technique</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="137.9052" x="598.285" y="324.3698">meta.lastUpdated : instant [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="315.3713" y2="327.5514" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="327.5514" y2="327.5514" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="126.1646" x="341.6778" y="336.55">Date de r&#233;vision fonctionnelle</text><path d="M600.9854,330.8301 L600.9854,332.9304 L598.8851,332.9304 L598.8851,334.3307 L600.9854,334.3307 L600.9854,336.431 L602.3857,336.431 L602.3857,334.3307 L604.486,334.3307 L604.486,332.9304 L602.3857,332.9304 L602.3857,330.8301 L600.9854,330.8301" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="148.1854" x="607.7567" y="336.55">ECLAIREReviewDate : instant [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="327.5514" y2="339.7316" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="339.7316" y2="339.7316" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="139.3492" x="335.0855" y="348.7301">Nom de l'essai (Scientifique title)</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="73.9717" x="598.285" y="348.7301">title : string [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="339.7316" y2="351.9117" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="351.9117" y2="351.9117" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="148.288" x="330.6161" y="360.9103">Autres noms de l'essai (Public title)</text><path d="M600.9854,355.1904 L600.9854,357.2907 L598.8851,357.2907 L598.8851,358.691 L600.9854,358.691 L600.9854,360.7913 L602.3857,360.7913 L602.3857,358.691 L604.486,358.691 L604.486,357.2907 L602.3857,357.2907 L602.3857,355.1904 L600.9854,355.1904" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="248.1407" x="607.7567" y="360.9103">R5 ECLAIRELabel : Extension R5 ResearchStudy.label [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="351.9117" y2="364.0919" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="364.0919" y2="364.0919" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="67.5804" x="370.9699" y="373.0904">Statut de l'essai</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="79.5056" x="598.285" y="373.0904">status : code [1..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="364.0919" y2="376.272" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="376.272" y2="376.272" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="94.1424" x="357.6889" y="385.2706">Statut du recrutement</text><path d="M600.9854,379.5507 L600.9854,381.651 L598.8851,381.651 L598.8851,383.0513 L600.9854,383.0513 L600.9854,385.1516 L602.3857,385.1516 L602.3857,383.0513 L604.486,383.0513 L604.486,381.651 L602.3857,381.651 L602.3857,379.5507 L600.9854,379.5507" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="221.6689" x="607.7567" y="385.2706">ECLAIRERecruitmentStatus : CodeableConcept [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="376.272" y2="388.4522" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="388.4522" y2="388.4522" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="155.4218" x="327.0492" y="397.4507">Phase de l'essai (Study type : phase)</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="133.0194" x="598.285" y="397.4507">phase : CodeableConcept [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="388.4522" y2="400.6323" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="400.6323" y2="400.6323" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="170.9242" x="319.298" y="409.6309">Type d'essai (Study type : type of study)</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="143.6524" x="598.285" y="409.6309">category : CodeableConcept [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="400.6323" y2="412.8125" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="412.8125" y2="412.8125" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="247.792" x="280.8641" y="421.8111">Sujet concern&#233; (Health Condition(s) or Problem(s) Studied)</text><path d="M598.8851,416.0912 L598.8851,418.8916 L601.6855,418.8916 L601.6855,416.0912 L598.8851,416.0912 M602.3857,417.4914 L602.3857,419.5917 L600.2853,419.5917 L600.2853,420.2919 L603.0858,420.2919 L603.0858,417.4914 L602.3857,417.4914 M603.7859,418.8916 L603.7859,420.992 L601.6855,420.992 L601.6855,421.6921 L604.486,421.6921 L604.486,418.8916 L603.7859,418.8916" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="185.0646" x="607.7567" y="421.8111">condition : CodeableConcept [0..*] (MeDRA)</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="412.8125" y2="424.9926" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="424.9926" y2="424.9926" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="104.3119" x="352.6041" y="433.9912">Domaine th&#233;rapeutique*</text><path d="M600.9854,428.2713 L600.9854,430.3717 L598.8851,430.3717 L598.8851,431.7719 L600.9854,431.7719 L600.9854,433.8722 L602.3857,433.8722 L602.3857,431.7719 L604.486,431.7719 L604.486,430.3717 L602.3857,430.3717 L602.3857,428.2713 L600.9854,428.2713" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="162.5925" x="607.7567" y="433.9912">ECLAIRETherapeuticArea : string [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="424.9926" y2="437.1728" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="437.1728" y2="437.1728" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="75.9531" x="366.7835" y="446.1714">R&#233;sum&#233; de l'essai</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="124.4621" x="598.285" y="446.1714">description : markdown [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="437.1728" y2="449.3529" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="449.3529" y2="449.3529" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="185.5774" x="311.9714" y="458.3515">Texte bref d&#233;crivant l'essai (Brief summary)</text><path d="M600.9854,452.6316 L600.9854,454.732 L598.8851,454.732 L598.8851,456.1322 L600.9854,456.1322 L600.9854,458.2325 L602.3857,458.2325 L602.3857,456.1322 L604.486,456.1322 L604.486,454.732 L602.3857,454.732 L602.3857,452.6316 L600.9854,452.6316" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="382.0626" x="607.7567" y="458.3515">R5 ECLAIREDescriptionSummary : Extension R5 ResearchStudy.descriptionSummary [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="449.3529" y2="461.5331" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="461.5331" y2="461.5331" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="149.9125" x="329.8038" y="470.5317">Objectif principal (Primary Purpose)</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="195.0167" x="598.285" y="470.5317">primaryPurposeType : CodeableConcept [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="461.5331" y2="473.7133" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="473.7133" y2="473.7133" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="161.4029" x="324.0586" y="482.7118">P&#233;riode pr&#233;visionnelle de recrutement</text><path d="M600.9854,476.9919 L600.9854,479.0923 L598.8851,479.0923 L598.8851,480.4925 L600.9854,480.4925 L600.9854,482.5929 L602.3857,482.5929 L602.3857,480.4925 L604.486,480.4925 L604.486,479.0923 L602.3857,479.0923 L602.3857,476.9919 L600.9854,476.9919" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="173.9188" x="607.7567" y="482.7118">ECLAIRERecruitmentPeriod : period [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="473.7133" y2="485.8934" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="485.8934" y2="485.8934" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="228.8315" x="290.3443" y="494.892">Date pr&#233;visionnelle de fin de l'essai (Completion date)</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="118.4523" x="598.285" y="494.892">period.end : dateTime [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="485.8934" y2="498.0736" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="498.0736" y2="498.0736" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="196.1366" x="306.6918" y="507.0721">Contact (Contact for public / scientific queries)</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="121.1598" x="598.285" y="507.0721">contact : ContactDetail [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="498.0736" y2="510.2537" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="510.2537" y2="510.2537" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="264.9394" x="272.2904" y="519.2523">Participants (Key Inclusion and Exclusion Criteria, Sample size)</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="153.1984" x="598.285" y="519.2523">enrollment : Reference(Group) [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="510.2537" y2="522.4339" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="522.4339" y2="522.4339" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="22.4803" x="393.5199" y="531.4324">Lieux</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="132.5641" x="598.285" y="531.4324">site : Reference(Location) [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="522.4339" y2="534.614" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="534.614" y2="534.614" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="202.815" x="303.3526" y="543.6126">Pays de recrutement (Countries of Recruitment)</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="139.8579" x="598.285" y="543.6126">location : CodeableConcept [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="534.614" y2="546.7942" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="546.7942" y2="546.7942" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="160.767" x="324.3766" y="555.7927">Promoteur principal (Primary sponsor)</text><path d="M600.9854,550.0728 L600.9854,552.1732 L598.8851,552.1732 L598.8851,553.5734 L600.9854,553.5734 L600.9854,555.6738 L602.3857,555.6738 L602.3857,553.5734 L604.486,553.5734 L604.486,552.1732 L602.3857,552.1732 L602.3857,550.0728 L600.9854,550.0728" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="336.2365" x="607.7567" y="555.7927">ECLAIREassociatedPartyR5 : Extension R5 ResearchStudy.associatedParty [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="546.7942" y2="558.9743" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="558.9743" y2="558.9743" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="194.389" x="307.5656" y="567.9729">Promoteur secondaire (Secondary Sponsor(s))</text><path d="M600.9854,562.253 L600.9854,564.3533 L598.8851,564.3533 L598.8851,565.7536 L600.9854,565.7536 L600.9854,567.8539 L602.3857,567.8539 L602.3857,565.7536 L604.486,565.7536 L604.486,564.3533 L602.3857,564.3533 L602.3857,562.253 L600.9854,562.253" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="338.907" x="607.7567" y="567.9729">ECLAIREassociatedPartyR5  : Extension R5 ResearchStudy.associatedParty [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="558.9743" y2="571.1545" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="571.1545" y2="571.1545" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="284.0682" x="262.726" y="580.153">Source de financement (Source(s) of Monetary or Material Support)</text><path d="M600.9854,574.4331 L600.9854,576.5335 L598.8851,576.5335 L598.8851,577.9337 L600.9854,577.9337 L600.9854,580.0341 L602.3857,580.0341 L602.3857,577.9337 L604.486,577.9337 L604.486,576.5335 L602.3857,576.5335 L602.3857,574.4331 L600.9854,574.4331" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="338.907" x="607.7567" y="580.153">ECLAIREassociatedPartyR5  : Extension R5 ResearchStudy.associatedParty [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="571.1545" y2="583.3346" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="583.3346" y2="583.3346" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="159.6225" x="324.9488" y="592.3332">Comit&#233; &#233;thique (Ethics Review Board)</text><path d="M600.9854,586.6133 L600.9854,588.7136 L598.8851,588.7136 L598.8851,590.1139 L600.9854,590.1139 L600.9854,592.2142 L602.3857,592.2142 L602.3857,590.1139 L604.486,590.1139 L604.486,588.7136 L602.3857,588.7136 L602.3857,586.6133 L600.9854,586.6133" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="338.907" x="607.7567" y="592.3332">ECLAIREassociatedPartyR5  : Extension R5 ResearchStudy.associatedParty [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="583.3346" y2="595.5148" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="595.5148" y2="595.5148" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="160.7342" x="324.393" y="604.5133">Date d'approbation du comit&#233; &#233;thique</text><path d="M600.9854,598.7935 L600.9854,600.8938 L598.8851,600.8938 L598.8851,602.294 L600.9854,602.294 L600.9854,604.3944 L602.3857,604.3944 L602.3857,602.294 L604.486,602.294 L604.486,600.8938 L602.3857,600.8938 L602.3857,598.7935 L600.9854,598.7935" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="155.2946" x="607.7567" y="604.5133">ECLAIREApprovalDate : instant [0..1]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="595.5148" y2="607.6949" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="607.6949" y2="607.6949" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="375.0478" x="217.2362" y="616.6935">Publications et r&#233;sum&#233; des r&#233;sultats (Publications about the study and Summary results)</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="156.1684" x="598.285" y="616.6935">relatedArtifact : RelatedArtifact [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="607.6949" y2="619.8751" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="619.8751" y2="619.8751" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="357.2687" x="226.1257" y="628.8737">Cons&#233;quences principales (Primary outcomes) et secondaires (Secondary outcomes)</text><path d="M600.9854,623.1538 L600.9854,625.2541 L598.8851,625.2541 L598.8851,626.6543 L600.9854,626.6543 L600.9854,628.7547 L602.3857,628.7547 L602.3857,626.6543 L604.486,626.6543 L604.486,625.2541 L602.3857,625.2541 L602.3857,623.1538 L600.9854,623.1538" fill="#000000" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="348.0099" x="607.7567" y="628.8737">ECLAIREoutcomeMeasureR5 : Extension R5 ResearchStudy.outcomeMeasure [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="619.8751" y2="632.0552" /><line style="stroke:#0000FF;stroke-width:0.6001;" x1="214.2357" x2="992.8198" y1="632.0552" y2="632.0552" /><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="33.3882" x="388.066" y="641.0538">Cohorte</text><text fill="#000000" font-family="sans-serif" font-size="8.4014" lengthAdjust="spacing" textLength="125.2169" x="598.285" y="641.0538">arm : BackboneElement [0..*]</text><line style="stroke:#0000FF;stroke-width:0.6001;" x1="595.2845" x2="595.2845" y1="632.0552" y2="644.2354" /></g><!--link RS to Location--><g class="link" data-entity-1="RS" data-entity-2="Location" data-source-line="114" data-uid="lnk15" id="link_RS_Location"><path codeLine="114" d="M756.2402,651.8655 C773.4991,673.3251 782.5363,684.5549 794.8563,699.8755" fill="none" id="RS-Location" style="stroke:#EE82EE;stroke-width:2.4004;stroke-dasharray:7.0,7.0;" /><polygon fill="#EE82EE" points="751.7272,646.254,752.1132,650.5641,756.2402,651.8655,755.8542,647.5554,751.7272,646.254" style="stroke:#EE82EE;stroke-width:2.4004;" /><polygon fill="#EE82EE" points="797.1127,702.6814,795.5988,696.9683,795.2324,700.3431,791.8576,699.9768,797.1127,702.6814" style="stroke:#EE82EE;stroke-width:2.4004;" /></g><!--link RS to Group--><g class="link" data-entity-1="RS" data-entity-2="Group" data-source-line="115" data-uid="lnk16" id="link_RS_Group"><path codeLine="115" d="M425.0136,651.4993 C413.0296,664.2394 409.0468,668.4756 398.7551,679.4154" fill="none" id="RS-Group" style="stroke:#90EE90;stroke-width:2.4004;stroke-dasharray:7.0,7.0;" /><polygon fill="#90EE90" points="429.9476,646.254,425.7322,647.232,425.0136,651.4993,429.229,650.5213,429.9476,646.254" style="stroke:#90EE90;stroke-width:2.4004;" /><polygon fill="#90EE90" points="396.288,682.0379,401.737,679.7489,398.3439,679.8525,398.2404,676.4594,396.288,682.0379" style="stroke:#90EE90;stroke-width:2.4004;" /></g><!--link RS to Organization--><g class="link" data-entity-1="RS" data-entity-2="Organization" data-source-line="116" data-uid="lnk17" id="link_RS_Organization"><path codeLine="116" d="M603.4005,653.4552 C603.4005,674.9148 603.4005,683.7602 603.4005,699.0808" fill="none" id="RS-Organization" style="stroke:#FFD700;stroke-width:2.4004;stroke-dasharray:7.0,7.0;" /><polygon fill="#FFD700" points="603.4005,646.254,601.0001,649.8546,603.4005,653.4552,605.8009,649.8546,603.4005,646.254" style="stroke:#FFD700;stroke-width:2.4004;" /><polygon fill="#FFD700" points="603.4005,702.6814,605.8009,697.2805,603.4005,699.6809,601.0001,697.2805,603.4005,702.6814" style="stroke:#FFD700;stroke-width:2.4004;" /></g><!--link slice_identifier to RS--><g class="link" data-entity-1="slice_identifier" data-entity-2="RS" data-source-line="118" data-uid="lnk18" id="link_slice_identifier_RS"><path codeLine="118" d="M188.4494,461.2612 C195.4045,461.2612 202.3597,461.2612 209.3209,461.2612" fill="none" id="slice_identifier-RS" style="stroke:#ADD8E6;stroke-width:1.2002;" /></g><!--link RS to slice_condition--><g class="link" data-entity-1="RS" data-entity-2="slice_condition" data-source-line="119" data-uid="lnk19" id="link_RS_slice_condition"><path codeLine="119" d="M997.6061,461.2612 C1004.6273,461.2612 1011.6424,461.2612 1018.6576,461.2612" fill="none" id="RS-slice_condition" style="stroke:#ADD8E6;stroke-width:1.2002;" /></g><!--link Contact to RS--><g class="link" data-entity-1="Contact" data-entity-2="RS" data-source-line="120" data-uid="lnk20" id="link_Contact_RS"><path codeLine="120" d="M267.7766,240.4244 C284.1293,251.1542 302.7024,263.3422 322.5177,276.3464" fill="none" id="Contact-RS" style="stroke:#ADD8E6;stroke-width:1.2002;" /></g><!--link label to RS--><g class="link" data-entity-1="label" data-entity-2="RS" data-source-line="121" data-uid="lnk21" id="link_label_RS"><path codeLine="121" d="M486.9571,217.2365 C493.8462,231.6449 503.9039,252.6724 515.2698,276.4184" fill="none" id="label-RS" style="stroke:#ADD8E6;stroke-width:1.2002;" /></g><!--link slice_name to Contact--><g class="link" data-entity-1="slice_name" data-entity-2="Contact" data-source-line="122" data-uid="lnk22" id="link_slice_name_Contact"><path codeLine="122" d="M201.9336,116.8398 C201.9336,127.6056 201.9336,140.5258 201.9336,152.7678" fill="none" id="slice_name-Contact" style="stroke:#ADD8E6;stroke-width:1.2002;" /></g><!--link OM to RS--><g class="link" data-entity-1="OM" data-entity-2="RS" data-source-line="123" data-uid="lnk23" id="link_OM_RS"><path codeLine="123" d="M713.9689,229.5206 C707.7278,242.5728 699.9926,258.7395 691.5371,276.4124" fill="none" id="OM-RS" style="stroke:#ADD8E6;stroke-width:1.2002;" /></g><!--link arm to RS--><g class="link" data-entity-1="arm" data-entity-2="RS" data-source-line="124" data-uid="lnk24" id="link_arm_RS"><path codeLine="124" d="M941.0887,229.3886 C921.9995,242.4647 898.3256,258.6794 872.4313,276.4124" fill="none" id="arm-RS" style="stroke:#ADD8E6;stroke-width:1.2002;" /></g><!--link Group to Organization--><!--link Group to Characteristic--><g class="link" data-entity-1="Group" data-entity-2="Characteristic" data-source-line="128" data-uid="lnk26" id="link_Group_Characteristic"><path codeLine="128" d="M346.5577,789.0238 C346.5577,801.4578 346.5577,810.5673 346.5577,821.2251" fill="none" id="Group-to-Characteristic" style="stroke:#90EE90;stroke-width:1.2002;" /><polygon fill="#90EE90" points="346.5577,824.8257,348.9581,819.4248,346.5577,821.8252,344.1573,819.4248,346.5577,824.8257" style="stroke:#90EE90;stroke-width:1.2002;" /></g><!--link Location to Telecom--><g class="link" data-entity-1="Location" data-entity-2="Telecom" data-source-line="129" data-uid="lnk27" id="link_Location_Telecom"><path codeLine="129" d="M823.037,766.712 C823.037,786.1793 823.037,804.5783 823.037,821.2191" fill="none" id="Location-to-Telecom" style="stroke:#EE82EE;stroke-width:1.2002;" /><polygon fill="#EE82EE" points="823.037,824.8197,825.4374,819.4188,823.037,821.8192,820.6366,819.4188,823.037,824.8197" style="stroke:#EE82EE;stroke-width:1.2002;" /></g></g></svg></div>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+<script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:left">&#xA0;
+
+                <a href="st_flux2.html">&lt;prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:right">&#xA0;
+
+                <a href="search_param.html">next&gt;</a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.eclaire#0.3.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 25, 2025 15:02+0000">2025-07-25</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+            Liens : <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières</a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA</a> |
+<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/fhir/eclaire/history.html">Historique des versions</a>
+<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/documentation">Documentation</a>
+ | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/IG-fhir-essais-cliniques/issues/new/choose">New Issue</a>
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+
+  <!-- Ajout ANS -->
+  <script src="assets/js/app.js" type="text/javascript"> </script>
+  <script src="assets/js/vendor.js" type="text/javascript"> </script>
+  <!-- Fin ajout ANS -->
+
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  
+
+  <!-- Analytics Below
+  ================================================== -->
+
+
+  <!-- AJOUT ANS -->
+
+<footer class="footer footer-principal" role="contentinfo">
+  <div class="footer__region1">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4 text-center text-md-left">
+          <div class="logos">        
+            <div class="logo logo--0">
+              <a href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+                
+                <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" height="77" loading="lazy" />
+                
+              </a>
+            </div>
+        
+            <div class="logo logo--1">
+              <a href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+                
+                <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" height="74" loading="lazy" />
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 text-center text-md-left">
+          <p class="footer__title">Agence du Numérique en Santé</p>
+          <p>2-10 Rue d'Oradour-sur-Glane 75015 Paris</p>
+
+          <!-- <div class="m-social">
+            <ul class="m-social__list">        
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://www.linkedin.com/company/agence-du-numerique-en-sante/" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-linkedin" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#linkedin"></use></svg>
+                  </div>
+                  <span class="sr-only">linkedin</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://twitter.com/esante_gouv_fr" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-twitter" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#twitter"></use></svg>
+                  </div>
+                  <span class="sr-only">twitter</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://www.youtube.com/channel/UCd1zuSaU5cE1lRCpwv_HSMA" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-youtube" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#youtube"></use></svg>
+                  </div>
+                  <span class="sr-only">youtube</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://esante.gouv.fr/rss.xml" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-rss" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#rss"></use></svg>
+                  </div>
+                  <span class="sr-only">rss</span>
+                </a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+        
+        <div class="col-6 col-lg-4">
+          <ul class="footer-list">
+            <li class="footer-list__item footer-list__item--hasIcon">
+              <a href="mailto:ci-sis@esante.gouv.fr" class="mailto-link">
+                <svg class="svg-icon svg-angle-right" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
+              </li>
+              <!-- <li class="footer-list__item">
+                <a href="https://interop-pprod.esante.gouv.fr/ci-sis-specifications/wp-content/uploads/CGU_espace_de_tests_v1.1.pdf" class="file-link">Mentions légales</a>
+              </li>
+               -->
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <!-- <div class="footer__region2">
+      <div class="container">
+        <div class="footer-contentinfo">
+          <ul class="footer-list footer-list--inline">
+
+          </ul>
+        </div>
+      </div>
+    </div> -->
+  </footer>
+  </body>
+</html>
+
