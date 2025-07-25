@@ -63,17 +63,12 @@ Usage: #example
 * identifier[0]
   * use = #official
   * value = "2022-500014-26-00"
-  * assigner = Reference(Organization/ctis) "Reference to primary assigner"
-    * type = "Organization"
 * identifier[+]
   * use = #secondary
-  * assigner
-    * type = "Organization"
-    * display = "Reference to secondary assigner"
-* title = "UNE ETUDE DE PHASE III, RANDOMISEE, OUVERTE, EVALUANT L'EFFICACITE ET LA SECURITE DU GIREDESTRANT EN ASSOCIATION AVEC PHESGO PAR RAPPORT A PHESGO APRES UN TRAITEMENT D'INDUCTION PAR PHESGO+TAXANE CHEZ DES PATIENTES ATTEINTES D'UN CANCER DU SEIN LOCALEMENT AVANCÉ OU METASTATIQUE, HER2-POSITIF ET POSITIF AUX RECEPTEURS DES OESTROGENES, QUI N'A PAS ETE TRAITE AU PREALABLE."
+  * value = "id-2"
+* title = "UNE ETUDE DE PHASE III, RANDOMISEE, OUVERTE, EVALUANT L'EFFICACITE ET LA SECURITE DU GIREDESTRANT EN ASSOCIATION AVEC PHESGO."
 * status = #active
 * phase.coding = $research-study-phase#phase-3 "Phase 3"
-  * version = "4.0.1"
 * category[0] = $eclaire-regulation-code-code-system#REG536 "REG536 (CTIS)"
 * category[+] = $eclaire-reglementation-precision-code-system#study-ctis "un essai clinique (CTIS)"
 * condition[0]
@@ -115,7 +110,6 @@ Usage: #example
   * extension[+]
     * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type"
     * valueCodeableConcept.coding = $eclaire-type-contact-code-system#SCI "Scientifique / Scientific"
-      * version = "0.1.0"
   * telecom[0]
     * system = #phone
     * use = #work
@@ -134,7 +128,6 @@ Usage: #example
   * extension[+]
     * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type"
     * valueCodeableConcept.coding = $eclaire-type-contact-code-system#PUB "Publique / Public"
-      * version = "0.1.0"
   * telecom[0]
     * system = #phone
     * use = #work
@@ -142,21 +135,13 @@ Usage: #example
     * system = #email
     * use = #work
 * location[0].coding = urn:iso:std:iso:3166#BE "Belgium"
-  * version = "4.0.1"
 * location[+].coding = urn:iso:std:iso:3166#DE "Germany"
-  * version = "4.0.1"
 * location[+].coding = urn:iso:std:iso:3166#ES "Spain"
-  * version = "4.0.1"
 * location[+].coding = urn:iso:std:iso:3166#FR "France"
-  * version = "4.0.1"
 * location[+].coding = urn:iso:std:iso:3166#HU "Hungary"
-  * version = "4.0.1"
 * location[+].coding = urn:iso:std:iso:3166#IT "Italy"
-  * version = "4.0.1"
 * location[+].coding = urn:iso:std:iso:3166#PL "Poland"
-  * version = "4.0.1"
 * location[+].coding = urn:iso:std:iso:3166#PT "Portugal"
-  * version = "4.0.1"
 * description = "Exemple construit à partir de https://eclaire-api.osc-fr1.scalingo.io/R4/ResearchStudy/2022-500014-26-00"
 * enrollment = Reference(Group/2022-500014-26-00-enrollment-group) "Reference to group detailing study characteristics"
   * type = "Group"
