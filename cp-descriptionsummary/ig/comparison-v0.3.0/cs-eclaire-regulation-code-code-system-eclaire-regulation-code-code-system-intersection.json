@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "cda66087-40be-40cc-8251-dbf42cbe197c-9",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/cda66087-40be-40cc-8251-dbf42cbe197c-9",
+  "id" : "951ad662-a966-4043-ad80-3a274f17cd63-9",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/951ad662-a966-4043-ad80-3a274f17cd63-9",
   "name" : "IntersectionEclaireRegulationCodeCSAndEclaireRegulationCodeCS",
   "title" : "Intersection of Code de régulation de l'essai And Code de régulation de l'essai",
   "status" : "draft",
-  "date" : "2025-07-24T16:29:45+00:00",
+  "date" : "2025-07-25T15:13:00+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
