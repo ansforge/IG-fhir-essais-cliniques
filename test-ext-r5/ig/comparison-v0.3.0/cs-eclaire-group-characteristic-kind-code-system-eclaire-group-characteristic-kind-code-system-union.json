@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "0fcdac62-db0e-4ae9-ac93-de1d4e10d4e4-2",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/0fcdac62-db0e-4ae9-ac93-de1d4e10d4e4-2",
+  "id" : "ace02e70-4d8e-4c16-9c90-3458de38d66c-2",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/ace02e70-4d8e-4c16-9c90-3458de38d66c-2",
   "name" : "UnionEclaireGroupCharacteristicKindCSAndEclaireGroupCharacteristicKindCS",
   "title" : "Union of Codes pour le type de caractéristique du groupe And Codes pour le type de caractéristique du groupe",
   "status" : "draft",
-  "date" : "2025-07-25T15:54:01+00:00",
+  "date" : "2025-08-01T16:25:03+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
