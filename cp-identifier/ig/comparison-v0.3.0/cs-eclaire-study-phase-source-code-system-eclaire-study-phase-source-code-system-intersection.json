@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "c8b2bc7f-cfe2-4949-913b-c6e43acad567-24",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c8b2bc7f-cfe2-4949-913b-c6e43acad567-24",
+  "id" : "1155f775-40a7-456b-8958-11bea292a0be-24",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/1155f775-40a7-456b-8958-11bea292a0be-24",
   "name" : "IntersectionEclaireStudyPhaseSourceCSAndEclaireStudyPhaseSourceCS",
   "title" : "Intersection of Définition des phase de l'essai utilisés dans la base de données ECLAIRE And Définition des phase de l'essai utilisés dans la base de données ECLAIRE",
   "status" : "draft",
-  "date" : "2025-07-23T16:57:42+00:00",
+  "date" : "2025-11-25T13:03:54+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

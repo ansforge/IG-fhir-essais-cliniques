@@ -66,6 +66,13 @@
       ]
     },
     {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary",
+      "title": "ECLAIREDescriptionSummaryR5",
+      "types": [
+        "markdown"
+      ]
+    },
+    {
       "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
       "title": "ECLAIRELabelR5",
       "types": [

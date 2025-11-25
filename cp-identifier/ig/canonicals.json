@@ -7,6 +7,13 @@
     "name" : "ECLAIREassociatedPartyR5"
   },
   {
+    "id" : "eclaire-description-summary-r5",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary",
+    "version" : "0.3.1",
+    "name" : "ECLAIREDescriptionSummaryR5"
+  },
+  {
     "id" : "eclaire-label-r5",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c8b2bc7f-cfe2-4949-913b-c6e43acad567-65",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c8b2bc7f-cfe2-4949-913b-c6e43acad567-65",
+  "id" : "1155f775-40a7-456b-8958-11bea292a0be-68",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1155f775-40a7-456b-8958-11bea292a0be-68",
   "name" : "UnionECLAIRELocationAndECLAIRELocation",
   "title" : "Union of null And null",
   "status" : "draft",
-  "date" : "2025-07-23T16:57:42+00:00",
+  "date" : "2025-11-25T13:03:54+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -201,7 +201,7 @@
       "binding" : {
         "strength" : "preferred",
         "description" : "A human language.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/languages"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1155f775-40a7-456b-8958-11bea292a0be-62"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -1131,7 +1131,7 @@
       "binding" : {
         "strength" : "example",
         "description" : "Physical form of the location.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/location-physical-type"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1155f775-40a7-456b-8958-11bea292a0be-71"
       },
       "mapping" : [{
         "identity" : "rim",

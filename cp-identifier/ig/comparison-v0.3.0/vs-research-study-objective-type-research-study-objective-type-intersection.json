@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "1155f775-40a7-456b-8958-11bea292a0be-93",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/1155f775-40a7-456b-8958-11bea292a0be-93",
+  "name" : "IntersectionResearchStudyObjectiveTypeAndResearchStudyObjectiveType",
+  "title" : "Intersection of ResearchStudyObjectiveType And ResearchStudyObjectiveType",
+  "status" : "draft",
+  "date" : "2025-11-25T13:03:54+00:00"
+}
