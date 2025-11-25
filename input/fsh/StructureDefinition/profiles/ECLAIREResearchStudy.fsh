@@ -76,26 +76,24 @@ Description: "Profil de ResearchStudy pour le projet ECLAIRE"
     ECLAIRETherapeuticArea named eclaire-therapeutic-area 0..1 MS and
     ECLAIRERecruitmentPeriod named eclaire-recruitment-period 0..1 MS and
     ECLAIRERecruitmentStatus named eclaire-recruitment-status 0..1 MS and // en R5 le ProgressStatus inclut fonctionnelement le status de R4. Nous sommes donc obligés de faire cette extension en R4 pour répondre au besoin
-    $description-summary-r5 named eclaire-description-summary-r5 0..1 MS and
+    ECLAIREDescriptionSummaryR5 named eclaire-description-summary-r5 0..1 MS and
     ECLAIREoutcomeMeasureR5 named eclaire-outcome-measure-r5 0..* MS and // extension outcomeMeasure inspirée de R5
     ECLAIREassociatedPartyR5 named eclaire-associated-party-r5 0..* MS and // extension associatedParty inspirée de R5
     ECLAIRELabelR5 named eclaire-label-r5 0..* MS // extension label inspirée de R5
 * extension[eclaire-review-date] ^short = "Date de dernière modification substancielle"
 * extension[eclaire-approval-date] ^short = "Date d'approbation du comité éthique"
-* extension[eclaire-description-summary-r5] ^short = "Texte bref décrivant l'essai / Brief text explaining the study."
-* extension[eclaire-description-summary-r5] ^definition = "Cette extension implemente l'élément descriptionSummary de R5. elle permet l'ajout d'un texte bref décrivant l'essai"
-* extension[eclaire-description-summary-r5].valueMarkdown 1..1
-* extension[eclaire-description-summary-r5].value[x] only markdown
+* extension[eclaire-description-summary-r5] ^short = "Texte bref décrivant l'essai / Brief text explaining the study (Brief summary)"
+* extension[eclaire-description-summary-r5] ^definition = "Cette extension implemente l'élément descriptionSummary de R5 https://hl7.org/fhir/R5/researchstudy-definitions.html#ResearchStudy.descriptionSummary. elle permet l'ajout d'un texte bref décrivant l'essai (Brief summary)"
 * extension[eclaire-outcome-measure-r5] ^short = "Conséquences principales (primary outcomes) + Conséquences secondaires (secondary outcomes)"
 * extension[eclaire-outcome-measure-r5] ^definition = "Cette extension implemente l'élément outcomeMeasure de R5. elle permet l'ajout des conséquences principales et secondaires de l'essai"
-* extension[eclaire-associated-party-r5] ^short = "Sponsor, collaborateurs et autres parties / Sponsors, collaborators, and other parties "
+* extension[eclaire-associated-party-r5] ^short = "Sponsor, collaborateurs et autres parties / Sponsors, collaborators, and other parties"
 * extension[eclaire-associated-party-r5] ^definition = "Cette extension implemente l'élément associatedParty de R5 http://hl7.org/fhir/R5/researchstudy-definitions.html#ResearchStudy.associatedParty. elle permet l'ajout des sponsors, collaborateurs et autres parties"
 
 * extension[eclaire-label-r5] ^short = "Autres titres et acronyme / Additional names for the study. Implémentation de l'élément label de R5"
 * extension[eclaire-label-r5] ^definition = "Cette extension implemente l'élément label de R5. elle permet l'ajout de plusieurs titres pour l'essai"
 * extension[eclaire-therapeutic-area] ^short = "Domaine thérapeutique concerné"
 * extension[eclaire-recruitment-period] ^short = "Période prévisionnelle de recrutement"
-* extension[eclaire-recruitment-status] ^short = "Statut du recrutement / Recruitment status"    
+* extension[eclaire-recruitment-status] ^short = "Statut du recrutement / Recruitment status"  
 
 * contact.extension contains
     ECLAIREContactType named eclaire-contact-type 0..1 MS and

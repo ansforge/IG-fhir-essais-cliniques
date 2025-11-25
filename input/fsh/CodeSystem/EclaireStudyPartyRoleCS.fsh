@@ -2,7 +2,11 @@ CodeSystem: EclaireStudyPartyRoleCS
 Id: eclaire-study-party-role-code-system
 Title: "Définition des rôles des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-role"
 Description: "Différents rôles des parties impliqué dans l'essai"
-* ^caseSensitive = true
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^experimental = true
+* ^caseSensitive = true 
+* ^compositional = false
+* ^content = #complete
 * #sponsor "sponsor" "sponsor"
 * #lead-sponsor "lead-sponsor" "lead-sponsor"
 * #sponsor-investigator "sponsor-investigator" "sponsor-investigator"

@@ -2,7 +2,11 @@ CodeSystem: EclaireReglementationPrecisionCS
 Id: eclaire-reglementation-precision-code-system
 Title: "Précision sur la réglementation concernant l'essai"
 Description: "Précision sur la réglementation concernant l'essai"
-* ^caseSensitive = true
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^experimental = true
+* ^caseSensitive = true 
+* ^compositional = false
+* ^content = #complete
 * #IC-Cas-1 "IC-Cas 1 (DM)"
 * #IC-Cas-2 "IC-Cas 2 (DM)"
 * #IC-Cas-3 "IC-Cas 3 (DM)"

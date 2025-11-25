@@ -37,6 +37,8 @@ pages:
         title: Critères de recherche
     modifiers.md:
         title: Paramètres et modificateurs de requêtes FHIR
+    change-log.md:
+        title: "Historique des versions"
     autres_ressources.md:
         title: Autres Ressources
         securite.md:
@@ -55,6 +57,7 @@ menu:
     Critères de recherche: search_param.html
     Paramètres et modificateurs de requêtes FHIR: modifiers.html
     Ressources de conformité: artifacts.html
+    Historique des versions: change-log.html  
     Autres ressources:
         Sécurité: securite.html
         Téléchargements et usage: downloads.html
