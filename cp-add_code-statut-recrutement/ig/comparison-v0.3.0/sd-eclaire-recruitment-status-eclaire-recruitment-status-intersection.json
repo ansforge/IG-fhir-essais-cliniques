@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c3269b29-ec14-45d6-9850-63a8658d9eee-81",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c3269b29-ec14-45d6-9850-63a8658d9eee-81",
+  "id" : "4692cb86-4481-48cd-b228-22e7df375832-81",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4692cb86-4481-48cd-b228-22e7df375832-81",
   "name" : "IntersectionECLAIRERecruitmentStatusAndECLAIRERecruitmentStatus",
   "title" : "Intersection of null And null",
   "status" : "draft",
-  "date" : "2025-11-27T09:15:08+00:00",
+  "date" : "2025-11-27T09:56:25+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

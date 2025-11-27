@@ -77,7 +77,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "ECLAIRE",
   "title" : "Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème",
   "status" : "draft",
-  "date" : "2025-11-27T09:14:20+00:00",
+  "date" : "2025-11-27T09:55:38+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

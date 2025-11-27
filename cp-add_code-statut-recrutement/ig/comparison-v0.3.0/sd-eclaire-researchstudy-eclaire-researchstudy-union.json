@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c3269b29-ec14-45d6-9850-63a8658d9eee-83",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c3269b29-ec14-45d6-9850-63a8658d9eee-83",
+  "id" : "4692cb86-4481-48cd-b228-22e7df375832-83",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4692cb86-4481-48cd-b228-22e7df375832-83",
   "name" : "UnionECLAIREResearchStudyAndECLAIREResearchStudy",
   "title" : "Union of null And null",
   "status" : "draft",
-  "date" : "2025-11-27T09:15:08+00:00",
+  "date" : "2025-11-27T09:56:25+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -212,7 +212,7 @@
       "binding" : {
         "strength" : "preferred",
         "description" : "A human language.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c3269b29-ec14-45d6-9850-63a8658d9eee-62"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4692cb86-4481-48cd-b228-22e7df375832-62"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -870,7 +870,7 @@
       "binding" : {
         "strength" : "example",
         "description" : "Identification of the condition or diagnosis.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c3269b29-ec14-45d6-9850-63a8658d9eee-86"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4692cb86-4481-48cd-b228-22e7df375832-86"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -1741,7 +1741,7 @@
       "binding" : {
         "strength" : "example",
         "description" : "Codes for why the study ended prematurely.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c3269b29-ec14-45d6-9850-63a8658d9eee-89"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4692cb86-4481-48cd-b228-22e7df375832-89"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -2300,7 +2300,7 @@
       "binding" : {
         "strength" : "preferred",
         "description" : "Codes for the kind of study objective.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c3269b29-ec14-45d6-9850-63a8658d9eee-92"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4692cb86-4481-48cd-b228-22e7df375832-92"
       },
       "mapping" : [{
         "identity" : "rim",

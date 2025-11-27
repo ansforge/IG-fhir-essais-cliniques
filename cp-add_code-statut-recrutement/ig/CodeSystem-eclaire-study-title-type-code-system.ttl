@@ -28,7 +28,7 @@
   fhir:title [ fhir:v "Définition des types de titre pour l'essai"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
-  fhir:date [ fhir:v "2025-11-27T09:14:20+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-27T09:55:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

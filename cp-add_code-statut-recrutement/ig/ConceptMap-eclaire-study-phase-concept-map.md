@@ -74,7 +74,7 @@ Mapping de [Value Set de la phase de l'essai tel que définie dans la base ECLAI
   "title" : "FHIR/Eclaire ResearchStudy phase Use Mapping",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-11-27T09:14:20+00:00",
+  "date" : "2025-11-27T09:55:38+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

@@ -37,7 +37,7 @@ Les différents statuts de recrutement pour les essais cliniques
   "title" : "Statut de recrutement",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-11-27T09:14:20+00:00",
+  "date" : "2025-11-27T09:55:38+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
@@ -65,12 +65,17 @@ Les différents statuts de recrutement pour les essais cliniques
   "caseSensitive" : true,
   "compositional" : false,
   "content" : "complete",
-  "count" : 2,
+  "count" : 3,
   "concept" : [
     {
       "code" : "recruiting",
       "display" : "Actif / active",
       "definition" : "Recrutement actif"
+    },
+    {
+      "code" : "upcoming",
+      "display" : "A venir / Upcoming",
+      "definition" : "Recrutement à venir"
     },
     {
       "code" : "completed-recruiting",

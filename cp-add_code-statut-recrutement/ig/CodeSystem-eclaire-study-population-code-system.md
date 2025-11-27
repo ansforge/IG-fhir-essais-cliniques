@@ -37,7 +37,7 @@ Codes pour caractériser la population ciblée par l'étude
   "title" : "Codes pour caractériser la population de l'étude",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-11-27T09:14:20+00:00",
+  "date" : "2025-11-27T09:55:38+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

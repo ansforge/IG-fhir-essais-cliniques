@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "c3269b29-ec14-45d6-9850-63a8658d9eee-11",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c3269b29-ec14-45d6-9850-63a8658d9eee-11",
+  "id" : "4692cb86-4481-48cd-b228-22e7df375832-11",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/4692cb86-4481-48cd-b228-22e7df375832-11",
   "name" : "UnionEclaireStatusRecruitmentCSAndEclaireStatusRecruitmentCS",
   "title" : "Union of Statut de recrutement And Statut de recrutement",
   "status" : "draft",
-  "date" : "2025-11-27T09:15:08+00:00",
+  "date" : "2025-11-27T09:56:25+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -22,5 +22,10 @@
     "code" : "completed-recruiting",
     "display" : "Terminé / completed ",
     "definition" : "Recrutement terminé"
+  },
+  {
+    "code" : "upcoming",
+    "display" : "A venir / Upcoming",
+    "definition" : "Recrutement à venir"
   }]
 }

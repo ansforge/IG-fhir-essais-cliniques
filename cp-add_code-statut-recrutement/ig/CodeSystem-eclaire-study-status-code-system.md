@@ -37,7 +37,7 @@ Statut de l'essai clinique utilisé dans la base de données ECLAIRE
   "title" : "Définition des statuts de l'essai utilisés dans la base de données ECLAIRE",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-11-27T09:14:20+00:00",
+  "date" : "2025-11-27T09:55:38+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

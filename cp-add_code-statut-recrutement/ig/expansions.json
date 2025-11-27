@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "2d835f7e-e3ce-479a-957b-f00b83bf2b1f",
+  "id" : "48f71001-209f-43e5-a86f-f52c00973384",
   "meta" : {
-    "lastUpdated" : "2025-11-27T09:14:20.195+00:00"
+    "lastUpdated" : "2025-11-27T09:55:38.543+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -22,7 +22,7 @@
       "title" : "Value Set type pour spécifier la catégorie l'essai clinique",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-11-27T09:14:20+00:00",
+      "date" : "2025-11-27T09:55:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -31,8 +31,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:65b06d0a-1d14-40a2-8885-60d4f88f9651",
-        "timestamp" : "2025-11-27T09:15:21+00:00",
+        "identifier" : "urn:uuid:d8728187-8e6d-4aed-bf6e-5e5bfd746d66",
+        "timestamp" : "2025-11-27T09:56:39+00:00",
         "total" : 21,
         "offset" : 0,
         "parameter" : [{
@@ -163,7 +163,7 @@
       "title" : "Type de caractéristique Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-11-27T09:14:20+00:00",
+      "date" : "2025-11-27T09:55:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -172,8 +172,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4e04cb0d-88b3-46c0-8ba0-da1f34024c3d",
-        "timestamp" : "2025-11-27T09:15:21+00:00",
+        "identifier" : "urn:uuid:59640fd6-758d-4460-aa38-0e37e744c531",
+        "timestamp" : "2025-11-27T09:56:39+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -236,7 +236,7 @@
       "title" : "Précision sur la réglementation concernant l'essai Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-11-27T09:14:20+00:00",
+      "date" : "2025-11-27T09:55:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -245,8 +245,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ef02d355-1510-435d-a7ed-c8f2db2f0b31",
-        "timestamp" : "2025-11-27T09:15:21+00:00",
+        "identifier" : "urn:uuid:9195fcd7-a53d-46af-9494-5e947ae73b6a",
+        "timestamp" : "2025-11-27T09:56:39+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
@@ -357,7 +357,7 @@
       "title" : "Code de régulation Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-11-27T09:14:20+00:00",
+      "date" : "2025-11-27T09:55:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -366,8 +366,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:703a5396-63e8-4240-8993-76f2717a247b",
-        "timestamp" : "2025-11-27T09:15:21+00:00",
+        "identifier" : "urn:uuid:336a0685-0a33-4e26-a4a5-bd212eff89f8",
+        "timestamp" : "2025-11-27T09:56:39+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -418,7 +418,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-eclaire-status-recruitment-code-system.html\">codesystem Statut de recrutement v0.3.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system|0.3.1\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system-recruiting\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-eclaire-status-recruitment-code-system.html#eclaire-status-recruitment-code-system-recruiting\">recruiting</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system&quot;, &quot;version&quot;: &quot;0.3.1&quot;, &quot;code&quot;: &quot;recruiting&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system&quot;&gt;&lt;version value=&quot;0.3.1&quot;&gt;&lt;code value=&quot;recruiting&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system-completed-recruiting\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-eclaire-status-recruitment-code-system.html#eclaire-status-recruitment-code-system-completed-recruiting\">completed-recruiting</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system&quot;, &quot;version&quot;: &quot;0.3.1&quot;, &quot;code&quot;: &quot;completed-recruiting&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system&quot;&gt;&lt;version value=&quot;0.3.1&quot;&gt;&lt;code value=&quot;completed-recruiting&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-eclaire-status-recruitment-code-system.html\">codesystem Statut de recrutement v0.3.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system|0.3.1\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system-recruiting\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-eclaire-status-recruitment-code-system.html#eclaire-status-recruitment-code-system-recruiting\">recruiting</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system&quot;, &quot;version&quot;: &quot;0.3.1&quot;, &quot;code&quot;: &quot;recruiting&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system&quot;&gt;&lt;version value=&quot;0.3.1&quot;&gt;&lt;code value=&quot;recruiting&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system-upcoming\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-eclaire-status-recruitment-code-system.html#eclaire-status-recruitment-code-system-upcoming\">upcoming</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system&quot;, &quot;version&quot;: &quot;0.3.1&quot;, &quot;code&quot;: &quot;upcoming&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system&quot;&gt;&lt;version value=&quot;0.3.1&quot;&gt;&lt;code value=&quot;upcoming&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system-completed-recruiting\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-eclaire-status-recruitment-code-system.html#eclaire-status-recruitment-code-system-completed-recruiting\">completed-recruiting</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system&quot;, &quot;version&quot;: &quot;0.3.1&quot;, &quot;code&quot;: &quot;completed-recruiting&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system&quot;&gt;&lt;version value=&quot;0.3.1&quot;&gt;&lt;code value=&quot;completed-recruiting&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-status-recruitment-vs",
       "version" : "0.3.1",
@@ -426,7 +426,7 @@
       "title" : "Statut de recrutement Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-11-27T09:14:20+00:00",
+      "date" : "2025-11-27T09:55:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -435,9 +435,9 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f16d92cc-6642-475a-ae4c-d28b0b3e1959",
-        "timestamp" : "2025-11-27T09:15:21+00:00",
-        "total" : 2,
+        "identifier" : "urn:uuid:3f6418cc-5ae9-4ba2-8c99-7d1ac310913a",
+        "timestamp" : "2025-11-27T09:56:39+00:00",
+        "total" : 3,
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -465,6 +465,10 @@
         },
         {
           "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system",
+          "code" : "upcoming"
+        },
+        {
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system",
           "code" : "completed-recruiting"
         }]
       }
@@ -487,7 +491,7 @@
       "title" : "Type de conséquence Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-11-27T09:14:20+00:00",
+      "date" : "2025-11-27T09:55:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -496,8 +500,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9830f3a5-4a76-4797-8342-2ed2a10674da",
-        "timestamp" : "2025-11-27T09:15:21+00:00",
+        "identifier" : "urn:uuid:ded04eca-edc7-400b-866e-65822346bcc2",
+        "timestamp" : "2025-11-27T09:56:39+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -548,7 +552,7 @@
       "title" : "Value Set Eclaire pour les types de parties",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-11-27T09:14:20+00:00",
+      "date" : "2025-11-27T09:55:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -557,8 +561,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:74929c43-9652-4864-be3d-a5f055116b20",
-        "timestamp" : "2025-11-27T09:15:21+00:00",
+        "identifier" : "urn:uuid:df78868f-d180-4159-906f-9a966a808e2d",
+        "timestamp" : "2025-11-27T09:56:39+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -617,7 +621,7 @@
       "title" : "Value Set Eclaire pour les différents rôles des parties impliquées dans l'essai",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-11-27T09:14:20+00:00",
+      "date" : "2025-11-27T09:55:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -626,8 +630,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c7c70424-fc89-45c9-adef-1d216551d915",
-        "timestamp" : "2025-11-27T09:15:21+00:00",
+        "identifier" : "urn:uuid:d1430aff-3a98-4117-86b5-0ea5e4f1aec0",
+        "timestamp" : "2025-11-27T09:56:40+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -718,7 +722,7 @@
       "title" : "Value Set de la phase de l'essai tel que définie dans la base ECLAIRE",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-11-27T09:14:20+00:00",
+      "date" : "2025-11-27T09:55:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -727,8 +731,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:782834aa-f554-461e-8276-681ddabd24de",
-        "timestamp" : "2025-11-27T09:15:21+00:00",
+        "identifier" : "urn:uuid:5b69a4ff-0b10-4dc6-a17c-eaee4a5247c4",
+        "timestamp" : "2025-11-27T09:56:40+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -819,7 +823,7 @@
       "title" : "Value Set type de phase de l'essai clinique",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-11-27T09:14:20+00:00",
+      "date" : "2025-11-27T09:55:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -828,8 +832,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:de370d88-8601-4edb-8ea1-72ca9fe8fb67",
-        "timestamp" : "2025-11-27T09:15:21+00:00",
+        "identifier" : "urn:uuid:7169ffda-28d7-4b9e-8ac5-203fb88af907",
+        "timestamp" : "2025-11-27T09:56:40+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -912,7 +916,7 @@
       "title" : "Caractérisation de la population Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-11-27T09:14:20+00:00",
+      "date" : "2025-11-27T09:55:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -921,8 +925,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6ba1ce0f-f162-4dfc-87f1-655ef8fc3c49",
-        "timestamp" : "2025-11-27T09:15:21+00:00",
+        "identifier" : "urn:uuid:d6102eac-0fd8-4f11-baa6-7475f5a577ce",
+        "timestamp" : "2025-11-27T09:56:40+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -1001,7 +1005,7 @@
       "title" : "Value Set Statut Eclaire de l'essai",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-11-27T09:14:20+00:00",
+      "date" : "2025-11-27T09:55:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1010,8 +1014,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:887c2231-914d-4fd8-bc0a-eba80de8715e",
-        "timestamp" : "2025-11-27T09:15:21+00:00",
+        "identifier" : "urn:uuid:4bb790c5-edaf-4ed2-b537-9fa837f56dde",
+        "timestamp" : "2025-11-27T09:56:40+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -1090,7 +1094,7 @@
       "title" : "Type de titre Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-11-27T09:14:20+00:00",
+      "date" : "2025-11-27T09:55:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1099,8 +1103,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f66892bf-163f-4d6c-a9a9-e57fdad3d526",
-        "timestamp" : "2025-11-27T09:15:21+00:00",
+        "identifier" : "urn:uuid:72b71043-2b1d-4da2-a226-9b99ec32973d",
+        "timestamp" : "2025-11-27T09:56:40+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -1195,7 +1199,7 @@
       "title" : "Type Contact Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-11-27T09:14:20+00:00",
+      "date" : "2025-11-27T09:55:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1204,8 +1208,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e75e6abc-1768-4beb-a012-84c87ba2fbcb",
-        "timestamp" : "2025-11-27T09:15:21+00:00",
+        "identifier" : "urn:uuid:b420df31-bf1d-4b42-b436-c2cc7d17ed62",
+        "timestamp" : "2025-11-27T09:56:40+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
