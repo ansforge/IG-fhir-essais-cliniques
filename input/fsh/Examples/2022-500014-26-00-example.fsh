@@ -63,9 +63,23 @@ Usage: #example
 * identifier[0]
   * use = #official
   * value = "2022-500014-26-00"
+  * system = "https://euclinicaltrials.eu"
 * identifier[+]
   * use = #secondary
-  * value = "id-2"
+  * value = "NCT12345678"
+  * system = "http://clinicaltrials.gov"
+* identifier[+]
+  * use = #secondary
+  * value = "ISRCTN12345678"
+  * system = "https://www.isrctn.com"
+* identifier[+]
+  * use = #secondary
+  * value = "U1234-3452-7658"
+  * system = "https://www.who.int/tools/clinical-trials-registry-platform"
+* identifier[+]
+  * use = #secondary
+  * value = "my-identifier-1234"
+  * system = "https://my-identifier.fr"
 * title = "UNE ETUDE DE PHASE III, RANDOMISEE, OUVERTE, EVALUANT L'EFFICACITE ET LA SECURITE DU GIREDESTRANT EN ASSOCIATION AVEC PHESGO."
 * status = #active
 * phase.coding = $research-study-phase#phase-3 "Phase 3"
@@ -74,9 +88,9 @@ Usage: #example
 * condition[0]
   * id = "disease-condition-2022-500014-26-00"
   * text = "Cancer du sein localement avancé ou métastatique (CSM)"
-* condition[+] = $meddra#10065430 "Cancer du sein HER2 positif"
+* condition[+] = $meddra#12345678 "Cancer du sein HER2 positif"
   * id = "meddra-condition-2022-500014-26-00-10065430"
-* condition[+] = $meddra#10070575 "Cancer du sein à récepteurs aux oestrogènes positifs"
+* condition[+] = $meddra#87654321 "Cancer du sein à récepteurs aux oestrogènes positifs"
   * id = "meddra-condition-2022-500014-26-00-10070575"
 * contact[0]
   * extension[0]
