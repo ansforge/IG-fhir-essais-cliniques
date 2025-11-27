@@ -12,20 +12,23 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem eclaire-study-population-code-system</b></p><a name=\"eclaire-study-population-code-system\"> </a><a name=\"hceclaire-study-population-code-system\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">incap-pop<a name=\"eclaire-study-population-code-system-incap-pop\"> </a></td><td>Incapacitated population (Population en situation de handicap)</td></tr><tr><td style=\"white-space:nowrap\">minors<a name=\"eclaire-study-population-code-system-minors\"> </a></td><td>Minors (Mineurs)</td></tr><tr><td style=\"white-space:nowrap\">nursing<a name=\"eclaire-study-population-code-system-nursing\"> </a></td><td>Nursing women (Femmes allaitant)</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"eclaire-study-population-code-system-other\"> </a></td><td>Other (Autres)</td></tr><tr><td style=\"white-space:nowrap\">pregnant<a name=\"eclaire-study-population-code-system-pregnant\"> </a></td><td>Pregnant women (Femmes enceintes)</td></tr><tr><td style=\"white-space:nowrap\">emergency-situation<a name=\"eclaire-study-population-code-system-emergency-situation\"> </a></td><td>Subjects in emergency situation (Sujets en situation d'urgence)</td></tr><tr><td style=\"white-space:nowrap\">incap-consent<a name=\"eclaire-study-population-code-system-incap-consent\"> </a></td><td>Subjects incapable of giving consent personally (Sujets incapables de donner leur consentement personnel)</td></tr><tr><td style=\"white-space:nowrap\">no-using-contraception<a name=\"eclaire-study-population-code-system-no-using-contraception\"> </a></td><td>Women of child bearing potential not using contraception (Femmes en âge de procréer n'utilisant pas de contraception)</td></tr><tr><td style=\"white-space:nowrap\">using-contraception<a name=\"eclaire-study-population-code-system-using-contraception\"> </a></td><td>Women of child bearing potential using contraception (Femmes en âge de procréer utilisant une méthode de contraception)</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem eclaire-study-population-code-system</b></p><a name=\"eclaire-study-population-code-system\"> </a><a name=\"hceclaire-study-population-code-system\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">incap-pop<a name=\"eclaire-study-population-code-system-incap-pop\"> </a></td><td>Incapacitated population (Population en situation de handicap)</td></tr><tr><td style=\"white-space:nowrap\">minors<a name=\"eclaire-study-population-code-system-minors\"> </a></td><td>Minors (Mineurs)</td></tr><tr><td style=\"white-space:nowrap\">nursing<a name=\"eclaire-study-population-code-system-nursing\"> </a></td><td>Nursing women (Femmes allaitant)</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"eclaire-study-population-code-system-other\"> </a></td><td>Other (Autres)</td></tr><tr><td style=\"white-space:nowrap\">pregnant<a name=\"eclaire-study-population-code-system-pregnant\"> </a></td><td>Pregnant women (Femmes enceintes)</td></tr><tr><td style=\"white-space:nowrap\">emergency-situation<a name=\"eclaire-study-population-code-system-emergency-situation\"> </a></td><td>Subjects in emergency situation (Sujets en situation d'urgence)</td></tr><tr><td style=\"white-space:nowrap\">incap-consent<a name=\"eclaire-study-population-code-system-incap-consent\"> </a></td><td>Subjects incapable of giving consent personally (Sujets incapables de donner leur consentement personnel)</td></tr><tr><td style=\"white-space:nowrap\">no-using-contraception<a name=\"eclaire-study-population-code-system-no-using-contraception\"> </a></td><td>Women of child bearing potential not using contraception (Femmes en âge de procréer n'utilisant pas de contraception)</td></tr><tr><td style=\"white-space:nowrap\">using-contraception<a name=\"eclaire-study-population-code-system-using-contraception\"> </a></td><td>Women of child bearing potential using contraception (Femmes en âge de procréer utilisant une méthode de contraception)</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system"^^xsd:anyURI ;
+     fhir:l <https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system>
+  ] ; # 
   fhir:version [ fhir:v "0.3.1"] ; # 
   fhir:name [ fhir:v "EclaireStudyPopulationCS"] ; # 
   fhir:title [ fhir:v "Codes pour caractériser la population de l'étude"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
-  fhir:date [ fhir:v "2025-07-25T15:44:45+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-27T10:20:46+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -37,7 +40,10 @@
   fhir:description [ fhir:v "Codes pour caractériser la population ciblée par l'étude"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "FR" ] ;
        fhir:display [ fhir:v "FRANCE" ]
      ] )
