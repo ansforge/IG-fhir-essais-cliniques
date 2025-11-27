@@ -1,0 +1,24 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "c3269b29-ec14-45d6-9850-63a8658d9eee-35",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/c3269b29-ec14-45d6-9850-63a8658d9eee-35",
+  "name" : "UnionEclaireTypeContactCSAndEclaireTypeContactCS",
+  "title" : "Union of Type de contact And Type de contact",
+  "status" : "draft",
+  "date" : "2025-11-27T09:15:08+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "concept" : [{
+    "code" : "PUB",
+    "display" : "Publique / Public"
+  },
+  {
+    "code" : "SCI",
+    "display" : "Scientifique / Scientific"
+  }]
+}
