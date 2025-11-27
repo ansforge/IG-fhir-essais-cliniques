@@ -58,7 +58,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "title" : "Statut de recrutement Value Set",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-11-27T10:20:46+00:00",
+  "date" : "2025-11-27T15:06:09+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

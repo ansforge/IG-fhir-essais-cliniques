@@ -37,7 +37,7 @@ Définition des types de titre pour l'essai (Code System inspiré de R5 : https:
   "title" : "Définition des types de titre pour l'essai",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-11-27T10:20:46+00:00",
+  "date" : "2025-11-27T15:06:09+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

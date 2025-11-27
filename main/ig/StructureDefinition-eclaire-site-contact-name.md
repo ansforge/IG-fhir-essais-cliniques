@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-eclaire-site-contact
   "version" : "0.3.1",
   "name" : "ECLAIRESiteContactName",
   "status" : "draft",
-  "date" : "2025-11-27T10:20:46+00:00",
+  "date" : "2025-11-27T15:06:09+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

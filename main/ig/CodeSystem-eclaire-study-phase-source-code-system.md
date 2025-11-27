@@ -37,7 +37,7 @@ Définition des phases de l'essai utilisées dans la base de données ECLAIRE
   "title" : "Définition des phase de l'essai utilisés dans la base de données ECLAIRE",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-11-27T10:20:46+00:00",
+  "date" : "2025-11-27T15:06:09+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

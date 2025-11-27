@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "9cf4ffd1-3a6a-44ab-994d-58b5dbd516ac-77",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9cf4ffd1-3a6a-44ab-994d-58b5dbd516ac-77",
+  "id" : "97f80b88-8ab5-46d3-9f7e-7532b8dda0a1-77",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/97f80b88-8ab5-46d3-9f7e-7532b8dda0a1-77",
   "name" : "UnionECLAIRERecruitmentPeriodAndECLAIRERecruitmentPeriod",
   "title" : "Union of null And null",
   "status" : "draft",
-  "date" : "2025-11-27T10:21:42+00:00",
+  "date" : "2025-11-27T15:06:58+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

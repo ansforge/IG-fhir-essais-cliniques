@@ -37,7 +37,7 @@ Type de contact pour les essais cliniques
   "title" : "Type de contact",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-11-27T10:20:46+00:00",
+  "date" : "2025-11-27T15:06:09+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

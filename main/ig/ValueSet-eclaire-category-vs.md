@@ -63,7 +63,7 @@ Ce jeu de valeur (ValueSet) contient 21 concepts
   "title" : "Value Set type pour spécifier la catégorie l'essai clinique",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-11-27T10:20:46+00:00",
+  "date" : "2025-11-27T15:06:09+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

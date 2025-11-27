@@ -63,7 +63,7 @@ Mapping de [Value Set Statut Eclaire de l'essai](ValueSet-eclaire-study-status-v
   "title" : "FHIR/Eclaire ResearchStudy status Use Mapping",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-11-27T10:20:46+00:00",
+  "date" : "2025-11-27T15:06:09+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
