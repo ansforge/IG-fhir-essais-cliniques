@@ -5,7 +5,7 @@ Alias: $eclaire-status-recruitment-code-system = https://interop.esante.gouv.fr/
 Alias: $research-study-phase = http://terminology.hl7.org/CodeSystem/research-study-phase
 Alias: $eclaire-regulation-code-code-system = https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system
 Alias: $eclaire-reglementation-precision-code-system = https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system
-Alias: $meddra = https://www.meddra.org
+Alias: $snomed = http://snomed.info/sct
 Alias: $eclaire-type-contact-code-system = https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system
 
 Instance: 2022-500014-26-00-example
@@ -86,12 +86,9 @@ Usage: #example
 * category[0] = $eclaire-regulation-code-code-system#REG536 "REG536 (CTIS)"
 * category[+] = $eclaire-reglementation-precision-code-system#study-ctis "un essai clinique (CTIS)"
 * condition[0]
-  * id = "disease-condition-2022-500014-26-00"
   * text = "Cancer du sein localement avancé ou métastatique (CSM)"
-* condition[+] = $meddra#12345678 "Cancer du sein HER2 positif"
-  * id = "meddra-condition-2022-500014-26-00-10065430"
-* condition[+] = $meddra#87654321 "Cancer du sein à récepteurs aux oestrogènes positifs"
-  * id = "meddra-condition-2022-500014-26-00-10070575"
+* condition[+] = $snomed#427685000 "Cancer du sein HER2 positif"
+* condition[+] = $snomed#416053008 "Cancer du sein à récepteurs aux oestrogènes positifs"
 * contact[0]
   * extension[0]
     * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-name"
@@ -110,7 +107,7 @@ Usage: #example
     * use = #work
   * telecom[+]
     * system = #email
-    * value = "global.rochegenentechtrials@roche.com"
+    * value = "global.trials@trials.com"
     * use = #work
 * contact[+]
   * extension[0]

@@ -1,172 +1,92 @@
-
-Alias: $mdr = https://www.meddra.org
-Alias: $reasonstop = http://terminology.hl7.org/CodeSystem/research-study-reason-stopped
-Alias: $primpurp = http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type
-Alias: $phase = http://terminology.hl7.org/CodeSystem/research-study-phase
-Alias: $telecom = http://hl7.org/fhir/contact-point-system
-Alias: $category = eclaire-reglementation-precision-code-system
-Alias: $contact = eclaire-type-contact-code-system
-Alias: $title-type = eclaire-study-title-type-code-system
-Alias: $eclaire-status-recruitment = eclaire-status-recruitment-code-system
-Alias: $eclaire-study-party-role = eclaire-study-party-role-code-system
-Alias: $eclaire-study-party-organization-type = eclaire-study-party-organization-type-code-system
-
+Alias: $eclaire-regulation-code-code-system = https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system
+Alias: $eclaire-reglementation-precision-code-system = https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system
+Alias: $eclaire-study-phase-cs = http://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-cs
+Alias: $sct = http://snomed.info/sct
 
 Instance: fake-study-example
-InstanceOf: ResearchStudy
+InstanceOf: ECLAIREResearchStudy
+Title: "Étude clinique Traitement X de l'hypertension"
 Usage: #example
-* meta.profile = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy"
-* extension[0]
-  * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-review-date"
-  * valueInstant = "2023-01-06T00:00:00Z"
-* extension[+]
-  * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-approval-date"
-  * valueInstant = "2023-03-06T00:00:00Z"
-* extension[+]
-  * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-therapeutic-area"
-  * valueString = "domaine thérapeutique z"
-* extension[+]
-  * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-period"
-  * valuePeriod.start = "2022-06-30T00:00:00.000Z"
-* extension[+]
-  * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-status"
-  * valueCodeableConcept.coding = $eclaire-status-recruitment#recruiting
-* extension[+]
-  * url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary"
-  * valueMarkdown = "Ceci est un test de ressource pour Eclaire"
-* extension[+].extension[0].valueString = "Nom de la conséquence primaire"
-* extension[=].extension[=].url = "value"
-* extension[=].extension[+].valueCodeableConcept.coding = $outcome-type#primary
-* extension[=].extension[=].valueCodeableConcept.text = "primaire"
-* extension[=].extension[=].url = "type"
-* extension[=].extension[+].valueMarkdown = "Description de la conséquence primaire"
-* extension[=].extension[=].url = "description"
-* extension[=].extension[+].valueReference = Reference(EvidenceVariable/1) "Aïe!"
-* extension[=].extension[=].url = "description"
-* extension[=].url = $outcome-measure-r5
-* extension[+].extension[0].valueString = "Nom de la conséquence secondaire"
-* extension[=].extension[=].url = "value"
-* extension[=].extension[+].valueCodeableConcept.coding = $outcome-type#secondary
-* extension[=].extension[=].valueCodeableConcept.text = "secondaire"
-* extension[=].extension[=].url = "type"
-* extension[=].extension[+].valueMarkdown = "Description de la conséquence secondaire"
-* extension[=].extension[=].url = "description"
-* extension[=].extension[+].valueReference = Reference(EvidenceVariable/1) "Ouille!"
-* extension[=].extension[=].url = "description"
-* extension[=].url = $outcome-measure-r5
-* extension[+].extension[0].valueString = "THE sponsor"
-* extension[=].extension[=].url = "name"
-* extension[=].extension[+].valueCodeableConcept.coding = $eclaire-study-party-role#lead-sponsor
-* extension[=].extension[=].valueCodeableConcept.text = "Sponsor principal"
-* extension[=].extension[=].url = "role"
-* extension[=].extension[+].valuePeriod.start = "2022-06-30T00:00:00.000Z"
-* extension[=].extension[=].url = "period"
-* extension[=].extension[+].valueCodeableConcept.coding = $eclaire-study-party-organization-type#academic
-* extension[=].extension[=].valueCodeableConcept.text = "academic"
-* extension[=].extension[=].url = "classifier"
-* extension[=].extension[+].valueReference = Reference(Organization/2) "Etablissement du sponsor"
-* extension[=].extension[=].url = "party"
-* extension[=].url = $associated-party-r5
-* extension[+].extension[0].valueString = "A RENSEIGNER"
-* extension[=].extension[=].url = "value"
-* extension[=].extension[+].valueCodeableConcept.coding = $title-type#human-use
-* extension[=].extension[=].valueCodeableConcept.text = "type"
-* extension[=].extension[=].url = "type"
-* extension[=].url = $label-r5
-* extension[+].extension[0].valueString = "A RENSEIGNER"
-* extension[=].extension[=].url = "value"
-* extension[=].extension[+].valueCodeableConcept.coding = $title-type#acronym
-* extension[=].extension[=].valueCodeableConcept.text = "type"
-* extension[=].extension[=].url = "type"
-* extension[=].url = $label-r5
+Description: "Exemple fake d'une étude clinique pour l'API FHIR ECLAIRE."
+
+* meta.profile = "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy"
 * identifier[0]
   * use = #official
-  * type
-    * text = "Hilarious Cat"
-  * value = "123456"
-  * assigner = Reference(Organization/1) "Crazy Mouse"
-* identifier[+].use = #secondary
-* identifier[=].assigner = Reference(Organization/ctis) "Reference to secondary assigner"
-* identifier[=].assigner.type = "Organization"
-* identifier[=].value = "2022-500014-26-00"
-* title = "Energetic Zebra"
-* protocol = Reference(PlanDefinition/3) "Energetic plan"
-* status = #in-review
-* primaryPurposeType
-  * coding = $primpurp#treatment
-    * version = "4.0.1"
-  * text = "Zebra treatment"
-* phase
-  * coding = $phase#phase-3
-  * text = "Research Study Phase"
-* category
-  * coding = $category#IC-Cas-1
-* focus
-  * text = "Hilarious medicament"
-* condition[0]
-  * text = "Locally-Advanced or Metastatic breast cancer (MBC)"
-* condition[+]
-  * coding[0] = $mdr#10070575 "10070575"
-  * text = "MedDRA condition  code 10070575"
-* contact
-  * name = "Slow Zebra"
-  * telecom[0]
-    * value = "Energetic Zebra"
-    * system = $telecom#phone
-    * use = #work
-  * telecom[+]
-    * value = "Energetic Badger"
-    * system = $telecom#phone
-    * use = #home
-  * extension[0]
-    * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type"
-    * valueCodeableConcept
-      * coding = $contact#PUB
-      * text = "Publique / Public"
-  * extension[+]
-    * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-address"
-    * valueAddress
-      * use = #home
-      * type = #physical
-      * text = "137 Nowhere Street, Erewhon 9132"
-      * line = "137 Nowhere Street"
-      * city = "Erewhon"
-      * district = "Madison"
-      * state = "Fantastic Badger"
-      * postalCode = "9132"
-      * country = "Crazy Elephant"
-  * extension[+]
-    * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation"
-    * valueString = "Hilarious Badger"
-  * extension[+]
-    * url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-name"
-    * valueHumanName
-      * use = #usual
-      * text = "Inventive Mouse"
-      * family = "Fantastic Zebra"
-      * given = "Energetic Cat"
-      * prefix = "Fantastic Zebra"
-      * suffix = "Crazy Elephant"
-* keyword
-  * text = "Fast Elephant"
-* location
-  * coding = urn:iso:std:iso:3166#FR
-    * version = "4.0.1"
-  * text = "Countries of recruitment"
-* description = "This is a fake research study"
-* enrollment = Reference(Group/6) "Fast Zebra"
-* site = Reference(Location/8) "Rainbow"
-* reasonStopped
-  * coding = $reasonstop#closed-due-to-toxicity
-    * version = "4.0.1"
-  * text = "ouch"
-* arm
-  * name = "Slow Elephant"
-  * description = "Hilarious Badger"
-  * extension[0].extension[0].valueString = "Nom de l'intervention"
-  * extension[=].extension[=].url = "name"
-  * extension[=].extension[+].valueString = "Description de l'intervention"
-  * extension[=].extension[=].url = "description"
-  * extension[=].url = "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-arm-intervention"
-* objective
-  * name = "Inventive Mouse"
+  * value = "EUC-123456"
+  * system = "https://euclinicaltrials.eu"
+* identifier[+]
+  * use = #secondary
+  * value = "NCT99999999"
+  * system = "http://clinicaltrials.gov"
+* identifier[+]
+  * use = #secondary
+  * value = "ISRCTN99999999"
+  * system = "https://www.isrctn.com"
+* title = "Évaluation de l'efficacité du traitement X pour l'hypertension essentielle"
+* status = #active
+* description = "Étude randomisée, en double aveugle, comparant le médicament X à un placebo."
+* phase = $eclaire-study-phase-cs#phase-2 "Phase 2"
+* category[0] = $eclaire-regulation-code-code-system#REG536 "REG536 (CTIS)"
+* category[+] = $eclaire-reglementation-precision-code-system#study-ctis "un essai clinique (CTIS)"
+* condition = $sct#38341003 "Hypertension"
+  * text = "Hypertension essentielle"
+* extension[0]
+  * url = "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-condition-details"
+  * valueString = "Patients adultes hypertendus de 18 à 75 ans."
+* extension[+]
+  * url = "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-secondary-sponsor"
+  * valueReference = Reference(Organization/Hospital-Paris-ResearchOffice)
+* extension[+]
+  * url = "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-therapeutic-area"
+  * valueCodeableConcept.text = "Cardiologie"
+* extension[+]
+  * url = "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-label"
+  * valueString = "HTN-X Study"
+* extension[+]
+  * url = "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-label"
+  * valueString = "Essai antihypertenseur X 2025"
+* extension[+]
+  * url = "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-period"
+  * valuePeriod
+    * start = "2025-06-01"
+    * end = "2026-02-28"
+* sponsor = Reference(Organization/Labo-Z)
+* contact[0]
+  * comment = "Slice: scientificContact"
+  * name = "Dr. Alice Martin"
+  * telecom
+    * system = #email
+    * value = "alice.martin@laboz.com"
+  * extension
+    * url = "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type"
+    * valueCodeableConcept.text = "Scientific contact"
+* contact[+]
+  * name = "Centre d'information public"
+  * telecom
+    * system = #phone
+    * value = "+33 1 01 01 01 01"
+  * extension
+    * url = "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type"
+    * valueCodeableConcept.text = "Public contact"
+* period
+  * start = "2025-05-15"
+  * end = "2026-12-31"
+* arm[0]
+  * name = "Traitement X"
+  * type.text = "Experimental"
+  * description = "Médicament X une fois par jour pendant 12 semaines."
+* arm[+]
+  * name = "Placebo"
+  * type.text = "Control"
+  * description = "Placebo administré selon le même schéma."
+* objective[0]
+  * name = "Réduction pression"
+  * type.text = "Primary"
+* objective[+]
+  * name = "Tolérance"
+  * type.text = "Secondary"
+* enrollment = Reference(Group/HTNAdults18to75)
+* site[0] = Reference(Location/Paris-Centre)
+* site[+] = Reference(Location/CHU-Lyon)
+* location[0].reference = "Location/Paris-Centre"
+* location[+].reference = "Location/CHU-Lyon"
