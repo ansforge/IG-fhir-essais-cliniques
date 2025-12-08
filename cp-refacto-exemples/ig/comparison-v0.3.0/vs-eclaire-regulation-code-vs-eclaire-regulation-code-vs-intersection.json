@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "8bff0ad7-40a1-44be-ae90-fb590c3cc4bd-114",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8bff0ad7-40a1-44be-ae90-fb590c3cc4bd-114",
+  "name" : "IntersectionEclaireRegulationCodeVSAndEclaireRegulationCodeVS",
+  "title" : "Intersection of Code de régulation Value Set And Code de régulation Value Set",
+  "status" : "draft",
+  "date" : "2025-12-08T10:53:53+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }]
+}

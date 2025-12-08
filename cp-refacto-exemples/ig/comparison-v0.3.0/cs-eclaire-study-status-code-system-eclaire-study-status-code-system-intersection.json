@@ -1,0 +1,52 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "8bff0ad7-40a1-44be-ae90-fb590c3cc4bd-30",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/8bff0ad7-40a1-44be-ae90-fb590c3cc4bd-30",
+  "name" : "IntersectionEclaireStudyStatusCSAndEclaireStudyStatusCS",
+  "title" : "Intersection of Définition des statuts de l'essai utilisés dans la base de données ECLAIRE And Définition des statuts de l'essai utilisés dans la base de données ECLAIRE",
+  "status" : "draft",
+  "date" : "2025-12-08T10:53:53+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "concept" : [{
+    "code" : "a-demarrer",
+    "display" : "A démarrer"
+  },
+  {
+    "code" : "en-cours",
+    "display" : "En cours"
+  },
+  {
+    "code" : "suspendue",
+    "display" : "Suspendue"
+  },
+  {
+    "code" : "prorogee",
+    "display" : "Prorogée"
+  },
+  {
+    "code" : "expiree",
+    "display" : "Expirée"
+  },
+  {
+    "code" : "terminee",
+    "display" : "Terminée"
+  },
+  {
+    "code" : "terminee-fin-anticipee",
+    "display" : "Terminée (fin anticipée)"
+  },
+  {
+    "code" : "archivee",
+    "display" : "Archivée"
+  },
+  {
+    "code" : "abandonnee",
+    "display" : "Abandonnée"
+  }]
+}

@@ -1,0 +1,23 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "8bff0ad7-40a1-44be-ae90-fb590c3cc4bd-120",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8bff0ad7-40a1-44be-ae90-fb590c3cc4bd-120",
+  "name" : "IntersectionEclaireStudyOutcomeTypeVSAndEclaireStudyOutcomeTypeVS",
+  "title" : "Intersection of Type de conséquence Value Set And Type de conséquence Value Set",
+  "status" : "draft",
+  "date" : "2025-12-08T10:53:53+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "compose" : {
+    "exclude" : [{
+      "concept" : [{
+        "code" : "exploratory"
+      }]
+    }]
+  }
+}

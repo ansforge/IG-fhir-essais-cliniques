@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "8bff0ad7-40a1-44be-ae90-fb590c3cc4bd-89",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8bff0ad7-40a1-44be-ae90-fb590c3cc4bd-89",
+  "name" : "UnionResearchStudyReasonStoppedAndResearchStudyReasonStopped",
+  "title" : "Union of ResearchStudyReasonStopped And ResearchStudyReasonStopped",
+  "status" : "draft",
+  "date" : "2025-12-08T10:53:53+00:00"
+}

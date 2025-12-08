@@ -1,0 +1,32 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "8bff0ad7-40a1-44be-ae90-fb590c3cc4bd-15",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/8bff0ad7-40a1-44be-ae90-fb590c3cc4bd-15",
+  "name" : "IntersectionEclaireStudyPartyOrganizationTypeCSAndEclaireStudyPartyOrganizationTypeCS",
+  "title" : "Intersection of Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type And Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type",
+  "status" : "draft",
+  "date" : "2025-12-08T10:53:53+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "concept" : [{
+    "code" : "government",
+    "display" : "Gouvernemental / Government"
+  },
+  {
+    "code" : "nonprofit",
+    "display" : "Sans but lucratif / Nonprofit"
+  },
+  {
+    "code" : "academic",
+    "display" : "Académique / Academic"
+  },
+  {
+    "code" : "industry",
+    "display" : "Industriel / Industry"
+  }]
+}
