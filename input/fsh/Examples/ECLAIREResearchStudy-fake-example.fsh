@@ -50,7 +50,6 @@ Description: "Exemple fake d'une étude clinique pour l'API FHIR ECLAIRE."
   * valuePeriod
     * start = "2025-06-01"
     * end = "2026-02-28"
-* sponsor = Reference(Organization/Labo-Z)
 * contact[0]
   * name = "Dr. Alice Martin"
   * telecom
@@ -87,5 +86,4 @@ Description: "Exemple fake d'une étude clinique pour l'API FHIR ECLAIRE."
 * enrollment = Reference(Group/HTNAdults18to75)
 * site[0] = Reference(Location/Paris-Centre)
 * site[+] = Reference(Location/CHU-Lyon)
-* location[0].reference = "Location/Paris-Centre"
-* location[+].reference = "Location/CHU-Lyon"
+* location[+].coding = urn:iso:std:iso:3166#FR "France"
