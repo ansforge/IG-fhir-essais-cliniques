@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/ConceptMap/eclaire-study-status-concept-map | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:FHIR_Eclaire_status_concept_map |
+| Draft as of 2025-12-17 | *Computable Name*:FHIR_Eclaire_status_concept_map |
 
  
 Correspondance entre le statut défini dans la base Eclaire et le ValueSet http://hl7.org/fhir/R4/valueset-research-study-status.html (required) 
@@ -28,7 +28,7 @@ Correspondance entre le statut défini dans la base Eclaire et le ValueSet http:
   "title" : "FHIR/Eclaire ResearchStudy status Use Mapping",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-status-vs | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireStudyStatusVS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireStudyStatusVS |
 
  
 Value Set Statut Eclaire de l'essai clinique. 
@@ -54,7 +54,7 @@ Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par
   "title" : "Value Set Statut Eclaire de l'essai",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

@@ -102,6 +102,6 @@ These are example instances that show what data produced and consumed by systems
 
 | | |
 | :--- | :--- |
-| [Energetic Zebra](ResearchStudy-fake-study-example.md) | This is a fake research study |
 | [UNE ETUDE DE PHASE III, RANDOMISEE, OUVERTE, EVALUANT L'EFFICACITE ET LA SECURITE DU GIREDESTRANT EN ASSOCIATION AVEC PHESGO.](ResearchStudy-2022-500014-26-00-example.md) | Exemple construit à partir de https://eclaire-api.osc-fr1.scalingo.io/R4/ResearchStudy/2022-500014-26-00 |
+| [Étude clinique Traitement X de l'hypertension](ResearchStudy-fake-study-example.md) | Exemple fake d'une étude clinique pour l'API FHIR ECLAIRE. |
 

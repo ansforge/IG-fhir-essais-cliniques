@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireStatusRecruitmentCS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireStatusRecruitmentCS |
 
  
 Les différents statuts de recrutement pour les essais cliniques 
@@ -37,7 +37,7 @@ Les différents statuts de recrutement pour les essais cliniques
   "title" : "Statut de recrutement",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

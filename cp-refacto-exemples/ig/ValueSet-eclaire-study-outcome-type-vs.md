@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-outcome-type-vs | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireStudyOutcomeTypeVS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireStudyOutcomeTypeVS |
 
  
 Type de conséquence Value Set 
@@ -54,7 +54,7 @@ Type de conséquence Value Set
   "title" : "Type de conséquence Value Set",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

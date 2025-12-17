@@ -11,7 +11,7 @@
   <name value="ECLAIRE"/>
   <title value="Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème"/>
   <status value="draft"/>
-  <date value="2025-12-08T10:53:03+00:00"/>
+  <date value="2025-12-17T17:08:32+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -37,7 +37,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="7.0.0"/>
+    <version value="7.0.1"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -257,7 +257,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.8.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.9.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -799,17 +799,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ResearchStudy"/>
-      </extension>
-      <reference>
-        <reference value="ResearchStudy/fake-study-example"/>
-      </reference>
-      <name value="Energetic Zebra"/>
-      <description value="This is a fake research study"/>
-      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
       <reference>
@@ -1005,6 +994,17 @@
       <name value="Value Set type pour spécifier la catégorie l'essai clinique"/>
       <description value="Value Set pour spécifier la catégorie de l'essai clinique et préciser la réglementation ou le code regulation renseigner dans les bases de registre comme CTIS et EUDAMED."/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ResearchStudy"/>
+      </extension>
+      <reference>
+        <reference value="ResearchStudy/fake-study-example"/>
+      </reference>
+      <name value="Étude clinique Traitement X de l'hypertension"/>
+      <description value="Exemple fake d'une étude clinique pour l'API FHIR ECLAIRE."/>
+      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

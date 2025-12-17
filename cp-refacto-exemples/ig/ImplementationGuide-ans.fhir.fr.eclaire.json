@@ -10,7 +10,7 @@
   "name" : "ECLAIRE",
   "title" : "Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème",
   "status" : "draft",
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -38,7 +38,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.0.0"
+    "version" : "7.0.1"
   },
   {
     "id" : "hl7ext",
@@ -339,7 +339,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.8.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.9.0"
     },
     {
       "extension" : [{
@@ -990,18 +990,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ResearchStudy"
-      }],
-      "reference" : {
-        "reference" : "ResearchStudy/fake-study-example"
-      },
-      "name" : "Energetic Zebra",
-      "description" : "This is a fake research study",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
       }],
       "reference" : {
@@ -1214,6 +1202,18 @@
       "name" : "Value Set type pour spécifier la catégorie l'essai clinique",
       "description" : "Value Set pour spécifier la catégorie de l'essai clinique et préciser la réglementation ou le code regulation renseigner dans les bases de registre comme CTIS et EUDAMED.",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ResearchStudy"
+      }],
+      "reference" : {
+        "reference" : "ResearchStudy/fake-study-example"
+      },
+      "name" : "Étude clinique Traitement X de l'hypertension",
+      "description" : "Exemple fake d'une étude clinique pour l'API FHIR ECLAIRE.",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy"
     }],
     "page" : {
       "extension" : [{

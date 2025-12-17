@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-status | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:ECLAIRERecruitmentStatus |
+| Draft as of 2025-12-17 | *Computable Name*:ECLAIRERecruitmentStatus |
 
 Extension créée dans le cadre du projet ECLAIRE pour indiquer le statut du recrutement
 
@@ -20,7 +20,7 @@ Extension créée dans le cadre du projet ECLAIRE pour indiquer le statut du rec
 **Utilisations:**
 
 * Utiliser ce Extension: [ECLAIREResearchStudy](StructureDefinition-eclaire-researchstudy.md)
-* Exemples pour ce Extension: [ResearchStudy/2022-500014-26-00-example](ResearchStudy-2022-500014-26-00-example.md) and [ResearchStudy/fake-study-example](ResearchStudy-fake-study-example.md)
+* Exemples pour ce Extension: [ResearchStudy/2022-500014-26-00-example](ResearchStudy-2022-500014-26-00-example.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eclaire|current/StructureDefinition/eclaire-recruitment-status)
 
@@ -48,7 +48,7 @@ Other representations of profile: [CSV](StructureDefinition-eclaire-recruitment-
   "version" : "0.3.1",
   "name" : "ECLAIRERecruitmentStatus",
   "status" : "draft",
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

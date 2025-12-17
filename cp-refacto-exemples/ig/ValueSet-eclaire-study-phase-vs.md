@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-vs | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireStudyPhaseVS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireStudyPhaseVS |
 
  
 Value Set type de phase Eclaire de l'essai clinique. 
@@ -54,7 +54,7 @@ Value Set type de phase Eclaire de l'essai clinique.
   "title" : "Value Set type de phase de l'essai clinique",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

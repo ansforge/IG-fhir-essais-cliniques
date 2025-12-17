@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:ECLAIREassociatedPartyR5 |
+| Draft as of 2025-12-17 | *Computable Name*:ECLAIREassociatedPartyR5 |
 
 Extension créée dans le cadre du projet API ECLAIRE, afin de permettre l'ajout des Sponsors, collaborateurs et autres parties concernés par l'essai. Cette extension implemente l’élément associatedParty de R5 http://hl7.org/fhir/R5/researchstudy-definitions.html#ResearchStudy.associatedParty
 
@@ -20,7 +20,7 @@ Extension créée dans le cadre du projet API ECLAIRE, afin de permettre l'ajout
 **Utilisations:**
 
 * Utiliser ce Extension: [ECLAIREResearchStudy](StructureDefinition-eclaire-researchstudy.md)
-* Exemples pour ce Extension: [ResearchStudy/2022-500014-26-00-example](ResearchStudy-2022-500014-26-00-example.md) and [ResearchStudy/fake-study-example](ResearchStudy-fake-study-example.md)
+* Exemples pour ce Extension: [ResearchStudy/2022-500014-26-00-example](ResearchStudy-2022-500014-26-00-example.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eclaire|current/StructureDefinition/eclaire-associated-party-r5)
 
@@ -48,7 +48,7 @@ Other representations of profile: [CSV](StructureDefinition-eclaire-associated-p
   "version" : "0.3.1",
   "name" : "ECLAIREassociatedPartyR5",
   "status" : "draft",
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

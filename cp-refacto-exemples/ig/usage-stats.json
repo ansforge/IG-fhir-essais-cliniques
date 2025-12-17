@@ -399,6 +399,24 @@
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
     ],
+    "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-condition-details": [
+      "ResearchStudy"
+    ],
+    "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type": [
+      "ResearchStudy.contact"
+    ],
+    "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-label": [
+      "ResearchStudy"
+    ],
+    "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-period": [
+      "ResearchStudy"
+    ],
+    "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-secondary-sponsor": [
+      "ResearchStudy"
+    ],
+    "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-therapeutic-area": [
+      "ResearchStudy"
+    ],
     "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-approval-date": [
       "ResearchStudy"
     ],

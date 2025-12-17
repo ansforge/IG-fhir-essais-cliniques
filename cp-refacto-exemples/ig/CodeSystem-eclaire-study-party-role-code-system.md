@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireStudyPartyRoleCS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireStudyPartyRoleCS |
 
  
 Différents rôles des parties impliqué dans l'essai 
@@ -37,7 +37,7 @@ Différents rôles des parties impliqué dans l'essai
   "title" : "Définition des rôles des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-role",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

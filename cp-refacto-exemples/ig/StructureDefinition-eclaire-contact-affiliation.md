@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:ECLAIREContactAffiliation |
+| Draft as of 2025-12-17 | *Computable Name*:ECLAIREContactAffiliation |
 
 Extension créée dans le cadre du projet ECLAIRE pour indiquer l'affiliation du contact
 
@@ -20,7 +20,6 @@ Extension créée dans le cadre du projet ECLAIRE pour indiquer l'affiliation du
 **Utilisations:**
 
 * Utiliser ce Extension: [ECLAIREResearchStudy](StructureDefinition-eclaire-researchstudy.md)
-* Exemples pour ce Extension: [ResearchStudy/fake-study-example](ResearchStudy-fake-study-example.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eclaire|current/StructureDefinition/eclaire-contact-affiliation)
 
@@ -46,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-eclaire-contact-affi
   "version" : "0.3.1",
   "name" : "ECLAIREContactAffiliation",
   "status" : "draft",
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

@@ -1,105 +1,61 @@
-# Energetic Zebra - Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème v0.3.1
+# Étude clinique Traitement X de l'hypertension - Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème v0.3.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Energetic Zebra**
+* **Étude clinique Traitement X de l'hypertension**
 
-## Example ResearchStudy: Energetic Zebra
+## Example ResearchStudy: Étude clinique Traitement X de l'hypertension
 
-Profil: [ECLAIREResearchStudy](StructureDefinition-eclaire-researchstudy.md)
+Profils: [ECLAIREResearchStudy](StructureDefinition-eclaire-researchstudy.md), `http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy`
 
-**ECLAIREReviewDate**: 2023-01-06 00:00:00+0000
+**fr/ig/fhir/eclaire/StructureDefinition/eclaire-condition-details**: Patients adultes hypertendus de 18 à 75 ans.
 
-**ECLAIREApprovalDate**: 2023-03-06 00:00:00+0000
+**fr/ig/fhir/eclaire/StructureDefinition/eclaire-secondary-sponsor**: [Organization/Hospital-Paris-ResearchOffice](Organization/Hospital-Paris-ResearchOffice)
 
-**ECLAIRETherapeuticArea**: domaine thérapeutique z
+**fr/ig/fhir/eclaire/StructureDefinition/eclaire-therapeutic-area**: Cardiologie
 
-**ECLAIRERecruitmentPeriod**: 2022-06-30 00:00:00+0000 --> (en cours)
+**fr/ig/fhir/eclaire/StructureDefinition/eclaire-label**: HTN-X Study
 
-**ECLAIRERecruitmentStatus**: Actif / active
+**fr/ig/fhir/eclaire/StructureDefinition/eclaire-label**: Essai antihypertenseur X 2025
 
-**ECLAIREDescriptionSummaryR5**: 
+**fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-period**: 2025-06-01 --> 2026-02-28
 
-Ceci est un test de ressource pour Eclaire
+**identifier**: `https://euclinicaltrials.eu`/EUC-123456 (utilisation : official, ), [ClinicalTrials.gov](http://terminology.hl7.org/7.0.1/NamingSystem-ClinicalTrialsGov.html)/NCT99999999 (utilisation : secondary, ), `https://www.isrctn.com`/ISRCTN99999999 (utilisation : secondary, )
 
-> **ECLAIREoutcomeMeasureR5**
-* value: Nom de la conséquence primaire
-* type: primaire
-* description: 
-* description: [Aïe!](EvidenceVariable/1)
+**title**: Évaluation de l'efficacité du traitement X pour l'hypertension essentielle
 
-Description de la conséquence primaire
+**status**: Active
 
-> **ECLAIREoutcomeMeasureR5**
-* value: Nom de la conséquence secondaire
-* type: secondaire
-* description: 
-* description: [Ouille!](EvidenceVariable/1)
+**phase**: Phase 2
 
-Description de la conséquence secondaire
+**category**: REG536 (CTIS), un essai clinique (CTIS)
 
-> **ECLAIREassociatedPartyR5**
-* name: THE sponsor
-* role: Sponsor principal
-* period: 2022-06-30 00:00:00+0000 --> (en cours)
-* classifier: academic
-* party: [Etablissement du sponsor](Organization/2)
+**condition**: Hypertension essentielle
 
-> **ECLAIRELabelR5**
-* value: A RENSEIGNER
-* type: type
+**contact**: Dr. Alice Martin: [alice.martin@laboz.com](mailto:alice.martin@laboz.com), Centre d'information public: [+33 1 01 01 01 01](tel:+33101010101)
 
-> **ECLAIRELabelR5**
-* value: A RENSEIGNER
-* type: type
-
-**identifier**: Hilarious Cat/123456 (utilisation : official, ), 2022-500014-26-00 (utilisation : secondary, )
-
-**title**: Energetic Zebra
-
-**protocol**: [Energetic plan](PlanDefinition/3)
-
-**status**: In Review
-
-**primaryPurposeType**: Zebra treatment
-
-**phase**: Research Study Phase
-
-**category**: IC-Cas 1 (DM)
-
-**focus**: Hilarious medicament
-
-**condition**: Locally-Advanced or Metastatic breast cancer (MBC), MedDRA condition code 10070575
-
-**contact**: Slow Zebra: ph: Energetic Zebra(Work),ph: Energetic Badger(Home)
-
-**keyword**: Fast Elephant
-
-**location**: Countries of recruitment
+**location**: France
 
 **description**: 
 
-This is a fake research study
+Étude randomisée, en double aveugle, comparant le médicament X à un placebo.
 
-**enrollment**: [Fast Zebra](Group/6)
+**enrollment**: [Group/HTNAdults18to75](Group/HTNAdults18to75)
 
-**site**: [Rainbow](Location/8)
+**period**: 2025-05-15 --> 2026-12-31
 
-**reasonStopped**: ouch
+**site**: 
 
-### Arms
+* [Location/Paris-Centre](Location/Paris-Centre)
+* [Location/CHU-Lyon](Location/CHU-Lyon)
 
-| | | | |
-| :--- | :--- | :--- | :--- |
-| - | **Extension** | **Name** | **Description** |
-| * |  | Slow Elephant | Hilarious Badger |
+> **arm****name**: Traitement X**type**:Experimental**description**: Médicament X une fois par jour pendant 12 semaines.
 
-### Objectives
+> **arm****name**: Placebo**type**:Control**description**: Placebo administré selon le même schéma.
 
-| | |
-| :--- | :--- |
-| - | **Name** |
-| * | Inventive Mouse |
+> **objective****name**: Réduction pression**type**:Primary
+
+> **objective****name**: Tolérance**type**:Secondary
 
 
 
@@ -111,338 +67,137 @@ This is a fake research study
   "id" : "fake-study-example",
   "meta" : {
     "profile" : [
-      "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy"
+      "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy",
+      "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy"
     ]
   },
   "extension" : [
     {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-review-date",
-      "valueInstant" : "2023-01-06T00:00:00Z"
+      "url" : "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-condition-details",
+      "valueString" : "Patients adultes hypertendus de 18 à 75 ans."
     },
     {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-approval-date",
-      "valueInstant" : "2023-03-06T00:00:00Z"
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-therapeutic-area",
-      "valueString" : "domaine thérapeutique z"
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-period",
-      "valuePeriod" : {
-        "start" : "2022-06-30T00:00:00.000Z"
+      "url" : "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-secondary-sponsor",
+      "valueReference" : {
+        "reference" : "Organization/Hospital-Paris-ResearchOffice"
       }
     },
     {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-status",
+      "url" : "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-therapeutic-area",
       "valueCodeableConcept" : {
-        "coding" : [
-          {
-            "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system",
-            "code" : "recruiting"
-          }
-        ]
+        "text" : "Cardiologie"
       }
     },
     {
-      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary",
-      "valueMarkdown" : "Ceci est un test de ressource pour Eclaire"
+      "url" : "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-label",
+      "valueString" : "HTN-X Study"
     },
     {
-      "extension" : [
-        {
-          "url" : "value",
-          "valueString" : "Nom de la conséquence primaire"
-        },
-        {
-          "url" : "type",
-          "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
-                "code" : "primary"
-              }
-            ],
-            "text" : "primaire"
-          }
-        },
-        {
-          "url" : "description",
-          "valueMarkdown" : "Description de la conséquence primaire"
-        },
-        {
-          "url" : "description",
-          "valueReference" : {
-            "reference" : "EvidenceVariable/1",
-            "display" : "Aïe!"
-          }
-        }
-      ],
-      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
+      "url" : "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-label",
+      "valueString" : "Essai antihypertenseur X 2025"
     },
     {
-      "extension" : [
-        {
-          "url" : "value",
-          "valueString" : "Nom de la conséquence secondaire"
-        },
-        {
-          "url" : "type",
-          "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
-                "code" : "secondary"
-              }
-            ],
-            "text" : "secondaire"
-          }
-        },
-        {
-          "url" : "description",
-          "valueMarkdown" : "Description de la conséquence secondaire"
-        },
-        {
-          "url" : "description",
-          "valueReference" : {
-            "reference" : "EvidenceVariable/1",
-            "display" : "Ouille!"
-          }
-        }
-      ],
-      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure"
-    },
-    {
-      "extension" : [
-        {
-          "url" : "name",
-          "valueString" : "THE sponsor"
-        },
-        {
-          "url" : "role",
-          "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system",
-                "code" : "lead-sponsor"
-              }
-            ],
-            "text" : "Sponsor principal"
-          }
-        },
-        {
-          "url" : "period",
-          "valuePeriod" : {
-            "start" : "2022-06-30T00:00:00.000Z"
-          }
-        },
-        {
-          "url" : "classifier",
-          "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system",
-                "code" : "academic"
-              }
-            ],
-            "text" : "academic"
-          }
-        },
-        {
-          "url" : "party",
-          "valueReference" : {
-            "reference" : "Organization/2",
-            "display" : "Etablissement du sponsor"
-          }
-        }
-      ],
-      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
-    },
-    {
-      "extension" : [
-        {
-          "url" : "value",
-          "valueString" : "A RENSEIGNER"
-        },
-        {
-          "url" : "type",
-          "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system",
-                "code" : "human-use"
-              }
-            ],
-            "text" : "type"
-          }
-        }
-      ],
-      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
-    },
-    {
-      "extension" : [
-        {
-          "url" : "value",
-          "valueString" : "A RENSEIGNER"
-        },
-        {
-          "url" : "type",
-          "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system",
-                "code" : "acronym"
-              }
-            ],
-            "text" : "type"
-          }
-        }
-      ],
-      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+      "url" : "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-period",
+      "valuePeriod" : {
+        "start" : "2025-06-01",
+        "end" : "2026-02-28"
+      }
     }
   ],
   "identifier" : [
     {
       "use" : "official",
-      "type" : {
-        "text" : "Hilarious Cat"
-      },
-      "value" : "123456",
-      "assigner" : {
-        "reference" : "Organization/1",
-        "display" : "Crazy Mouse"
-      }
+      "system" : "https://euclinicaltrials.eu",
+      "value" : "EUC-123456"
     },
     {
       "use" : "secondary",
-      "value" : "2022-500014-26-00",
-      "assigner" : {
-        "reference" : "Organization/ctis",
-        "type" : "Organization",
-        "display" : "Reference to secondary assigner"
-      }
-    }
-  ],
-  "title" : "Energetic Zebra",
-  "protocol" : [
+      "system" : "http://clinicaltrials.gov",
+      "value" : "NCT99999999"
+    },
     {
-      "reference" : "PlanDefinition/3",
-      "display" : "Energetic plan"
+      "use" : "secondary",
+      "system" : "https://www.isrctn.com",
+      "value" : "ISRCTN99999999"
     }
   ],
-  "status" : "in-review",
-  "primaryPurposeType" : {
-    "coding" : [
-      {
-        "system" : "http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type",
-        "version" : "4.0.1",
-        "code" : "treatment"
-      }
-    ],
-    "text" : "Zebra treatment"
-  },
+  "title" : "Évaluation de l'efficacité du traitement X pour l'hypertension essentielle",
+  "status" : "active",
   "phase" : {
     "coding" : [
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/research-study-phase",
-        "code" : "phase-3"
+        "system" : "http://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-cs",
+        "code" : "phase-2",
+        "display" : "Phase 2"
       }
-    ],
-    "text" : "Research Study Phase"
+    ]
   },
   "category" : [
     {
       "coding" : [
         {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system",
-          "code" : "IC-Cas-1"
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-regulation-code-code-system",
+          "code" : "REG536",
+          "display" : "REG536 (CTIS)"
         }
       ]
-    }
-  ],
-  "focus" : [
-    {
-      "text" : "Hilarious medicament"
-    }
-  ],
-  "condition" : [
-    {
-      "text" : "Locally-Advanced or Metastatic breast cancer (MBC)"
     },
     {
       "coding" : [
         {
-          "system" : "https://www.meddra.org",
-          "code" : "10070575",
-          "display" : "10070575"
+          "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system",
+          "code" : "study-ctis",
+          "display" : "un essai clinique (CTIS)"
+        }
+      ]
+    }
+  ],
+  "condition" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "38341003",
+          "display" : "Hypertension"
         }
       ],
-      "text" : "MedDRA condition  code 10070575"
+      "text" : "Hypertension essentielle"
     }
   ],
   "contact" : [
     {
       "extension" : [
         {
-          "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type",
+          "url" : "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type",
           "valueCodeableConcept" : {
-            "coding" : [
-              {
-                "system" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system",
-                "code" : "PUB"
-              }
-            ],
-            "text" : "Publique / Public"
-          }
-        },
-        {
-          "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-address",
-          "valueAddress" : {
-            "use" : "home",
-            "type" : "physical",
-            "text" : "137 Nowhere Street, Erewhon 9132",
-            "line" : ["137 Nowhere Street"],
-            "city" : "Erewhon",
-            "district" : "Madison",
-            "state" : "Fantastic Badger",
-            "postalCode" : "9132",
-            "country" : "Crazy Elephant"
-          }
-        },
-        {
-          "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation",
-          "valueString" : "Hilarious Badger"
-        },
-        {
-          "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-name",
-          "valueHumanName" : {
-            "use" : "usual",
-            "text" : "Inventive Mouse",
-            "family" : "Fantastic Zebra",
-            "given" : ["Energetic Cat"],
-            "prefix" : ["Fantastic Zebra"],
-            "suffix" : ["Crazy Elephant"]
+            "text" : "Scientific contact"
           }
         }
       ],
-      "name" : "Slow Zebra",
+      "name" : "Dr. Alice Martin",
+      "telecom" : [
+        {
+          "system" : "email",
+          "value" : "alice.martin@laboz.com"
+        }
+      ]
+    },
+    {
+      "extension" : [
+        {
+          "url" : "http://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type",
+          "valueCodeableConcept" : {
+            "text" : "Public contact"
+          }
+        }
+      ],
+      "name" : "Centre d'information public",
       "telecom" : [
         {
           "system" : "phone",
-          "value" : "Energetic Zebra",
-          "use" : "work"
-        },
-        {
-          "system" : "phone",
-          "value" : "Energetic Badger",
-          "use" : "home"
+          "value" : "+33 1 01 01 01 01"
         }
       ]
-    }
-  ],
-  "keyword" : [
-    {
-      "text" : "Fast Elephant"
     }
   ],
   "location" : [
@@ -450,60 +205,58 @@ This is a fake research study
       "coding" : [
         {
           "system" : "urn:iso:std:iso:3166",
-          "version" : "4.0.1",
-          "code" : "FR"
+          "code" : "FR",
+          "display" : "France"
         }
-      ],
-      "text" : "Countries of recruitment"
+      ]
     }
   ],
-  "description" : "This is a fake research study",
+  "description" : "Étude randomisée, en double aveugle, comparant le médicament X à un placebo.",
   "enrollment" : [
     {
-      "reference" : "Group/6",
-      "display" : "Fast Zebra"
+      "reference" : "Group/HTNAdults18to75"
     }
   ],
+  "period" : {
+    "start" : "2025-05-15",
+    "end" : "2026-12-31"
+  },
   "site" : [
     {
-      "reference" : "Location/8",
-      "display" : "Rainbow"
+      "reference" : "Location/Paris-Centre"
+    },
+    {
+      "reference" : "Location/CHU-Lyon"
     }
   ],
-  "reasonStopped" : {
-    "coding" : [
-      {
-        "system" : "http://terminology.hl7.org/CodeSystem/research-study-reason-stopped",
-        "version" : "4.0.1",
-        "code" : "closed-due-to-toxicity"
-      }
-    ],
-    "text" : "ouch"
-  },
   "arm" : [
     {
-      "extension" : [
-        {
-          "extension" : [
-            {
-              "url" : "name",
-              "valueString" : "Nom de l'intervention"
-            },
-            {
-              "url" : "description",
-              "valueString" : "Description de l'intervention"
-            }
-          ],
-          "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-arm-intervention"
-        }
-      ],
-      "name" : "Slow Elephant",
-      "description" : "Hilarious Badger"
+      "name" : "Traitement X",
+      "type" : {
+        "text" : "Experimental"
+      },
+      "description" : "Médicament X une fois par jour pendant 12 semaines."
+    },
+    {
+      "name" : "Placebo",
+      "type" : {
+        "text" : "Control"
+      },
+      "description" : "Placebo administré selon le même schéma."
     }
   ],
   "objective" : [
     {
-      "name" : "Inventive Mouse"
+      "name" : "Réduction pression",
+      "type" : {
+        "text" : "Primary"
+      }
+    },
+    {
+      "name" : "Tolérance",
+      "type" : {
+        "text" : "Secondary"
+      }
     }
   ]
 }

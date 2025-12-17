@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-party-role-vs | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireStudyPartyRoleVS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireStudyPartyRoleVS |
 
  
 Value Set Eclaire pour les différents rôles des parties impliquées dans l'essai cliniques (sponsor, collaborateur, etc). 
@@ -54,7 +54,7 @@ Value Set Eclaire pour les différents rôles des parties impliquées dans l'ess
   "title" : "Value Set Eclaire pour les différents rôles des parties impliquées dans l'essai",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

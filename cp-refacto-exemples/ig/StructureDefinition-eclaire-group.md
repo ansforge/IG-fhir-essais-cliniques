@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-group | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:ECLAIREGroup |
+| Draft as of 2025-12-17 | *Computable Name*:ECLAIREGroup |
 
  
 Profil de Group pour le projet ECLAIRE 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-eclaire-group.csv), 
   "version" : "0.3.1",
   "name" : "ECLAIREGroup",
   "status" : "draft",
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

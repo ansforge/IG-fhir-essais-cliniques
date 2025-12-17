@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:ECLAIREoutcomeMeasureR5 |
+| Draft as of 2025-12-17 | *Computable Name*:ECLAIREoutcomeMeasureR5 |
 
 Extension créée dans le cadre du projet API ECLAIRE, afin de permettre l'ajout des conséquences principales et secondaires de l'essai. Cette extension implemente l’élément outcomeMeasure de R5 http://hl7.org/fhir/R5/researchstudy-definitions.html#ResearchStudy.outcomeMeasure
 
@@ -20,7 +20,6 @@ Extension créée dans le cadre du projet API ECLAIRE, afin de permettre l'ajout
 **Utilisations:**
 
 * Utiliser ce Extension: [ECLAIREResearchStudy](StructureDefinition-eclaire-researchstudy.md)
-* Exemples pour ce Extension: [ResearchStudy/fake-study-example](ResearchStudy-fake-study-example.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eclaire|current/StructureDefinition/eclaire-outcome-measure-r5)
 
@@ -48,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-eclaire-outcome-meas
   "version" : "0.3.1",
   "name" : "ECLAIREoutcomeMeasureR5",
   "status" : "draft",
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

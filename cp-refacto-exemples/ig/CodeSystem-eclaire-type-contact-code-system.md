@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireTypeContactCS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireTypeContactCS |
 
  
 Type de contact pour les essais cliniques 
@@ -37,7 +37,7 @@ Type de contact pour les essais cliniques
   "title" : "Type de contact",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

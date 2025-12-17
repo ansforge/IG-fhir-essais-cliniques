@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-group-characteristic-kind-vs | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireGroupCharacteristicKindVS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireGroupCharacteristicKindVS |
 
  
 Value Set du type de caractéristique pour le groupe de la population. 
@@ -54,7 +54,7 @@ Value Set du type de caractéristique pour le groupe de la population.
   "title" : "Type de caractéristique Value Set",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

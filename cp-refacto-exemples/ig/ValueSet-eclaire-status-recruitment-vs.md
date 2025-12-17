@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-status-recruitment-vs | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireStatusRecruitementVS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireStatusRecruitementVS |
 
  
 Les différents statuts de recrutement pour les essais cliniques Value Set. 
@@ -54,7 +54,7 @@ Les différents statuts de recrutement pour les essais cliniques Value Set.
   "title" : "Statut de recrutement Value Set",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

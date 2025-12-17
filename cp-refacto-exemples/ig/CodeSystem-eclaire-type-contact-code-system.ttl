@@ -28,7 +28,7 @@
   fhir:title [ fhir:v "Type de contact"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
-  fhir:date [ fhir:v "2025-12-08T10:53:03+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-17T17:08:32+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

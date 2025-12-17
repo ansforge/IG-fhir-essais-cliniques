@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireReglementationPrecisionCS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireReglementationPrecisionCS |
 
  
 Précision sur la réglementation concernant l'essai 
@@ -38,7 +38,7 @@ Précision sur la réglementation concernant l'essai
   "title" : "Précision sur la réglementation concernant l'essai",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-approval-date | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:ECLAIREApprovalDate |
+| Draft as of 2025-12-17 | *Computable Name*:ECLAIREApprovalDate |
 
 Extension créée dans le cadre du projet API ECLAIRE afin de permettre l'ajout la date d'approbation du comité éthique
 
@@ -20,7 +20,6 @@ Extension créée dans le cadre du projet API ECLAIRE afin de permettre l'ajout 
 **Utilisations:**
 
 * Utiliser ce Extension: [ECLAIREResearchStudy](StructureDefinition-eclaire-researchstudy.md)
-* Exemples pour ce Extension: [ResearchStudy/fake-study-example](ResearchStudy-fake-study-example.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eclaire|current/StructureDefinition/eclaire-approval-date)
 
@@ -46,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-eclaire-approval-dat
   "version" : "0.3.1",
   "name" : "ECLAIREApprovalDate",
   "status" : "draft",
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

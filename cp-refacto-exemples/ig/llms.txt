@@ -90,4 +90,4 @@
 ### Examples
 
 * [UNE ETUDE DE PHASE III, RANDOMISEE, OUVERTE, EVALUANT L'EFFICACITE ET LA SECURITE DU GIREDESTRANT EN ASSOCIATION AVEC PHESGO. (ResearchStudy)](ResearchStudy-2022-500014-26-00-example.md)
-* [Energetic Zebra (ResearchStudy)](ResearchStudy-fake-study-example.md)
+* [Évaluation de l'efficacité du traitement X pour l'hypertension essentielle (ResearchStudy)](ResearchStudy-fake-study-example.md)

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/ConceptMap/eclaire-study-phase-concept-map | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:FHIR_Eclaire_phase_concept_map |
+| Draft as of 2025-12-17 | *Computable Name*:FHIR_Eclaire_phase_concept_map |
 
  
 Correspondance entre la phase définie dans la base Eclaire et le ValueSet https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet-eclaire-study-phase-vs 
@@ -28,7 +28,7 @@ Correspondance entre la phase définie dans la base Eclaire et le ValueSet https
   "title" : "FHIR/Eclaire ResearchStudy phase Use Mapping",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

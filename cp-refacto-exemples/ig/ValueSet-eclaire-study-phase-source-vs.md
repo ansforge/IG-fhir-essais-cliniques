@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-source-vs | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireStudyPhaseSourceVS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireStudyPhaseSourceVS |
 
  
 Value Set de la phase de l'essai clinique tel qu'il est défini dans la base ECLAIRE 
@@ -54,7 +54,7 @@ Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par
   "title" : "Value Set de la phase de l'essai tel que définie dans la base ECLAIRE",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

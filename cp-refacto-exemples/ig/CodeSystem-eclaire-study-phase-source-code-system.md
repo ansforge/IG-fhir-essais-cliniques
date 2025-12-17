@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-source-code-system | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireStudyPhaseSourceCS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireStudyPhaseSourceCS |
 
  
 Définition des phases de l'essai utilisées dans la base de données ECLAIRE 
@@ -37,7 +37,7 @@ Définition des phases de l'essai utilisées dans la base de données ECLAIRE
   "title" : "Définition des phase de l'essai utilisés dans la base de données ECLAIRE",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

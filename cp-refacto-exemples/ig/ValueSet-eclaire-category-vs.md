@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-category-vs | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireCategoryVS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireCategoryVS |
 
  
 Value Set pour spécifier la catégorie de l'essai clinique et préciser la réglementation ou le code regulation renseigner dans les bases de registre comme CTIS et EUDAMED. 
@@ -54,7 +54,7 @@ Value Set pour spécifier la catégorie de l'essai clinique et préciser la rég
   "title" : "Value Set type pour spécifier la catégorie l'essai clinique",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

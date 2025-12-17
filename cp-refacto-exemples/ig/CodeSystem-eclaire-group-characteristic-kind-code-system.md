@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-group-characteristic-kind-code-system | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireGroupCharacteristicKindCS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireGroupCharacteristicKindCS |
 
  
 Codes pour le type de caractéristique du groupe de l'étude 
@@ -37,7 +37,7 @@ Codes pour le type de caractéristique du groupe de l'étude
   "title" : "Codes pour le type de caractéristique du groupe",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

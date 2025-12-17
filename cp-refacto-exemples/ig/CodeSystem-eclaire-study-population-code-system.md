@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-population-code-system | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireStudyPopulationCS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireStudyPopulationCS |
 
  
 Codes pour caractériser la population ciblée par l'étude 
@@ -37,7 +37,7 @@ Codes pour caractériser la population ciblée par l'étude
   "title" : "Codes pour caractériser la population de l'étude",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

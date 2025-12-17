@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-site-contact-name | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:ECLAIRESiteContactName |
+| Draft as of 2025-12-17 | *Computable Name*:ECLAIRESiteContactName |
 
 Extension créée dans le cadre du projet ECLAIRE pour indiquer le nom de contact spécifique au site de recrutement
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-eclaire-site-contact
   "version" : "0.3.1",
   "name" : "ECLAIRESiteContactName",
   "status" : "draft",
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

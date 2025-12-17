@@ -35,7 +35,7 @@ Profil: [ECLAIREResearchStudy](StructureDefinition-eclaire-researchstudy.md)
 
 Ceci est un test de ressource pour Eclaire
 
-**identifier**: `https://euclinicaltrials.eu`/2022-500014-26-00 (utilisation : official, ), [ClinicalTrials.gov](http://terminology.hl7.org/7.0.0/NamingSystem-ClinicalTrialsGov.html)/NCT12345678 (utilisation : secondary, ), `https://www.isrctn.com`/ISRCTN12345678 (utilisation : secondary, ), `https://www.who.int/tools/clinical-trials-registry-platform`/U1234-3452-7658 (utilisation : secondary, ), `https://my-identifier.fr`/my-identifier-1234 (utilisation : secondary, )
+**identifier**: `https://euclinicaltrials.eu`/2022-500014-26-00 (utilisation : official, ), [ClinicalTrials.gov](http://terminology.hl7.org/7.0.1/NamingSystem-ClinicalTrialsGov.html)/NCT12345678 (utilisation : secondary, ), `https://www.isrctn.com`/ISRCTN12345678 (utilisation : secondary, ), `https://www.who.int/tools/clinical-trials-registry-platform`/U1234-3452-7658 (utilisation : secondary, ), `https://my-identifier.fr`/my-identifier-1234 (utilisation : secondary, )
 
 **title**: UNE ETUDE DE PHASE III, RANDOMISEE, OUVERTE, EVALUANT L'EFFICACITE ET LA SECURITE DU GIREDESTRANT EN ASSOCIATION AVEC PHESGO.
 
@@ -47,7 +47,7 @@ Ceci est un test de ressource pour Eclaire
 
 **condition**: Cancer du sein localement avancé ou métastatique (CSM), Cancer du sein HER2 positif, Cancer du sein à récepteurs aux oestrogènes positifs
 
-**contact**: ph: 0041616881111(Work),[global.rochegenentechtrials@roche.com](mailto:global.rochegenentechtrials@roche.com), ph: -unknown-(Work),, ph: -unknown-(Work),
+**contact**: ph: 0041616881111(Work),[global.trials@trials.com](mailto:global.trials@trials.com), ph: -unknown-(Work),, ph: -unknown-(Work),
 
 **location**: Belgium, Germany, Spain, France, Hungary, Italy, Poland, Portugal
 
@@ -249,25 +249,22 @@ Exemple construit à partir de https://eclaire-api.osc-fr1.scalingo.io/R4/Resear
   ],
   "condition" : [
     {
-      "id" : "disease-condition-2022-500014-26-00",
       "text" : "Cancer du sein localement avancé ou métastatique (CSM)"
     },
     {
-      "id" : "meddra-condition-2022-500014-26-00-10065430",
       "coding" : [
         {
-          "system" : "https://www.meddra.org",
-          "code" : "12345678",
+          "system" : "http://snomed.info/sct",
+          "code" : "427685000",
           "display" : "Cancer du sein HER2 positif"
         }
       ]
     },
     {
-      "id" : "meddra-condition-2022-500014-26-00-10070575",
       "coding" : [
         {
-          "system" : "https://www.meddra.org",
-          "code" : "87654321",
+          "system" : "http://snomed.info/sct",
+          "code" : "416053008",
           "display" : "Cancer du sein à récepteurs aux oestrogènes positifs"
         }
       ]
@@ -300,7 +297,7 @@ Exemple construit à partir de https://eclaire-api.osc-fr1.scalingo.io/R4/Resear
         },
         {
           "system" : "email",
-          "value" : "global.rochegenentechtrials@roche.com",
+          "value" : "global.trials@trials.com",
           "use" : "work"
         }
       ]

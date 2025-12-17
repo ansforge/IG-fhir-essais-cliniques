@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-location | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:ECLAIRELocation |
+| Draft as of 2025-12-17 | *Computable Name*:ECLAIRELocation |
 
  
 Profil de Location pour le projet ECLAIRE 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-eclaire-location.csv
   "version" : "0.3.1",
   "name" : "ECLAIRELocation",
   "status" : "draft",
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

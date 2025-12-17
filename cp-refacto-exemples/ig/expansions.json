@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "e41e29bd-b082-4d16-98bf-1bfb35eef685",
+  "id" : "29c7eeff-b02b-4691-bcf6-25dfc84c24f8",
   "meta" : {
-    "lastUpdated" : "2025-12-08T10:53:03.193+00:00"
+    "lastUpdated" : "2025-12-17T17:08:32.129+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -22,7 +22,7 @@
       "title" : "Value Set type pour spécifier la catégorie l'essai clinique",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-12-08T10:53:03+00:00",
+      "date" : "2025-12-17T17:08:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -31,8 +31,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5360ed25-0c32-417d-a068-90507098f08a",
-        "timestamp" : "2025-12-08T10:54:08+00:00",
+        "identifier" : "urn:uuid:6d4fe685-797e-4344-a444-3bb9f8dac5cb",
+        "timestamp" : "2025-12-17T17:09:41+00:00",
         "total" : 21,
         "offset" : 0,
         "parameter" : [{
@@ -163,7 +163,7 @@
       "title" : "Type de caractéristique Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-12-08T10:53:03+00:00",
+      "date" : "2025-12-17T17:08:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -172,8 +172,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:921123bb-3020-48e8-aca5-c4a9ca87c2c7",
-        "timestamp" : "2025-12-08T10:54:08+00:00",
+        "identifier" : "urn:uuid:b48c43a2-0b42-4c14-b70f-effd09a1647b",
+        "timestamp" : "2025-12-17T17:09:41+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -236,7 +236,7 @@
       "title" : "Précision sur la réglementation concernant l'essai Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-12-08T10:53:03+00:00",
+      "date" : "2025-12-17T17:08:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -245,8 +245,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:be0c94d4-7ecb-43c8-9446-f34af04cec97",
-        "timestamp" : "2025-12-08T10:54:08+00:00",
+        "identifier" : "urn:uuid:f2e601ef-6106-4c8e-9553-c03ad96c13b8",
+        "timestamp" : "2025-12-17T17:09:41+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
@@ -357,7 +357,7 @@
       "title" : "Code de régulation Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-12-08T10:53:03+00:00",
+      "date" : "2025-12-17T17:08:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -366,8 +366,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:334f896e-a64c-4fde-a84e-817307c31cd7",
-        "timestamp" : "2025-12-08T10:54:08+00:00",
+        "identifier" : "urn:uuid:314c34ec-ee9e-459f-ac18-6fe3637436db",
+        "timestamp" : "2025-12-17T17:09:41+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -426,7 +426,7 @@
       "title" : "Statut de recrutement Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-12-08T10:53:03+00:00",
+      "date" : "2025-12-17T17:08:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -435,8 +435,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ef9e7677-5f76-4596-ad62-d6530870cfaf",
-        "timestamp" : "2025-12-08T10:54:08+00:00",
+        "identifier" : "urn:uuid:c4718871-b563-4c86-ac39-7837ccfbb6a9",
+        "timestamp" : "2025-12-17T17:09:41+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -483,7 +483,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion effectuée en interne basée sur <a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-research-study-objective-type.html\">codesystem ResearchStudyObjectiveType v1.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/research-study-objective-type|1.0.0\" title=\"Cliquer pour copier lURL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-objective-type-primary\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-objective-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-research-study-objective-type.html#research-study-objective-type-primary\">primary</a></td><td/><td>The main question to be answered, and the one that drives any statistical planning for the study—e.g., calculation of the sample size to provide the appropriate power for statistical testing.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-objective-type&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;primary&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-objective-type&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;primary&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-objective-type-secondary\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-objective-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-research-study-objective-type.html#research-study-objective-type-secondary\">secondary</a></td><td/><td>Question to be answered in the study that is of lesser importance than the primary objective.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-objective-type&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;secondary&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-objective-type&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;secondary&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion effectuée en interne basée sur <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-research-study-objective-type.html\">codesystem ResearchStudyObjectiveType v1.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/research-study-objective-type|1.0.0\" title=\"Cliquer pour copier lURL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-objective-type-primary\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-objective-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-research-study-objective-type.html#research-study-objective-type-primary\">primary</a></td><td/><td>The main question to be answered, and the one that drives any statistical planning for the study—e.g., calculation of the sample size to provide the appropriate power for statistical testing.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-objective-type&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;primary&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-objective-type&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;primary&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-objective-type-secondary\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-objective-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-research-study-objective-type.html#research-study-objective-type-secondary\">secondary</a></td><td/><td>Question to be answered in the study that is of lesser importance than the primary objective.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-objective-type&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;secondary&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-objective-type&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;secondary&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-outcome-type-vs",
       "version" : "0.3.1",
@@ -491,7 +491,7 @@
       "title" : "Type de conséquence Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-12-08T10:53:03+00:00",
+      "date" : "2025-12-17T17:08:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -500,8 +500,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8f392ae5-9fbf-4edd-9cd3-5e4cca9a0056",
-        "timestamp" : "2025-12-08T10:54:08+00:00",
+        "identifier" : "urn:uuid:9cc59f12-fad9-4f79-ae1f-5e5a7f5e8141",
+        "timestamp" : "2025-12-17T17:09:41+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -552,7 +552,7 @@
       "title" : "Value Set Eclaire pour les types de parties",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-12-08T10:53:03+00:00",
+      "date" : "2025-12-17T17:08:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -561,8 +561,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:bdb016be-dd8e-40b4-b3da-c497172069cb",
-        "timestamp" : "2025-12-08T10:54:08+00:00",
+        "identifier" : "urn:uuid:ac5f699e-1427-44c6-8b9b-e3ed7bd5495c",
+        "timestamp" : "2025-12-17T17:09:41+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -621,7 +621,7 @@
       "title" : "Value Set Eclaire pour les différents rôles des parties impliquées dans l'essai",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-12-08T10:53:03+00:00",
+      "date" : "2025-12-17T17:08:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -630,8 +630,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:03cf8481-e5b5-422a-aa86-0521ca8a783f",
-        "timestamp" : "2025-12-08T10:54:08+00:00",
+        "identifier" : "urn:uuid:150e4655-f0a2-4e20-ba47-5aa489263194",
+        "timestamp" : "2025-12-17T17:09:41+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -722,7 +722,7 @@
       "title" : "Value Set de la phase de l'essai tel que définie dans la base ECLAIRE",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-12-08T10:53:03+00:00",
+      "date" : "2025-12-17T17:08:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -731,8 +731,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:70c368d1-34d9-4f93-921e-63ad1d4ce100",
-        "timestamp" : "2025-12-08T10:54:08+00:00",
+        "identifier" : "urn:uuid:32ee8a40-a3ca-4125-95a6-077b60923c92",
+        "timestamp" : "2025-12-17T17:09:41+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -815,7 +815,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion effectuée en interne basée sur :</p><ul><li><a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-research-study-phase.html\">codesystem ResearchStudyPhase v1.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/research-study-phase|1.0.0\" title=\"Cliquer pour copier lURL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-eclaire-study-phase-code-system.html\">codesystem Définition des type de phase de l'essai cliniques incluant https://hl7.org/fhir/R4/valueset-research-study-phase.html v0.3.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system|0.3.1\" title=\"Cliquer pour copier lURL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 9 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-n-a\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-research-study-phase.html#research-study-phase-n-a\">n-a</a></td><td/><td>Trials without phases (for example, studies of devices or behavioral interventions).</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;n-a&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;n-a&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-early-phase-1\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-research-study-phase.html#research-study-phase-early-phase-1\">early-phase-1</a></td><td/><td>Designation for optional exploratory trials conducted in accordance with the United States Food and Drug Administration's (FDA) 2006 Guidance on Exploratory Investigational New Drug (IND) Studies. Formerly called Phase 0.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;early-phase-1&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;early-phase-1&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-1\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-research-study-phase.html#research-study-phase-phase-1\">phase-1</a></td><td/><td>Includes initial studies to determine the metabolism and pharmacologic actions of drugs in humans, the side effects associated with increasing doses, and to gain early evidence of effectiveness; may include healthy participants and/or patients.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;phase-1&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;phase-1&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-1-phase-2\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-research-study-phase.html#research-study-phase-phase-1-phase-2\">phase-1-phase-2</a></td><td/><td>Trials that are a combination of phases 1 and 2.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;phase-1-phase-2&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;phase-1-phase-2&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-2\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-research-study-phase.html#research-study-phase-phase-2\">phase-2</a></td><td/><td>Includes controlled clinical studies conducted to evaluate the effectiveness of the drug for a particular indication or indications in participants with the disease or condition under study and to determine the common short-term side effects and risks.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;phase-2&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;phase-2&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-2-phase-3\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-research-study-phase.html#research-study-phase-phase-2-phase-3\">phase-2-phase-3</a></td><td/><td>Trials that are a combination of phases 2 and 3.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;phase-2-phase-3&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;phase-2-phase-3&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-3\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-research-study-phase.html#research-study-phase-phase-3\">phase-3</a></td><td/><td>Includes trials conducted after preliminary evidence suggesting effectiveness of the drug has been obtained, and are intended to gather additional information to evaluate the overall benefit-risk relationship of the drug.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;phase-3&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;phase-3&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-4\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-research-study-phase.html#research-study-phase-phase-4\">phase-4</a></td><td/><td>Studies of FDA-approved drugs to delineate additional information including the drug's risks, benefits, and optimal use.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;phase-4&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;phase-4&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system-phase-3-phase-4\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-eclaire-study-phase-code-system.html#eclaire-study-phase-code-system-phase-3-phase-4\">phase-3-phase-4</a></td><td/><td>Trials that are a combination of phases 3 and 4.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system&quot;, &quot;version&quot;: &quot;0.3.1&quot;, &quot;code&quot;: &quot;phase-3-phase-4&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system&quot;&gt;&lt;version value=&quot;0.3.1&quot;&gt;&lt;code value=&quot;phase-3-phase-4&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion effectuée en interne basée sur :</p><ul><li><a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-research-study-phase.html\">codesystem ResearchStudyPhase v1.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/research-study-phase|1.0.0\" title=\"Cliquer pour copier lURL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-eclaire-study-phase-code-system.html\">codesystem Définition des type de phase de l'essai cliniques incluant https://hl7.org/fhir/R4/valueset-research-study-phase.html v0.3.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system|0.3.1\" title=\"Cliquer pour copier lURL\" class=\"btn-copy\"> </button></span></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 9 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-n-a\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-research-study-phase.html#research-study-phase-n-a\">n-a</a></td><td/><td>Trials without phases (for example, studies of devices or behavioral interventions).</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;n-a&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;n-a&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-early-phase-1\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-research-study-phase.html#research-study-phase-early-phase-1\">early-phase-1</a></td><td/><td>Designation for optional exploratory trials conducted in accordance with the United States Food and Drug Administration's (FDA) 2006 Guidance on Exploratory Investigational New Drug (IND) Studies. Formerly called Phase 0.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;early-phase-1&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;early-phase-1&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-1\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-research-study-phase.html#research-study-phase-phase-1\">phase-1</a></td><td/><td>Includes initial studies to determine the metabolism and pharmacologic actions of drugs in humans, the side effects associated with increasing doses, and to gain early evidence of effectiveness; may include healthy participants and/or patients.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;phase-1&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;phase-1&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-1-phase-2\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-research-study-phase.html#research-study-phase-phase-1-phase-2\">phase-1-phase-2</a></td><td/><td>Trials that are a combination of phases 1 and 2.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;phase-1-phase-2&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;phase-1-phase-2&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-2\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-research-study-phase.html#research-study-phase-phase-2\">phase-2</a></td><td/><td>Includes controlled clinical studies conducted to evaluate the effectiveness of the drug for a particular indication or indications in participants with the disease or condition under study and to determine the common short-term side effects and risks.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;phase-2&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;phase-2&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-2-phase-3\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-research-study-phase.html#research-study-phase-phase-2-phase-3\">phase-2-phase-3</a></td><td/><td>Trials that are a combination of phases 2 and 3.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;phase-2-phase-3&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;phase-2-phase-3&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-3\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-research-study-phase.html#research-study-phase-phase-3\">phase-3</a></td><td/><td>Includes trials conducted after preliminary evidence suggesting effectiveness of the drug has been obtained, and are intended to gather additional information to evaluate the overall benefit-risk relationship of the drug.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;phase-3&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;phase-3&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/research-study-phase-phase-4\"> </a><code>http://terminology.hl7.org/CodeSystem/research-study-phase</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-research-study-phase.html#research-study-phase-phase-4\">phase-4</a></td><td/><td>Studies of FDA-approved drugs to delineate additional information including the drug's risks, benefits, and optimal use.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;code&quot;: &quot;phase-4&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/research-study-phase&quot;&gt;&lt;version value=&quot;1.0.0&quot;&gt;&lt;code value=&quot;phase-4&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system-phase-3-phase-4\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-eclaire-study-phase-code-system.html#eclaire-study-phase-code-system-phase-3-phase-4\">phase-3-phase-4</a></td><td/><td>Trials that are a combination of phases 3 and 4.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system&quot;, &quot;version&quot;: &quot;0.3.1&quot;, &quot;code&quot;: &quot;phase-3-phase-4&quot;}\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-phase-code-system&quot;&gt;&lt;version value=&quot;0.3.1&quot;&gt;&lt;code value=&quot;phase-3-phase-4&quot;&gt;&lt;/coding&gt;\" title=\"Cliquer pour copier en tant que Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-phase-vs",
       "version" : "0.3.1",
@@ -823,7 +823,7 @@
       "title" : "Value Set type de phase de l'essai clinique",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-12-08T10:53:03+00:00",
+      "date" : "2025-12-17T17:08:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -832,8 +832,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d6b8e465-4673-49fa-8246-b2b8a888b88a",
-        "timestamp" : "2025-12-08T10:54:08+00:00",
+        "identifier" : "urn:uuid:80755920-87b9-4023-98ba-79a3bb95629a",
+        "timestamp" : "2025-12-17T17:09:41+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -916,7 +916,7 @@
       "title" : "Caractérisation de la population Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-12-08T10:53:03+00:00",
+      "date" : "2025-12-17T17:08:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -925,8 +925,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5c252583-a29f-411e-ac35-2463b2080c82",
-        "timestamp" : "2025-12-08T10:54:08+00:00",
+        "identifier" : "urn:uuid:65dca747-72d0-4203-943f-de53ef2bb3b8",
+        "timestamp" : "2025-12-17T17:09:41+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -1005,7 +1005,7 @@
       "title" : "Value Set Statut Eclaire de l'essai",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-12-08T10:53:03+00:00",
+      "date" : "2025-12-17T17:08:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1014,8 +1014,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5112c17a-f47b-4d24-8009-9e09eeee992b",
-        "timestamp" : "2025-12-08T10:54:08+00:00",
+        "identifier" : "urn:uuid:854bbdee-1ddc-42a6-aa04-8b8d96a57103",
+        "timestamp" : "2025-12-17T17:09:41+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -1094,7 +1094,7 @@
       "title" : "Type de titre Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-12-08T10:53:03+00:00",
+      "date" : "2025-12-17T17:08:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1103,8 +1103,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:17e75323-678c-4de9-9dab-34985bdbfd6f",
-        "timestamp" : "2025-12-08T10:54:08+00:00",
+        "identifier" : "urn:uuid:82a49843-cffb-4d36-bdf2-3cd91c9c4c75",
+        "timestamp" : "2025-12-17T17:09:41+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -1199,7 +1199,7 @@
       "title" : "Type Contact Value Set",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-12-08T10:53:03+00:00",
+      "date" : "2025-12-17T17:08:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1208,8 +1208,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8e252cf3-3df5-4967-9a7e-0fc60d565d18",
-        "timestamp" : "2025-12-08T10:54:08+00:00",
+        "identifier" : "urn:uuid:35c84040-dcce-4133-8442-73dd14f09512",
+        "timestamp" : "2025-12-17T17:09:41+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{

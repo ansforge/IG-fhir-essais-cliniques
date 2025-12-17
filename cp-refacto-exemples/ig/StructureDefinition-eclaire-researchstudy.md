@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:ECLAIREResearchStudy |
+| Draft as of 2025-12-17 | *Computable Name*:ECLAIREResearchStudy |
 
  
 Profil de ResearchStudy pour le projet ECLAIRE 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-eclaire-researchstud
   "version" : "0.3.1",
   "name" : "ECLAIREResearchStudy",
   "status" : "draft",
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/ImplementationGuide/ans.fhir.fr.eclaire | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:ECLAIRE |
+| Draft as of 2025-12-17 | *Computable Name*:ECLAIRE |
 
  **Brief description of this Implementation Guide**
  ECLAIRE is a copy of an existing information system for the management of clinical trials in France which will provide an API open to all actors of the health research ecosystem. The aim is to open access to an up-to-date database on clinical trials, in order to help recruitment into open trials in France and to promote awareness on the subject matter. A more detailed press article is available [here](https://esante.gouv.fr/espace-presse/mise-en-oeuvre-dune-base-nationale-des-essais-cliniques). This implementation guide seeks to define the specifications of the REST API (Representational State Transfer Application Program Interface) FHIR, enabling to query the database listing clinical trials. 
@@ -58,10 +58,15 @@ Le Swagger de l'API FHIR ECLAIRE est accesible ici: [Swagger API FHIR](https://e
 
 Certaines ressources sémantiques de ce guide sont protégées par des droits de propriété intellectuelle couverte par les déclarations ci-dessous. L’utilisation de ces ressources est soumise à l’acceptation et au respect des conditions précisées dans la licence d’utilisation de chacune d’entre elle.
 
+* This material contains content that is copyright of SNOMED International. Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact [https://www.snomed.org/get-snomed](https://www.snomed.org/get-snomed) or [info@snomed.org](mailto:info@snomed.org).
+
+* [SNOMED Clinical Terms&reg; (SNOMED CT&reg;)](http://hl7.org/fhir/R4/codesystem-snomedct.html): [ResearchStudy/2022-500014-26-00-example](ResearchStudy-2022-500014-26-00-example.md) and [ResearchStudy/fake-study-example](ResearchStudy-fake-study-example.md)
+
+
 * This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: [https://terminology.hl7.org/license.html](https://terminology.hl7.org/license.html)
 
-* [ResearchStudyObjectiveType](http://terminology.hl7.org/7.0.0/CodeSystem-research-study-objective-type.html): [ECLAIREoutcomeMeasureR5](StructureDefinition-eclaire-outcome-measure-r5.md), [EclaireStudyOutcomeTypeVS](ValueSet-eclaire-study-outcome-type-vs.md) and [ResearchStudy/fake-study-example](ResearchStudy-fake-study-example.md)
-* [ResearchStudyPhase](http://terminology.hl7.org/7.0.0/CodeSystem-research-study-phase.html): [ECLAIREResearchStudy](StructureDefinition-eclaire-researchstudy.md), [EclaireStudyPhaseVS](ValueSet-eclaire-study-phase-vs.md), [ResearchStudy/2022-500014-26-00-example](ResearchStudy-2022-500014-26-00-example.md) and [ResearchStudy/fake-study-example](ResearchStudy-fake-study-example.md)
+* [ResearchStudyObjectiveType](http://terminology.hl7.org/7.0.1/CodeSystem-research-study-objective-type.html): [ECLAIREoutcomeMeasureR5](StructureDefinition-eclaire-outcome-measure-r5.md) and [EclaireStudyOutcomeTypeVS](ValueSet-eclaire-study-outcome-type-vs.md)
+* [ResearchStudyPhase](http://terminology.hl7.org/7.0.1/CodeSystem-research-study-phase.html): [ECLAIREResearchStudy](StructureDefinition-eclaire-researchstudy.md), [EclaireStudyPhaseVS](ValueSet-eclaire-study-phase-vs.md) and [ResearchStudy/2022-500014-26-00-example](ResearchStudy-2022-500014-26-00-example.md)
 
 
 
@@ -77,7 +82,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "ECLAIRE",
   "title" : "Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème",
   "status" : "draft",
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
@@ -116,7 +121,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       ],
       "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId" : "hl7.terminology.r4",
-      "version" : "7.0.0"
+      "version" : "7.0.1"
     },
     {
       "id" : "hl7ext",
@@ -473,7 +478,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       },
       {
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-        "valueCode" : "hl7.fhir.uv.tools.r4#0.8.0"
+        "valueCode" : "hl7.fhir.uv.tools.r4#0.9.0"
       },
       {
         "extension" : [
@@ -1239,20 +1244,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ResearchStudy"
-          }
-        ],
-        "reference" : {
-          "reference" : "ResearchStudy/fake-study-example"
-        },
-        "name" : "Energetic Zebra",
-        "description" : "This is a fake research study",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "ConceptMap"
           }
         ],
@@ -1500,6 +1491,20 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
         "name" : "Value Set type pour spécifier la catégorie l'essai clinique",
         "description" : "Value Set pour spécifier la catégorie de l'essai clinique et préciser la réglementation ou le code regulation renseigner dans les bases de registre comme CTIS et EUDAMED.",
         "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "ResearchStudy"
+          }
+        ],
+        "reference" : {
+          "reference" : "ResearchStudy/fake-study-example"
+        },
+        "name" : "Étude clinique Traitement X de l'hypertension",
+        "description" : "Exemple fake d'une étude clinique pour l'API FHIR ECLAIRE.",
+        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy"
       }
     ],
     "page" : {

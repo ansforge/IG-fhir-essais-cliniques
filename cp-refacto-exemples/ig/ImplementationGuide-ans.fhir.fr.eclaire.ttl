@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "ECLAIRE"] ; # 
   fhir:title [ fhir:v "Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-12-08T10:53:03+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-17T17:08:32+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -61,7 +61,7 @@
        fhir:l <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "7.0.0" ]
+     fhir:version [ fhir:v "7.0.1" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -713,7 +713,7 @@
        ] ;
        fhir:value [
          a fhir:Code ;
-         fhir:v "hl7.fhir.uv.tools.r4#0.8.0"
+         fhir:v "hl7.fhir.uv.tools.r4#0.9.0"
        ]
      ] [
        fhir:extension ( [
@@ -1978,28 +1978,6 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "ResearchStudy"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eclaire/ResearchStudy/fake-study-example> ;
-         fhir:reference [ fhir:v "ResearchStudy/fake-study-example" ]
-       ] ;
-       fhir:name [ fhir:v "Energetic Zebra" ] ;
-       fhir:description [ fhir:v "This is a fake research study" ] ;
-       fhir:example [
-         a fhir:Canonical ;
-         fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy"^^xsd:anyURI ;
-         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
            fhir:v "ConceptMap"
          ]
        ] ) ;
@@ -2370,6 +2348,28 @@
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ResearchStudy"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eclaire/ResearchStudy/fake-study-example> ;
+         fhir:reference [ fhir:v "ResearchStudy/fake-study-example" ]
+       ] ;
+       fhir:name [ fhir:v "Étude clinique Traitement X de l'hypertension" ] ;
+       fhir:description [ fhir:v "Exemple fake d'une étude clinique pour l'API FHIR ECLAIRE." ] ;
+       fhir:example [
+         a fhir:Canonical ;
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy"^^xsd:anyURI ;
+         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy>
        ]
      ] ) ;
      fhir:page [

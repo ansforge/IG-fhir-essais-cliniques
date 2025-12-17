@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eclaire/ValueSet/eclaire-study-title-type-vs | *Version*:0.3.1 |
-| Draft as of 2025-12-08 | *Computable Name*:EclaireStudyTitleTypetVS |
+| Draft as of 2025-12-17 | *Computable Name*:EclaireStudyTitleTypetVS |
 
  
 Type de titre pour les essais cliniques Value Set (inspiré du Value Set de R5 : https://hl7.org/fhir/valueset-title-type.html) 
@@ -54,7 +54,7 @@ Type de titre pour les essais cliniques Value Set (inspiré du Value Set de R5 :
   "title" : "Type de titre Value Set",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-12-08T10:53:03+00:00",
+  "date" : "2025-12-17T17:08:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
