@@ -52,7 +52,6 @@ Description: "Exemple fake d'une étude clinique pour l'API FHIR ECLAIRE."
     * end = "2026-02-28"
 * sponsor = Reference(Organization/Labo-Z)
 * contact[0]
-  * comment = "Slice: scientificContact"
   * name = "Dr. Alice Martin"
   * telecom
     * system = #email
