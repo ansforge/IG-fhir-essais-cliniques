@@ -10,3 +10,4 @@ Alias: $associated-party-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extens
 // ---- Systems
 
 Alias: $outcome-type = http://terminology.hl7.org/CodeSystem/research-study-objective-type
+Alias: $mdr = https://www.meddra.org
