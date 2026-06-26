@@ -1,0 +1,127 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "eclaire-study-title-type-code-system"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index -1 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem eclaire-study-title-type-code-system</b></p><a name=\"eclaire-study-title-type-code-system\"> </a><a name=\"hceclaire-study-title-type-code-system\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This case-sensitive code system <code>https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">primary<a name=\"eclaire-study-title-type-code-system-primary\"> </a></td><td>Primary title</td><td>Main title for common use. The primary title used for representation if multiple titles exist.</td></tr><tr><td style=\"white-space:nowrap\">official<a name=\"eclaire-study-title-type-code-system-official\"> </a></td><td>Official title</td><td>The official or authoritative title.</td></tr><tr><td style=\"white-space:nowrap\">scientific<a name=\"eclaire-study-title-type-code-system-scientific\"> </a></td><td>Scientific title</td><td>Title using scientific terminology.</td></tr><tr><td style=\"white-space:nowrap\">plain-language<a name=\"eclaire-study-title-type-code-system-plain-language\"> </a></td><td>Plain language title</td><td>Title using language common to lay public discourse.</td></tr><tr><td style=\"white-space:nowrap\">subtitle<a name=\"eclaire-study-title-type-code-system-subtitle\"> </a></td><td>Subtitle</td><td>Subtitle or secondary title.</td></tr><tr><td style=\"white-space:nowrap\">short-title<a name=\"eclaire-study-title-type-code-system-short-title\"> </a></td><td>Short title</td><td>Brief title (e.g. 'running title' or title used in page headers)</td></tr><tr><td style=\"white-space:nowrap\">acronym<a name=\"eclaire-study-title-type-code-system-acronym\"> </a></td><td>Acronym</td><td>Abbreviation used as title</td></tr><tr><td style=\"white-space:nowrap\">earlier-title<a name=\"eclaire-study-title-type-code-system-earlier-title\"> </a></td><td>Different text in an earlier version</td><td>Alternative form of title in an earlier version such as epub ahead of print.</td></tr><tr><td style=\"white-space:nowrap\">language<a name=\"eclaire-study-title-type-code-system-language\"> </a></td><td>Different language</td><td>Additional form of title in a different language.</td></tr><tr><td style=\"white-space:nowrap\">autotranslated<a name=\"eclaire-study-title-type-code-system-autotranslated\"> </a></td><td>Different language derived from autotranslation</td><td>Machine translated form of title in a different language, language element codes the language into which it was translated by machine.</td></tr><tr><td style=\"white-space:nowrap\">human-use<a name=\"eclaire-study-title-type-code-system-human-use\"> </a></td><td>Human use</td><td>Human-friendly title</td></tr><tr><td style=\"white-space:nowrap\">machine-use<a name=\"eclaire-study-title-type-code-system-machine-use\"> </a></td><td>Machine use</td><td>Machine-friendly title</td></tr><tr><td style=\"white-space:nowrap\">duplicate-uid<a name=\"eclaire-study-title-type-code-system-duplicate-uid\"> </a></td><td>Different text for the same object with a different identifier</td><td>An alternative form of the title in two or more entries, e.g. in multiple medline entries</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system"] ;
+  fhir:CodeSystem.version [ fhir:value "0.3.1"] ;
+  fhir:CodeSystem.name [ fhir:value "EclaireStudyTitleTypeCS"] ;
+  fhir:CodeSystem.title [ fhir:value "Définition des types de titre pour l'essai"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-06-26T12:05:30+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "ANS"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "ANS" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://esante.gouv.fr" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Définition des types de titre pour l'essai (Code System inspiré de R5 : https://hl7.org/fhir/codesystem-title-type.html)"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "FRANCE" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.compositional [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "13"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "primary" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Primary title" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Main title for common use. The primary title used for representation if multiple titles exist." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "official" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Official title" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "The official or authoritative title." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "scientific" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Scientific title" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Title using scientific terminology." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "plain-language" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Plain language title" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Title using language common to lay public discourse." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "subtitle" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Subtitle" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Subtitle or secondary title." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "short-title" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Short title" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Brief title (e.g. 'running title' or title used in page headers)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "acronym" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Acronym" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Abbreviation used as title" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "earlier-title" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Different text in an earlier version" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Alternative form of title in an earlier version such as epub ahead of print." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "language" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Different language" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Additional form of title in a different language." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "autotranslated" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Different language derived from autotranslation" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Machine translated form of title in a different language, language element codes the language into which it was translated by machine." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "human-use" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Human use" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Human-friendly title" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "machine-use" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Machine use" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Machine-friendly title" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "duplicate-uid" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Different text for the same object with a different identifier" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "An alternative form of the title in two or more entries, e.g. in multiple medline entries" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

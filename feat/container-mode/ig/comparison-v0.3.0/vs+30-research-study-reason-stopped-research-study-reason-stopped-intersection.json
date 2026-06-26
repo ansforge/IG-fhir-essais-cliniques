@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e0b86cf4-d281-402b-a10a-75718bb42961-90",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e0b86cf4-d281-402b-a10a-75718bb42961-90",
+  "name" : "IntersectionResearchStudyReasonStoppedAndResearchStudyReasonStopped",
+  "title" : "Intersection of ResearchStudyReasonStopped And ResearchStudyReasonStopped",
+  "status" : "draft",
+  "date" : "2026-06-26T12:06:56+00:00"
+}

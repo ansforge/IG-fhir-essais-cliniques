@@ -1,0 +1,93 @@
+# ans.fhir.fr.eclaire#0.3.1: Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème(en)
+
+## Pages
+
+* [Accueil](en/index.md)
+* [Téléchargements et usages](en/downloads.md)
+* [Mapping FHIR](en/mapping.md)
+* [Recherche des essais cliniques sur critères](en/st_flux2.md)
+* [Autres Ressources](en/autres_ressources.md)
+* [Artifacts Summary](en/artifacts.md)
+* [Sécurité](en/securite.md)
+* [Critères de recherche](en/search_param.md)
+* [A propos de ce guide](en/about.md)
+* [Paramètres et modificateurs de requêtes FHIR](en/modifiers.md)
+* [Extraction de données des essais cliniques](en/st_flux1.md)
+* [Historique des versions](en/change-log.md)
+* [Specifications Techniques](en/specifications_techniques.md)
+
+## Resources
+
+### CodeSystems
+
+* [Codes pour le type de caractéristique du groupe](en/CodeSystem-eclaire-group-characteristic-kind-code-system.md)
+* [Précision sur la réglementation concernant l'essai](en/CodeSystem-eclaire-reglementation-precision-code-system.md)
+* [Code de régulation de l'essai](en/CodeSystem-eclaire-regulation-code-code-system.md)
+* [Statut de recrutement](en/CodeSystem-eclaire-status-recruitment-code-system.md)
+* [Définition des différents types d'organisation des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-organization-type](en/CodeSystem-eclaire-study-party-organization-type-code-system.md)
+* [Définition des rôles des parties prenantes inspiré de http://hl7.org/fhir/research-study-party-role](en/CodeSystem-eclaire-study-party-role-code-system.md)
+* [Définition des type de phase de l'essai cliniques incluant https://hl7.org/fhir/R4/valueset-research-study-phase.html](en/CodeSystem-eclaire-study-phase-code-system.md)
+* [Définition des phase de l'essai utilisés dans la base de données ECLAIRE](en/CodeSystem-eclaire-study-phase-source-code-system.md)
+* [Codes pour caractériser la population de l'étude](en/CodeSystem-eclaire-study-population-code-system.md)
+* [Définition des statuts de l'essai utilisés dans la base de données ECLAIRE](en/CodeSystem-eclaire-study-status-code-system.md)
+* [Définition des types de titre pour l'essai](en/CodeSystem-eclaire-study-title-type-code-system.md)
+* [Type de contact](en/CodeSystem-eclaire-type-contact-code-system.md)
+
+### ValueSets
+
+* [Value Set type pour spécifier la catégorie l'essai clinique](en/ValueSet-eclaire-category-vs.md)
+* [Type de caractéristique Value Set](en/ValueSet-eclaire-group-characteristic-kind-vs.md)
+* [Précision sur la réglementation concernant l'essai Value Set](en/ValueSet-eclaire-reglementation-precision-vs.md)
+* [Code de régulation Value Set](en/ValueSet-eclaire-regulation-code-vs.md)
+* [Statut de recrutement Value Set](en/ValueSet-eclaire-status-recruitment-vs.md)
+* [Type de conséquence Value Set](en/ValueSet-eclaire-study-outcome-type-vs.md)
+* [Value Set Eclaire pour les types de parties](en/ValueSet-eclaire-study-party-organization-type-vs.md)
+* [Value Set Eclaire pour les différents rôles des parties impliquées dans l'essai](en/ValueSet-eclaire-study-party-role-vs.md)
+* [Value Set de la phase de l'essai tel que définie dans la base ECLAIRE](en/ValueSet-eclaire-study-phase-source-vs.md)
+* [Value Set type de phase de l'essai clinique](en/ValueSet-eclaire-study-phase-vs.md)
+* [Caractérisation de la population Value Set](en/ValueSet-eclaire-study-population-vs.md)
+* [Value Set Statut Eclaire de l'essai](en/ValueSet-eclaire-study-status-vs.md)
+* [Type de titre Value Set](en/ValueSet-eclaire-study-title-type-vs.md)
+* [Type Contact Value Set](en/ValueSet-eclaire-type-contact-vs.md)
+
+### Resource Profiles
+
+* [ECLAIREGroup](en/StructureDefinition-eclaire-group.md)
+* [ECLAIRELocation](en/StructureDefinition-eclaire-location.md)
+* [ECLAIREResearchStudy](en/StructureDefinition-eclaire-researchstudy.md)
+
+### Extensions
+
+* [ECLAIREApprovalDate](en/StructureDefinition-eclaire-approval-date.md)
+* [ECLAIREArmIntervention](en/StructureDefinition-eclaire-arm-intervention.md)
+* [ECLAIREassociatedPartyR5](en/StructureDefinition-eclaire-associated-party-r5.md)
+* [ECLAIREContactAddress](en/StructureDefinition-eclaire-contact-address.md)
+* [ECLAIREContactAffiliation](en/StructureDefinition-eclaire-contact-affiliation.md)
+* [ECLAIREContactName](en/StructureDefinition-eclaire-contact-name.md)
+* [ECLAIREContactType](en/StructureDefinition-eclaire-contact-type.md)
+* [ECLAIREDescriptionSummaryR5](en/StructureDefinition-eclaire-description-summary-r5.md)
+* [ECLAIRELabelR5](en/StructureDefinition-eclaire-label-r5.md)
+* [ECLAIREoutcomeMeasureR5](en/StructureDefinition-eclaire-outcome-measure-r5.md)
+* [ECLAIRERecruitmentPeriod](en/StructureDefinition-eclaire-recruitment-period.md)
+* [ECLAIRERecruitmentStatus](en/StructureDefinition-eclaire-recruitment-status.md)
+* [ECLAIREReviewDate](en/StructureDefinition-eclaire-review-date.md)
+* [ECLAIRESiteContactName](en/StructureDefinition-eclaire-site-contact-name.md)
+* [ECLAIRETherapeuticArea](en/StructureDefinition-eclaire-therapeutic-area.md)
+
+### CapabilityStatements
+
+* [Eclaire](en/CapabilityStatement-eclaire-consommateur.md)
+
+### ConceptMaps
+
+* [FHIR/Eclaire ResearchStudy phase Use Mapping](en/ConceptMap-eclaire-study-phase-concept-map.md)
+* [FHIR/Eclaire ResearchStudy status Use Mapping](en/ConceptMap-eclaire-study-status-concept-map.md)
+
+### ImplementationGuides
+
+* [Essais CLiniques Accessibles Interconnectés pour la Recherche ouverts à l'Ecosystème](en/ImplementationGuide-ans.fhir.fr.eclaire.md)
+
+### Examples
+
+* [UNE ETUDE DE PHASE III, RANDOMISEE, OUVERTE, EVALUANT L'EFFICACITE ET LA SECURITE DU GIREDESTRANT EN ASSOCIATION AVEC PHESGO. (ResearchStudy)](en/ResearchStudy-2022-500014-26-00-example.md)
+* [Energetic Zebra (ResearchStudy)](en/ResearchStudy-fake-study-example.md)

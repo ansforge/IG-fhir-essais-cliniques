@@ -1,0 +1,405 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eclaire/ResearchStudy/fake-study-example> a fhir:ResearchStudy ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "fake-study-example"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy" ;
+       fhir:index 0 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-researchstudy>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ResearchStudy fake-study-example</b></p><a name=\"fake-study-example\"> </a><a name=\"hcfake-study-example\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-eclaire-researchstudy.html\">ECLAIREResearchStudy</a></p></div><p><b>ECLAIREReviewDate</b>: 2023-01-06 00:00:00+0000</p><p><b>ECLAIREApprovalDate</b>: 2023-03-06 00:00:00+0000</p><p><b>ECLAIRETherapeuticArea</b>: domaine thérapeutique z</p><p><b>ECLAIRERecruitmentPeriod</b>: 2022-06-30 00:00:00+0000 --&gt; (ongoing)</p><p><b>ECLAIRERecruitmentStatus</b>: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system recruiting}\">Actif / active</span></p><p><b>ECLAIREDescriptionSummaryR5</b>: </p><div><p>Ceci est un test de ressource pour Eclaire</p>\n</div><blockquote><p><b>ECLAIREoutcomeMeasureR5</b></p><ul><li>value: Nom de la conséquence primaire</li><li>type: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/research-study-objective-type primary}\">primaire</span></li><li>description: </li><li>description: <a href=\"EvidenceVariable/1\">Aïe!</a></li></ul></blockquote><div><p>Description de la conséquence primaire</p>\n</div><blockquote><p><b>ECLAIREoutcomeMeasureR5</b></p><ul><li>value: Nom de la conséquence secondaire</li><li>type: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/research-study-objective-type secondary}\">secondaire</span></li><li>description: </li><li>description: <a href=\"EvidenceVariable/1\">Ouille!</a></li></ul></blockquote><div><p>Description de la conséquence secondaire</p>\n</div><blockquote><p><b>ECLAIREassociatedPartyR5</b></p><ul><li>name: THE sponsor</li><li>role: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system lead-sponsor}\">Sponsor principal</span></li><li>period: 2022-06-30 00:00:00+0000 --&gt; (ongoing)</li><li>classifier: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system academic}\">academic</span></li><li>party: <a href=\"Organization/2\">Etablissement du sponsor</a></li></ul></blockquote><blockquote><p><b>ECLAIRELabelR5</b></p><ul><li>value: A RENSEIGNER</li><li>type: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system human-use}\">type</span></li></ul></blockquote><blockquote><p><b>ECLAIRELabelR5</b></p><ul><li>value: A RENSEIGNER</li><li>type: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system acronym}\">type</span></li></ul></blockquote><p><b>identifier</b>: Hilarious Cat/123456 (use: official, ), 2022-500014-26-00 (use: secondary, )</p><p><b>title</b>: Energetic Zebra</p><p><b>protocol</b>: <a href=\"PlanDefinition/3\">Energetic plan</a></p><p><b>status</b>: In Review</p><p><b>primaryPurposeType</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type treatment}\">Zebra treatment</span></p><p><b>phase</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/research-study-phase phase-3}\">Research Study Phase</span></p><p><b>category</b>: <span title=\"Codes:{https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system IC-Cas-1}\">IC-Cas 1 (DM)</span></p><p><b>focus</b>: <span title=\"Codes:\">Hilarious medicament</span></p><p><b>condition</b>: <span title=\"Codes:\">Locally-Advanced or Metastatic breast cancer (MBC)</span>, <span title=\"Codes:{https://www.meddra.org 10070575}\">MedDRA condition  code 10070575</span></p><p><b>contact</b>: Slow Zebra: ph: Energetic Zebra(Work),ph: Energetic Badger(Home)</p><p><b>keyword</b>: <span title=\"Codes:\">Fast Elephant</span></p><p><b>location</b>: <span title=\"Codes:{urn:iso:std:iso:3166 FR}\">Countries of recruitment</span></p><p><b>description</b>: </p><div><p>This is a fake research study</p>\n</div><p><b>enrollment</b>: <a href=\"Group/6\">Fast Zebra</a></p><p><b>site</b>: <a href=\"Location/8\">Rainbow</a></p><p><b>reasonStopped</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/research-study-reason-stopped closed-due-to-toxicity}\">ouch</span></p><h3>Arms</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>Name</b></td><td><b>Description</b></td></tr><tr><td style=\"display: none\">*</td><td/><td>Slow Elephant</td><td>Hilarious Badger</td></tr></table><h3>Objectives</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td></tr><tr><td style=\"display: none\">*</td><td>Inventive Mouse</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-review-date" ] ;
+     fhir:Extension.valueInstant [ fhir:value "2023-01-06T00:00:00Z"^^xsd:dateTime ]
+  ], [
+     fhir:index 1 ;
+     fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-approval-date" ] ;
+     fhir:Extension.valueInstant [ fhir:value "2023-03-06T00:00:00Z"^^xsd:dateTime ]
+  ], [
+     fhir:index 2 ;
+     fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-therapeutic-area" ] ;
+     fhir:Extension.valueString [ fhir:value "domaine thérapeutique z" ]
+  ], [
+     fhir:index 3 ;
+     fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-period" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2022-06-30T00:00:00.000Z"^^xsd:dateTime ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-recruitment-status" ] ;
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-status-recruitment-code-system" ] ;
+         fhir:Coding.code [ fhir:value "recruiting" ]
+       ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary" ] ;
+     fhir:Extension.valueMarkdown [ fhir:value "Ceci est un test de ressource pour Eclaire" ]
+  ], [
+     fhir:index 6 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "value" ] ;
+       fhir:Extension.valueString [ fhir:value "Nom de la conséquence primaire" ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "type" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/research-study-objective-type" ] ;
+           fhir:Coding.code [ fhir:value "primary" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "primaire" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:Extension.url [ fhir:value "description" ] ;
+       fhir:Extension.valueMarkdown [ fhir:value "Description de la conséquence primaire" ]
+     ], [
+       fhir:index 3 ;
+       fhir:Extension.url [ fhir:value "description" ] ;
+       fhir:Extension.valueReference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eclaire/EvidenceVariable/1> ;
+         fhir:Reference.reference [ fhir:value "EvidenceVariable/1" ] ;
+         fhir:Reference.display [ fhir:value "Aïe!" ]
+       ]
+     ] ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure" ]
+  ], [
+     fhir:index 7 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "value" ] ;
+       fhir:Extension.valueString [ fhir:value "Nom de la conséquence secondaire" ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "type" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/research-study-objective-type" ] ;
+           fhir:Coding.code [ fhir:value "secondary" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "secondaire" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:Extension.url [ fhir:value "description" ] ;
+       fhir:Extension.valueMarkdown [ fhir:value "Description de la conséquence secondaire" ]
+     ], [
+       fhir:index 3 ;
+       fhir:Extension.url [ fhir:value "description" ] ;
+       fhir:Extension.valueReference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eclaire/EvidenceVariable/1> ;
+         fhir:Reference.reference [ fhir:value "EvidenceVariable/1" ] ;
+         fhir:Reference.display [ fhir:value "Ouille!" ]
+       ]
+     ] ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure" ]
+  ], [
+     fhir:index 8 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "name" ] ;
+       fhir:Extension.valueString [ fhir:value "THE sponsor" ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "role" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-role-code-system" ] ;
+           fhir:Coding.code [ fhir:value "lead-sponsor" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "Sponsor principal" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:Extension.url [ fhir:value "period" ] ;
+       fhir:Extension.valuePeriod [
+         fhir:Period.start [ fhir:value "2022-06-30T00:00:00.000Z"^^xsd:dateTime ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:Extension.url [ fhir:value "classifier" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-party-organization-type-code-system" ] ;
+           fhir:Coding.code [ fhir:value "academic" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "academic" ]
+       ]
+     ], [
+       fhir:index 4 ;
+       fhir:Extension.url [ fhir:value "party" ] ;
+       fhir:Extension.valueReference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eclaire/Organization/2> ;
+         fhir:Reference.reference [ fhir:value "Organization/2" ] ;
+         fhir:Reference.display [ fhir:value "Etablissement du sponsor" ]
+       ]
+     ] ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty" ]
+  ], [
+     fhir:index 9 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "value" ] ;
+       fhir:Extension.valueString [ fhir:value "A RENSEIGNER" ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "type" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system" ] ;
+           fhir:Coding.code [ fhir:value "human-use" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "type" ]
+       ]
+     ] ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label" ]
+  ], [
+     fhir:index 10 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "value" ] ;
+       fhir:Extension.valueString [ fhir:value "A RENSEIGNER" ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "type" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-study-title-type-code-system" ] ;
+           fhir:Coding.code [ fhir:value "acronym" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "type" ]
+       ]
+     ] ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label" ]
+  ] ;
+  fhir:ResearchStudy.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.use [ fhir:value "official" ] ;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.text [ fhir:value "Hilarious Cat" ]
+     ] ;
+     fhir:Identifier.value [ fhir:value "123456" ] ;
+     fhir:Identifier.assigner [
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/eclaire/Organization/1> ;
+       fhir:Reference.reference [ fhir:value "Organization/1" ] ;
+       fhir:Reference.display [ fhir:value "Crazy Mouse" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:Identifier.use [ fhir:value "secondary" ] ;
+     fhir:Identifier.value [ fhir:value "2022-500014-26-00" ] ;
+     fhir:Identifier.assigner [
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/eclaire/Organization/ctis> ;
+       fhir:Reference.reference [ fhir:value "Organization/ctis" ] ;
+       fhir:Reference.type [ fhir:value "Organization" ] ;
+       fhir:Reference.display [ fhir:value "Reference to secondary assigner" ]
+     ]
+  ] ;
+  fhir:ResearchStudy.title [ fhir:value "Energetic Zebra"] ;
+  fhir:ResearchStudy.protocol [
+     fhir:index 0 ;
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/eclaire/PlanDefinition/3> ;
+     fhir:Reference.reference [ fhir:value "PlanDefinition/3" ] ;
+     fhir:Reference.display [ fhir:value "Energetic plan" ]
+  ] ;
+  fhir:ResearchStudy.status [ fhir:value "in-review"] ;
+  fhir:ResearchStudy.primaryPurposeType [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type" ] ;
+       fhir:Coding.version [ fhir:value "4.0.1" ] ;
+       fhir:Coding.code [ fhir:value "treatment" ]
+     ] ;
+     fhir:CodeableConcept.text [ fhir:value "Zebra treatment" ]
+  ] ;
+  fhir:ResearchStudy.phase [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/research-study-phase" ] ;
+       fhir:Coding.code [ fhir:value "phase-3" ]
+     ] ;
+     fhir:CodeableConcept.text [ fhir:value "Research Study Phase" ]
+  ] ;
+  fhir:ResearchStudy.category [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-reglementation-precision-code-system" ] ;
+       fhir:Coding.code [ fhir:value "IC-Cas-1" ]
+     ]
+  ] ;
+  fhir:ResearchStudy.focus [
+     fhir:index 0 ;
+     fhir:CodeableConcept.text [ fhir:value "Hilarious medicament" ]
+  ] ;
+  fhir:ResearchStudy.condition [
+     fhir:index 0 ;
+     fhir:CodeableConcept.text [ fhir:value "Locally-Advanced or Metastatic breast cancer (MBC)" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "https://www.meddra.org" ] ;
+       fhir:Coding.code [ fhir:value "10070575" ] ;
+       fhir:Coding.display [ fhir:value "10070575" ]
+     ] ;
+     fhir:CodeableConcept.text [ fhir:value "MedDRA condition  code 10070575" ]
+  ] ;
+  fhir:ResearchStudy.contact [
+     fhir:index 0 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-type" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/CodeSystem/eclaire-type-contact-code-system" ] ;
+           fhir:Coding.code [ fhir:value "PUB" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "Publique / Public" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-address" ] ;
+       fhir:Extension.valueAddress [
+         fhir:Address.use [ fhir:value "home" ] ;
+         fhir:Address.type [ fhir:value "physical" ] ;
+         fhir:Address.text [ fhir:value "137 Nowhere Street, Erewhon 9132" ] ;
+         fhir:Address.line [
+           fhir:value "137 Nowhere Street" ;
+           fhir:index 0
+         ] ;
+         fhir:Address.city [ fhir:value "Erewhon" ] ;
+         fhir:Address.district [ fhir:value "Madison" ] ;
+         fhir:Address.state [ fhir:value "Fantastic Badger" ] ;
+         fhir:Address.postalCode [ fhir:value "9132" ] ;
+         fhir:Address.country [ fhir:value "Crazy Elephant" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-affiliation" ] ;
+       fhir:Extension.valueString [ fhir:value "Hilarious Badger" ]
+     ], [
+       fhir:index 3 ;
+       fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-contact-name" ] ;
+       fhir:Extension.valueHumanName [
+         fhir:HumanName.use [ fhir:value "usual" ] ;
+         fhir:HumanName.text [ fhir:value "Inventive Mouse" ] ;
+         fhir:HumanName.family [ fhir:value "Fantastic Zebra" ] ;
+         fhir:HumanName.given [
+           fhir:value "Energetic Cat" ;
+           fhir:index 0
+         ] ;
+         fhir:HumanName.prefix [
+           fhir:value "Fantastic Zebra" ;
+           fhir:index 0
+         ] ;
+         fhir:HumanName.suffix [
+           fhir:value "Crazy Elephant" ;
+           fhir:index 0
+         ]
+       ]
+     ] ;
+     fhir:ContactDetail.name [ fhir:value "Slow Zebra" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "phone" ] ;
+       fhir:ContactPoint.value [ fhir:value "Energetic Zebra" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "phone" ] ;
+       fhir:ContactPoint.value [ fhir:value "Energetic Badger" ] ;
+       fhir:ContactPoint.use [ fhir:value "home" ]
+     ]
+  ] ;
+  fhir:ResearchStudy.keyword [
+     fhir:index 0 ;
+     fhir:CodeableConcept.text [ fhir:value "Fast Elephant" ]
+  ] ;
+  fhir:ResearchStudy.location [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.version [ fhir:value "4.0.1" ] ;
+       fhir:Coding.code [ fhir:value "FR" ]
+     ] ;
+     fhir:CodeableConcept.text [ fhir:value "Countries of recruitment" ]
+  ] ;
+  fhir:ResearchStudy.description [ fhir:value "This is a fake research study"] ;
+  fhir:ResearchStudy.enrollment [
+     fhir:index 0 ;
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/eclaire/Group/6> ;
+     fhir:Reference.reference [ fhir:value "Group/6" ] ;
+     fhir:Reference.display [ fhir:value "Fast Zebra" ]
+  ] ;
+  fhir:ResearchStudy.site [
+     fhir:index 0 ;
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/eclaire/Location/8> ;
+     fhir:Reference.reference [ fhir:value "Location/8" ] ;
+     fhir:Reference.display [ fhir:value "Rainbow" ]
+  ] ;
+  fhir:ResearchStudy.reasonStopped [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/research-study-reason-stopped" ] ;
+       fhir:Coding.version [ fhir:value "4.0.1" ] ;
+       fhir:Coding.code [ fhir:value "closed-due-to-toxicity" ]
+     ] ;
+     fhir:CodeableConcept.text [ fhir:value "ouch" ]
+  ] ;
+  fhir:ResearchStudy.arm [
+     fhir:index 0 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "name" ] ;
+         fhir:Extension.valueString [ fhir:value "Nom de l'intervention" ]
+       ], [
+         fhir:index 1 ;
+         fhir:Extension.url [ fhir:value "description" ] ;
+         fhir:Extension.valueString [ fhir:value "Description de l'intervention" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eclaire/StructureDefinition/eclaire-arm-intervention" ]
+     ] ;
+     fhir:ResearchStudy.arm.name [ fhir:value "Slow Elephant" ] ;
+     fhir:ResearchStudy.arm.description [ fhir:value "Hilarious Badger" ]
+  ] ;
+  fhir:ResearchStudy.objective [
+     fhir:index 0 ;
+     fhir:ResearchStudy.objective.name [ fhir:value "Inventive Mouse" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eclaire/ResearchStudy/fake-study-example.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
